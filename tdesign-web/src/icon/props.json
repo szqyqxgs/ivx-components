@@ -1,0 +1,128 @@
+[
+  {
+    "name": "visible",
+    "type": "Boolean",
+    "defaultValue": true,
+    "locale": {
+      "zh": "可见"
+    }
+  },
+  {
+    "name": "name",
+    "type": "Select",
+    "defaultValue": "DeleteIcon",
+    "locale": {
+      "zh": "选择图标"
+    },
+    "desc": {
+      "zh": "对应API IconSVG的name，默认值：-"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "AddIcon",
+      "DeleteIcon",
+      "CloudUploadIcon",
+      "UploadIcon",
+      "SearchIcon"
+    ],
+    "optionLocales": {
+      "AddIcon": {
+        "zh": "AddIcon"
+      },
+      "DeleteIcon": {
+        "zh": "DeleteIcon"
+      },
+      "CloudUploadIcon": {
+        "zh": "CloudUploadIcon"
+      },
+      "UploadIcon": {
+        "zh": "UploadIcon"
+      },
+      "SearchIcon": {
+        "zh": "SearchIcon"
+      }
+    }
+  },
+  {
+    "name": "size",
+    "type": "Select",
+    "defaultValue": "medium",
+    "locale": {
+      "zh": "尺寸"
+    },
+    "desc": {
+      "zh": "对应API的size，默认值：undefined"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "small",
+      "medium",
+      "large",
+      10,
+      12,
+      14,
+      16,
+      20,
+      24,
+      28,
+      36,
+      48,
+      64
+    ],
+    "optionLocales": {
+      "small": {
+        "zh": "small"
+      },
+      "medium": {
+        "zh": "medium"
+      },
+      "large": {
+        "zh": "large"
+      },
+      "10": {
+        "zh": 10
+      },
+      "12": {
+        "zh": 12
+      },
+      "14": {
+        "zh": 14
+      },
+      "16": {
+        "zh": 16
+      },
+      "20": {
+        "zh": 20
+      },
+      "24": {
+        "zh": 24
+      },
+      "28": {
+        "zh": 28
+      },
+      "36": {
+        "zh": 36
+      },
+      "48": {
+        "zh": 48
+      },
+      "64": {
+        "zh": 64
+      }
+    }
+  },
+  {
+    "name": "color",
+    "type": "Color",
+    "defaultValue": null,
+    "locale": {
+      "zh": "颜色"
+    },
+    "desc": {
+      "zh": "TDesign官方图标组件没有颜色API（图标颜色跟随图标所在节点的文本颜色），当设置颜色后，图标将始终显示为该颜色"
+    },
+    "showDes": true
+  }
+]
