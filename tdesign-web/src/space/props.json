@@ -1,0 +1,161 @@
+[
+  {
+    "name": "visible",
+    "type": "Boolean",
+    "defaultValue": true,
+    "locale": {
+      "zh": "可见"
+    }
+  },
+  {
+    "name": "align",
+    "type": "Select",
+    "defaultValue": "center",
+    "locale": {
+      "zh": "对齐方式"
+    },
+    "desc": {
+      "zh": "效果与 align-items 一致；对应API的align，默认值：-"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "start",
+      "end",
+      "center",
+      "baseline"
+    ],
+    "optionLocales": {
+      "start": {
+        "zh": "start"
+      },
+      "end": {
+        "zh": "end"
+      },
+      "center": {
+        "zh": "center"
+      },
+      "baseline": {
+        "zh": "baseline"
+      }
+    }
+  },
+  {
+    "name": "breakLine",
+    "type": "Boolean",
+    "defaultValue": false,
+    "locale": {
+      "zh": "自动换行"
+    },
+    "desc": {
+      "zh": "仅在 间距方向为水平 时有效；对应API的breakLine，默认值：false"
+    },
+    "showDes": true
+  },
+  {
+    "name": "direction",
+    "type": "Select",
+    "defaultValue": "horizontal",
+    "locale": {
+      "zh": "间距方向"
+    },
+    "desc": {
+      "zh": "对应API的breakLine，默认值：horizontal"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "horizontal",
+      "vertical"
+    ],
+    "optionLocales": {
+      "horizontal": {
+        "zh": "水平"
+      },
+      "vertical": {
+        "zh": "垂直"
+      }
+    }
+  },
+  {
+    "name": "separator",
+    "type": "String",
+    "defaultValue": null,
+    "locale": {
+      "zh": "分隔符"
+    },
+    "desc": {
+      "zh": "对应API的separator，默认值：-"
+    },
+    "showDes": true
+  },
+  {
+    "name": "size",
+    "type": "Select",
+    "defaultValue": "medium",
+    "locale": {
+      "zh": "间距大小"
+    },
+    "desc": {
+      "zh": "对应API的size，默认值：medium"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "small",
+      "medium",
+      "large",
+      10,
+      12,
+      14,
+      16,
+      20,
+      24,
+      28,
+      36,
+      48,
+      64
+    ],
+    "optionLocales": {
+      "small": {
+        "zh": "small"
+      },
+      "medium": {
+        "zh": "medium"
+      },
+      "large": {
+        "zh": "large"
+      },
+      "10": {
+        "zh": 10
+      },
+      "12": {
+        "zh": 12
+      },
+      "14": {
+        "zh": 14
+      },
+      "16": {
+        "zh": 16
+      },
+      "20": {
+        "zh": 20
+      },
+      "24": {
+        "zh": 24
+      },
+      "28": {
+        "zh": 28
+      },
+      "36": {
+        "zh": 36
+      },
+      "48": {
+        "zh": 48
+      },
+      "64": {
+        "zh": 64
+      }
+    }
+  }
+]
