@@ -1,0 +1,9 @@
+[
+  "change,value,value",
+  "openMethod,value,value",
+  "closeMethod,value,value",
+  "toggleMethod,value,value",
+  "showVisible,visible,visible",
+  "hideVisible,visible,visible",
+  "toggleVisible,visible,visible"
+]

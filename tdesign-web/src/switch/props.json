@@ -1,0 +1,79 @@
+[
+  {
+    "name": "visible",
+    "type": "Boolean",
+    "defaultValue": true,
+    "locale": {
+      "zh": "可见"
+    }
+  },
+  {
+    "name": "value",
+    "type": "Boolean",
+    "defaultValue": true,
+    "locale": {
+      "zh": "开关状态"
+    },
+    "desc": {
+      "zh": "开启 / 关闭"
+    },
+    "showDes": true
+  },
+  {
+    "name": "disabled",
+    "type": "Boolean",
+    "defaultValue": false,
+    "locale": {
+      "zh": "禁用"
+    }
+  },
+  {
+    "name": "loading",
+    "type": "Boolean",
+    "defaultValue": false,
+    "locale": {
+      "zh": "载入中"
+    }
+  },
+  {
+    "name": "size",
+    "type": "Select",
+    "defaultValue": "medium",
+    "locale": {
+      "zh": "尺寸"
+    },
+    "optionsEmpty": false,
+    "options": [
+      "small",
+      "medium",
+      "large"
+    ],
+    "optionLocales": {
+      "small": {
+        "zh": "小号"
+      },
+      "medium": {
+        "zh": "中号"
+      },
+      "large": {
+        "zh": "大号"
+      }
+    }
+  },
+  {
+    "name": "labelOn",
+    "type": "String",
+    "defaultValue": "开",
+    "locale": {
+      "zh": "开启时文本"
+    }
+  },
+  {
+    "name": "labelOff",
+    "type": "String",
+    "defaultValue": "关",
+    "locale": {
+      "zh": "关闭时文本"
+    }
+  }
+]

@@ -4,18 +4,25 @@ import 'tdesign-react/es/style/index.css'
 
 export default class TdDivider extends React.Component {
 
-    // 因需要初始化 state 或 绑定事件，固必须写构造函数
+    // 绑定事件和方法
     constructor(props) {
         super(props)
-
-        // 绑定事件和方法
         this.showVisible = this.showVisible.bind(this)
         this.hideVisible = this.hideVisible.bind(this)
         this.toggleVisible = this.toggleVisible.bind(this)
     }
 
-    // 初始化
+    // 初始化周期
     componentDidMount() {
+        this.initialize()
+    }
+
+    // 更新周期
+    // componentDidUpdate(prevProps) {}
+
+    // 定义组件事件
+    // 初始化
+    initialize() {
         this.props.onInitialize && this.props.onInitialize()
     }
 
