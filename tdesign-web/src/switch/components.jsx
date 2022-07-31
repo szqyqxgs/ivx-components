@@ -1,6 +1,7 @@
 import React from 'react'
 import {Switch} from 'tdesign-react'
 import 'tdesign-react/es/style/index.css'
+import {CheckIcon, CloseIcon} from 'tdesign-icons-react'
 
 export default class TdSwitch extends React.Component {
 
@@ -99,14 +100,47 @@ export default class TdSwitch extends React.Component {
         })
     }
 
+    // 定义组件函数
+    // 选择开启时图标
+    openIcon(openIcon) {
+        switch (openIcon) {
+            case 'CheckIcon':
+                return <CheckIcon/>
+            default:
+                return
+        }
+    }
+
+    // 选择关闭时图标
+    closeIcon(closeIcon) {
+        switch (closeIcon) {
+            case 'CloseIcon':
+                return <CloseIcon/>
+            default:
+                return
+        }
+    }
+
     render() {
         // 属性、事件、函数
-        let {visible, disabled, labelOn, labelOff, loading, size, value} = this.props
-        let label = [labelOn, labelOff]
+        let {
+            visible,
+            disabled,
+            checkText,
+            closeText,
+            loading,
+            size,
+            value,
+            switchContent,
+            openIcon,
+            closeIcon
+        } = this.props
+        let labelText = [checkText, closeText]
+        let labelIcon = [this.openIcon(openIcon), this.closeIcon(closeIcon)]
         return visible ? <Switch
             onChange={this.change}
             disabled={disabled}
-            label={label}
+            label={switchContent === 'icon' && openIcon && closeIcon ? labelIcon : labelText}
             loading={loading}
             size={size}
             value={value}
@@ -119,8 +153,11 @@ export default class TdSwitch extends React.Component {
 TdSwitch.defaultProps = {
     visible: true,
     disabled: false,
-    labelOn: '开',
-    labelOff: '关',
+    checkText: '开',
+    closeText: '关',
+    switchContent: 'text',
+    openIcon: 'CheckIcon',
+    closeIcon: 'CloseIcon',
     loading: false,
     size: 'medium',
     value: true

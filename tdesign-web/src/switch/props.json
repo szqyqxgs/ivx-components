@@ -61,19 +61,128 @@
     }
   },
   {
-    "name": "labelOn",
-    "type": "String",
-    "defaultValue": "开",
+    "name": "switchContent",
+    "type": "Select",
+    "defaultValue": "text",
+    "groupName": "内容设置",
+    "affectPropsShow": true,
     "locale": {
-      "zh": "开启时文本"
+      "zh": "内容类型"
+    },
+    "desc": {
+      "zh": "对应API的label，默认值：[]"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "text",
+      "icon"
+    ],
+    "optionLocales": {
+      "text": {
+        "zh": "文本"
+      },
+      "icon": {
+        "zh": "图标"
+      }
     }
   },
   {
-    "name": "labelOff",
+    "name": "openIcon",
+    "type": "Select",
+    "defaultValue": "CheckIcon",
+    "groupName": "内容设置",
+    "hidePropBy": {
+      "name": "switchContent",
+      "includeEmpty": true,
+      "values": [
+        "text"
+      ]
+    },
+    "locale": {
+      "zh": "开启时图标"
+    },
+    "desc": {
+      "zh": "位于开关左侧，开关状态为开启时显示；图标对应TDesign官方图标组件API IconSVG的name"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "CheckIcon"
+    ],
+    "optionLocales": {
+      "CheckIcon": {
+        "zh": "CheckIcon"
+      }
+    }
+  },
+  {
+    "name": "closeIcon",
+    "type": "Select",
+    "defaultValue": "CloseIcon",
+    "groupName": "内容设置",
+    "hidePropBy": {
+      "name": "switchContent",
+      "includeEmpty": true,
+      "values": [
+        "text"
+      ]
+    },
+    "locale": {
+      "zh": "关闭时图标"
+    },
+    "desc": {
+      "zh": "位于开关右侧，开关状态为关闭时显示；图标对应TDesign官方图标组件API IconSVG的name"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "CloseIcon"
+    ],
+    "optionLocales": {
+      "CloseIcon": {
+        "zh": "CloseIcon"
+      }
+    }
+  },
+  {
+    "name": "checkText",
+    "type": "String",
+    "defaultValue": "开",
+    "groupName": "内容设置",
+    "hidePropBy": {
+      "name": "switchContent",
+      "includeEmpty": false,
+      "values": [
+        "icon"
+      ]
+    },
+    "locale": {
+      "zh": "开启时文本"
+    },
+    "desc": {
+      "zh": "位于开关左侧，开关状态为开启时显示"
+    },
+    "showDes": true
+  },
+  {
+    "name": "closeText",
     "type": "String",
     "defaultValue": "关",
+    "groupName": "内容设置",
+    "hidePropBy": {
+      "name": "switchContent",
+      "includeEmpty": false,
+      "values": [
+        "icon"
+      ]
+    },
     "locale": {
       "zh": "关闭时文本"
-    }
+    },
+    "desc": {
+      "zh": "位于开关右侧，开关状态为关闭时显示"
+    },
+    "showDes": true
   }
 ]
