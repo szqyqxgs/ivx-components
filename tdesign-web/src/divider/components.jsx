@@ -117,7 +117,7 @@ export default class TdDivider extends React.Component {
 // 默认属性
 TdDivider.defaultProps = {
     visible: true,
-    content: '分隔线',
+    content: '分割线',
     align: 'center',
     dashed: false,
     layout: 'horizontal',
