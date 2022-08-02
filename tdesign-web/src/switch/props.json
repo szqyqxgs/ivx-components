@@ -88,64 +88,6 @@
     }
   },
   {
-    "name": "openIcon",
-    "type": "Select",
-    "defaultValue": "CheckIcon",
-    "groupName": "内容设置",
-    "hidePropBy": {
-      "name": "switchContent",
-      "includeEmpty": true,
-      "values": [
-        "text"
-      ]
-    },
-    "locale": {
-      "zh": "开启时图标"
-    },
-    "desc": {
-      "zh": "位于开关左侧，开关状态为开启时显示；图标对应TDesign官方图标组件API IconSVG的name"
-    },
-    "showDes": true,
-    "optionsEmpty": false,
-    "options": [
-      "CheckIcon"
-    ],
-    "optionLocales": {
-      "CheckIcon": {
-        "zh": "CheckIcon"
-      }
-    }
-  },
-  {
-    "name": "closeIcon",
-    "type": "Select",
-    "defaultValue": "CloseIcon",
-    "groupName": "内容设置",
-    "hidePropBy": {
-      "name": "switchContent",
-      "includeEmpty": true,
-      "values": [
-        "text"
-      ]
-    },
-    "locale": {
-      "zh": "关闭时图标"
-    },
-    "desc": {
-      "zh": "位于开关右侧，开关状态为关闭时显示；图标对应TDesign官方图标组件API IconSVG的name"
-    },
-    "showDes": true,
-    "optionsEmpty": false,
-    "options": [
-      "CloseIcon"
-    ],
-    "optionLocales": {
-      "CloseIcon": {
-        "zh": "CloseIcon"
-      }
-    }
-  },
-  {
     "name": "checkText",
     "type": "String",
     "defaultValue": "开",
@@ -184,5 +126,63 @@
       "zh": "位于开关右侧，开关状态为关闭时显示"
     },
     "showDes": true
+  },
+  {
+    "name": "openIcon",
+    "type": "Select",
+    "defaultValue": "CheckIcon",
+    "groupName": "内容设置",
+    "hidePropBy": {
+      "name": "switchContent",
+      "includeEmpty": true,
+      "values": [
+        "text"
+      ]
+    },
+    "locale": {
+      "zh": "开启时图标"
+    },
+    "desc": {
+      "zh": "位于开关左侧，开关状态为开启时显示；图标对应TDesign官方图标组件API IconSVG的name"
+    },
+    "showDes": true,
+    "optionsEmpty": true,
+    "options": [
+      "CheckIcon"
+    ],
+    "optionLocales": {
+      "CheckIcon": {
+        "zh": "CheckIcon"
+      }
+    }
+  },
+  {
+    "name": "closeIcon",
+    "type": "Select",
+    "defaultValue": "CloseIcon",
+    "groupName": "内容设置",
+    "hidePropBy": {
+      "name": "switchContent",
+      "includeEmpty": true,
+      "values": [
+        "text"
+      ]
+    },
+    "locale": {
+      "zh": "关闭时图标"
+    },
+    "desc": {
+      "zh": "位于开关右侧，开关状态为关闭时显示；图标对应TDesign官方图标组件API IconSVG的name"
+    },
+    "showDes": true,
+    "optionsEmpty": true,
+    "options": [
+      "CloseIcon"
+    ],
+    "optionLocales": {
+      "CloseIcon": {
+        "zh": "CloseIcon"
+      }
+    }
   }
 ]
