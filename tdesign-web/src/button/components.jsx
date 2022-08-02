@@ -156,6 +156,7 @@ export default class TdButton extends React.Component {
             useIcon,
             icon,
             suffix,
+            tag,
             variant,
             childrenPosition,
             spacing
@@ -172,6 +173,7 @@ export default class TdButton extends React.Component {
             disabled={disabled}
             icon={useIcon && icon ? this.icon(icon) : undefined}
             suffix={useIcon && suffix ? this.suffix(suffix) : undefined}
+            tag={tag}
             variant={variant}
         >
             {this.dividerChildren(childrenPosition, spacing, content)}
@@ -187,6 +189,7 @@ export default class TdButton extends React.Component {
             disabled={disabled}
             icon={useIcon && icon ? this.icon(icon) : undefined}
             suffix={useIcon && suffix ? this.suffix(suffix) : undefined}
+            tag={tag}
             variant={variant}
         >
             {content}
@@ -209,6 +212,7 @@ TdButton.defaultProps = {
     useIcon: false,
     icon: null,
     suffix: null,
+    tag: 'button',
     variant: 'base',
     childrenPosition: 'right',
     spacing: 0

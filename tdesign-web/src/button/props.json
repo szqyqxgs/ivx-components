@@ -298,6 +298,39 @@
     }
   },
   {
+    "name": "tag",
+    "type": "Select",
+    "defaultValue": "button",
+    "locale": {
+      "zh": "元素标签"
+    },
+    "desc": {
+      "zh": "对应API的tag，默认值：button"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "button",
+      "div",
+      "span",
+      "a"
+    ],
+    "optionLocales": {
+      "button": {
+        "zh": "button"
+      },
+      "div": {
+        "zh": "div"
+      },
+      "span": {
+        "zh": "span"
+      },
+      "a": {
+        "zh": "a"
+      }
+    }
+  },
+  {
     "name": "variant",
     "type": "Select",
     "defaultValue": "base",
