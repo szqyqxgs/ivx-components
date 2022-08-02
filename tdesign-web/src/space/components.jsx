@@ -61,7 +61,7 @@ export default class TdSpace extends React.Component {
             align={align}
             breakLine={breakLine}
             direction={direction}
-            separator={separator} // TODO: 2022/7/31 放横向分割线，分割线里定义分割线的其他参数，放icon？
+            separator={separator} // TODO: 2022/7/31 1.字符串分隔符 2.icon分隔符 3.横向分割线且正常显示（测试使用了align属性后不显示分割线），分割线里可以定义分割线的其他参数吗，分割线里可以放子组件吗？比如icon？
             size={size}
         >
             {this.props.children}</Space> : null

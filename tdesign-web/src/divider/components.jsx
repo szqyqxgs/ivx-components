@@ -100,6 +100,7 @@ export default class TdDivider extends React.Component {
     render() {
         // 属性、事件、函数
         let {visible, content, align, dashed, layout, childrenPosition, spacing} = this.props
+        // TODO: 2022/8/2 需要优化：使用这个写法分割线还是会断开
         return visible ? this.props.children ? <Divider
             align={align}
             dashed={dashed}
