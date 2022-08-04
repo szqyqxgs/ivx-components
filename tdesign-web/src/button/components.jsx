@@ -161,7 +161,8 @@ export default class TdButton extends React.Component {
             childrenPosition,
             spacing
         } = this.props
-        return visible ? this.props.children ? <Button
+        let childrenCount = React.Children.count(this.props.children)
+        return visible ? childrenCount ? <Button
             onClick={this.click}
             block={block}
             type={type}
