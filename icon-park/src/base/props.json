@@ -21,7 +21,60 @@
     "optionsEmpty": false,
     "options": [
       "Home",
-      "Aiming"
+      "Aiming",
+      "AllApplication,",
+      "Bill,",
+      "Bookmark",
+      "BookmarkOne",
+      "Camera",
+      "Config",
+      "DeleteTwo",
+      "Dislike",
+      "DislikeTwo",
+      "Equalizer",
+      "Female",
+      "HamburgerButton",
+      "HourglassFull",
+      "HourglassNull",
+      "Lightning",
+      "Like",
+      "Loading",
+      "LoadingFour",
+      "Male",
+      "More",
+      "MoreApp",
+      "MoreOne",
+      "MoreTwo",
+      "Pic",
+      "Power",
+      "PreviewClose",
+      "PreviewCloseOne",
+      "PreviewOpen",
+      "Radar",
+      "Refresh",
+      "Rss",
+      "Save",
+      "SaveOne",
+      "Search",
+      "Setting",
+      "SettingConfig",
+      "SettingOne",
+      "SettingThree",
+      "SettingTwo",
+      "Share",
+      "ShareThree",
+      "Sleep",
+      "System",
+      "Tag",
+      "TagOne",
+      "Tips",
+      "Tool",
+      "Translate",
+      "Unlike",
+      "WaterfallsH",
+      "WaterfallsV",
+      "ZoomIn",
+      "ZoomOut"
     ],
     "optionLocales": {
       "Home": {
@@ -29,6 +82,165 @@
       },
       "Aiming": {
         "zh": "瞄准"
+      },
+      "AllApplication": {
+        "zh": "全部"
+      },
+      "Bill": {
+        "zh": "法案"
+      },
+      "Bookmark": {
+        "zh": "书签"
+      },
+      "BookmarkOne": {
+        "zh": "书签"
+      },
+      "Camera": {
+        "zh": "相机"
+      },
+      "Config": {
+        "zh": "配置"
+      },
+      "DeleteTwo": {
+        "zh": "删除"
+      },
+      "Dislike": {
+        "zh": "不喜欢"
+      },
+      "DislikeTwo": {
+        "zh": "不喜欢"
+      },
+      "Equalizer": {
+        "zh": "均衡器"
+      },
+      "Female": {
+        "zh": "女性"
+      },
+      "HamburgerButton": {
+        "zh": "汉堡图标"
+      },
+      "HourglassFull": {
+        "zh": "沙漏满"
+      },
+      "HourglassNull": {
+        "zh": "沙漏空"
+      },
+      "Lightning": {
+        "zh": "闪电"
+      },
+      "Like": {
+        "zh": "喜欢"
+      },
+      "Loading": {
+        "zh": "加载"
+      },
+      "LoadingFour": {
+        "zh": "加载"
+      },
+      "Male": {
+        "zh": "男性"
+      },
+      "More": {
+        "zh": "更多"
+      },
+      "MoreApp": {
+        "zh": "更多"
+      },
+      "MoreOne": {
+        "zh": "更多1"
+      },
+      "MoreTwo": {
+        "zh": "更多2"
+      },
+      "Pic": {
+        "zh": "照片"
+      },
+      "Power": {
+        "zh": "开关"
+      },
+      "PreviewClose": {
+        "zh": "预览-关闭"
+      },
+      "PreviewCloseOne": {
+        "zh": "预览-关闭"
+      },
+      "PreviewOpen": {
+        "zh": "预览-打开"
+      },
+      "Radar": {
+        "zh": "雷达"
+      },
+      "Refresh": {
+        "zh": "刷新"
+      },
+      "Rss": {
+        "zh": "订阅"
+      },
+      "Save": {
+        "zh": "保存"
+      },
+      "SaveOne": {
+        "zh": "保存硬盘"
+      },
+      "Search": {
+        "zh": "搜索"
+      },
+      "Setting": {
+        "zh": "设置"
+      },
+      "SettingConfig": {
+        "zh": "设置配置"
+      },
+      "SettingOne": {
+        "zh": "设置"
+      },
+      "SettingThree": {
+        "zh": "设置"
+      },
+      "SettingTwo": {
+        "zh": "设置"
+      },
+      "Share": {
+        "zh": "分享"
+      },
+      "ShareThree": {
+        "zh": "分享3"
+      },
+      "Sleep": {
+        "zh": "睡眠"
+      },
+      "System": {
+        "zh": "系统"
+      },
+      "Tag": {
+        "zh": "标签"
+      },
+      "TagOne": {
+        "zh": "标签"
+      },
+      "Tips": {
+        "zh": "提示"
+      },
+      "Tool": {
+        "zh": "工具"
+      },
+      "Translate": {
+        "zh": "翻译"
+      },
+      "Unlike": {
+        "zh": "不喜欢"
+      },
+      "WaterfallsH": {
+        "zh": "瀑布流横向"
+      },
+      "WaterfallsV": {
+        "zh": "瀑布流纵向"
+      },
+      "ZoomIn": {
+        "zh": "放大"
+      },
+      "ZoomOut": {
+        "zh": "缩小"
       }
     }
   },
@@ -132,7 +344,11 @@
       },
       "multi-color": {
         "zh": "多色"
-      }
+      },
+      "desc": {
+        "zh": "颜色为无时，元素颜色跟随图标所在节点的文本颜色；当设置颜色后，元素将始终显示为该颜色"
+      },
+      "showDes": true
     }
   },
   {
@@ -149,7 +365,11 @@
     },
     "locale": {
       "zh": "描边颜色"
-    }
+    },
+    "desc": {
+      "zh": "颜色为无时，元素颜色跟随图标所在节点的文本颜色；当设置颜色后，元素将始终显示为该颜色"
+    },
+    "showDes": true
   },
   {
     "name": "fillColor",
@@ -165,7 +385,11 @@
     },
     "locale": {
       "zh": "填充颜色"
-    }
+    },
+    "desc": {
+      "zh": "颜色为无时，元素颜色跟随图标所在节点的文本颜色；当设置颜色后，元素将始终显示为该颜色"
+    },
+    "showDes": true
   },
   {
     "name": "outerStrokeColor",
@@ -182,7 +406,11 @@
     },
     "locale": {
       "zh": "外部描边颜色"
-    }
+    },
+    "desc": {
+      "zh": "颜色为无时，元素颜色跟随图标所在节点的文本颜色；当设置颜色后，元素将始终显示为该颜色"
+    },
+    "showDes": true
   },
   {
     "name": "outerFillColor",
@@ -199,7 +427,11 @@
     },
     "locale": {
       "zh": "外部填充颜色"
-    }
+    },
+    "desc": {
+      "zh": "颜色为无时，元素颜色跟随图标所在节点的文本颜色；当设置颜色后，元素将始终显示为该颜色"
+    },
+    "showDes": true
   },
   {
     "name": "innerStrokeColor",
@@ -216,7 +448,11 @@
     },
     "locale": {
       "zh": "内部描边颜色"
-    }
+    },
+    "desc": {
+      "zh": "颜色为无时，元素颜色跟随图标所在节点的文本颜色；当设置颜色后，元素将始终显示为该颜色"
+    },
+    "showDes": true
   },
   {
     "name": "innerFillColor",
@@ -233,7 +469,11 @@
     },
     "locale": {
       "zh": "内部填充颜色"
-    }
+    },
+    "desc": {
+      "zh": "颜色为无时，元素颜色跟随图标所在节点的文本颜色；当设置颜色后，元素将始终显示为该颜色"
+    },
+    "showDes": true
   },
   {
     "name": "strokeWidth",
@@ -276,7 +516,7 @@
       "zh": "端点类型"
     },
     "desc": {
-      "zh": "svg 元素的 stroke-linecap 属性；对应API的strokeLinecap，默认值：-"
+      "zh": "svg 元素的 stroke-linecap 属性；选择 无 则为圆头；对应API的strokeLinecap，默认值：-"
     },
     "showDes": true,
     "optionsEmpty": true,
@@ -286,10 +526,10 @@
     ],
     "optionLocales": {
       "butt": {
-        "zh": "butt"
+        "zh": "方头"
       },
       "square": {
-        "zh": "square"
+        "zh": "平头"
       }
     }
   },
@@ -301,7 +541,7 @@
       "zh": "拐点类型"
     },
     "desc": {
-      "zh": "svg 元素的 stroke-linejoin 属性；对应API的strokeLinejoin，默认值：-"
+      "zh": "svg 元素的 stroke-linejoin 属性；选择 无 则为圆头；对应API的strokeLinejoin，默认值：-"
     },
     "showDes": true,
     "optionsEmpty": true,
@@ -311,10 +551,10 @@
     ],
     "optionLocales": {
       "miter": {
-        "zh": "miter"
+        "zh": "方头"
       },
       "bevel": {
-        "zh": "bevel"
+        "zh": "平头"
       }
     }
   }

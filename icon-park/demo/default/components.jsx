@@ -1,8 +1,8 @@
 import React from 'react'
-import {Aiming, Home} from '@icon-park/react'
+import {aaa} from '@icon-park/react'
 import '@icon-park/react/styles/index.css'
 
-export default class IconPark extends React.Component {
+export default class IconParkaaa extends React.Component {
 
     // 绑定事件和方法
     constructor(props) {
@@ -78,12 +78,39 @@ export default class IconPark extends React.Component {
     icon() {
         let {name, size, spin, theme, strokeWidth, strokeLinejoin, strokeLinecap} = this.props
         switch (name) {
-            case 'Home':
-                return <Home size={size} spin={spin} theme={theme} fill={this.fill(theme)} strokeWidth={strokeWidth}
-                             strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
-            case 'Aiming':
-                return <Aiming size={size} spin={spin} theme={theme} fill={this.fill(theme)} strokeWidth={strokeWidth}
-                               strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
+            case 'aaa':
+                return <aaa size={size} spin={spin} theme={theme} fill={this.fill(theme)} strokeWidth={strokeWidth}
+                            strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
+            case 'aaa':
+                return <aaa size={size} spin={spin} theme={theme} fill={this.fill(theme)} strokeWidth={strokeWidth}
+                            strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
+            case 'aaa':
+                return <aaa size={size} spin={spin} theme={theme} fill={this.fill(theme)} strokeWidth={strokeWidth}
+                            strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
+            case 'aaa':
+                return <aaa size={size} spin={spin} theme={theme} fill={this.fill(theme)} strokeWidth={strokeWidth}
+                            strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
+            case 'aaa':
+                return <aaa size={size} spin={spin} theme={theme} fill={this.fill(theme)} strokeWidth={strokeWidth}
+                            strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
+            case 'aaa':
+                return <aaa size={size} spin={spin} theme={theme} fill={this.fill(theme)} strokeWidth={strokeWidth}
+                            strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
+            case 'aaa':
+                return <aaa size={size} spin={spin} theme={theme} fill={this.fill(theme)} strokeWidth={strokeWidth}
+                            strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
+            case 'aaa':
+                return <aaa size={size} spin={spin} theme={theme} fill={this.fill(theme)} strokeWidth={strokeWidth}
+                            strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
+            case 'aaa':
+                return <aaa size={size} spin={spin} theme={theme} fill={this.fill(theme)} strokeWidth={strokeWidth}
+                            strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
+            case 'aaa':
+                return <aaa size={size} spin={spin} theme={theme} fill={this.fill(theme)} strokeWidth={strokeWidth}
+                            strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
+            case 'aaa':
+                return <aaa size={size} spin={spin} theme={theme} fill={this.fill(theme)} strokeWidth={strokeWidth}
+                            strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
             default:
                 return
         }
@@ -97,9 +124,9 @@ export default class IconPark extends React.Component {
 }
 
 // 默认属性
-IconPark.defaultProps = {
+IconParkaaa.defaultProps = {
     visible: true,
-    name: 'Home',
+    name: 'aaa',
     size: '16',
     spin: false,
     theme: 'outline',

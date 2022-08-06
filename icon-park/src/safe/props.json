@@ -10,7 +10,7 @@
   {
     "name": "name",
     "type": "Select",
-    "defaultValue": "Home",
+    "defaultValue": "Alarm",
     "locale": {
       "zh": "选择图标"
     },
@@ -20,15 +20,79 @@
     "showDes": true,
     "optionsEmpty": false,
     "options": [
-      "Home",
-      "Aiming"
+      "Alarm",
+      "BalanceTwo",
+      "Bug",
+      "Caution",
+      "FireExtinguisher",
+      "Harm",
+      "Imbalance",
+      "Key",
+      "Keyhole",
+      "Protect",
+      "Protection",
+      "Radiation",
+      "Report",
+      "Shield",
+      "ShieldAdd",
+      "Umbrella",
+      "UmbrellaOne",
+      "UmbrellaTwo"
     ],
     "optionLocales": {
-      "Home": {
-        "zh": "首页"
+      "Alarm": {
+        "zh": "警报"
       },
-      "Aiming": {
-        "zh": "瞄准"
+      "BalanceTwo": {
+        "zh": "天平"
+      },
+      "Bug": {
+        "zh": "程序问题"
+      },
+      "Caution": {
+        "zh": "报错"
+      },
+      "FireExtinguisher": {
+        "zh": "灭火器"
+      },
+      "Harm": {
+        "zh": "危害"
+      },
+      "Imbalance": {
+        "zh": "失衡天平"
+      },
+      "Key": {
+        "zh": "钥匙"
+      },
+      "Keyhole": {
+        "zh": "钥匙孔"
+      },
+      "Protect": {
+        "zh": "保护"
+      },
+      "Protection": {
+        "zh": "保护"
+      },
+      "Radiation": {
+        "zh": "辐射"
+      },
+      "Report": {
+        "zh": "举报"
+      },
+      "Shield": {
+        "zh": "安全"
+      },
+      "ShieldAdd": {
+        "zh": "安全增加"
+      },
+      "Umbrella": {
+        "zh": "雨伞"
+      },
+      "UmbrellaOne": {
+        "zh": "雨伞"
+      },
+      "UmbrellaTwo": {
+        "zh": "雨伞"
       }
     }
   },
@@ -149,7 +213,11 @@
     },
     "locale": {
       "zh": "描边颜色"
-    }
+    },
+    "desc": {
+      "zh": "颜色为无时，元素颜色跟随图标所在节点的文本颜色；当设置颜色后，元素将始终显示为该颜色"
+    },
+    "showDes": true
   },
   {
     "name": "fillColor",
@@ -165,7 +233,11 @@
     },
     "locale": {
       "zh": "填充颜色"
-    }
+    },
+    "desc": {
+      "zh": "颜色为无时，元素颜色跟随图标所在节点的文本颜色；当设置颜色后，元素将始终显示为该颜色"
+    },
+    "showDes": true
   },
   {
     "name": "outerStrokeColor",
@@ -182,7 +254,11 @@
     },
     "locale": {
       "zh": "外部描边颜色"
-    }
+    },
+    "desc": {
+      "zh": "颜色为无时，元素颜色跟随图标所在节点的文本颜色；当设置颜色后，元素将始终显示为该颜色"
+    },
+    "showDes": true
   },
   {
     "name": "outerFillColor",
@@ -199,7 +275,11 @@
     },
     "locale": {
       "zh": "外部填充颜色"
-    }
+    },
+    "desc": {
+      "zh": "颜色为无时，元素颜色跟随图标所在节点的文本颜色；当设置颜色后，元素将始终显示为该颜色"
+    },
+    "showDes": true
   },
   {
     "name": "innerStrokeColor",
@@ -216,7 +296,11 @@
     },
     "locale": {
       "zh": "内部描边颜色"
-    }
+    },
+    "desc": {
+      "zh": "颜色为无时，元素颜色跟随图标所在节点的文本颜色；当设置颜色后，元素将始终显示为该颜色"
+    },
+    "showDes": true
   },
   {
     "name": "innerFillColor",
@@ -233,7 +317,11 @@
     },
     "locale": {
       "zh": "内部填充颜色"
-    }
+    },
+    "desc": {
+      "zh": "颜色为无时，元素颜色跟随图标所在节点的文本颜色；当设置颜色后，元素将始终显示为该颜色"
+    },
+    "showDes": true
   },
   {
     "name": "strokeWidth",
@@ -276,7 +364,7 @@
       "zh": "端点类型"
     },
     "desc": {
-      "zh": "svg 元素的 stroke-linecap 属性；对应API的strokeLinecap，默认值：-"
+      "zh": "svg 元素的 stroke-linecap 属性；选择 无 则为圆头；对应API的strokeLinecap，默认值：-"
     },
     "showDes": true,
     "optionsEmpty": true,
@@ -286,10 +374,10 @@
     ],
     "optionLocales": {
       "butt": {
-        "zh": "butt"
+        "zh": "方头"
       },
       "square": {
-        "zh": "square"
+        "zh": "平头"
       }
     }
   },
@@ -301,7 +389,7 @@
       "zh": "拐点类型"
     },
     "desc": {
-      "zh": "svg 元素的 stroke-linejoin 属性；对应API的strokeLinejoin，默认值：-"
+      "zh": "svg 元素的 stroke-linejoin 属性；选择 无 则为圆头；对应API的strokeLinejoin，默认值：-"
     },
     "showDes": true,
     "optionsEmpty": true,
@@ -311,10 +399,10 @@
     ],
     "optionLocales": {
       "miter": {
-        "zh": "miter"
+        "zh": "方头"
       },
       "bevel": {
-        "zh": "bevel"
+        "zh": "平头"
       }
     }
   }

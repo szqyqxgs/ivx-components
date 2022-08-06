@@ -1,8 +1,27 @@
 import React from 'react'
-import {Aiming, Home} from '@icon-park/react'
+import {
+    Alarm,
+    BalanceTwo,
+    Bug,
+    Caution,
+    FireExtinguisher,
+    Harm,
+    Imbalance,
+    Key,
+    Keyhole,
+    Protect,
+    Protection,
+    Radiation,
+    Report,
+    Shield,
+    ShieldAdd,
+    Umbrella,
+    UmbrellaOne,
+    UmbrellaTwo
+} from '@icon-park/react'
 import '@icon-park/react/styles/index.css'
 
-export default class IconPark extends React.Component {
+export default class IconParkSafe extends React.Component {
 
     // 绑定事件和方法
     constructor(props) {
@@ -78,12 +97,68 @@ export default class IconPark extends React.Component {
     icon() {
         let {name, size, spin, theme, strokeWidth, strokeLinejoin, strokeLinecap} = this.props
         switch (name) {
-            case 'Home':
-                return <Home size={size} spin={spin} theme={theme} fill={this.fill(theme)} strokeWidth={strokeWidth}
+            case 'Alarm':
+                return <Alarm size={size} spin={spin} theme={theme} fill={this.fill(theme)} strokeWidth={strokeWidth}
+                              strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
+            case 'BalanceTwo':
+                return <BalanceTwo size={size} spin={spin} theme={theme} fill={this.fill(theme)}
+                                   strokeWidth={strokeWidth}
+                                   strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
+            case 'Bug':
+                return <Bug size={size} spin={spin} theme={theme} fill={this.fill(theme)} strokeWidth={strokeWidth}
+                            strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
+            case 'Caution':
+                return <Caution size={size} spin={spin} theme={theme} fill={this.fill(theme)} strokeWidth={strokeWidth}
+                                strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
+            case 'FireExtinguisher':
+                return <FireExtinguisher size={size} spin={spin} theme={theme} fill={this.fill(theme)}
+                                         strokeWidth={strokeWidth}
+                                         strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
+            case 'Harm':
+                return <Harm size={size} spin={spin} theme={theme} fill={this.fill(theme)} strokeWidth={strokeWidth}
                              strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
-            case 'Aiming':
-                return <Aiming size={size} spin={spin} theme={theme} fill={this.fill(theme)} strokeWidth={strokeWidth}
+            case 'Imbalance':
+                return <Imbalance size={size} spin={spin} theme={theme} fill={this.fill(theme)}
+                                  strokeWidth={strokeWidth}
+                                  strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
+            case 'Key':
+                return <Key size={size} spin={spin} theme={theme} fill={this.fill(theme)} strokeWidth={strokeWidth}
+                            strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
+            case 'Keyhole':
+                return <Keyhole size={size} spin={spin} theme={theme} fill={this.fill(theme)} strokeWidth={strokeWidth}
+                                strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
+            case 'Protect':
+                return <Protect size={size} spin={spin} theme={theme} fill={this.fill(theme)} strokeWidth={strokeWidth}
+                                strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
+            case 'Protection':
+                return <Protection size={size} spin={spin} theme={theme} fill={this.fill(theme)}
+                                   strokeWidth={strokeWidth}
+                                   strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
+            case 'Radiation':
+                return <Radiation size={size} spin={spin} theme={theme} fill={this.fill(theme)}
+                                  strokeWidth={strokeWidth}
+                                  strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
+            case 'Report':
+                return <Report size={size} spin={spin} theme={theme} fill={this.fill(theme)} strokeWidth={strokeWidth}
                                strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
+            case 'Shield':
+                return <Shield size={size} spin={spin} theme={theme} fill={this.fill(theme)} strokeWidth={strokeWidth}
+                               strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
+            case 'ShieldAdd':
+                return <ShieldAdd size={size} spin={spin} theme={theme} fill={this.fill(theme)}
+                                  strokeWidth={strokeWidth}
+                                  strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
+            case 'Umbrella':
+                return <Umbrella size={size} spin={spin} theme={theme} fill={this.fill(theme)} strokeWidth={strokeWidth}
+                                 strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
+            case 'UmbrellaOne':
+                return <UmbrellaOne size={size} spin={spin} theme={theme} fill={this.fill(theme)}
+                                    strokeWidth={strokeWidth}
+                                    strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
+            case 'UmbrellaTwo':
+                return <UmbrellaTwo size={size} spin={spin} theme={theme} fill={this.fill(theme)}
+                                    strokeWidth={strokeWidth}
+                                    strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
             default:
                 return
         }
@@ -97,9 +172,9 @@ export default class IconPark extends React.Component {
 }
 
 // 默认属性
-IconPark.defaultProps = {
+IconParkSafe.defaultProps = {
     visible: true,
-    name: 'Home',
+    name: 'Alarm',
     size: '16',
     spin: false,
     theme: 'outline',

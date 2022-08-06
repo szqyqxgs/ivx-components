@@ -10,7 +10,7 @@
   {
     "name": "name",
     "type": "Select",
-    "defaultValue": "aaa",
+    "defaultValue": "AngryFace",
     "locale": {
       "zh": "选择图标"
     },
@@ -20,42 +20,155 @@
     "showDes": true,
     "optionsEmpty": false,
     "options": [
-      "aaa",
-      "aaa"
+      "AngryFace",
+      "AnguishedFace",
+      "AstonishedFace",
+      "ConfoundedFace",
+      "ConfusedFace",
+      "DisappointedFace",
+      "DistraughtFace",
+      "DizzyFace",
+      "EmotionHappy",
+      "EmotionUnhappy",
+      "ExpressionlessFace",
+      "FaceWithSmilingOpenEyes",
+      "FaceWithoutMouth",
+      "FrowningFaceWhitOpenMouth",
+      "GrimacingFace",
+      "GrinningFace",
+      "GrinningFaceWithOpenMouth",
+      "GrinningFaceWithSquintingEyes",
+      "GrinningFaceWithTightlyClosedEyes",
+      "GrinningFaceWithTightlyClosedEyesOpenMouth",
+      "LoudlyCryingFace",
+      "LoudlyCryingFaceWhitOpenMouth",
+      "NeutralFace",
+      "PoutingFace",
+      "RelievedFace",
+      "SlightlyFrowningFaceWhitOpenMouth",
+      "SlightlySmilingFace",
+      "SlyFaceWhitSmile",
+      "SmilingFace",
+      "SmilingFaceWithSquintingEyes",
+      "SurprisedFaceWithOpenBigMouth",
+      "SurprisedFaceWithOpenMouth",
+      "UpsideDownFace",
+      "WearyFace",
+      "WinkingFace",
+      "WinkingFaceWithOpenEyes",
+      "WorriedFace"
     ],
     "optionLocales": {
-      "aaa": {
-        "zh": ""
+      "AngryFace": {
+        "zh": "生气"
       },
-      "aaa": {
-        "zh": ""
+      "AnguishedFace": {
+        "zh": "圆嘴"
       },
-      "aaa": {
-        "zh": ""
+      "AstonishedFace": {
+        "zh": "张大嘴"
       },
-      "aaa": {
-        "zh": ""
+      "ConfoundedFace": {
+        "zh": "抿嘴闭眼"
       },
-      "aaa": {
-        "zh": ""
+      "ConfusedFace": {
+        "zh": "别嘴"
       },
-      "aaa": {
-        "zh": ""
+      "DisappointedFace": {
+        "zh": "失落"
       },
-      "aaa": {
-        "zh": ""
+      "DistraughtFace": {
+        "zh": "闭眼生气"
       },
-      "aaa": {
-        "zh": ""
+      "DizzyFace": {
+        "zh": "张嘴晕"
       },
-      "aaa": {
-        "zh": ""
+      "EmotionHappy": {
+        "zh": "开心"
       },
-      "aaa": {
-        "zh": ""
+      "EmotionUnhappy": {
+        "zh": "不开心"
       },
-      "aaa": {
-        "zh": ""
+      "ExpressionlessFace": {
+        "zh": "无语脸"
+      },
+      "FaceWithSmilingOpenEyes": {
+        "zh": "大眼笑"
+      },
+      "FaceWithoutMouth": {
+        "zh": "无嘴脸"
+      },
+      "FrowningFaceWhitOpenMouth": {
+        "zh": "别嘴生气"
+      },
+      "GrimacingFace": {
+        "zh": "呲牙张嘴"
+      },
+      "GrinningFace": {
+        "zh": "开心"
+      },
+      "GrinningFaceWithOpenMouth": {
+        "zh": "张嘴笑"
+      },
+      "GrinningFaceWithSquintingEyes": {
+        "zh": "笑眯眼"
+      },
+      "GrinningFaceWithTightlyClosedEyes": {
+        "zh": "闭眼笑"
+      },
+      "GrinningFaceWithTightlyClosedEyesOpenMouth": {
+        "zh": "张嘴闭眼笑"
+      },
+      "LoudlyCryingFace": {
+        "zh": "哭"
+      },
+      "LoudlyCryingFaceWhitOpenMouth": {
+        "zh": "张嘴哭"
+      },
+      "NeutralFace": {
+        "zh": "正常标签"
+      },
+      "PoutingFace": {
+        "zh": "愤怒"
+      },
+      "RelievedFace": {
+        "zh": "笑眯眼"
+      },
+      "SlightlyFrowningFaceWhitOpenMouth": {
+        "zh": "轻微沮丧"
+      },
+      "SlightlySmilingFace": {
+        "zh": "微笑"
+      },
+      "SlyFaceWhitSmile": {
+        "zh": "囧笑"
+      },
+      "SmilingFace": {
+        "zh": "笑脸"
+      },
+      "SmilingFaceWithSquintingEyes": {
+        "zh": "笑眯眼"
+      },
+      "SurprisedFaceWithOpenBigMouth": {
+        "zh": "惊讶张嘴"
+      },
+      "SurprisedFaceWithOpenMouth": {
+        "zh": "惊讶"
+      },
+      "UpsideDownFace": {
+        "zh": "翻转笑脸"
+      },
+      "WearyFace": {
+        "zh": "沮丧"
+      },
+      "WinkingFace": {
+        "zh": "眨眼睛"
+      },
+      "WinkingFaceWithOpenEyes": {
+        "zh": "眨一个眼睛"
+      },
+      "WorriedFace": {
+        "zh": "担心"
       }
     }
   },
