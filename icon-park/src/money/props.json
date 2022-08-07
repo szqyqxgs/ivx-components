@@ -1,0 +1,657 @@
+[
+  {
+    "name": "visible",
+    "type": "Boolean",
+    "defaultValue": true,
+    "locale": {
+      "zh": "可见"
+    }
+  },
+  {
+    "name": "name",
+    "type": "Select",
+    "defaultValue": "AddSubtract",
+    "locale": {
+      "zh": "选择图标"
+    },
+    "desc": {
+      "zh": "对应IconPark官方图标库，默认值：-"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "AddSubtract",
+      "Bank",
+      "BankCard",
+      "BankCardOne",
+      "BankCardTwo",
+      "BankTransfer",
+      "BarCode",
+      "Blockchain",
+      "Buy",
+      "Commodity",
+      "Consume",
+      "Coupon",
+      "Credit",
+      "Currency",
+      "Deposit",
+      "DiscoveryIndex",
+      "Dollar",
+      "Exchange",
+      "ExchangeFour",
+      "ExchangeOne",
+      "ExchangeThree",
+      "ExchangeTwo",
+      "Expenses",
+      "ExpensesOne",
+      "Finance",
+      "Financing",
+      "FinancingOne",
+      "FinancingTwo",
+      "FlashPayment",
+      "Funds",
+      "Gift",
+      "GiftBag",
+      "GiftBox",
+      "HeavyMetal",
+      "HistoryQuery",
+      "Income",
+      "IncomeOne",
+      "InsertCard",
+      "IosFaceRecognition",
+      "Ipo",
+      "MallBag",
+      "MedicationTime",
+      "OpenAnAccount",
+      "Optional",
+      "PaperMoney",
+      "PaperMoneyTwo",
+      "PayCodeOne",
+      "PayCodeTwo",
+      "PaymentMethod",
+      "RedEnvelope",
+      "RedEnvelopes",
+      "ScanCode",
+      "Shopping",
+      "ShoppingBag",
+      "ShoppingBagOne",
+      "ShoppingCart",
+      "ShoppingCartAdd",
+      "ShoppingCartDel",
+      "ShoppingCartOne",
+      "ShoppingCartTwo",
+      "ShoulderBag",
+      "StockMarket",
+      "Swipe",
+      "Transaction",
+      "TransactionOrder",
+      "Trend",
+      "TrendTwo",
+      "TwoDimensionalCode",
+      "TwoDimensionalCodeOne",
+      "TwoDimensionalCodeTwo",
+      "Wallet",
+      "WalletOne",
+      "WalletThree",
+      "WalletTwo",
+      "WaterLevel",
+      "WaterRate",
+      "WaterRateTwo",
+      "Waves",
+      "WeixinMarket",
+      "Workbench"
+    ],
+    "optionLocales": {
+      "AddSubtract": {
+        "zh": "加减"
+      },
+      "Bank": {
+        "zh": "银行"
+      },
+      "BankCard": {
+        "zh": "银行卡"
+      },
+      "BankCardOne": {
+        "zh": "银行卡"
+      },
+      "BankCardTwo": {
+        "zh": "银行卡"
+      },
+      "BankTransfer": {
+        "zh": "银行转账"
+      },
+      "BarCode": {
+        "zh": "条形码"
+      },
+      "Blockchain": {
+        "zh": "区块链"
+      },
+      "Buy": {
+        "zh": "购买"
+      },
+      "Commodity": {
+        "zh": "商品"
+      },
+      "Consume": {
+        "zh": "消费"
+      },
+      "Coupon": {
+        "zh": "优惠券"
+      },
+      "Credit": {
+        "zh": "信用卡"
+      },
+      "Currency": {
+        "zh": "货币流通"
+      },
+      "Deposit": {
+        "zh": "存款"
+      },
+      "DiscoveryIndex": {
+        "zh": "发现指数"
+      },
+      "Dollar": {
+        "zh": "美元"
+      },
+      "Exchange": {
+        "zh": "货币兑换"
+      },
+      "ExchangeFour": {
+        "zh": "兑换4"
+      },
+      "ExchangeOne": {
+        "zh": "兑换1"
+      },
+      "ExchangeThree": {
+        "zh": "兑换3"
+      },
+      "ExchangeTwo": {
+        "zh": "兑换2"
+      },
+      "Expenses": {
+        "zh": "转出"
+      },
+      "ExpensesOne": {
+        "zh": "支出"
+      },
+      "Finance": {
+        "zh": "金融"
+      },
+      "Financing": {
+        "zh": "理财"
+      },
+      "FinancingOne": {
+        "zh": "理财"
+      },
+      "FinancingTwo": {
+        "zh": "融资2"
+      },
+      "FlashPayment": {
+        "zh": "闪付"
+      },
+      "Funds": {
+        "zh": "基金"
+      },
+      "Gift": {
+        "zh": "礼物"
+      },
+      "GiftBag": {
+        "zh": "礼盒"
+      },
+      "GiftBox": {
+        "zh": "礼物盒"
+      },
+      "HeavyMetal": {
+        "zh": "重金属"
+      },
+      "HistoryQuery": {
+        "zh": "历史搜索"
+      },
+      "Income": {
+        "zh": "转入"
+      },
+      "IncomeOne": {
+        "zh": "收入"
+      },
+      "InsertCard": {
+        "zh": "插卡"
+      },
+      "IosFaceRecognition": {
+        "zh": "人脸识别"
+      },
+      "Ipo": {
+        "zh": "ipo"
+      },
+      "MallBag": {
+        "zh": "购物袋"
+      },
+      "MedicationTime": {
+        "zh": "准时吃药"
+      },
+      "OpenAnAccount": {
+        "zh": "开户"
+      },
+      "Optional": {
+        "zh": "自选"
+      },
+      "PaperMoney": {
+        "zh": "钞票"
+      },
+      "PaperMoneyTwo": {
+        "zh": "钞票"
+      },
+      "PayCodeOne": {
+        "zh": "付款码"
+      },
+      "PayCodeTwo": {
+        "zh": "支付码"
+      },
+      "PaymentMethod": {
+        "zh": "币种兑换"
+      },
+      "RedEnvelope": {
+        "zh": "红包"
+      },
+      "RedEnvelopes": {
+        "zh": "红包"
+      },
+      "ScanCode": {
+        "zh": "扫码"
+      },
+      "Shopping": {
+        "zh": "购物车"
+      },
+      "ShoppingBag": {
+        "zh": "购物袋"
+      },
+      "ShoppingBagOne": {
+        "zh": "购物袋1"
+      },
+      "ShoppingCart": {
+        "zh": "购物车"
+      },
+      "ShoppingCartAdd": {
+        "zh": "添加购物车"
+      },
+      "ShoppingCartDel": {
+        "zh": "删除购物车"
+      },
+      "ShoppingCartOne": {
+        "zh": "购物车1"
+      },
+      "ShoppingCartTwo": {
+        "zh": "购物车2"
+      },
+      "ShoulderBag": {
+        "zh": "单肩包"
+      },
+      "StockMarket": {
+        "zh": "股市"
+      },
+      "Swipe": {
+        "zh": "刷卡"
+      },
+      "Transaction": {
+        "zh": "成交"
+      },
+      "TransactionOrder": {
+        "zh": "交易清单"
+      },
+      "Trend": {
+        "zh": "趋势"
+      },
+      "TrendTwo": {
+        "zh": "趋势"
+      },
+      "TwoDimensionalCode": {
+        "zh": "二维码"
+      },
+      "TwoDimensionalCodeOne": {
+        "zh": "二维码"
+      },
+      "TwoDimensionalCodeTwo": {
+        "zh": "二维码"
+      },
+      "Wallet": {
+        "zh": "钱包"
+      },
+      "WalletOne": {
+        "zh": "钱包"
+      },
+      "WalletThree": {
+        "zh": "钱包3"
+      },
+      "WalletTwo": {
+        "zh": "钱包"
+      },
+      "WaterLevel": {
+        "zh": "水位线"
+      },
+      "WaterRate": {
+        "zh": "水费"
+      },
+      "WaterRateTwo": {
+        "zh": "水电费"
+      },
+      "Waves": {
+        "zh": "电波"
+      },
+      "WeixinMarket": {
+        "zh": "微信电商"
+      },
+      "Workbench": {
+        "zh": "工作台"
+      }
+    }
+  },
+  {
+    "name": "size",
+    "type": "Select",
+    "defaultValue": 16,
+    "locale": {
+      "zh": "尺寸"
+    },
+    "desc": {
+      "zh": "图标的宽度和高度；对应API的size，默认值：16"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      10,
+      12,
+      14,
+      16,
+      20,
+      24,
+      28,
+      36,
+      48,
+      64
+    ],
+    "optionLocales": {
+      "10": {
+        "zh": 10
+      },
+      "12": {
+        "zh": 12
+      },
+      "14": {
+        "zh": 14
+      },
+      "16": {
+        "zh": 16
+      },
+      "20": {
+        "zh": 20
+      },
+      "24": {
+        "zh": 24
+      },
+      "28": {
+        "zh": 28
+      },
+      "36": {
+        "zh": 36
+      },
+      "48": {
+        "zh": 48
+      },
+      "64": {
+        "zh": 64
+      }
+    }
+  },
+  {
+    "name": "spin",
+    "type": "Boolean",
+    "defaultValue": false,
+    "locale": {
+      "zh": "旋转"
+    },
+    "desc": {
+      "zh": "图标顺时针匀速旋转；对应API的spin，默认值：false"
+    },
+    "showDes": true
+  },
+  {
+    "name": "theme",
+    "type": "Select",
+    "defaultValue": "outline",
+    "affectPropsShow": true,
+    "locale": {
+      "zh": "图标风格"
+    },
+    "desc": {
+      "zh": "对应API的theme，默认值：outline"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "outline",
+      "filled",
+      "two-tone",
+      "multi-color"
+    ],
+    "optionLocales": {
+      "outline": {
+        "zh": "线性"
+      },
+      "filled": {
+        "zh": "填充"
+      },
+      "two-tone": {
+        "zh": "双色"
+      },
+      "multi-color": {
+        "zh": "多色"
+      }
+    }
+  },
+  {
+    "name": "strokeColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": false,
+      "values": [
+        "filled",
+        "multi-color"
+      ]
+    },
+    "locale": {
+      "zh": "描边颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "fillColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "multi-color"
+      ]
+    },
+    "locale": {
+      "zh": "填充颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "outerStrokeColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "外部描边颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "outerFillColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "外部填充颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "innerStrokeColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "内部描边颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "innerFillColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "内部填充颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "strokeWidth",
+    "type": "Select",
+    "defaultValue": "4",
+    "locale": {
+      "zh": "线段粗细"
+    },
+    "desc": {
+      "zh": "svg 元素的 stroke-width 属性；对应API的strokeWidth，默认值：4"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "optionLocales": {
+      "1": {
+        "zh": 1
+      },
+      "2": {
+        "zh": 2
+      },
+      "3": {
+        "zh": 3
+      },
+      "4": {
+        "zh": 4
+      }
+    }
+  },
+  {
+    "name": "strokeLinecap",
+    "type": "Select",
+    "defaultValue": null,
+    "locale": {
+      "zh": "端点类型"
+    },
+    "desc": {
+      "zh": "svg 元素的 stroke-linecap 属性；选择 无 则为圆头；对应API的strokeLinecap，默认值：-"
+    },
+    "showDes": true,
+    "optionsEmpty": true,
+    "options": [
+      "butt",
+      "square"
+    ],
+    "optionLocales": {
+      "butt": {
+        "zh": "方头"
+      },
+      "square": {
+        "zh": "平头"
+      }
+    }
+  },
+  {
+    "name": "strokeLinejoin",
+    "type": "Select",
+    "defaultValue": null,
+    "locale": {
+      "zh": "拐点类型"
+    },
+    "desc": {
+      "zh": "svg 元素的 stroke-linejoin 属性；选择 无 则为圆头；对应API的strokeLinejoin，默认值：-"
+    },
+    "showDes": true,
+    "optionsEmpty": true,
+    "options": [
+      "miter",
+      "bevel"
+    ],
+    "optionLocales": {
+      "miter": {
+        "zh": "方头"
+      },
+      "bevel": {
+        "zh": "平头"
+      }
+    }
+  }
+]
