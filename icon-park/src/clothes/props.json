@@ -1,0 +1,625 @@
+[
+  {
+    "name": "visible",
+    "type": "Boolean",
+    "defaultValue": true,
+    "locale": {
+      "zh": "可见"
+    }
+  },
+  {
+    "name": "name",
+    "type": "Select",
+    "defaultValue": "ACane",
+    "locale": {
+      "zh": "选择图标"
+    },
+    "desc": {
+      "zh": "对应IconPark官方图标库，默认值：-"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "ACane",
+      "BachelorCap",
+      "BachelorCapOne",
+      "BachelorCapTwo",
+      "Backpack",
+      "BaseballCap",
+      "BasketballClothes",
+      "Belt",
+      "Boots",
+      "Bow",
+      "Briefcase",
+      "ChefHat",
+      "ChildrenCap",
+      "ClothesBriefs",
+      "ClothesCardigan",
+      "ClothesCrewNeck",
+      "ClothesDiapers",
+      "ClothesGloves",
+      "ClothesGlovesTwo",
+      "ClothesHoodie",
+      "ClothesPants",
+      "ClothesPantsShort",
+      "ClothesPantsSweat",
+      "ClothesShortSleeve",
+      "ClothesSkates",
+      "ClothesSuit",
+      "ClothesSweater",
+      "ClothesTurtleneck",
+      "ClothesWindbreaker",
+      "CoatHanger",
+      "CommuterBag",
+      "CrownThree",
+      "DiamondNecklace",
+      "DiamondRing",
+      "Diamonds",
+      "DiapersOne",
+      "FullDressLonguette",
+      "Glasses",
+      "GlassesOne",
+      "Handbag",
+      "HanfuChineseStyle",
+      "HangerOne",
+      "Hat",
+      "Headwear",
+      "HighHeeledShoes",
+      "HolySword",
+      "MagicHat",
+      "MenJacket",
+      "Necktie",
+      "Panties",
+      "Perfume",
+      "RetroBag",
+      "ShortSkirt",
+      "Shorts",
+      "Skates",
+      "Slippers",
+      "SlippersOne",
+      "Socks",
+      "SorcererHat",
+      "StrawHat",
+      "SunHat",
+      "Sweater",
+      "Swimsuit",
+      "TShirt",
+      "TheSingleShoulderBag",
+      "Theme",
+      "ThreeDGlasses",
+      "TrousersBellBottoms",
+      "Trunk",
+      "Vest",
+      "WomenCoat",
+      "WoolenHat"
+    ],
+    "optionLocales": {
+      "ACane": {
+        "zh": "拐杖"
+      },
+      "BachelorCap": {
+        "zh": "学士帽"
+      },
+      "BachelorCapOne": {
+        "zh": "博士帽1"
+      },
+      "BachelorCapTwo": {
+        "zh": "博士帽2"
+      },
+      "Backpack": {
+        "zh": "背包"
+      },
+      "BaseballCap": {
+        "zh": "棒球帽"
+      },
+      "BasketballClothes": {
+        "zh": "篮球服"
+      },
+      "Belt": {
+        "zh": "腰带"
+      },
+      "Boots": {
+        "zh": "靴子"
+      },
+      "Bow": {
+        "zh": "领结"
+      },
+      "Briefcase": {
+        "zh": "公文包"
+      },
+      "ChefHat": {
+        "zh": "厨师帽"
+      },
+      "ChildrenCap": {
+        "zh": "儿童帽"
+      },
+      "ClothesBriefs": {
+        "zh": "内裤"
+      },
+      "ClothesCardigan": {
+        "zh": "开衫"
+      },
+      "ClothesCrewNeck": {
+        "zh": "圆领衫"
+      },
+      "ClothesDiapers": {
+        "zh": "纸尿裤"
+      },
+      "ClothesGloves": {
+        "zh": "手套"
+      },
+      "ClothesGlovesTwo": {
+        "zh": "手套"
+      },
+      "ClothesHoodie": {
+        "zh": "卫衣"
+      },
+      "ClothesPants": {
+        "zh": "裤子"
+      },
+      "ClothesPantsShort": {
+        "zh": "短裤"
+      },
+      "ClothesPantsSweat": {
+        "zh": "运动裤"
+      },
+      "ClothesShortSleeve": {
+        "zh": "短裤"
+      },
+      "ClothesSkates": {
+        "zh": "滑冰鞋"
+      },
+      "ClothesSuit": {
+        "zh": "西装"
+      },
+      "ClothesSweater": {
+        "zh": "帽衫"
+      },
+      "ClothesTurtleneck": {
+        "zh": "高领毛衣"
+      },
+      "ClothesWindbreaker": {
+        "zh": "风衣"
+      },
+      "CoatHanger": {
+        "zh": "衣架"
+      },
+      "CommuterBag": {
+        "zh": "通勤包"
+      },
+      "CrownThree": {
+        "zh": "皇冠帽"
+      },
+      "DiamondNecklace": {
+        "zh": "钻石项链"
+      },
+      "DiamondRing": {
+        "zh": "钻戒"
+      },
+      "Diamonds": {
+        "zh": "钻石"
+      },
+      "DiapersOne": {
+        "zh": "尿不湿"
+      },
+      "FullDressLonguette": {
+        "zh": "礼服长裙"
+      },
+      "Glasses": {
+        "zh": "眼镜"
+      },
+      "GlassesOne": {
+        "zh": "眼镜"
+      },
+      "Handbag": {
+        "zh": "手提包"
+      },
+      "HanfuChineseStyle": {
+        "zh": "中式汉服"
+      },
+      "HangerOne": {
+        "zh": "衣架"
+      },
+      "Hat": {
+        "zh": "帽子"
+      },
+      "Headwear": {
+        "zh": "头饰"
+      },
+      "HighHeeledShoes": {
+        "zh": "高跟鞋"
+      },
+      "HolySword": {
+        "zh": "圣剑"
+      },
+      "MagicHat": {
+        "zh": "魔术帽"
+      },
+      "MenJacket": {
+        "zh": "男士外套"
+      },
+      "Necktie": {
+        "zh": "领带"
+      },
+      "Panties": {
+        "zh": "内裤"
+      },
+      "Perfume": {
+        "zh": "香水"
+      },
+      "RetroBag": {
+        "zh": "复古包"
+      },
+      "ShortSkirt": {
+        "zh": "短裙"
+      },
+      "Shorts": {
+        "zh": "短裤"
+      },
+      "Skates": {
+        "zh": "冰鞋"
+      },
+      "Slippers": {
+        "zh": "拖鞋"
+      },
+      "SlippersOne": {
+        "zh": "拖鞋"
+      },
+      "Socks": {
+        "zh": "袜子"
+      },
+      "SorcererHat": {
+        "zh": "巫师帽"
+      },
+      "StrawHat": {
+        "zh": "草帽"
+      },
+      "SunHat": {
+        "zh": "太阳帽"
+      },
+      "Sweater": {
+        "zh": "毛衣"
+      },
+      "Swimsuit": {
+        "zh": "泳装"
+      },
+      "TShirt": {
+        "zh": "T恤"
+      },
+      "TheSingleShoulderBag": {
+        "zh": "单肩包"
+      },
+      "Theme": {
+        "zh": "主题"
+      },
+      "ThreeDGlasses": {
+        "zh": "3D眼镜"
+      },
+      "TrousersBellBottoms": {
+        "zh": "喇叭裤"
+      },
+      "Trunk": {
+        "zh": "行李箱"
+      },
+      "Vest": {
+        "zh": "背心"
+      },
+      "WomenCoat": {
+        "zh": "女大衣"
+      },
+      "WoolenHat": {
+        "zh": "呢帽"
+      }
+    }
+  },
+  {
+    "name": "size",
+    "type": "Select",
+    "defaultValue": 16,
+    "locale": {
+      "zh": "尺寸"
+    },
+    "desc": {
+      "zh": "图标的宽度和高度；对应API的size，默认值：16"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      10,
+      12,
+      14,
+      16,
+      20,
+      24,
+      28,
+      36,
+      48,
+      64
+    ],
+    "optionLocales": {
+      "10": {
+        "zh": 10
+      },
+      "12": {
+        "zh": 12
+      },
+      "14": {
+        "zh": 14
+      },
+      "16": {
+        "zh": 16
+      },
+      "20": {
+        "zh": 20
+      },
+      "24": {
+        "zh": 24
+      },
+      "28": {
+        "zh": 28
+      },
+      "36": {
+        "zh": 36
+      },
+      "48": {
+        "zh": 48
+      },
+      "64": {
+        "zh": 64
+      }
+    }
+  },
+  {
+    "name": "spin",
+    "type": "Boolean",
+    "defaultValue": false,
+    "locale": {
+      "zh": "旋转"
+    },
+    "desc": {
+      "zh": "图标顺时针匀速旋转；对应API的spin，默认值：false"
+    },
+    "showDes": true
+  },
+  {
+    "name": "theme",
+    "type": "Select",
+    "defaultValue": "outline",
+    "affectPropsShow": true,
+    "locale": {
+      "zh": "图标风格"
+    },
+    "desc": {
+      "zh": "对应API的theme，默认值：outline"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "outline",
+      "filled",
+      "two-tone",
+      "multi-color"
+    ],
+    "optionLocales": {
+      "outline": {
+        "zh": "线性"
+      },
+      "filled": {
+        "zh": "填充"
+      },
+      "two-tone": {
+        "zh": "双色"
+      },
+      "multi-color": {
+        "zh": "多色"
+      }
+    }
+  },
+  {
+    "name": "strokeColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": false,
+      "values": [
+        "filled",
+        "multi-color"
+      ]
+    },
+    "locale": {
+      "zh": "描边颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "fillColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "multi-color"
+      ]
+    },
+    "locale": {
+      "zh": "填充颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "outerStrokeColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "外部描边颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "outerFillColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "外部填充颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "innerStrokeColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "内部描边颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "innerFillColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "内部填充颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "strokeWidth",
+    "type": "Select",
+    "defaultValue": "4",
+    "locale": {
+      "zh": "线段粗细"
+    },
+    "desc": {
+      "zh": "svg 元素的 stroke-width 属性；对应API的strokeWidth，默认值：4"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "optionLocales": {
+      "1": {
+        "zh": 1
+      },
+      "2": {
+        "zh": 2
+      },
+      "3": {
+        "zh": 3
+      },
+      "4": {
+        "zh": 4
+      }
+    }
+  },
+  {
+    "name": "strokeLinecap",
+    "type": "Select",
+    "defaultValue": null,
+    "locale": {
+      "zh": "端点类型"
+    },
+    "desc": {
+      "zh": "svg 元素的 stroke-linecap 属性；选择 无 则为圆头；对应API的strokeLinecap，默认值：-"
+    },
+    "showDes": true,
+    "optionsEmpty": true,
+    "options": [
+      "butt",
+      "square"
+    ],
+    "optionLocales": {
+      "butt": {
+        "zh": "方头"
+      },
+      "square": {
+        "zh": "平头"
+      }
+    }
+  },
+  {
+    "name": "strokeLinejoin",
+    "type": "Select",
+    "defaultValue": null,
+    "locale": {
+      "zh": "拐点类型"
+    },
+    "desc": {
+      "zh": "svg 元素的 stroke-linejoin 属性；选择 无 则为圆头；对应API的strokeLinejoin，默认值：-"
+    },
+    "showDes": true,
+    "optionsEmpty": true,
+    "options": [
+      "miter",
+      "bevel"
+    ],
+    "optionLocales": {
+      "miter": {
+        "zh": "方头"
+      },
+      "bevel": {
+        "zh": "平头"
+      }
+    }
+  }
+]
