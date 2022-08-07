@@ -1,0 +1,441 @@
+[
+  {
+    "name": "visible",
+    "type": "Boolean",
+    "defaultValue": true,
+    "locale": {
+      "zh": "可见"
+    }
+  },
+  {
+    "name": "name",
+    "type": "Select",
+    "defaultValue": "ElectricDrill",
+    "locale": {
+      "zh": "选择图标"
+    },
+    "desc": {
+      "zh": "对应IconPark官方图标库，默认值：-"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "ElectricDrill",
+      "EngineeringBrand",
+      "EngineeringVehicle",
+      "FireExtinguisherOne",
+      "HammerAndAnvil",
+      "HeaterResistor",
+      "HelmetOne",
+      "IndustrialScales",
+      "Ladder",
+      "LadderOne",
+      "LandSurveying",
+      "LedDiode",
+      "OilIndustry",
+      "Oscillator",
+      "Petrol",
+      "Potentiometer",
+      "Resistor",
+      "RobotTwo",
+      "ScaleOne",
+      "Screwdriver",
+      "SolarEnergyOne",
+      "Spanner",
+      "StackLight",
+      "TapeMeasure",
+      "WindTurbine",
+      "Worker"
+    ],
+    "optionLocales": {
+      "ElectricDrill": {
+        "zh": "电钻"
+      },
+      "EngineeringBrand": {
+        "zh": "工程牌"
+      },
+      "EngineeringVehicle": {
+        "zh": "工程车"
+      },
+      "FireExtinguisherOne": {
+        "zh": "灭火器"
+      },
+      "HammerAndAnvil": {
+        "zh": "铁锤"
+      },
+      "HeaterResistor": {
+        "zh": "加热电阻"
+      },
+      "HelmetOne": {
+        "zh": "安全帽"
+      },
+      "IndustrialScales": {
+        "zh": "电子秤"
+      },
+      "Ladder": {
+        "zh": "梯子"
+      },
+      "LadderOne": {
+        "zh": "梯子1"
+      },
+      "LandSurveying": {
+        "zh": "观测仪"
+      },
+      "LedDiode": {
+        "zh": "发光二极管"
+      },
+      "OilIndustry": {
+        "zh": "工业油漆"
+      },
+      "Oscillator": {
+        "zh": "震荡器"
+      },
+      "Petrol": {
+        "zh": "汽油"
+      },
+      "Potentiometer": {
+        "zh": "电位器"
+      },
+      "Resistor": {
+        "zh": "电阻器"
+      },
+      "RobotTwo": {
+        "zh": "机器人2"
+      },
+      "ScaleOne": {
+        "zh": "测量"
+      },
+      "Screwdriver": {
+        "zh": "螺丝刀"
+      },
+      "SolarEnergyOne": {
+        "zh": "太阳能"
+      },
+      "Spanner": {
+        "zh": "扳手"
+      },
+      "StackLight": {
+        "zh": "堆栈灯"
+      },
+      "TapeMeasure": {
+        "zh": "卷尺"
+      },
+      "WindTurbine": {
+        "zh": "风力发电机"
+      },
+      "Worker": {
+        "zh": "工人"
+      }
+    }
+  },
+  {
+    "name": "size",
+    "type": "Select",
+    "defaultValue": 16,
+    "locale": {
+      "zh": "尺寸"
+    },
+    "desc": {
+      "zh": "图标的宽度和高度；对应API的size，默认值：16"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      10,
+      12,
+      14,
+      16,
+      20,
+      24,
+      28,
+      36,
+      48,
+      64
+    ],
+    "optionLocales": {
+      "10": {
+        "zh": 10
+      },
+      "12": {
+        "zh": 12
+      },
+      "14": {
+        "zh": 14
+      },
+      "16": {
+        "zh": 16
+      },
+      "20": {
+        "zh": 20
+      },
+      "24": {
+        "zh": 24
+      },
+      "28": {
+        "zh": 28
+      },
+      "36": {
+        "zh": 36
+      },
+      "48": {
+        "zh": 48
+      },
+      "64": {
+        "zh": 64
+      }
+    }
+  },
+  {
+    "name": "spin",
+    "type": "Boolean",
+    "defaultValue": false,
+    "locale": {
+      "zh": "旋转"
+    },
+    "desc": {
+      "zh": "图标顺时针匀速旋转；对应API的spin，默认值：false"
+    },
+    "showDes": true
+  },
+  {
+    "name": "theme",
+    "type": "Select",
+    "defaultValue": "outline",
+    "affectPropsShow": true,
+    "locale": {
+      "zh": "图标风格"
+    },
+    "desc": {
+      "zh": "对应API的theme，默认值：outline"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "outline",
+      "filled",
+      "two-tone",
+      "multi-color"
+    ],
+    "optionLocales": {
+      "outline": {
+        "zh": "线性"
+      },
+      "filled": {
+        "zh": "填充"
+      },
+      "two-tone": {
+        "zh": "双色"
+      },
+      "multi-color": {
+        "zh": "多色"
+      }
+    }
+  },
+  {
+    "name": "strokeColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": false,
+      "values": [
+        "filled",
+        "multi-color"
+      ]
+    },
+    "locale": {
+      "zh": "描边颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "fillColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "multi-color"
+      ]
+    },
+    "locale": {
+      "zh": "填充颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "outerStrokeColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "外部描边颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "outerFillColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "外部填充颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "innerStrokeColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "内部描边颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "innerFillColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "内部填充颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "strokeWidth",
+    "type": "Select",
+    "defaultValue": "4",
+    "locale": {
+      "zh": "线段粗细"
+    },
+    "desc": {
+      "zh": "svg 元素的 stroke-width 属性；对应API的strokeWidth，默认值：4"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "optionLocales": {
+      "1": {
+        "zh": 1
+      },
+      "2": {
+        "zh": 2
+      },
+      "3": {
+        "zh": 3
+      },
+      "4": {
+        "zh": 4
+      }
+    }
+  },
+  {
+    "name": "strokeLinecap",
+    "type": "Select",
+    "defaultValue": null,
+    "locale": {
+      "zh": "端点类型"
+    },
+    "desc": {
+      "zh": "svg 元素的 stroke-linecap 属性；选择 无 则为圆头；对应API的strokeLinecap，默认值：-"
+    },
+    "showDes": true,
+    "optionsEmpty": true,
+    "options": [
+      "butt",
+      "square"
+    ],
+    "optionLocales": {
+      "butt": {
+        "zh": "方头"
+      },
+      "square": {
+        "zh": "平头"
+      }
+    }
+  },
+  {
+    "name": "strokeLinejoin",
+    "type": "Select",
+    "defaultValue": null,
+    "locale": {
+      "zh": "拐点类型"
+    },
+    "desc": {
+      "zh": "svg 元素的 stroke-linejoin 属性；选择 无 则为圆头；对应API的strokeLinejoin，默认值：-"
+    },
+    "showDes": true,
+    "optionsEmpty": true,
+    "options": [
+      "miter",
+      "bevel"
+    ],
+    "optionLocales": {
+      "miter": {
+        "zh": "方头"
+      },
+      "bevel": {
+        "zh": "平头"
+      }
+    }
+  }
+]
