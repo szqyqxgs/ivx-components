@@ -1,0 +1,521 @@
+[
+  {
+    "name": "visible",
+    "type": "Boolean",
+    "defaultValue": true,
+    "locale": {
+      "zh": "可见"
+    }
+  },
+  {
+    "name": "name",
+    "type": "Select",
+    "defaultValue": "AfroPick",
+    "locale": {
+      "zh": "选择图标"
+    },
+    "desc": {
+      "zh": "对应IconPark官方图标库，默认值：-"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "AfroPick",
+      "BarberBrush",
+      "BarberClippers",
+      "BeautyInstrument",
+      "Blade",
+      "Comb",
+      "Conditioner",
+      "CosmeticBrush",
+      "EnglishMustache",
+      "Eyebrow",
+      "FacePowder",
+      "FacialCleanser",
+      "Fingernail",
+      "FoundationMakeup",
+      "HairBrush",
+      "HairClip",
+      "HandCream",
+      "Handwashing",
+      "HandwashingFluid",
+      "HealthProducts",
+      "Jewelry",
+      "LipGloss",
+      "LipTattoo",
+      "Lipstick",
+      "LipstickOne",
+      "Lotion",
+      "Makeups",
+      "Mascara",
+      "MassageChair",
+      "MassageChairOne",
+      "MassageTable",
+      "Mirror",
+      "MirrorTwo",
+      "Mouth",
+      "NailPolish",
+      "NailPolishOne",
+      "Paint",
+      "PerfumerBottle",
+      "Razor",
+      "Reel",
+      "Scissors",
+      "ShaverOne",
+      "Shaving",
+      "SoapBubble",
+      "SpaCandle",
+      "StraightRazor"
+    ],
+    "optionLocales": {
+      "AfroPick": {
+        "zh": "发簪"
+      },
+      "BarberBrush": {
+        "zh": "理发器"
+      },
+      "BarberClippers": {
+        "zh": "理发剪"
+      },
+      "BeautyInstrument": {
+        "zh": "美容仪"
+      },
+      "Blade": {
+        "zh": "刀片"
+      },
+      "Comb": {
+        "zh": "梳子"
+      },
+      "Conditioner": {
+        "zh": "护发素"
+      },
+      "CosmeticBrush": {
+        "zh": "化妆刷"
+      },
+      "EnglishMustache": {
+        "zh": "胡子"
+      },
+      "Eyebrow": {
+        "zh": "眼眉"
+      },
+      "FacePowder": {
+        "zh": "脸粉"
+      },
+      "FacialCleanser": {
+        "zh": "洗面奶"
+      },
+      "Fingernail": {
+        "zh": "指甲"
+      },
+      "FoundationMakeup": {
+        "zh": "粉底液"
+      },
+      "HairBrush": {
+        "zh": "发梳"
+      },
+      "HairClip": {
+        "zh": "发夹"
+      },
+      "HandCream": {
+        "zh": "护手霜"
+      },
+      "Handwashing": {
+        "zh": "洗手"
+      },
+      "HandwashingFluid": {
+        "zh": "洗手液"
+      },
+      "HealthProducts": {
+        "zh": "保健品"
+      },
+      "Jewelry": {
+        "zh": "首饰"
+      },
+      "LipGloss": {
+        "zh": "唇彩"
+      },
+      "LipTattoo": {
+        "zh": "唇纹身"
+      },
+      "Lipstick": {
+        "zh": "口红"
+      },
+      "LipstickOne": {
+        "zh": "口红1"
+      },
+      "Lotion": {
+        "zh": "乳液"
+      },
+      "Makeups": {
+        "zh": "美容"
+      },
+      "Mascara": {
+        "zh": "睫毛膏"
+      },
+      "MassageChair": {
+        "zh": "按摩椅"
+      },
+      "MassageChairOne": {
+        "zh": "按摩椅1"
+      },
+      "MassageTable": {
+        "zh": "按摩椅"
+      },
+      "Mirror": {
+        "zh": "镜子"
+      },
+      "MirrorTwo": {
+        "zh": "镜子2"
+      },
+      "Mouth": {
+        "zh": "嘴巴"
+      },
+      "NailPolish": {
+        "zh": "指甲油"
+      },
+      "NailPolishOne": {
+        "zh": "指甲油1"
+      },
+      "Paint": {
+        "zh": "化妆刷"
+      },
+      "PerfumerBottle": {
+        "zh": "香水瓶"
+      },
+      "Razor": {
+        "zh": "剃刀"
+      },
+      "Reel": {
+        "zh": "线轮"
+      },
+      "Scissors": {
+        "zh": "剪刀"
+      },
+      "ShaverOne": {
+        "zh": "剃须刀"
+      },
+      "Shaving": {
+        "zh": "刮胡泡"
+      },
+      "SoapBubble": {
+        "zh": "泡泡"
+      },
+      "SpaCandle": {
+        "zh": "蜡烛沐浴"
+      },
+      "StraightRazor": {
+        "zh": "直剃刀"
+      }
+    }
+  },
+  {
+    "name": "size",
+    "type": "Select",
+    "defaultValue": 16,
+    "locale": {
+      "zh": "尺寸"
+    },
+    "desc": {
+      "zh": "图标的宽度和高度；对应API的size，默认值：16"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      10,
+      12,
+      14,
+      16,
+      20,
+      24,
+      28,
+      36,
+      48,
+      64
+    ],
+    "optionLocales": {
+      "10": {
+        "zh": 10
+      },
+      "12": {
+        "zh": 12
+      },
+      "14": {
+        "zh": 14
+      },
+      "16": {
+        "zh": 16
+      },
+      "20": {
+        "zh": 20
+      },
+      "24": {
+        "zh": 24
+      },
+      "28": {
+        "zh": 28
+      },
+      "36": {
+        "zh": 36
+      },
+      "48": {
+        "zh": 48
+      },
+      "64": {
+        "zh": 64
+      }
+    }
+  },
+  {
+    "name": "spin",
+    "type": "Boolean",
+    "defaultValue": false,
+    "locale": {
+      "zh": "旋转"
+    },
+    "desc": {
+      "zh": "图标顺时针匀速旋转；对应API的spin，默认值：false"
+    },
+    "showDes": true
+  },
+  {
+    "name": "theme",
+    "type": "Select",
+    "defaultValue": "outline",
+    "affectPropsShow": true,
+    "locale": {
+      "zh": "图标风格"
+    },
+    "desc": {
+      "zh": "对应API的theme，默认值：outline"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "outline",
+      "filled",
+      "two-tone",
+      "multi-color"
+    ],
+    "optionLocales": {
+      "outline": {
+        "zh": "线性"
+      },
+      "filled": {
+        "zh": "填充"
+      },
+      "two-tone": {
+        "zh": "双色"
+      },
+      "multi-color": {
+        "zh": "多色"
+      }
+    }
+  },
+  {
+    "name": "strokeColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": false,
+      "values": [
+        "filled",
+        "multi-color"
+      ]
+    },
+    "locale": {
+      "zh": "描边颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "fillColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "multi-color"
+      ]
+    },
+    "locale": {
+      "zh": "填充颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "outerStrokeColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "外部描边颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "outerFillColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "外部填充颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "innerStrokeColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "内部描边颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "innerFillColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "内部填充颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "strokeWidth",
+    "type": "Select",
+    "defaultValue": "4",
+    "locale": {
+      "zh": "线段粗细"
+    },
+    "desc": {
+      "zh": "svg 元素的 stroke-width 属性；对应API的strokeWidth，默认值：4"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "optionLocales": {
+      "1": {
+        "zh": 1
+      },
+      "2": {
+        "zh": 2
+      },
+      "3": {
+        "zh": 3
+      },
+      "4": {
+        "zh": 4
+      }
+    }
+  },
+  {
+    "name": "strokeLinecap",
+    "type": "Select",
+    "defaultValue": null,
+    "locale": {
+      "zh": "端点类型"
+    },
+    "desc": {
+      "zh": "svg 元素的 stroke-linecap 属性；选择 无 则为圆头；对应API的strokeLinecap，默认值：-"
+    },
+    "showDes": true,
+    "optionsEmpty": true,
+    "options": [
+      "butt",
+      "square"
+    ],
+    "optionLocales": {
+      "butt": {
+        "zh": "方头"
+      },
+      "square": {
+        "zh": "平头"
+      }
+    }
+  },
+  {
+    "name": "strokeLinejoin",
+    "type": "Select",
+    "defaultValue": null,
+    "locale": {
+      "zh": "拐点类型"
+    },
+    "desc": {
+      "zh": "svg 元素的 stroke-linejoin 属性；选择 无 则为圆头；对应API的strokeLinejoin，默认值：-"
+    },
+    "showDes": true,
+    "optionsEmpty": true,
+    "options": [
+      "miter",
+      "bevel"
+    ],
+    "optionLocales": {
+      "miter": {
+        "zh": "方头"
+      },
+      "bevel": {
+        "zh": "平头"
+      }
+    }
+  }
+]
