@@ -1,0 +1,821 @@
+[
+  {
+    "name": "visible",
+    "type": "Boolean",
+    "defaultValue": true,
+    "locale": {
+      "zh": "可见"
+    }
+  },
+  {
+    "name": "name",
+    "type": "Select",
+    "defaultValue": "AdProduct",
+    "locale": {
+      "zh": "选择图标"
+    },
+    "desc": {
+      "zh": "对应IconPark官方图标库，默认值：-"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "AdProduct",
+      "ApiApp",
+      "AppSwitch",
+      "ApplicationOne",
+      "Association",
+      "Asterisk",
+      "Badge",
+      "Benz",
+      "BlocksAndArrows",
+      "CategoryManagement",
+      "CircleFiveLine",
+      "CircleFour",
+      "CircleFourLine",
+      "CircleThree",
+      "CircleTwoLine",
+      "CirclesAndTriangles",
+      "CirclesSeven",
+      "CircularConnection",
+      "Cone",
+      "Cones",
+      "ConvergingGateway",
+      "CoordinateSystem",
+      "CrossRing",
+      "CrossRingTwo",
+      "CrownTwo",
+      "Cube",
+      "CubeFive",
+      "CubeFour",
+      "CubeThree",
+      "CubeTwo",
+      "CycleArrow",
+      "CycleOne",
+      "Cylinder",
+      "Display",
+      "Endless",
+      "ErrorPrompt",
+      "ExclusiveGateway",
+      "Export",
+      "ExternalTransmission",
+      "FigmaComponent",
+      "FigmaResetInstance",
+      "FiveEllipses",
+      "FourArrows",
+      "FourLeaves",
+      "FourPointConnection",
+      "FourRoundPointConnection",
+      "GameEmoji",
+      "GeometricFlowers",
+      "GraphicDesign",
+      "GraphicDesignTwo",
+      "GraphicStitching",
+      "GraphicStitchingFour",
+      "GraphicStitchingThree",
+      "Halo",
+      "HexagonStrip",
+      "Hexagonal",
+      "InclusiveGateway",
+      "InternalData",
+      "InternalTransmission",
+      "Keyline",
+      "MisalignedSemicircle",
+      "MultiCircular",
+      "MultiRectangle",
+      "MultiRing",
+      "MultiTriangular",
+      "MultiTriangularFour",
+      "MultiTriangularThree",
+      "MultiTriangularTwo",
+      "MultilayerSphere",
+      "NestedArrows",
+      "NinePointsConnected",
+      "OneThirdRotation",
+      "OpenOne",
+      "Outbound",
+      "OvalLove",
+      "OvalLoveTwo",
+      "ParallelGateway",
+      "ProcessLine",
+      "QuadrangularPyramid",
+      "RectangleTear",
+      "RectangleX",
+      "RectangularCircularConnection",
+      "RectangularCircularSeparation",
+      "RectangularVertebra",
+      "Refraction",
+      "ReverseOperationIn",
+      "ReverseOperationOut",
+      "RightRun",
+      "RoundCaliper",
+      "RoundDistortion",
+      "RoundMask",
+      "RunLeft",
+      "SalesReport",
+      "Seo",
+      "SixCircularConnection",
+      "SixPoints",
+      "SmartOptimization",
+      "Sphere",
+      "SplitBranch",
+      "StereoNesting",
+      "StereoPerspective",
+      "SwitchContrast",
+      "SymbolDoubleX",
+      "Symmetry",
+      "Sync",
+      "TableReport",
+      "Texture",
+      "TextureTwo",
+      "ThreeHexagons",
+      "ThreeSlashes",
+      "ThreeTriangles",
+      "TreasureChest",
+      "TriangleRoundRectangle",
+      "TriangularPyramid",
+      "TwoEllipses",
+      "TwoSemicircles",
+      "TwoTriangles",
+      "TwoTrianglesTwo",
+      "UpdateRotation",
+      "Warehousing",
+      "Whirlwind"
+    ],
+    "optionLocales": {
+      "AdProduct": {
+        "zh": "广告产品"
+      },
+      "ApiApp": {
+        "zh": "API应用"
+      },
+      "AppSwitch": {
+        "zh": "切换"
+      },
+      "ApplicationOne": {
+        "zh": "应用"
+      },
+      "Association": {
+        "zh": "关联"
+      },
+      "Asterisk": {
+        "zh": "星号"
+      },
+      "Badge": {
+        "zh": "徽章提醒"
+      },
+      "Benz": {
+        "zh": "奔驰"
+      },
+      "BlocksAndArrows": {
+        "zh": "模块箭头"
+      },
+      "CategoryManagement": {
+        "zh": "分类管理"
+      },
+      "CircleFiveLine": {
+        "zh": "圆圈"
+      },
+      "CircleFour": {
+        "zh": "圆圈"
+      },
+      "CircleFourLine": {
+        "zh": "圆圈"
+      },
+      "CircleThree": {
+        "zh": "圆圈"
+      },
+      "CircleTwoLine": {
+        "zh": "圆圈"
+      },
+      "CirclesAndTriangles": {
+        "zh": "圆形和三角"
+      },
+      "CirclesSeven": {
+        "zh": "圆圈"
+      },
+      "CircularConnection": {
+        "zh": "圆形连接"
+      },
+      "Cone": {
+        "zh": "圆锥"
+      },
+      "Cones": {
+        "zh": "坐标系"
+      },
+      "ConvergingGateway": {
+        "zh": "汇聚网关"
+      },
+      "CoordinateSystem": {
+        "zh": "坐标系统"
+      },
+      "CrossRing": {
+        "zh": "交叉环"
+      },
+      "CrossRingTwo": {
+        "zh": "魔比斯环"
+      },
+      "CrownTwo": {
+        "zh": "皇冠"
+      },
+      "Cube": {
+        "zh": "魔方"
+      },
+      "CubeFive": {
+        "zh": "魔方"
+      },
+      "CubeFour": {
+        "zh": "魔方"
+      },
+      "CubeThree": {
+        "zh": "魔方"
+      },
+      "CubeTwo": {
+        "zh": "魔方"
+      },
+      "CycleArrow": {
+        "zh": "循环箭头"
+      },
+      "CycleOne": {
+        "zh": "循环"
+      },
+      "Cylinder": {
+        "zh": "圆柱"
+      },
+      "Display": {
+        "zh": "显示屏"
+      },
+      "Endless": {
+        "zh": "无穷尽"
+      },
+      "ErrorPrompt": {
+        "zh": "错误提示"
+      },
+      "ExclusiveGateway": {
+        "zh": "排他网关"
+      },
+      "Export": {
+        "zh": "导出"
+      },
+      "ExternalTransmission": {
+        "zh": "外部传输"
+      },
+      "FigmaComponent": {
+        "zh": "组件"
+      },
+      "FigmaResetInstance": {
+        "zh": "解除组件"
+      },
+      "FiveEllipses": {
+        "zh": "五个椭圆"
+      },
+      "FourArrows": {
+        "zh": "四个箭头"
+      },
+      "FourLeaves": {
+        "zh": "四片叶子"
+      },
+      "FourPointConnection": {
+        "zh": "四点连接"
+      },
+      "FourRoundPointConnection": {
+        "zh": "四点连接"
+      },
+      "GameEmoji": {
+        "zh": "游戏表情"
+      },
+      "GeometricFlowers": {
+        "zh": "几何花"
+      },
+      "GraphicDesign": {
+        "zh": "图形设计"
+      },
+      "GraphicDesignTwo": {
+        "zh": "图形组合"
+      },
+      "GraphicStitching": {
+        "zh": "圆形组合"
+      },
+      "GraphicStitchingFour": {
+        "zh": "圆形组合"
+      },
+      "GraphicStitchingThree": {
+        "zh": "圆形组合"
+      },
+      "Halo": {
+        "zh": "光晕"
+      },
+      "HexagonStrip": {
+        "zh": "六边条"
+      },
+      "Hexagonal": {
+        "zh": "六边立体"
+      },
+      "InclusiveGateway": {
+        "zh": "包容网关"
+      },
+      "InternalData": {
+        "zh": "内部数据"
+      },
+      "InternalTransmission": {
+        "zh": "内部传输"
+      },
+      "Keyline": {
+        "zh": "关键线"
+      },
+      "MisalignedSemicircle": {
+        "zh": "半圆"
+      },
+      "MultiCircular": {
+        "zh": "多圆形"
+      },
+      "MultiRectangle": {
+        "zh": "多方形"
+      },
+      "MultiRing": {
+        "zh": "多圆环"
+      },
+      "MultiTriangular": {
+        "zh": "多三角"
+      },
+      "MultiTriangularFour": {
+        "zh": "多三角"
+      },
+      "MultiTriangularThree": {
+        "zh": "多三角"
+      },
+      "MultiTriangularTwo": {
+        "zh": "多三角"
+      },
+      "MultilayerSphere": {
+        "zh": "多层圆球"
+      },
+      "NestedArrows": {
+        "zh": "嵌套箭头"
+      },
+      "NinePointsConnected": {
+        "zh": "九点连接"
+      },
+      "OneThirdRotation": {
+        "zh": "旋转"
+      },
+      "OpenOne": {
+        "zh": "打开"
+      },
+      "Outbound": {
+        "zh": "出库"
+      },
+      "OvalLove": {
+        "zh": "椭圆爱心"
+      },
+      "OvalLoveTwo": {
+        "zh": "椭圆爱心"
+      },
+      "ParallelGateway": {
+        "zh": "并行网关"
+      },
+      "ProcessLine": {
+        "zh": "纹路"
+      },
+      "QuadrangularPyramid": {
+        "zh": "四棱锥"
+      },
+      "RectangleTear": {
+        "zh": "矩形撕裂"
+      },
+      "RectangleX": {
+        "zh": "大X"
+      },
+      "RectangularCircularConnection": {
+        "zh": "图形连接"
+      },
+      "RectangularCircularSeparation": {
+        "zh": "图形分割"
+      },
+      "RectangularVertebra": {
+        "zh": "矩形椎体"
+      },
+      "Refraction": {
+        "zh": "三角形"
+      },
+      "ReverseOperationIn": {
+        "zh": "同向运行"
+      },
+      "ReverseOperationOut": {
+        "zh": "逆向运行"
+      },
+      "RightRun": {
+        "zh": "右运行"
+      },
+      "RoundCaliper": {
+        "zh": "圆形卡钳"
+      },
+      "RoundDistortion": {
+        "zh": "圆形扭曲"
+      },
+      "RoundMask": {
+        "zh": "圆形遮罩"
+      },
+      "RunLeft": {
+        "zh": "左运行"
+      },
+      "SalesReport": {
+        "zh": "销售"
+      },
+      "Seo": {
+        "zh": "搜索引擎"
+      },
+      "SixCircularConnection": {
+        "zh": "圆形连接"
+      },
+      "SixPoints": {
+        "zh": "六个点"
+      },
+      "SmartOptimization": {
+        "zh": "智能优化"
+      },
+      "Sphere": {
+        "zh": "圆球"
+      },
+      "SplitBranch": {
+        "zh": "分离"
+      },
+      "StereoNesting": {
+        "zh": "嵌套图形"
+      },
+      "StereoPerspective": {
+        "zh": "立体透视"
+      },
+      "SwitchContrast": {
+        "zh": "切换对比"
+      },
+      "SymbolDoubleX": {
+        "zh": "双X符号"
+      },
+      "Symmetry": {
+        "zh": "对称"
+      },
+      "Sync": {
+        "zh": "同步"
+      },
+      "TableReport": {
+        "zh": "报表"
+      },
+      "Texture": {
+        "zh": "纹理"
+      },
+      "TextureTwo": {
+        "zh": "纹理"
+      },
+      "ThreeHexagons": {
+        "zh": "三个菱形"
+      },
+      "ThreeSlashes": {
+        "zh": "三斜杠"
+      },
+      "ThreeTriangles": {
+        "zh": "三个三角"
+      },
+      "TreasureChest": {
+        "zh": "宝箱"
+      },
+      "TriangleRoundRectangle": {
+        "zh": "三角圆矩形"
+      },
+      "TriangularPyramid": {
+        "zh": "三棱锥"
+      },
+      "TwoEllipses": {
+        "zh": "两个椭圆"
+      },
+      "TwoSemicircles": {
+        "zh": "双半圆"
+      },
+      "TwoTriangles": {
+        "zh": "星星"
+      },
+      "TwoTrianglesTwo": {
+        "zh": "两个三角"
+      },
+      "UpdateRotation": {
+        "zh": "更新"
+      },
+      "Warehousing": {
+        "zh": "入库"
+      },
+      "Whirlwind": {
+        "zh": "旋风"
+      }
+    }
+  },
+  {
+    "name": "size",
+    "type": "Select",
+    "defaultValue": 16,
+    "locale": {
+      "zh": "尺寸"
+    },
+    "desc": {
+      "zh": "图标的宽度和高度；对应API的size，默认值：16"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      10,
+      12,
+      14,
+      16,
+      20,
+      24,
+      28,
+      36,
+      48,
+      64
+    ],
+    "optionLocales": {
+      "10": {
+        "zh": 10
+      },
+      "12": {
+        "zh": 12
+      },
+      "14": {
+        "zh": 14
+      },
+      "16": {
+        "zh": 16
+      },
+      "20": {
+        "zh": 20
+      },
+      "24": {
+        "zh": 24
+      },
+      "28": {
+        "zh": 28
+      },
+      "36": {
+        "zh": 36
+      },
+      "48": {
+        "zh": 48
+      },
+      "64": {
+        "zh": 64
+      }
+    }
+  },
+  {
+    "name": "spin",
+    "type": "Boolean",
+    "defaultValue": false,
+    "locale": {
+      "zh": "旋转"
+    },
+    "desc": {
+      "zh": "图标顺时针匀速旋转；对应API的spin，默认值：false"
+    },
+    "showDes": true
+  },
+  {
+    "name": "theme",
+    "type": "Select",
+    "defaultValue": "outline",
+    "affectPropsShow": true,
+    "locale": {
+      "zh": "图标风格"
+    },
+    "desc": {
+      "zh": "对应API的theme，默认值：outline"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "outline",
+      "filled",
+      "two-tone",
+      "multi-color"
+    ],
+    "optionLocales": {
+      "outline": {
+        "zh": "线性"
+      },
+      "filled": {
+        "zh": "填充"
+      },
+      "two-tone": {
+        "zh": "双色"
+      },
+      "multi-color": {
+        "zh": "多色"
+      }
+    }
+  },
+  {
+    "name": "strokeColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": false,
+      "values": [
+        "filled",
+        "multi-color"
+      ]
+    },
+    "locale": {
+      "zh": "描边颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "fillColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "multi-color"
+      ]
+    },
+    "locale": {
+      "zh": "填充颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "outerStrokeColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "外部描边颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "outerFillColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "外部填充颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "innerStrokeColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "内部描边颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "innerFillColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "内部填充颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "strokeWidth",
+    "type": "Select",
+    "defaultValue": "4",
+    "locale": {
+      "zh": "线段粗细"
+    },
+    "desc": {
+      "zh": "svg 元素的 stroke-width 属性；对应API的strokeWidth，默认值：4"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "optionLocales": {
+      "1": {
+        "zh": 1
+      },
+      "2": {
+        "zh": 2
+      },
+      "3": {
+        "zh": 3
+      },
+      "4": {
+        "zh": 4
+      }
+    }
+  },
+  {
+    "name": "strokeLinecap",
+    "type": "Select",
+    "defaultValue": null,
+    "locale": {
+      "zh": "端点类型"
+    },
+    "desc": {
+      "zh": "svg 元素的 stroke-linecap 属性；选择 无 则为圆头；对应API的strokeLinecap，默认值：-"
+    },
+    "showDes": true,
+    "optionsEmpty": true,
+    "options": [
+      "butt",
+      "square"
+    ],
+    "optionLocales": {
+      "butt": {
+        "zh": "方头"
+      },
+      "square": {
+        "zh": "平头"
+      }
+    }
+  },
+  {
+    "name": "strokeLinejoin",
+    "type": "Select",
+    "defaultValue": null,
+    "locale": {
+      "zh": "拐点类型"
+    },
+    "desc": {
+      "zh": "svg 元素的 stroke-linejoin 属性；选择 无 则为圆头；对应API的strokeLinejoin，默认值：-"
+    },
+    "showDes": true,
+    "optionsEmpty": true,
+    "options": [
+      "miter",
+      "bevel"
+    ],
+    "optionLocales": {
+      "miter": {
+        "zh": "方头"
+      },
+      "bevel": {
+        "zh": "平头"
+      }
+    }
+  }
+]
