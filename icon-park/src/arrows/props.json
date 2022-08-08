@@ -1,0 +1,885 @@
+[
+  {
+    "name": "visible",
+    "type": "Boolean",
+    "defaultValue": true,
+    "locale": {
+      "zh": "可见"
+    }
+  },
+  {
+    "name": "name",
+    "type": "Select",
+    "defaultValue": "AfferentFour",
+    "locale": {
+      "zh": "选择图标"
+    },
+    "desc": {
+      "zh": "对应IconPark官方图标库，默认值：-"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "AfferentFour",
+      "AfferentThree",
+      "ArrowCircleDown",
+      "ArrowCircleLeft",
+      "ArrowCircleRight",
+      "ArrowCircleUp",
+      "ArrowDown",
+      "ArrowLeft",
+      "ArrowLeftDown",
+      "ArrowLeftUp",
+      "ArrowRight",
+      "ArrowRightDown",
+      "ArrowRightUp",
+      "ArrowUp",
+      "BackOne",
+      "Change",
+      "CircleDoubleDown",
+      "CircleDoubleLeft",
+      "CircleDoubleRight",
+      "CircleDoubleUp",
+      "CircleLeftDown",
+      "CircleLeftUp",
+      "CircleRightDown",
+      "CircleRightUp",
+      "ClickToFold",
+      "CollapseTextInput",
+      "ConnectionArrow",
+      "CornerDownLeft",
+      "CornerDownRight",
+      "CornerLeftDown",
+      "CornerLeftUp",
+      "CornerRightDown",
+      "CornerRightUp",
+      "CornerUpLeft",
+      "CornerUpRight",
+      "Cycle",
+      "CycleMovement",
+      "DoubleDown",
+      "DoubleLeft",
+      "DoubleRight",
+      "DoubleUp",
+      "Down",
+      "DownC",
+      "DownOne",
+      "DownSmall",
+      "DownSquare",
+      "DownTwo",
+      "Download",
+      "DownloadOne",
+      "DownloadThree",
+      "DownloadTwo",
+      "EfferentFour",
+      "EfferentThree",
+      "ExpandDownOne",
+      "ExpandTextInput",
+      "FigmaFlattenSelection",
+      "FoldUpOne",
+      "FullScreenOne",
+      "FullScreenTwo",
+      "GoAhead",
+      "GoEnd",
+      "GoStart",
+      "Incoming",
+      "Install",
+      "InvertLeft",
+      "InvertRight",
+      "Left",
+      "LeftC",
+      "LeftOne",
+      "LeftSmall",
+      "LeftSmallDown",
+      "LeftSmallUp",
+      "LeftSquare",
+      "LeftTwo",
+      "Login",
+      "Logout",
+      "LoopOnce",
+      "MenuFold",
+      "MenuFoldOne",
+      "MenuUnfold",
+      "MenuUnfoldOne",
+      "MoveIn",
+      "NewAfferent",
+      "NewEfferent",
+      "OffScreenOne",
+      "OffScreenTwo",
+      "Outgoing",
+      "PlayCycle",
+      "PlayOnce",
+      "Recycling",
+      "RecyclingPool",
+      "Redo",
+      "Reject",
+      "Right",
+      "RightC",
+      "RightOne",
+      "RightSmall",
+      "RightSmallDown",
+      "RightSmallUp",
+      "RightSquare",
+      "RightTwo",
+      "Rotate",
+      "RotationHorizontal",
+      "RotationVertical",
+      "Send",
+      "SendOne",
+      "Shuffle",
+      "ShuffleOne",
+      "SlidingHorizontal",
+      "SlidingVertical",
+      "Sort",
+      "SortFour",
+      "SortOne",
+      "SortThree",
+      "SortTwo",
+      "Switch",
+      "ToBottom",
+      "ToBottomOne",
+      "ToLeft",
+      "ToRight",
+      "ToTop",
+      "ToTopOne",
+      "TransferData",
+      "TrendingDown",
+      "TrendingUp",
+      "Undo",
+      "Up",
+      "UpC",
+      "UpOne",
+      "UpSmall",
+      "UpSquare",
+      "UpTwo",
+      "Upload",
+      "UploadOne",
+      "UploadThree",
+      "UploadTwo",
+      "ZoomInternal"
+    ],
+    "optionLocales": {
+      "AfferentFour": {
+        "zh": "传入4"
+      },
+      "AfferentThree": {
+        "zh": "传入3"
+      },
+      "ArrowCircleDown": {
+        "zh": "下-箭头"
+      },
+      "ArrowCircleLeft": {
+        "zh": "左-箭头"
+      },
+      "ArrowCircleRight": {
+        "zh": "右-箭头"
+      },
+      "ArrowCircleUp": {
+        "zh": "上-箭头"
+      },
+      "ArrowDown": {
+        "zh": "箭头下"
+      },
+      "ArrowLeft": {
+        "zh": "箭头左"
+      },
+      "ArrowLeftDown": {
+        "zh": "箭头左下"
+      },
+      "ArrowLeftUp": {
+        "zh": "箭头左上"
+      },
+      "ArrowRight": {
+        "zh": "箭头右"
+      },
+      "ArrowRightDown": {
+        "zh": "箭头右下"
+      },
+      "ArrowRightUp": {
+        "zh": "箭头右上"
+      },
+      "ArrowUp": {
+        "zh": "箭头上"
+      },
+      "BackOne": {
+        "zh": "返回"
+      },
+      "Change": {
+        "zh": "更改"
+      },
+      "CircleDoubleDown": {
+        "zh": "圆形双下箭头"
+      },
+      "CircleDoubleLeft": {
+        "zh": "圆形双左箭头"
+      },
+      "CircleDoubleRight": {
+        "zh": "圆形双右箭头"
+      },
+      "CircleDoubleUp": {
+        "zh": "圆形双上箭头"
+      },
+      "CircleLeftDown": {
+        "zh": "圆形左下"
+      },
+      "CircleLeftUp": {
+        "zh": "圆形左上"
+      },
+      "CircleRightDown": {
+        "zh": "圆形右下"
+      },
+      "CircleRightUp": {
+        "zh": "圆形右上"
+      },
+      "ClickToFold": {
+        "zh": "点击缩起"
+      },
+      "CollapseTextInput": {
+        "zh": "收起文本域"
+      },
+      "ConnectionArrow": {
+        "zh": "连接箭头"
+      },
+      "CornerDownLeft": {
+        "zh": "向下左角"
+      },
+      "CornerDownRight": {
+        "zh": "向下右角"
+      },
+      "CornerLeftDown": {
+        "zh": "左角向下"
+      },
+      "CornerLeftUp": {
+        "zh": "左角向上"
+      },
+      "CornerRightDown": {
+        "zh": "右角向下"
+      },
+      "CornerRightUp": {
+        "zh": "右角向上"
+      },
+      "CornerUpLeft": {
+        "zh": "向上左角"
+      },
+      "CornerUpRight": {
+        "zh": "向上右角"
+      },
+      "Cycle": {
+        "zh": "循环"
+      },
+      "CycleMovement": {
+        "zh": "循环移动"
+      },
+      "DoubleDown": {
+        "zh": "双下"
+      },
+      "DoubleLeft": {
+        "zh": "双左"
+      },
+      "DoubleRight": {
+        "zh": "双右"
+      },
+      "DoubleUp": {
+        "zh": "双上"
+      },
+      "Down": {
+        "zh": "下"
+      },
+      "DownC": {
+        "zh": "下-圆"
+      },
+      "DownOne": {
+        "zh": "下1"
+      },
+      "DownSmall": {
+        "zh": "下-小"
+      },
+      "DownSquare": {
+        "zh": "下箭头-方"
+      },
+      "DownTwo": {
+        "zh": "下1"
+      },
+      "Download": {
+        "zh": "下载"
+      },
+      "DownloadOne": {
+        "zh": "下载1"
+      },
+      "DownloadThree": {
+        "zh": "下载3"
+      },
+      "DownloadTwo": {
+        "zh": "下载2"
+      },
+      "EfferentFour": {
+        "zh": "传出4"
+      },
+      "EfferentThree": {
+        "zh": "传出3"
+      },
+      "ExpandDownOne": {
+        "zh": "向下收起"
+      },
+      "ExpandTextInput": {
+        "zh": "展开文本域"
+      },
+      "FigmaFlattenSelection": {
+        "zh": "Figma选择箭头"
+      },
+      "FoldUpOne": {
+        "zh": "向上收起"
+      },
+      "FullScreenOne": {
+        "zh": "全局放大1"
+      },
+      "FullScreenTwo": {
+        "zh": "全局放大2"
+      },
+      "GoAhead": {
+        "zh": "前进"
+      },
+      "GoEnd": {
+        "zh": "下一曲"
+      },
+      "GoStart": {
+        "zh": "上一曲"
+      },
+      "Incoming": {
+        "zh": "输入"
+      },
+      "Install": {
+        "zh": "安装"
+      },
+      "InvertLeft": {
+        "zh": "左转"
+      },
+      "InvertRight": {
+        "zh": "右转"
+      },
+      "Left": {
+        "zh": "左"
+      },
+      "LeftC": {
+        "zh": "左-圆"
+      },
+      "LeftOne": {
+        "zh": "左1"
+      },
+      "LeftSmall": {
+        "zh": "左-小"
+      },
+      "LeftSmallDown": {
+        "zh": "左下-小"
+      },
+      "LeftSmallUp": {
+        "zh": "左上-小"
+      },
+      "LeftSquare": {
+        "zh": "左箭头-方"
+      },
+      "LeftTwo": {
+        "zh": "左1"
+      },
+      "Login": {
+        "zh": "进入"
+      },
+      "Logout": {
+        "zh": "退出"
+      },
+      "LoopOnce": {
+        "zh": "循环一次"
+      },
+      "MenuFold": {
+        "zh": "收起菜单"
+      },
+      "MenuFoldOne": {
+        "zh": "收起菜单1"
+      },
+      "MenuUnfold": {
+        "zh": "展开菜单"
+      },
+      "MenuUnfoldOne": {
+        "zh": "展开菜单1"
+      },
+      "MoveIn": {
+        "zh": "向内移动"
+      },
+      "NewAfferent": {
+        "zh": "新传入"
+      },
+      "NewEfferent": {
+        "zh": "新传出"
+      },
+      "OffScreenOne": {
+        "zh": "全局缩小1"
+      },
+      "OffScreenTwo": {
+        "zh": "全局缩小2"
+      },
+      "Outgoing": {
+        "zh": "传出"
+      },
+      "PlayCycle": {
+        "zh": "循环播放"
+      },
+      "PlayOnce": {
+        "zh": "播放一次"
+      },
+      "Recycling": {
+        "zh": "可回收"
+      },
+      "RecyclingPool": {
+        "zh": "回收池"
+      },
+      "Redo": {
+        "zh": "重新"
+      },
+      "Reject": {
+        "zh": "驳回"
+      },
+      "Right": {
+        "zh": "右"
+      },
+      "RightC": {
+        "zh": "右-圆"
+      },
+      "RightOne": {
+        "zh": "右1"
+      },
+      "RightSmall": {
+        "zh": "右-小"
+      },
+      "RightSmallDown": {
+        "zh": "右下-小"
+      },
+      "RightSmallUp": {
+        "zh": "右上-小"
+      },
+      "RightSquare": {
+        "zh": "右箭头-方"
+      },
+      "RightTwo": {
+        "zh": "右1"
+      },
+      "Rotate": {
+        "zh": "旋转"
+      },
+      "RotationHorizontal": {
+        "zh": "横向旋转"
+      },
+      "RotationVertical": {
+        "zh": "纵向旋转"
+      },
+      "Send": {
+        "zh": "发送"
+      },
+      "SendOne": {
+        "zh": "发送1"
+      },
+      "Shuffle": {
+        "zh": "洗牌"
+      },
+      "ShuffleOne": {
+        "zh": "洗牌"
+      },
+      "SlidingHorizontal": {
+        "zh": "水平拖动"
+      },
+      "SlidingVertical": {
+        "zh": "垂直拖动"
+      },
+      "Sort": {
+        "zh": "排序"
+      },
+      "SortFour": {
+        "zh": "排序"
+      },
+      "SortOne": {
+        "zh": "排序1"
+      },
+      "SortThree": {
+        "zh": "排序3"
+      },
+      "SortTwo": {
+        "zh": "排序2"
+      },
+      "Switch": {
+        "zh": "切换"
+      },
+      "ToBottom": {
+        "zh": "去底部"
+      },
+      "ToBottomOne": {
+        "zh": "去底部1"
+      },
+      "ToLeft": {
+        "zh": "去左侧"
+      },
+      "ToRight": {
+        "zh": "去右侧"
+      },
+      "ToTop": {
+        "zh": "去顶部"
+      },
+      "ToTopOne": {
+        "zh": "去顶部1"
+      },
+      "TransferData": {
+        "zh": "双向数据互传"
+      },
+      "TrendingDown": {
+        "zh": "趋势下降"
+      },
+      "TrendingUp": {
+        "zh": "趋势上升"
+      },
+      "Undo": {
+        "zh": "撤销"
+      },
+      "Up": {
+        "zh": "上"
+      },
+      "UpC": {
+        "zh": "上-圆"
+      },
+      "UpOne": {
+        "zh": "上1"
+      },
+      "UpSmall": {
+        "zh": "上-小"
+      },
+      "UpSquare": {
+        "zh": "上箭头-方"
+      },
+      "UpTwo": {
+        "zh": "上1"
+      },
+      "Upload": {
+        "zh": "上传"
+      },
+      "UploadOne": {
+        "zh": "上传1"
+      },
+      "UploadThree": {
+        "zh": "上传3"
+      },
+      "UploadTwo": {
+        "zh": "上传2"
+      },
+      "ZoomInternal": {
+        "zh": "缩放"
+      }
+    }
+  },
+  {
+    "name": "size",
+    "type": "Select",
+    "defaultValue": 16,
+    "locale": {
+      "zh": "尺寸"
+    },
+    "desc": {
+      "zh": "图标的宽度和高度；对应API的size，默认值：16"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      10,
+      12,
+      14,
+      16,
+      20,
+      24,
+      28,
+      36,
+      48,
+      64
+    ],
+    "optionLocales": {
+      "10": {
+        "zh": 10
+      },
+      "12": {
+        "zh": 12
+      },
+      "14": {
+        "zh": 14
+      },
+      "16": {
+        "zh": 16
+      },
+      "20": {
+        "zh": 20
+      },
+      "24": {
+        "zh": 24
+      },
+      "28": {
+        "zh": 28
+      },
+      "36": {
+        "zh": 36
+      },
+      "48": {
+        "zh": 48
+      },
+      "64": {
+        "zh": 64
+      }
+    }
+  },
+  {
+    "name": "spin",
+    "type": "Boolean",
+    "defaultValue": false,
+    "locale": {
+      "zh": "旋转"
+    },
+    "desc": {
+      "zh": "图标顺时针匀速旋转；对应API的spin，默认值：false"
+    },
+    "showDes": true
+  },
+  {
+    "name": "theme",
+    "type": "Select",
+    "defaultValue": "outline",
+    "affectPropsShow": true,
+    "locale": {
+      "zh": "图标风格"
+    },
+    "desc": {
+      "zh": "对应API的theme，默认值：outline"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "outline",
+      "filled",
+      "two-tone",
+      "multi-color"
+    ],
+    "optionLocales": {
+      "outline": {
+        "zh": "线性"
+      },
+      "filled": {
+        "zh": "填充"
+      },
+      "two-tone": {
+        "zh": "双色"
+      },
+      "multi-color": {
+        "zh": "多色"
+      }
+    }
+  },
+  {
+    "name": "strokeColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": false,
+      "values": [
+        "filled",
+        "multi-color"
+      ]
+    },
+    "locale": {
+      "zh": "描边颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "fillColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "multi-color"
+      ]
+    },
+    "locale": {
+      "zh": "填充颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "outerStrokeColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "外部描边颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "outerFillColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "外部填充颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "innerStrokeColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "内部描边颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "innerFillColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "内部填充颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "strokeWidth",
+    "type": "Select",
+    "defaultValue": "4",
+    "locale": {
+      "zh": "线段粗细"
+    },
+    "desc": {
+      "zh": "svg 元素的 stroke-width 属性；对应API的strokeWidth，默认值：4"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "optionLocales": {
+      "1": {
+        "zh": 1
+      },
+      "2": {
+        "zh": 2
+      },
+      "3": {
+        "zh": 3
+      },
+      "4": {
+        "zh": 4
+      }
+    }
+  },
+  {
+    "name": "strokeLinecap",
+    "type": "Select",
+    "defaultValue": null,
+    "locale": {
+      "zh": "端点类型"
+    },
+    "desc": {
+      "zh": "svg 元素的 stroke-linecap 属性；选择 无 则为圆头；对应API的strokeLinecap，默认值：-"
+    },
+    "showDes": true,
+    "optionsEmpty": true,
+    "options": [
+      "butt",
+      "square"
+    ],
+    "optionLocales": {
+      "butt": {
+        "zh": "方头"
+      },
+      "square": {
+        "zh": "平头"
+      }
+    }
+  },
+  {
+    "name": "strokeLinejoin",
+    "type": "Select",
+    "defaultValue": null,
+    "locale": {
+      "zh": "拐点类型"
+    },
+    "desc": {
+      "zh": "svg 元素的 stroke-linejoin 属性；选择 无 则为圆头；对应API的strokeLinejoin，默认值：-"
+    },
+    "showDes": true,
+    "optionsEmpty": true,
+    "options": [
+      "miter",
+      "bevel"
+    ],
+    "optionLocales": {
+      "miter": {
+        "zh": "方头"
+      },
+      "bevel": {
+        "zh": "平头"
+      }
+    }
+  }
+]
