@@ -1,0 +1,617 @@
+[
+  {
+    "name": "visible",
+    "type": "Boolean",
+    "defaultValue": true,
+    "locale": {
+      "zh": "可见"
+    }
+  },
+  {
+    "name": "name",
+    "type": "Select",
+    "defaultValue": "Application",
+    "locale": {
+      "zh": "选择图标"
+    },
+    "desc": {
+      "zh": "对应IconPark官方图标库，默认值：-"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "Application",
+      "ArcDeTriomphe",
+      "Booth",
+      "BrdigeThree",
+      "BridgeOne",
+      "BridgeTwo",
+      "BuildingFour",
+      "BuildingOne",
+      "BuildingThree",
+      "BuildingTwo",
+      "Castle",
+      "Chimney",
+      "ChinesePavilion",
+      "ChurchOne",
+      "ChurchTwo",
+      "CircleHouse",
+      "Circus",
+      "City",
+      "CityGate",
+      "CityOne",
+      "ClockTower",
+      "DeathStar",
+      "Dome",
+      "Dubai",
+      "EiffelTower",
+      "Elevator",
+      "Escalators",
+      "FactoryBuilding",
+      "FenceOne",
+      "FenceTwo",
+      "FerrisWheel",
+      "FutureBuildOne",
+      "FutureBuildThree",
+      "FutureBuildTwo",
+      "Garage",
+      "Gate",
+      "GreatWall",
+      "GreenHouse",
+      "HomeTwo",
+      "HospitalTwo",
+      "Hotel",
+      "LightHouse",
+      "Maya",
+      "MonumentOne",
+      "MonumentTwo",
+      "MuseumOne",
+      "MuseumTwo",
+      "NuclearPlant",
+      "OpenDoor",
+      "Pagoda",
+      "Palace",
+      "PearlOfTheOrient",
+      "PhoneBooth",
+      "Prison",
+      "PullDoor",
+      "PushDoor",
+      "Pyramid",
+      "School",
+      "SecurityStall",
+      "Shop",
+      "ShoppingMall",
+      "SignalTowerOne",
+      "SpaceColony",
+      "TajMahal",
+      "Tower",
+      "TowerOfBabel",
+      "TowerOfPisa",
+      "UpAndDown",
+      "WindmillOne",
+      "XiaoduHome"
+    ],
+    "optionLocales": {
+      "Application": {
+        "zh": "应用"
+      },
+      "ArcDeTriomphe": {
+        "zh": "凯旋门"
+      },
+      "Booth": {
+        "zh": "摊位"
+      },
+      "BrdigeThree": {
+        "zh": "桥"
+      },
+      "BridgeOne": {
+        "zh": "桥"
+      },
+      "BridgeTwo": {
+        "zh": "桥"
+      },
+      "BuildingFour": {
+        "zh": "建筑"
+      },
+      "BuildingOne": {
+        "zh": "建筑"
+      },
+      "BuildingThree": {
+        "zh": "建筑"
+      },
+      "BuildingTwo": {
+        "zh": "建筑"
+      },
+      "Castle": {
+        "zh": "城堡"
+      },
+      "Chimney": {
+        "zh": "烟筒"
+      },
+      "ChinesePavilion": {
+        "zh": "中国楼阁"
+      },
+      "ChurchOne": {
+        "zh": "教堂"
+      },
+      "ChurchTwo": {
+        "zh": "教堂"
+      },
+      "CircleHouse": {
+        "zh": "圈舍"
+      },
+      "Circus": {
+        "zh": "马戏团"
+      },
+      "City": {
+        "zh": "城市"
+      },
+      "CityGate": {
+        "zh": "城门"
+      },
+      "CityOne": {
+        "zh": "城市"
+      },
+      "ClockTower": {
+        "zh": "钟楼"
+      },
+      "DeathStar": {
+        "zh": "死亡之星"
+      },
+      "Dome": {
+        "zh": "圆顶"
+      },
+      "Dubai": {
+        "zh": "迪拜大厦"
+      },
+      "EiffelTower": {
+        "zh": "埃菲尔铁塔"
+      },
+      "Elevator": {
+        "zh": "电梯"
+      },
+      "Escalators": {
+        "zh": "手扶电梯"
+      },
+      "FactoryBuilding": {
+        "zh": "工厂"
+      },
+      "FenceOne": {
+        "zh": "栏栅"
+      },
+      "FenceTwo": {
+        "zh": "栏栅"
+      },
+      "FerrisWheel": {
+        "zh": "摩天轮"
+      },
+      "FutureBuildOne": {
+        "zh": "未来大厦"
+      },
+      "FutureBuildThree": {
+        "zh": "未来建筑"
+      },
+      "FutureBuildTwo": {
+        "zh": "未来魔都"
+      },
+      "Garage": {
+        "zh": "车库"
+      },
+      "Gate": {
+        "zh": "大门"
+      },
+      "GreatWall": {
+        "zh": "长城"
+      },
+      "GreenHouse": {
+        "zh": "温室房"
+      },
+      "HomeTwo": {
+        "zh": "首页"
+      },
+      "HospitalTwo": {
+        "zh": "医院"
+      },
+      "Hotel": {
+        "zh": "酒店"
+      },
+      "LightHouse": {
+        "zh": "灯塔"
+      },
+      "Maya": {
+        "zh": "玛雅"
+      },
+      "MonumentOne": {
+        "zh": "纪念碑"
+      },
+      "MonumentTwo": {
+        "zh": "纪念碑"
+      },
+      "MuseumOne": {
+        "zh": "博物馆"
+      },
+      "MuseumTwo": {
+        "zh": "博物馆"
+      },
+      "NuclearPlant": {
+        "zh": "核电厂"
+      },
+      "OpenDoor": {
+        "zh": "开门"
+      },
+      "Pagoda": {
+        "zh": "宝塔"
+      },
+      "Palace": {
+        "zh": "宫殿"
+      },
+      "PearlOfTheOrient": {
+        "zh": "东方明珠"
+      },
+      "PhoneBooth": {
+        "zh": "电话亭"
+      },
+      "Prison": {
+        "zh": "监狱"
+      },
+      "PullDoor": {
+        "zh": "拉门"
+      },
+      "PushDoor": {
+        "zh": "推门"
+      },
+      "Pyramid": {
+        "zh": "金字塔"
+      },
+      "School": {
+        "zh": "学校"
+      },
+      "SecurityStall": {
+        "zh": "安全台"
+      },
+      "Shop": {
+        "zh": "商店"
+      },
+      "ShoppingMall": {
+        "zh": "商圈"
+      },
+      "SignalTowerOne": {
+        "zh": "信号塔"
+      },
+      "SpaceColony": {
+        "zh": "太空殖民地"
+      },
+      "TajMahal": {
+        "zh": "泰姬陵"
+      },
+      "Tower": {
+        "zh": "塔楼"
+      },
+      "TowerOfBabel": {
+        "zh": "风笛塔"
+      },
+      "TowerOfPisa": {
+        "zh": "比萨斜塔"
+      },
+      "UpAndDown": {
+        "zh": "上下楼"
+      },
+      "WindmillOne": {
+        "zh": "风车"
+      },
+      "XiaoduHome": {
+        "zh": "小度在家"
+      }
+    }
+  },
+  {
+    "name": "size",
+    "type": "Select",
+    "defaultValue": 16,
+    "locale": {
+      "zh": "尺寸"
+    },
+    "desc": {
+      "zh": "图标的宽度和高度；对应API的size，默认值：16"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      10,
+      12,
+      14,
+      16,
+      20,
+      24,
+      28,
+      36,
+      48,
+      64
+    ],
+    "optionLocales": {
+      "10": {
+        "zh": 10
+      },
+      "12": {
+        "zh": 12
+      },
+      "14": {
+        "zh": 14
+      },
+      "16": {
+        "zh": 16
+      },
+      "20": {
+        "zh": 20
+      },
+      "24": {
+        "zh": 24
+      },
+      "28": {
+        "zh": 28
+      },
+      "36": {
+        "zh": 36
+      },
+      "48": {
+        "zh": 48
+      },
+      "64": {
+        "zh": 64
+      }
+    }
+  },
+  {
+    "name": "spin",
+    "type": "Boolean",
+    "defaultValue": false,
+    "locale": {
+      "zh": "旋转"
+    },
+    "desc": {
+      "zh": "图标顺时针匀速旋转；对应API的spin，默认值：false"
+    },
+    "showDes": true
+  },
+  {
+    "name": "theme",
+    "type": "Select",
+    "defaultValue": "outline",
+    "affectPropsShow": true,
+    "locale": {
+      "zh": "图标风格"
+    },
+    "desc": {
+      "zh": "对应API的theme，默认值：outline"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "outline",
+      "filled",
+      "two-tone",
+      "multi-color"
+    ],
+    "optionLocales": {
+      "outline": {
+        "zh": "线性"
+      },
+      "filled": {
+        "zh": "填充"
+      },
+      "two-tone": {
+        "zh": "双色"
+      },
+      "multi-color": {
+        "zh": "多色"
+      }
+    }
+  },
+  {
+    "name": "strokeColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": false,
+      "values": [
+        "filled",
+        "multi-color"
+      ]
+    },
+    "locale": {
+      "zh": "描边颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "fillColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "multi-color"
+      ]
+    },
+    "locale": {
+      "zh": "填充颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "outerStrokeColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "外部描边颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "outerFillColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "外部填充颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "innerStrokeColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "内部描边颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "innerFillColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "内部填充颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "strokeWidth",
+    "type": "Select",
+    "defaultValue": "4",
+    "locale": {
+      "zh": "线段粗细"
+    },
+    "desc": {
+      "zh": "svg 元素的 stroke-width 属性；对应API的strokeWidth，默认值：4"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "optionLocales": {
+      "1": {
+        "zh": 1
+      },
+      "2": {
+        "zh": 2
+      },
+      "3": {
+        "zh": 3
+      },
+      "4": {
+        "zh": 4
+      }
+    }
+  },
+  {
+    "name": "strokeLinecap",
+    "type": "Select",
+    "defaultValue": null,
+    "locale": {
+      "zh": "端点类型"
+    },
+    "desc": {
+      "zh": "svg 元素的 stroke-linecap 属性；选择 无 则为圆头；对应API的strokeLinecap，默认值：-"
+    },
+    "showDes": true,
+    "optionsEmpty": true,
+    "options": [
+      "butt",
+      "square"
+    ],
+    "optionLocales": {
+      "butt": {
+        "zh": "方头"
+      },
+      "square": {
+        "zh": "平头"
+      }
+    }
+  },
+  {
+    "name": "strokeLinejoin",
+    "type": "Select",
+    "defaultValue": null,
+    "locale": {
+      "zh": "拐点类型"
+    },
+    "desc": {
+      "zh": "svg 元素的 stroke-linejoin 属性；选择 无 则为圆头；对应API的strokeLinejoin，默认值：-"
+    },
+    "showDes": true,
+    "optionsEmpty": true,
+    "options": [
+      "miter",
+      "bevel"
+    ],
+    "optionLocales": {
+      "miter": {
+        "zh": "方头"
+      },
+      "bevel": {
+        "zh": "平头"
+      }
+    }
+  }
+]
