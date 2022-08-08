@@ -1,0 +1,545 @@
+[
+  {
+    "name": "visible",
+    "type": "Boolean",
+    "defaultValue": true,
+    "locale": {
+      "zh": "可见"
+    }
+  },
+  {
+    "name": "name",
+    "type": "Select",
+    "defaultValue": "Anchor",
+    "locale": {
+      "zh": "选择图标"
+    },
+    "desc": {
+      "zh": "对应IconPark官方图标库，默认值：-"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "Anchor",
+      "AnchorOne",
+      "AnchorRound",
+      "AnchorSqure",
+      "Api",
+      "AppletClosed",
+      "AssemblyLine",
+      "BezierCurve",
+      "Branch",
+      "BranchOne",
+      "BranchTwo",
+      "Clue",
+      "Command",
+      "Connect",
+      "ConnectAddressOne",
+      "ConnectAddressTwo",
+      "Connection",
+      "ConnectionBox",
+      "ConnectionPoint",
+      "ConnectionPointTwo",
+      "Fork",
+      "LeftAndRightBranch",
+      "LeftBranch",
+      "LinkBreak",
+      "LinkCloud",
+      "LinkCloudFaild",
+      "LinkCloudSucess",
+      "LinkFour",
+      "LinkInterrupt",
+      "LinkThree",
+      "LowerBranch",
+      "NetworkTree",
+      "PullRequests",
+      "RelationalGraph",
+      "RightBranch",
+      "RightBranchOne",
+      "RightBranchTwo",
+      "Ring",
+      "RingOne",
+      "STurnDown",
+      "STurnLeft",
+      "STurnRight",
+      "STurnUp",
+      "ShareOne",
+      "SplitTurnDownLeft",
+      "SplitTurnDownRight",
+      "TreeDiagram",
+      "UTurnDown",
+      "UTurnLeft",
+      "UTurnRight",
+      "UTurnUp",
+      "WholeSiteAccelerator"
+    ],
+    "optionLocales": {
+      "Anchor": {
+        "zh": "锚点"
+      },
+      "AnchorOne": {
+        "zh": "锚点"
+      },
+      "AnchorRound": {
+        "zh": "锚轮"
+      },
+      "AnchorSqure": {
+        "zh": "锚方"
+      },
+      "Api": {
+        "zh": "API接口"
+      },
+      "AppletClosed": {
+        "zh": "小程序关闭"
+      },
+      "AssemblyLine": {
+        "zh": "流水线"
+      },
+      "BezierCurve": {
+        "zh": "贝塞尔曲线"
+      },
+      "Branch": {
+        "zh": "分支"
+      },
+      "BranchOne": {
+        "zh": "分支"
+      },
+      "BranchTwo": {
+        "zh": "分支"
+      },
+      "Clue": {
+        "zh": "线索"
+      },
+      "Command": {
+        "zh": "命令键"
+      },
+      "Connect": {
+        "zh": "链接"
+      },
+      "ConnectAddressOne": {
+        "zh": "连接地址1"
+      },
+      "ConnectAddressTwo": {
+        "zh": "连接地址2"
+      },
+      "Connection": {
+        "zh": "连接"
+      },
+      "ConnectionBox": {
+        "zh": "分组"
+      },
+      "ConnectionPoint": {
+        "zh": "连接点"
+      },
+      "ConnectionPointTwo": {
+        "zh": "两点连接"
+      },
+      "Fork": {
+        "zh": "分叉"
+      },
+      "LeftAndRightBranch": {
+        "zh": "左右分支"
+      },
+      "LeftBranch": {
+        "zh": "左分支"
+      },
+      "LinkBreak": {
+        "zh": "断开连接"
+      },
+      "LinkCloud": {
+        "zh": "云运行"
+      },
+      "LinkCloudFaild": {
+        "zh": "云中断"
+      },
+      "LinkCloudSucess": {
+        "zh": "云连接"
+      },
+      "LinkFour": {
+        "zh": "链接4"
+      },
+      "LinkInterrupt": {
+        "zh": "链接中断"
+      },
+      "LinkThree": {
+        "zh": "链接"
+      },
+      "LowerBranch": {
+        "zh": "下分支"
+      },
+      "NetworkTree": {
+        "zh": "网络节点"
+      },
+      "PullRequests": {
+        "zh": "推送请求"
+      },
+      "RelationalGraph": {
+        "zh": "关系链"
+      },
+      "RightBranch": {
+        "zh": "右分支"
+      },
+      "RightBranchOne": {
+        "zh": "右分支1"
+      },
+      "RightBranchTwo": {
+        "zh": "右分支2"
+      },
+      "Ring": {
+        "zh": "圆环"
+      },
+      "RingOne": {
+        "zh": "圆环"
+      },
+      "STurnDown": {
+        "zh": "底部连接"
+      },
+      "STurnLeft": {
+        "zh": "左侧连接"
+      },
+      "STurnRight": {
+        "zh": "右侧连接"
+      },
+      "STurnUp": {
+        "zh": "顶部连接"
+      },
+      "ShareOne": {
+        "zh": "分享"
+      },
+      "SplitTurnDownLeft": {
+        "zh": "左下分支"
+      },
+      "SplitTurnDownRight": {
+        "zh": "有下分支"
+      },
+      "TreeDiagram": {
+        "zh": "树状图"
+      },
+      "UTurnDown": {
+        "zh": "上回转"
+      },
+      "UTurnLeft": {
+        "zh": "右回转"
+      },
+      "UTurnRight": {
+        "zh": "左回转"
+      },
+      "UTurnUp": {
+        "zh": "下回转"
+      },
+      "WholeSiteAccelerator": {
+        "zh": "站点加速"
+      }
+    }
+  },
+  {
+    "name": "size",
+    "type": "Select",
+    "defaultValue": 16,
+    "locale": {
+      "zh": "尺寸"
+    },
+    "desc": {
+      "zh": "图标的宽度和高度；对应API的size，默认值：16"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      10,
+      12,
+      14,
+      16,
+      20,
+      24,
+      28,
+      36,
+      48,
+      64
+    ],
+    "optionLocales": {
+      "10": {
+        "zh": 10
+      },
+      "12": {
+        "zh": 12
+      },
+      "14": {
+        "zh": 14
+      },
+      "16": {
+        "zh": 16
+      },
+      "20": {
+        "zh": 20
+      },
+      "24": {
+        "zh": 24
+      },
+      "28": {
+        "zh": 28
+      },
+      "36": {
+        "zh": 36
+      },
+      "48": {
+        "zh": 48
+      },
+      "64": {
+        "zh": 64
+      }
+    }
+  },
+  {
+    "name": "spin",
+    "type": "Boolean",
+    "defaultValue": false,
+    "locale": {
+      "zh": "旋转"
+    },
+    "desc": {
+      "zh": "图标顺时针匀速旋转；对应API的spin，默认值：false"
+    },
+    "showDes": true
+  },
+  {
+    "name": "theme",
+    "type": "Select",
+    "defaultValue": "outline",
+    "affectPropsShow": true,
+    "locale": {
+      "zh": "图标风格"
+    },
+    "desc": {
+      "zh": "对应API的theme，默认值：outline"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "outline",
+      "filled",
+      "two-tone",
+      "multi-color"
+    ],
+    "optionLocales": {
+      "outline": {
+        "zh": "线性"
+      },
+      "filled": {
+        "zh": "填充"
+      },
+      "two-tone": {
+        "zh": "双色"
+      },
+      "multi-color": {
+        "zh": "多色"
+      }
+    }
+  },
+  {
+    "name": "strokeColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": false,
+      "values": [
+        "filled",
+        "multi-color"
+      ]
+    },
+    "locale": {
+      "zh": "描边颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "fillColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "multi-color"
+      ]
+    },
+    "locale": {
+      "zh": "填充颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "outerStrokeColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "外部描边颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "outerFillColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "外部填充颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "innerStrokeColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "内部描边颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "innerFillColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "内部填充颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "strokeWidth",
+    "type": "Select",
+    "defaultValue": "4",
+    "locale": {
+      "zh": "线段粗细"
+    },
+    "desc": {
+      "zh": "svg 元素的 stroke-width 属性；对应API的strokeWidth，默认值：4"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "optionLocales": {
+      "1": {
+        "zh": 1
+      },
+      "2": {
+        "zh": 2
+      },
+      "3": {
+        "zh": 3
+      },
+      "4": {
+        "zh": 4
+      }
+    }
+  },
+  {
+    "name": "strokeLinecap",
+    "type": "Select",
+    "defaultValue": null,
+    "locale": {
+      "zh": "端点类型"
+    },
+    "desc": {
+      "zh": "svg 元素的 stroke-linecap 属性；选择 无 则为圆头；对应API的strokeLinecap，默认值：-"
+    },
+    "showDes": true,
+    "optionsEmpty": true,
+    "options": [
+      "butt",
+      "square"
+    ],
+    "optionLocales": {
+      "butt": {
+        "zh": "方头"
+      },
+      "square": {
+        "zh": "平头"
+      }
+    }
+  },
+  {
+    "name": "strokeLinejoin",
+    "type": "Select",
+    "defaultValue": null,
+    "locale": {
+      "zh": "拐点类型"
+    },
+    "desc": {
+      "zh": "svg 元素的 stroke-linejoin 属性；选择 无 则为圆头；对应API的strokeLinejoin，默认值：-"
+    },
+    "showDes": true,
+    "optionsEmpty": true,
+    "options": [
+      "miter",
+      "bevel"
+    ],
+    "optionLocales": {
+      "miter": {
+        "zh": "方头"
+      },
+      "bevel": {
+        "zh": "平头"
+      }
+    }
+  }
+]
