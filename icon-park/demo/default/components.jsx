@@ -1,8 +1,7 @@
 import React from 'react'
-import {aaa} from '@icon-park/react'
 import '@icon-park/react/styles/index.css'
 
-export default class IconParkaaa extends React.Component {
+export default class IconPark extends React.Component {
 
     // 绑定事件和方法
     constructor(props) {
@@ -124,7 +123,7 @@ export default class IconParkaaa extends React.Component {
 }
 
 // 默认属性
-IconParkaaa.defaultProps = {
+IconPark.defaultProps = {
     visible: true,
     name: 'aaa',
     size: '16',
