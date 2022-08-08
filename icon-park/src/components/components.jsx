@@ -1,8 +1,8 @@
 import React from 'react'
-import {aaa} from '@icon-park/react'
+import {Carousel, Checklist, Page, PageTemplate, Platte, SwitchButton, TableFile, TreeList} from '@icon-park/react'
 import '@icon-park/react/styles/index.css'
 
-export default class IconPark extends React.Component {
+export default class IconParkComponents extends React.Component {
 
     // 绑定事件和方法
     constructor(props) {
@@ -78,39 +78,34 @@ export default class IconPark extends React.Component {
     icon() {
         let {name, size, spin, theme, strokeWidth, strokeLinejoin, strokeLinecap} = this.props
         switch (name) {
-            case 'aaa':
-                return <aaa size={size} spin={spin} theme={theme} fill={this.fill(theme)} strokeWidth={strokeWidth}
-                            strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
-            case 'aaa':
-                return <aaa size={size} spin={spin} theme={theme} fill={this.fill(theme)} strokeWidth={strokeWidth}
-                            strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
-            case 'aaa':
-                return <aaa size={size} spin={spin} theme={theme} fill={this.fill(theme)} strokeWidth={strokeWidth}
-                            strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
-            case 'aaa':
-                return <aaa size={size} spin={spin} theme={theme} fill={this.fill(theme)} strokeWidth={strokeWidth}
-                            strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
-            case 'aaa':
-                return <aaa size={size} spin={spin} theme={theme} fill={this.fill(theme)} strokeWidth={strokeWidth}
-                            strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
-            case 'aaa':
-                return <aaa size={size} spin={spin} theme={theme} fill={this.fill(theme)} strokeWidth={strokeWidth}
-                            strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
-            case 'aaa':
-                return <aaa size={size} spin={spin} theme={theme} fill={this.fill(theme)} strokeWidth={strokeWidth}
-                            strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
-            case 'aaa':
-                return <aaa size={size} spin={spin} theme={theme} fill={this.fill(theme)} strokeWidth={strokeWidth}
-                            strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
-            case 'aaa':
-                return <aaa size={size} spin={spin} theme={theme} fill={this.fill(theme)} strokeWidth={strokeWidth}
-                            strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
-            case 'aaa':
-                return <aaa size={size} spin={spin} theme={theme} fill={this.fill(theme)} strokeWidth={strokeWidth}
-                            strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
-            case 'aaa':
-                return <aaa size={size} spin={spin} theme={theme} fill={this.fill(theme)} strokeWidth={strokeWidth}
-                            strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
+            case 'Carousel':
+                return <Carousel size={size} spin={spin} theme={theme} fill={this.fill(theme)} strokeWidth={strokeWidth}
+                                 strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
+            case 'Checklist':
+                return <Checklist size={size} spin={spin} theme={theme} fill={this.fill(theme)}
+                                  strokeWidth={strokeWidth}
+                                  strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
+            case 'Page':
+                return <Page size={size} spin={spin} theme={theme} fill={this.fill(theme)} strokeWidth={strokeWidth}
+                             strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
+            case 'PageTemplate':
+                return <PageTemplate size={size} spin={spin} theme={theme} fill={this.fill(theme)}
+                                     strokeWidth={strokeWidth}
+                                     strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
+            case 'Platte':
+                return <Platte size={size} spin={spin} theme={theme} fill={this.fill(theme)} strokeWidth={strokeWidth}
+                               strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
+            case 'SwitchButton':
+                return <SwitchButton size={size} spin={spin} theme={theme} fill={this.fill(theme)}
+                                     strokeWidth={strokeWidth}
+                                     strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
+            case 'TableFile':
+                return <TableFile size={size} spin={spin} theme={theme} fill={this.fill(theme)}
+                                  strokeWidth={strokeWidth}
+                                  strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
+            case 'TreeList':
+                return <TreeList size={size} spin={spin} theme={theme} fill={this.fill(theme)} strokeWidth={strokeWidth}
+                                 strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
             default:
                 return
         }
@@ -124,9 +119,9 @@ export default class IconPark extends React.Component {
 }
 
 // 默认属性
-IconPark.defaultProps = {
+IconParkComponents.defaultProps = {
     visible: true,
-    name: 'aaa',
+    name: 'Carousel',
     size: '16',
     spin: false,
     theme: 'outline',
