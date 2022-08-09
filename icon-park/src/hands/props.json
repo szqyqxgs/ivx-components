@@ -1,0 +1,601 @@
+[
+  {
+    "name": "visible",
+    "type": "Boolean",
+    "defaultValue": true,
+    "locale": {
+      "zh": "可见"
+    }
+  },
+  {
+    "name": "name",
+    "type": "Select",
+    "defaultValue": "Bad",
+    "locale": {
+      "zh": "选择图标"
+    },
+    "desc": {
+      "zh": "对应IconPark官方图标库，默认值：-"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "Bad",
+      "BadOne",
+      "BadTwo",
+      "Bless",
+      "Bye",
+      "Clap",
+      "ClickTap",
+      "ClickTapTwo",
+      "Come",
+      "ConceptSharing",
+      "Cool",
+      "Delivery",
+      "Easy",
+      "Empty",
+      "Fingerprint",
+      "FingerprintThree",
+      "FingerprintTwo",
+      "First",
+      "Fist",
+      "Five",
+      "FiveFive",
+      "Flirt",
+      "Four",
+      "FourFour",
+      "Good",
+      "GoodOne",
+      "GoodTwo",
+      "HandDown",
+      "HandDrag",
+      "HandLeft",
+      "HandRight",
+      "HandUp",
+      "Hi",
+      "Hold",
+      "HoldInterface",
+      "HoldSeeds",
+      "IndexFinger",
+      "MayuraGesture",
+      "MiddleFinger",
+      "Move",
+      "Okay",
+      "One",
+      "OneOne",
+      "Open",
+      "Palm",
+      "Point",
+      "PointOut",
+      "Press",
+      "Reload",
+      "Respect",
+      "Rock",
+      "RockGesture",
+      "Six",
+      "SpiderMan",
+      "Swing",
+      "Three",
+      "ThreeThree",
+      "ThumbsDown",
+      "ThumbsUp",
+      "TurnOn",
+      "Two",
+      "TwoFingers",
+      "TwoHands",
+      "TwoTwo",
+      "Yep",
+      "Zoom"
+    ],
+    "optionLocales": {
+      "Bad": {
+        "zh": "坏的"
+      },
+      "BadOne": {
+        "zh": "差劲"
+      },
+      "BadTwo": {
+        "zh": "踩"
+      },
+      "Bless": {
+        "zh": "保佑"
+      },
+      "Bye": {
+        "zh": "拜拜"
+      },
+      "Clap": {
+        "zh": "鼓掌"
+      },
+      "ClickTap": {
+        "zh": "点击"
+      },
+      "ClickTapTwo": {
+        "zh": "点击"
+      },
+      "Come": {
+        "zh": "招引"
+      },
+      "ConceptSharing": {
+        "zh": "理念共享"
+      },
+      "Cool": {
+        "zh": "酷的"
+      },
+      "Delivery": {
+        "zh": "交货"
+      },
+      "Easy": {
+        "zh": "简单"
+      },
+      "Empty": {
+        "zh": "空手"
+      },
+      "Fingerprint": {
+        "zh": "指纹"
+      },
+      "FingerprintThree": {
+        "zh": "指纹"
+      },
+      "FingerprintTwo": {
+        "zh": "指纹"
+      },
+      "First": {
+        "zh": "第一"
+      },
+      "Fist": {
+        "zh": "拳头"
+      },
+      "Five": {
+        "zh": "五"
+      },
+      "FiveFive": {
+        "zh": "五"
+      },
+      "Flirt": {
+        "zh": "勾引"
+      },
+      "Four": {
+        "zh": "四"
+      },
+      "FourFour": {
+        "zh": "四"
+      },
+      "Good": {
+        "zh": "好的"
+      },
+      "GoodOne": {
+        "zh": "优秀"
+      },
+      "GoodTwo": {
+        "zh": "赞"
+      },
+      "HandDown": {
+        "zh": "向下指"
+      },
+      "HandDrag": {
+        "zh": "手指拖动"
+      },
+      "HandLeft": {
+        "zh": "向左指"
+      },
+      "HandRight": {
+        "zh": "向右指"
+      },
+      "HandUp": {
+        "zh": "向上指"
+      },
+      "Hi": {
+        "zh": "打招呼"
+      },
+      "Hold": {
+        "zh": "承接"
+      },
+      "HoldInterface": {
+        "zh": "托起"
+      },
+      "HoldSeeds": {
+        "zh": "孕育"
+      },
+      "IndexFinger": {
+        "zh": "食指"
+      },
+      "MayuraGesture": {
+        "zh": "马尤拉手势"
+      },
+      "MiddleFinger": {
+        "zh": "中指"
+      },
+      "Move": {
+        "zh": "移动"
+      },
+      "Okay": {
+        "zh": "认可"
+      },
+      "One": {
+        "zh": "一"
+      },
+      "OneOne": {
+        "zh": "一"
+      },
+      "Open": {
+        "zh": "打开"
+      },
+      "Palm": {
+        "zh": "手掌"
+      },
+      "Point": {
+        "zh": "指向"
+      },
+      "PointOut": {
+        "zh": "指出"
+      },
+      "Press": {
+        "zh": "点击"
+      },
+      "Reload": {
+        "zh": "重装"
+      },
+      "Respect": {
+        "zh": "抱拳"
+      },
+      "Rock": {
+        "zh": "摇滚指"
+      },
+      "RockGesture": {
+        "zh": "摇滚手势"
+      },
+      "Six": {
+        "zh": "六"
+      },
+      "SpiderMan": {
+        "zh": "弹指"
+      },
+      "Swing": {
+        "zh": "招手"
+      },
+      "Three": {
+        "zh": "三"
+      },
+      "ThreeThree": {
+        "zh": "三"
+      },
+      "ThumbsDown": {
+        "zh": "踩"
+      },
+      "ThumbsUp": {
+        "zh": "赞"
+      },
+      "TurnOn": {
+        "zh": "打开"
+      },
+      "Two": {
+        "zh": "二"
+      },
+      "TwoFingers": {
+        "zh": "两个手指"
+      },
+      "TwoHands": {
+        "zh": "两只手"
+      },
+      "TwoTwo": {
+        "zh": "二"
+      },
+      "Yep": {
+        "zh": "胜利"
+      },
+      "Zoom": {
+        "zh": "放大"
+      }
+    }
+  },
+  {
+    "name": "size",
+    "type": "Select",
+    "defaultValue": 16,
+    "locale": {
+      "zh": "尺寸"
+    },
+    "desc": {
+      "zh": "图标的宽度和高度；对应API的size，默认值：16"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      10,
+      12,
+      14,
+      16,
+      20,
+      24,
+      28,
+      36,
+      48,
+      64
+    ],
+    "optionLocales": {
+      "10": {
+        "zh": 10
+      },
+      "12": {
+        "zh": 12
+      },
+      "14": {
+        "zh": 14
+      },
+      "16": {
+        "zh": 16
+      },
+      "20": {
+        "zh": 20
+      },
+      "24": {
+        "zh": 24
+      },
+      "28": {
+        "zh": 28
+      },
+      "36": {
+        "zh": 36
+      },
+      "48": {
+        "zh": 48
+      },
+      "64": {
+        "zh": 64
+      }
+    }
+  },
+  {
+    "name": "spin",
+    "type": "Boolean",
+    "defaultValue": false,
+    "locale": {
+      "zh": "旋转"
+    },
+    "desc": {
+      "zh": "图标顺时针匀速旋转；对应API的spin，默认值：false"
+    },
+    "showDes": true
+  },
+  {
+    "name": "theme",
+    "type": "Select",
+    "defaultValue": "outline",
+    "affectPropsShow": true,
+    "locale": {
+      "zh": "图标风格"
+    },
+    "desc": {
+      "zh": "对应API的theme，默认值：outline"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "outline",
+      "filled",
+      "two-tone",
+      "multi-color"
+    ],
+    "optionLocales": {
+      "outline": {
+        "zh": "线性"
+      },
+      "filled": {
+        "zh": "填充"
+      },
+      "two-tone": {
+        "zh": "双色"
+      },
+      "multi-color": {
+        "zh": "多色"
+      }
+    }
+  },
+  {
+    "name": "strokeColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": false,
+      "values": [
+        "filled",
+        "multi-color"
+      ]
+    },
+    "locale": {
+      "zh": "描边颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "fillColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "multi-color"
+      ]
+    },
+    "locale": {
+      "zh": "填充颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "outerStrokeColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "外部描边颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "outerFillColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "外部填充颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "innerStrokeColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "内部描边颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "innerFillColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "内部填充颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "strokeWidth",
+    "type": "Select",
+    "defaultValue": "4",
+    "locale": {
+      "zh": "线段粗细"
+    },
+    "desc": {
+      "zh": "svg 元素的 stroke-width 属性；对应API的strokeWidth，默认值：4"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "optionLocales": {
+      "1": {
+        "zh": 1
+      },
+      "2": {
+        "zh": 2
+      },
+      "3": {
+        "zh": 3
+      },
+      "4": {
+        "zh": 4
+      }
+    }
+  },
+  {
+    "name": "strokeLinecap",
+    "type": "Select",
+    "defaultValue": null,
+    "locale": {
+      "zh": "端点类型"
+    },
+    "desc": {
+      "zh": "svg 元素的 stroke-linecap 属性；选择 无 则为圆头；对应API的strokeLinecap，默认值：-"
+    },
+    "showDes": true,
+    "optionsEmpty": true,
+    "options": [
+      "butt",
+      "square"
+    ],
+    "optionLocales": {
+      "butt": {
+        "zh": "方头"
+      },
+      "square": {
+        "zh": "平头"
+      }
+    }
+  },
+  {
+    "name": "strokeLinejoin",
+    "type": "Select",
+    "defaultValue": null,
+    "locale": {
+      "zh": "拐点类型"
+    },
+    "desc": {
+      "zh": "svg 元素的 stroke-linejoin 属性；选择 无 则为圆头；对应API的strokeLinejoin，默认值：-"
+    },
+    "showDes": true,
+    "optionsEmpty": true,
+    "options": [
+      "miter",
+      "bevel"
+    ],
+    "optionLocales": {
+      "miter": {
+        "zh": "方头"
+      },
+      "bevel": {
+        "zh": "平头"
+      }
+    }
+  }
+]
