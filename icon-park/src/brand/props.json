@@ -1,0 +1,669 @@
+[
+  {
+    "name": "visible",
+    "type": "Boolean",
+    "defaultValue": true,
+    "locale": {
+      "zh": "可见"
+    }
+  },
+  {
+    "name": "name",
+    "type": "Select",
+    "defaultValue": "AdobeIllustrate",
+    "locale": {
+      "zh": "选择图标"
+    },
+    "desc": {
+      "zh": "对应IconPark官方图标库，默认值：-"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "AdobeIllustrate",
+      "AdobeIndesign",
+      "AdobeLightroom",
+      "AdobePhotoshop",
+      "Alipay",
+      "Android",
+      "AppStore",
+      "Apple",
+      "Behance",
+      "BrowserChrome",
+      "BrowserSafari",
+      "Bydesign",
+      "Bytedance",
+      "Cc",
+      "Customer",
+      "Dianziqian",
+      "Dongchedi",
+      "Dribble",
+      "Dropbox",
+      "Facebook",
+      "FacebookOne",
+      "Facetime",
+      "Faceu",
+      "Fanqiexiaoshuo",
+      "Feelgood",
+      "FeelgoodOne",
+      "Feiyu",
+      "Figma",
+      "Foursquare",
+      "FriendsCircle",
+      "Github",
+      "GithubOne",
+      "Gitlab",
+      "Google",
+      "GoogleAds",
+      "Health",
+      "HtmlFive",
+      "Huoshanzhibo",
+      "Instagram",
+      "InstagramOne",
+      "Jinritoutiao",
+      "Lark",
+      "LarkOne",
+      "Lincoln",
+      "MaillOne",
+      "Market",
+      "Mediaeditor",
+      "Messages",
+      "MessagesOne",
+      "Mitsubishi",
+      "NewDianziqian",
+      "NewLark",
+      "Oceanengine",
+      "OrangeStation",
+      "Pangle",
+      "Paypal",
+      "PhoneTwo",
+      "QingniaoClue",
+      "Qiyehao",
+      "Renault",
+      "Sketch",
+      "StarOne",
+      "Taobao",
+      "Telegram",
+      "TencentQq",
+      "Tiktok",
+      "Topbuzz",
+      "Tuchong",
+      "Tumblr",
+      "Twitter",
+      "Ulikecam",
+      "Vigo",
+      "Volkswagen",
+      "Wechat",
+      "Weibo",
+      "Windows",
+      "Xiaodu",
+      "Xigua",
+      "Xingfuli",
+      "Xingtu",
+      "Youtobe",
+      "Youtube",
+      "Zijinyunying"
+    ],
+    "optionLocales": {
+      "AdobeIllustrate": {
+        "zh": "adobe-illustrate"
+      },
+      "AdobeIndesign": {
+        "zh": "Adobe-indesign"
+      },
+      "AdobeLightroom": {
+        "zh": "Adobe-lightroom"
+      },
+      "AdobePhotoshop": {
+        "zh": "Adobe-photoshop"
+      },
+      "Alipay": {
+        "zh": "支付宝"
+      },
+      "Android": {
+        "zh": "安卓"
+      },
+      "AppStore": {
+        "zh": "应用商店"
+      },
+      "Apple": {
+        "zh": "苹果"
+      },
+      "Behance": {
+        "zh": "behance"
+      },
+      "BrowserChrome": {
+        "zh": "浏览器"
+      },
+      "BrowserSafari": {
+        "zh": "浏览器-safari"
+      },
+      "Bydesign": {
+        "zh": "字节设计"
+      },
+      "Bytedance": {
+        "zh": "字节跳动"
+      },
+      "Cc": {
+        "zh": "巨量创意"
+      },
+      "Customer": {
+        "zh": "小六客服"
+      },
+      "Dianziqian": {
+        "zh": "电子签"
+      },
+      "Dongchedi": {
+        "zh": "懂车帝"
+      },
+      "Dribble": {
+        "zh": "追波"
+      },
+      "Dropbox": {
+        "zh": "管理箱"
+      },
+      "Facebook": {
+        "zh": "脸书"
+      },
+      "FacebookOne": {
+        "zh": "脸书"
+      },
+      "Facetime": {
+        "zh": "视频电话"
+      },
+      "Faceu": {
+        "zh": "激萌"
+      },
+      "Fanqiexiaoshuo": {
+        "zh": "番茄小说"
+      },
+      "Feelgood": {
+        "zh": "feelgood"
+      },
+      "FeelgoodOne": {
+        "zh": "feelgood1"
+      },
+      "Feiyu": {
+        "zh": "飞鱼CRM"
+      },
+      "Figma": {
+        "zh": "figma"
+      },
+      "Foursquare": {
+        "zh": "foursquare"
+      },
+      "FriendsCircle": {
+        "zh": "朋友圈"
+      },
+      "Github": {
+        "zh": "github"
+      },
+      "GithubOne": {
+        "zh": "github-one"
+      },
+      "Gitlab": {
+        "zh": "gitlab"
+      },
+      "Google": {
+        "zh": "谷歌"
+      },
+      "GoogleAds": {
+        "zh": "谷歌广告"
+      },
+      "Health": {
+        "zh": "健康"
+      },
+      "HtmlFive": {
+        "zh": "html5"
+      },
+      "Huoshanzhibo": {
+        "zh": "抖音火山"
+      },
+      "Instagram": {
+        "zh": "instagram"
+      },
+      "InstagramOne": {
+        "zh": "instagram"
+      },
+      "Jinritoutiao": {
+        "zh": "今日头条"
+      },
+      "Lark": {
+        "zh": "飞书"
+      },
+      "LarkOne": {
+        "zh": "飞书1"
+      },
+      "Lincoln": {
+        "zh": "林肯"
+      },
+      "MaillOne": {
+        "zh": "邮件1"
+      },
+      "Market": {
+        "zh": "易拍"
+      },
+      "Mediaeditor": {
+        "zh": "剪映"
+      },
+      "Messages": {
+        "zh": "短信"
+      },
+      "MessagesOne": {
+        "zh": "短信1"
+      },
+      "Mitsubishi": {
+        "zh": "三菱"
+      },
+      "NewDianziqian": {
+        "zh": "电子签-新"
+      },
+      "NewLark": {
+        "zh": "飞书-新"
+      },
+      "Oceanengine": {
+        "zh": "巨量引擎"
+      },
+      "OrangeStation": {
+        "zh": "橙子建站"
+      },
+      "Pangle": {
+        "zh": "穿山甲"
+      },
+      "Paypal": {
+        "zh": "paypal"
+      },
+      "PhoneTwo": {
+        "zh": "电话2"
+      },
+      "QingniaoClue": {
+        "zh": "青岛线索通"
+      },
+      "Qiyehao": {
+        "zh": "企业号"
+      },
+      "Renault": {
+        "zh": "雷诺"
+      },
+      "Sketch": {
+        "zh": "sketch"
+      },
+      "StarOne": {
+        "zh": "星星"
+      },
+      "Taobao": {
+        "zh": "淘宝"
+      },
+      "Telegram": {
+        "zh": "Telegram"
+      },
+      "TencentQq": {
+        "zh": "QQ"
+      },
+      "Tiktok": {
+        "zh": "抖音"
+      },
+      "Topbuzz": {
+        "zh": "topbuzz"
+      },
+      "Tuchong": {
+        "zh": "图虫"
+      },
+      "Tumblr": {
+        "zh": "tumblr"
+      },
+      "Twitter": {
+        "zh": "推特"
+      },
+      "Ulikecam": {
+        "zh": "轻颜相机"
+      },
+      "Vigo": {
+        "zh": "火山小视频"
+      },
+      "Volkswagen": {
+        "zh": "大众"
+      },
+      "Wechat": {
+        "zh": "微信"
+      },
+      "Weibo": {
+        "zh": "微博"
+      },
+      "Windows": {
+        "zh": "微软视窗"
+      },
+      "Xiaodu": {
+        "zh": "小度"
+      },
+      "Xigua": {
+        "zh": "西瓜视频"
+      },
+      "Xingfuli": {
+        "zh": "幸福里"
+      },
+      "Xingtu": {
+        "zh": "星图"
+      },
+      "Youtobe": {
+        "zh": "油管"
+      },
+      "Youtube": {
+        "zh": "优兔"
+      },
+      "Zijinyunying": {
+        "zh": "资金运营平台"
+      }
+    }
+  },
+  {
+    "name": "size",
+    "type": "Select",
+    "defaultValue": 16,
+    "locale": {
+      "zh": "尺寸"
+    },
+    "desc": {
+      "zh": "图标的宽度和高度；对应API的size，默认值：16"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      10,
+      12,
+      14,
+      16,
+      20,
+      24,
+      28,
+      36,
+      48,
+      64
+    ],
+    "optionLocales": {
+      "10": {
+        "zh": 10
+      },
+      "12": {
+        "zh": 12
+      },
+      "14": {
+        "zh": 14
+      },
+      "16": {
+        "zh": 16
+      },
+      "20": {
+        "zh": 20
+      },
+      "24": {
+        "zh": 24
+      },
+      "28": {
+        "zh": 28
+      },
+      "36": {
+        "zh": 36
+      },
+      "48": {
+        "zh": 48
+      },
+      "64": {
+        "zh": 64
+      }
+    }
+  },
+  {
+    "name": "spin",
+    "type": "Boolean",
+    "defaultValue": false,
+    "locale": {
+      "zh": "旋转"
+    },
+    "desc": {
+      "zh": "图标顺时针匀速旋转；对应API的spin，默认值：false"
+    },
+    "showDes": true
+  },
+  {
+    "name": "theme",
+    "type": "Select",
+    "defaultValue": "outline",
+    "affectPropsShow": true,
+    "locale": {
+      "zh": "图标风格"
+    },
+    "desc": {
+      "zh": "对应API的theme，默认值：outline"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "outline",
+      "filled",
+      "two-tone",
+      "multi-color"
+    ],
+    "optionLocales": {
+      "outline": {
+        "zh": "线性"
+      },
+      "filled": {
+        "zh": "填充"
+      },
+      "two-tone": {
+        "zh": "双色"
+      },
+      "multi-color": {
+        "zh": "多色"
+      }
+    }
+  },
+  {
+    "name": "strokeColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": false,
+      "values": [
+        "filled",
+        "multi-color"
+      ]
+    },
+    "locale": {
+      "zh": "描边颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "fillColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "multi-color"
+      ]
+    },
+    "locale": {
+      "zh": "填充颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "outerStrokeColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "外部描边颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "outerFillColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "外部填充颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "innerStrokeColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "内部描边颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "innerFillColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "内部填充颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "strokeWidth",
+    "type": "Select",
+    "defaultValue": "4",
+    "locale": {
+      "zh": "线段粗细"
+    },
+    "desc": {
+      "zh": "svg 元素的 stroke-width 属性；对应API的strokeWidth，默认值：4"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "optionLocales": {
+      "1": {
+        "zh": 1
+      },
+      "2": {
+        "zh": 2
+      },
+      "3": {
+        "zh": 3
+      },
+      "4": {
+        "zh": 4
+      }
+    }
+  },
+  {
+    "name": "strokeLinecap",
+    "type": "Select",
+    "defaultValue": null,
+    "locale": {
+      "zh": "端点类型"
+    },
+    "desc": {
+      "zh": "svg 元素的 stroke-linecap 属性；选择 无 则为圆头；对应API的strokeLinecap，默认值：-"
+    },
+    "showDes": true,
+    "optionsEmpty": true,
+    "options": [
+      "butt",
+      "square"
+    ],
+    "optionLocales": {
+      "butt": {
+        "zh": "方头"
+      },
+      "square": {
+        "zh": "平头"
+      }
+    }
+  },
+  {
+    "name": "strokeLinejoin",
+    "type": "Select",
+    "defaultValue": null,
+    "locale": {
+      "zh": "拐点类型"
+    },
+    "desc": {
+      "zh": "svg 元素的 stroke-linejoin 属性；选择 无 则为圆头；对应API的strokeLinejoin，默认值：-"
+    },
+    "showDes": true,
+    "optionsEmpty": true,
+    "options": [
+      "miter",
+      "bevel"
+    ],
+    "optionLocales": {
+      "miter": {
+        "zh": "方头"
+      },
+      "bevel": {
+        "zh": "平头"
+      }
+    }
+  }
+]
