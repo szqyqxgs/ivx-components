@@ -1,0 +1,609 @@
+[
+  {
+    "name": "visible",
+    "type": "Boolean",
+    "defaultValue": true,
+    "locale": {
+      "zh": "可见"
+    }
+  },
+  {
+    "name": "name",
+    "type": "Select",
+    "defaultValue": "ActivitySource",
+    "locale": {
+      "zh": "选择图标"
+    },
+    "desc": {
+      "zh": "对应IconPark官方图标库，默认值：-"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "ActivitySource",
+      "Analysis",
+      "AreaMap",
+      "Arithmetic",
+      "ArithmeticOne",
+      "Average",
+      "BroadcastOne",
+      "BubbleChart",
+      "BulletMap",
+      "ChangeDateSort",
+      "ChartGraph",
+      "ChartHistogram",
+      "ChartHistogramOne",
+      "ChartHistogramTwo",
+      "ChartLine",
+      "ChartLineArea",
+      "ChartPie",
+      "ChartProportion",
+      "ChartRing",
+      "ChartScatter",
+      "ChartStock",
+      "CreationDateSort",
+      "Data",
+      "DataAll",
+      "DataArrival",
+      "DataFour",
+      "DataNull",
+      "DataOne",
+      "DataScreen",
+      "DataSheet",
+      "DataThree",
+      "DataTwo",
+      "DeadlineSort",
+      "Electrocardiogram",
+      "EndTimeSort",
+      "FollowUpDateSort",
+      "Form",
+      "Histogram",
+      "KagiMap",
+      "MaslowPyramids",
+      "MaterialThree",
+      "Maximum",
+      "Min",
+      "Multicast",
+      "NegativeDynamics",
+      "Parabola",
+      "Pie",
+      "PieFive",
+      "PieFour",
+      "PieOne",
+      "PieSeven",
+      "PieSix",
+      "PieThree",
+      "PieTwo",
+      "PivotTable",
+      "PositiveDynamics",
+      "RadarChart",
+      "Ranking",
+      "RankingList",
+      "RecentViewsSort",
+      "Sinusoid",
+      "Slide",
+      "SlideTwo",
+      "StartTimeSort",
+      "Timeline",
+      "Unicast",
+      "VerticalTimeline",
+      "Viencharts"
+    ],
+    "optionLocales": {
+      "ActivitySource": {
+        "zh": "活动源"
+      },
+      "Analysis": {
+        "zh": "分析"
+      },
+      "AreaMap": {
+        "zh": "区域图"
+      },
+      "Arithmetic": {
+        "zh": "计算"
+      },
+      "ArithmeticOne": {
+        "zh": "计算"
+      },
+      "Average": {
+        "zh": "平均值"
+      },
+      "BroadcastOne": {
+        "zh": "广播"
+      },
+      "BubbleChart": {
+        "zh": "气泡图"
+      },
+      "BulletMap": {
+        "zh": "子弹图"
+      },
+      "ChangeDateSort": {
+        "zh": "按修改日期排序"
+      },
+      "ChartGraph": {
+        "zh": "关系图"
+      },
+      "ChartHistogram": {
+        "zh": "条形图"
+      },
+      "ChartHistogramOne": {
+        "zh": "条形图"
+      },
+      "ChartHistogramTwo": {
+        "zh": "条形图"
+      },
+      "ChartLine": {
+        "zh": "折线图"
+      },
+      "ChartLineArea": {
+        "zh": "折线面积图"
+      },
+      "ChartPie": {
+        "zh": "饼图"
+      },
+      "ChartProportion": {
+        "zh": "占比图"
+      },
+      "ChartRing": {
+        "zh": "环形图"
+      },
+      "ChartScatter": {
+        "zh": "散点图"
+      },
+      "ChartStock": {
+        "zh": "K线图"
+      },
+      "CreationDateSort": {
+        "zh": "按创建日期排序"
+      },
+      "Data": {
+        "zh": "数据库"
+      },
+      "DataAll": {
+        "zh": "数据"
+      },
+      "DataArrival": {
+        "zh": "数据到达"
+      },
+      "DataFour": {
+        "zh": "数据"
+      },
+      "DataNull": {
+        "zh": "数据空"
+      },
+      "DataOne": {
+        "zh": "数据"
+      },
+      "DataScreen": {
+        "zh": "数据看板"
+      },
+      "DataSheet": {
+        "zh": "数据表"
+      },
+      "DataThree": {
+        "zh": "数据"
+      },
+      "DataTwo": {
+        "zh": "数据"
+      },
+      "DeadlineSort": {
+        "zh": "按截至日期排序"
+      },
+      "Electrocardiogram": {
+        "zh": "心电图"
+      },
+      "EndTimeSort": {
+        "zh": "按结束时间排序"
+      },
+      "FollowUpDateSort": {
+        "zh": "按跟进日期排序"
+      },
+      "Form": {
+        "zh": "表格"
+      },
+      "Histogram": {
+        "zh": "直方图"
+      },
+      "KagiMap": {
+        "zh": "kagi图"
+      },
+      "MaslowPyramids": {
+        "zh": "马斯洛金字塔"
+      },
+      "MaterialThree": {
+        "zh": "材料3"
+      },
+      "Maximum": {
+        "zh": "最大值"
+      },
+      "Min": {
+        "zh": "最小值"
+      },
+      "Multicast": {
+        "zh": "多播"
+      },
+      "NegativeDynamics": {
+        "zh": "消极动态"
+      },
+      "Parabola": {
+        "zh": "抛物线"
+      },
+      "Pie": {
+        "zh": "进度"
+      },
+      "PieFive": {
+        "zh": "进度5"
+      },
+      "PieFour": {
+        "zh": "进度4"
+      },
+      "PieOne": {
+        "zh": "进度1"
+      },
+      "PieSeven": {
+        "zh": "进度7"
+      },
+      "PieSix": {
+        "zh": "进度6"
+      },
+      "PieThree": {
+        "zh": "进度3"
+      },
+      "PieTwo": {
+        "zh": "进度2"
+      },
+      "PivotTable": {
+        "zh": "数据透视表"
+      },
+      "PositiveDynamics": {
+        "zh": "积极动态"
+      },
+      "RadarChart": {
+        "zh": "雷达图"
+      },
+      "Ranking": {
+        "zh": "排行榜"
+      },
+      "RankingList": {
+        "zh": "排行榜"
+      },
+      "RecentViewsSort": {
+        "zh": "按最近浏览量排序"
+      },
+      "Sinusoid": {
+        "zh": "正弦曲线"
+      },
+      "Slide": {
+        "zh": "幻灯片"
+      },
+      "SlideTwo": {
+        "zh": "幻灯片"
+      },
+      "StartTimeSort": {
+        "zh": "按开始时间排序"
+      },
+      "Timeline": {
+        "zh": "时间线"
+      },
+      "Unicast": {
+        "zh": "单播"
+      },
+      "VerticalTimeline": {
+        "zh": "垂直时间线"
+      },
+      "Viencharts": {
+        "zh": "维恩图"
+      }
+    }
+  },
+  {
+    "name": "size",
+    "type": "Select",
+    "defaultValue": 16,
+    "locale": {
+      "zh": "尺寸"
+    },
+    "desc": {
+      "zh": "图标的宽度和高度；对应API的size，默认值：16"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      10,
+      12,
+      14,
+      16,
+      20,
+      24,
+      28,
+      36,
+      48,
+      64
+    ],
+    "optionLocales": {
+      "10": {
+        "zh": 10
+      },
+      "12": {
+        "zh": 12
+      },
+      "14": {
+        "zh": 14
+      },
+      "16": {
+        "zh": 16
+      },
+      "20": {
+        "zh": 20
+      },
+      "24": {
+        "zh": 24
+      },
+      "28": {
+        "zh": 28
+      },
+      "36": {
+        "zh": 36
+      },
+      "48": {
+        "zh": 48
+      },
+      "64": {
+        "zh": 64
+      }
+    }
+  },
+  {
+    "name": "spin",
+    "type": "Boolean",
+    "defaultValue": false,
+    "locale": {
+      "zh": "旋转"
+    },
+    "desc": {
+      "zh": "图标顺时针匀速旋转；对应API的spin，默认值：false"
+    },
+    "showDes": true
+  },
+  {
+    "name": "theme",
+    "type": "Select",
+    "defaultValue": "outline",
+    "affectPropsShow": true,
+    "locale": {
+      "zh": "图标风格"
+    },
+    "desc": {
+      "zh": "对应API的theme，默认值：outline"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "outline",
+      "filled",
+      "two-tone",
+      "multi-color"
+    ],
+    "optionLocales": {
+      "outline": {
+        "zh": "线性"
+      },
+      "filled": {
+        "zh": "填充"
+      },
+      "two-tone": {
+        "zh": "双色"
+      },
+      "multi-color": {
+        "zh": "多色"
+      }
+    }
+  },
+  {
+    "name": "strokeColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": false,
+      "values": [
+        "filled",
+        "multi-color"
+      ]
+    },
+    "locale": {
+      "zh": "描边颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "fillColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "multi-color"
+      ]
+    },
+    "locale": {
+      "zh": "填充颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "outerStrokeColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "外部描边颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "outerFillColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "外部填充颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "innerStrokeColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "内部描边颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "innerFillColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "内部填充颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "strokeWidth",
+    "type": "Select",
+    "defaultValue": "4",
+    "locale": {
+      "zh": "线段粗细"
+    },
+    "desc": {
+      "zh": "svg 元素的 stroke-width 属性；对应API的strokeWidth，默认值：4"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "optionLocales": {
+      "1": {
+        "zh": 1
+      },
+      "2": {
+        "zh": 2
+      },
+      "3": {
+        "zh": 3
+      },
+      "4": {
+        "zh": 4
+      }
+    }
+  },
+  {
+    "name": "strokeLinecap",
+    "type": "Select",
+    "defaultValue": null,
+    "locale": {
+      "zh": "端点类型"
+    },
+    "desc": {
+      "zh": "svg 元素的 stroke-linecap 属性；选择 无 则为圆头；对应API的strokeLinecap，默认值：-"
+    },
+    "showDes": true,
+    "optionsEmpty": true,
+    "options": [
+      "butt",
+      "square"
+    ],
+    "optionLocales": {
+      "butt": {
+        "zh": "方头"
+      },
+      "square": {
+        "zh": "平头"
+      }
+    }
+  },
+  {
+    "name": "strokeLinejoin",
+    "type": "Select",
+    "defaultValue": null,
+    "locale": {
+      "zh": "拐点类型"
+    },
+    "desc": {
+      "zh": "svg 元素的 stroke-linejoin 属性；选择 无 则为圆头；对应API的strokeLinejoin，默认值：-"
+    },
+    "showDes": true,
+    "optionsEmpty": true,
+    "options": [
+      "miter",
+      "bevel"
+    ],
+    "optionLocales": {
+      "miter": {
+        "zh": "方头"
+      },
+      "bevel": {
+        "zh": "平头"
+      }
+    }
+  }
+]
