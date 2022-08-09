@@ -1,0 +1,821 @@
+[
+  {
+    "name": "visible",
+    "type": "Boolean",
+    "defaultValue": true,
+    "locale": {
+      "zh": "可见"
+    }
+  },
+  {
+    "name": "name",
+    "type": "Select",
+    "defaultValue": "AppleOne",
+    "locale": {
+      "zh": "选择图标"
+    },
+    "desc": {
+      "zh": "对应IconPark官方图标库，默认值：-"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "AppleOne",
+      "Avocado",
+      "AvocadoOne",
+      "Banana",
+      "Barbecue",
+      "Beer",
+      "BeerMug",
+      "BirthdayCake",
+      "Bone",
+      "BottleOne",
+      "BottleThree",
+      "BottleTwo",
+      "Bowl",
+      "BowlOne",
+      "Bread",
+      "BreadMachine",
+      "BreadOne",
+      "Cake",
+      "CakeFive",
+      "CakeFour",
+      "CakeOne",
+      "CakeThree",
+      "CakeTwo",
+      "Candy",
+      "CannedFruit",
+      "Carrot",
+      "ChafingDish",
+      "ChafingDishOne",
+      "Cheese",
+      "ChefHatOne",
+      "Cherry",
+      "Chicken",
+      "ChickenLeg",
+      "Chili",
+      "ChoppingBoard",
+      "ChopsticksFork",
+      "Cola",
+      "Cook",
+      "Cooking",
+      "Crab",
+      "Croissant",
+      "CupFour",
+      "CupOne",
+      "Doughnut",
+      "Drink",
+      "Drumstick",
+      "Egg",
+      "EggOne",
+      "Eggplant",
+      "Fish",
+      "ForkSpoon",
+      "FrenchFries",
+      "Garlic",
+      "Glove",
+      "Goblet",
+      "GobletCracking",
+      "GobletFull",
+      "GobletOne",
+      "Hamburger",
+      "HamburgerOne",
+      "Honey",
+      "HoneyOne",
+      "HotPot",
+      "HotPotOne",
+      "Icecream",
+      "IcecreamFive",
+      "IcecreamFour",
+      "IcecreamOne",
+      "IcecreamThree",
+      "IcecreamTwo",
+      "Juice",
+      "KettleOne",
+      "KitchenKnife",
+      "KnifeFork",
+      "Lemon",
+      "Liqueur",
+      "Lollipop",
+      "MacadamiaNut",
+      "MeasuringCup",
+      "Milk",
+      "MilkOne",
+      "Noodles",
+      "Nut",
+      "Orange",
+      "OrangeOne",
+      "Oven",
+      "OvenTray",
+      "PaintedEggshell",
+      "Peach",
+      "Pear",
+      "Peas",
+      "Pineapple",
+      "Popcorn",
+      "PopcornOne",
+      "Pot",
+      "Pumpkin",
+      "Radish",
+      "RadishOne",
+      "Refrigerator",
+      "Rice",
+      "Sandwich",
+      "SandwichOne",
+      "Scallion",
+      "Shovel",
+      "ShovelOne",
+      "Shrimp",
+      "Snacks",
+      "SoybeanMilkMaker",
+      "Spoon",
+      "Tea",
+      "TeaDrink",
+      "Teapot",
+      "ThermosCup",
+      "Tomato",
+      "Tray",
+      "Turkey",
+      "VegetableBasket",
+      "Vegetables",
+      "ViciaFaba",
+      "Watermelon",
+      "WatermelonOne"
+    ],
+    "optionLocales": {
+      "AppleOne": {
+        "zh": "苹果"
+      },
+      "Avocado": {
+        "zh": "牛油果"
+      },
+      "AvocadoOne": {
+        "zh": "牛油果"
+      },
+      "Banana": {
+        "zh": "香蕉"
+      },
+      "Barbecue": {
+        "zh": "烧烤"
+      },
+      "Beer": {
+        "zh": "啤酒"
+      },
+      "BeerMug": {
+        "zh": "啤酒杯"
+      },
+      "BirthdayCake": {
+        "zh": "生日蛋糕"
+      },
+      "Bone": {
+        "zh": "骨头"
+      },
+      "BottleOne": {
+        "zh": "酒瓶"
+      },
+      "BottleThree": {
+        "zh": "瓶装"
+      },
+      "BottleTwo": {
+        "zh": "瓶子"
+      },
+      "Bowl": {
+        "zh": "面条"
+      },
+      "BowlOne": {
+        "zh": "碗"
+      },
+      "Bread": {
+        "zh": "面包"
+      },
+      "BreadMachine": {
+        "zh": "面包机"
+      },
+      "BreadOne": {
+        "zh": "面包"
+      },
+      "Cake": {
+        "zh": "蛋糕"
+      },
+      "CakeFive": {
+        "zh": "蛋糕"
+      },
+      "CakeFour": {
+        "zh": "蛋糕"
+      },
+      "CakeOne": {
+        "zh": "蛋糕"
+      },
+      "CakeThree": {
+        "zh": "蛋糕"
+      },
+      "CakeTwo": {
+        "zh": "蛋糕"
+      },
+      "Candy": {
+        "zh": "糖果"
+      },
+      "CannedFruit": {
+        "zh": "水果罐头"
+      },
+      "Carrot": {
+        "zh": "胡萝卜"
+      },
+      "ChafingDish": {
+        "zh": "鸳鸯锅"
+      },
+      "ChafingDishOne": {
+        "zh": "火锅"
+      },
+      "Cheese": {
+        "zh": "奶酪"
+      },
+      "ChefHatOne": {
+        "zh": "厨师帽子"
+      },
+      "Cherry": {
+        "zh": "樱桃"
+      },
+      "Chicken": {
+        "zh": "鸡肉"
+      },
+      "ChickenLeg": {
+        "zh": "鸡腿"
+      },
+      "Chili": {
+        "zh": "辣椒"
+      },
+      "ChoppingBoard": {
+        "zh": "切菜板"
+      },
+      "ChopsticksFork": {
+        "zh": "筷子叉子"
+      },
+      "Cola": {
+        "zh": "可乐"
+      },
+      "Cook": {
+        "zh": "煮饭"
+      },
+      "Cooking": {
+        "zh": "烹饪"
+      },
+      "Crab": {
+        "zh": "螃蟹"
+      },
+      "Croissant": {
+        "zh": "牛角面包"
+      },
+      "CupFour": {
+        "zh": "茶杯4"
+      },
+      "CupOne": {
+        "zh": "杯子"
+      },
+      "Doughnut": {
+        "zh": "甜甜圈"
+      },
+      "Drink": {
+        "zh": "饮料"
+      },
+      "Drumstick": {
+        "zh": "鸡腿"
+      },
+      "Egg": {
+        "zh": "煎鸡蛋"
+      },
+      "EggOne": {
+        "zh": "鸡蛋"
+      },
+      "Eggplant": {
+        "zh": "茄子"
+      },
+      "Fish": {
+        "zh": "鱼"
+      },
+      "ForkSpoon": {
+        "zh": "叉子勺子"
+      },
+      "FrenchFries": {
+        "zh": "炸薯条"
+      },
+      "Garlic": {
+        "zh": "大蒜"
+      },
+      "Glove": {
+        "zh": "胶手套"
+      },
+      "Goblet": {
+        "zh": "高脚杯"
+      },
+      "GobletCracking": {
+        "zh": "高脚杯裂开"
+      },
+      "GobletFull": {
+        "zh": "高脚杯满了"
+      },
+      "GobletOne": {
+        "zh": "高脚杯"
+      },
+      "Hamburger": {
+        "zh": "汉堡"
+      },
+      "HamburgerOne": {
+        "zh": "汉堡"
+      },
+      "Honey": {
+        "zh": "蜂蜜"
+      },
+      "HoneyOne": {
+        "zh": "蜂蜜"
+      },
+      "HotPot": {
+        "zh": "火锅"
+      },
+      "HotPotOne": {
+        "zh": "火锅"
+      },
+      "Icecream": {
+        "zh": "冰激凌"
+      },
+      "IcecreamFive": {
+        "zh": "冰棍4"
+      },
+      "IcecreamFour": {
+        "zh": "冰激凌"
+      },
+      "IcecreamOne": {
+        "zh": "雪糕"
+      },
+      "IcecreamThree": {
+        "zh": "冰棍"
+      },
+      "IcecreamTwo": {
+        "zh": "冰激凌"
+      },
+      "Juice": {
+        "zh": "果饮"
+      },
+      "KettleOne": {
+        "zh": "水壶"
+      },
+      "KitchenKnife": {
+        "zh": "菜刀"
+      },
+      "KnifeFork": {
+        "zh": "刀子叉子"
+      },
+      "Lemon": {
+        "zh": "柠檬"
+      },
+      "Liqueur": {
+        "zh": "鸡尾酒"
+      },
+      "Lollipop": {
+        "zh": "棒棒糖"
+      },
+      "MacadamiaNut": {
+        "zh": "夏威夷果"
+      },
+      "MeasuringCup": {
+        "zh": "计量杯"
+      },
+      "Milk": {
+        "zh": "牛奶"
+      },
+      "MilkOne": {
+        "zh": "牛奶"
+      },
+      "Noodles": {
+        "zh": "面条"
+      },
+      "Nut": {
+        "zh": "坚果"
+      },
+      "Orange": {
+        "zh": "橙子"
+      },
+      "OrangeOne": {
+        "zh": "柠檬片"
+      },
+      "Oven": {
+        "zh": "电烤箱"
+      },
+      "OvenTray": {
+        "zh": "托盘"
+      },
+      "PaintedEggshell": {
+        "zh": "彩蛋"
+      },
+      "Peach": {
+        "zh": "桃子"
+      },
+      "Pear": {
+        "zh": "梨子"
+      },
+      "Peas": {
+        "zh": "豌豆角"
+      },
+      "Pineapple": {
+        "zh": "菠萝"
+      },
+      "Popcorn": {
+        "zh": "爆米花"
+      },
+      "PopcornOne": {
+        "zh": "爆米花"
+      },
+      "Pot": {
+        "zh": "铁锅"
+      },
+      "Pumpkin": {
+        "zh": "南瓜"
+      },
+      "Radish": {
+        "zh": "萝卜"
+      },
+      "RadishOne": {
+        "zh": "圆萝卜"
+      },
+      "Refrigerator": {
+        "zh": "冰鞋"
+      },
+      "Rice": {
+        "zh": "米饭"
+      },
+      "Sandwich": {
+        "zh": "三明治"
+      },
+      "SandwichOne": {
+        "zh": "三明治"
+      },
+      "Scallion": {
+        "zh": "大葱"
+      },
+      "Shovel": {
+        "zh": "铁铲"
+      },
+      "ShovelOne": {
+        "zh": "铲子"
+      },
+      "Shrimp": {
+        "zh": "大虾"
+      },
+      "Snacks": {
+        "zh": "小食"
+      },
+      "SoybeanMilkMaker": {
+        "zh": "榨汁机"
+      },
+      "Spoon": {
+        "zh": "铁勺"
+      },
+      "Tea": {
+        "zh": "茶"
+      },
+      "TeaDrink": {
+        "zh": "喝茶"
+      },
+      "Teapot": {
+        "zh": "茶壶"
+      },
+      "ThermosCup": {
+        "zh": "保温杯"
+      },
+      "Tomato": {
+        "zh": "番茄"
+      },
+      "Tray": {
+        "zh": "托盘"
+      },
+      "Turkey": {
+        "zh": "火鸡"
+      },
+      "VegetableBasket": {
+        "zh": "菜篮子"
+      },
+      "Vegetables": {
+        "zh": "青菜"
+      },
+      "ViciaFaba": {
+        "zh": "蚕豆"
+      },
+      "Watermelon": {
+        "zh": "西瓜"
+      },
+      "WatermelonOne": {
+        "zh": "西瓜"
+      }
+    }
+  },
+  {
+    "name": "size",
+    "type": "Select",
+    "defaultValue": 16,
+    "locale": {
+      "zh": "尺寸"
+    },
+    "desc": {
+      "zh": "图标的宽度和高度；对应API的size，默认值：16"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      10,
+      12,
+      14,
+      16,
+      20,
+      24,
+      28,
+      36,
+      48,
+      64
+    ],
+    "optionLocales": {
+      "10": {
+        "zh": 10
+      },
+      "12": {
+        "zh": 12
+      },
+      "14": {
+        "zh": 14
+      },
+      "16": {
+        "zh": 16
+      },
+      "20": {
+        "zh": 20
+      },
+      "24": {
+        "zh": 24
+      },
+      "28": {
+        "zh": 28
+      },
+      "36": {
+        "zh": 36
+      },
+      "48": {
+        "zh": 48
+      },
+      "64": {
+        "zh": 64
+      }
+    }
+  },
+  {
+    "name": "spin",
+    "type": "Boolean",
+    "defaultValue": false,
+    "locale": {
+      "zh": "旋转"
+    },
+    "desc": {
+      "zh": "图标顺时针匀速旋转；对应API的spin，默认值：false"
+    },
+    "showDes": true
+  },
+  {
+    "name": "theme",
+    "type": "Select",
+    "defaultValue": "outline",
+    "affectPropsShow": true,
+    "locale": {
+      "zh": "图标风格"
+    },
+    "desc": {
+      "zh": "对应API的theme，默认值：outline"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "outline",
+      "filled",
+      "two-tone",
+      "multi-color"
+    ],
+    "optionLocales": {
+      "outline": {
+        "zh": "线性"
+      },
+      "filled": {
+        "zh": "填充"
+      },
+      "two-tone": {
+        "zh": "双色"
+      },
+      "multi-color": {
+        "zh": "多色"
+      }
+    }
+  },
+  {
+    "name": "strokeColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": false,
+      "values": [
+        "filled",
+        "multi-color"
+      ]
+    },
+    "locale": {
+      "zh": "描边颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "fillColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "multi-color"
+      ]
+    },
+    "locale": {
+      "zh": "填充颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "outerStrokeColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "外部描边颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "outerFillColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "外部填充颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "innerStrokeColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "内部描边颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "innerFillColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "内部填充颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "strokeWidth",
+    "type": "Select",
+    "defaultValue": "4",
+    "locale": {
+      "zh": "线段粗细"
+    },
+    "desc": {
+      "zh": "svg 元素的 stroke-width 属性；对应API的strokeWidth，默认值：4"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "optionLocales": {
+      "1": {
+        "zh": 1
+      },
+      "2": {
+        "zh": 2
+      },
+      "3": {
+        "zh": 3
+      },
+      "4": {
+        "zh": 4
+      }
+    }
+  },
+  {
+    "name": "strokeLinecap",
+    "type": "Select",
+    "defaultValue": null,
+    "locale": {
+      "zh": "端点类型"
+    },
+    "desc": {
+      "zh": "svg 元素的 stroke-linecap 属性；选择 无 则为圆头；对应API的strokeLinecap，默认值：-"
+    },
+    "showDes": true,
+    "optionsEmpty": true,
+    "options": [
+      "butt",
+      "square"
+    ],
+    "optionLocales": {
+      "butt": {
+        "zh": "方头"
+      },
+      "square": {
+        "zh": "平头"
+      }
+    }
+  },
+  {
+    "name": "strokeLinejoin",
+    "type": "Select",
+    "defaultValue": null,
+    "locale": {
+      "zh": "拐点类型"
+    },
+    "desc": {
+      "zh": "svg 元素的 stroke-linejoin 属性；选择 无 则为圆头；对应API的strokeLinejoin，默认值：-"
+    },
+    "showDes": true,
+    "optionsEmpty": true,
+    "options": [
+      "miter",
+      "bevel"
+    ],
+    "optionLocales": {
+      "miter": {
+        "zh": "方头"
+      },
+      "bevel": {
+        "zh": "平头"
+      }
+    }
+  }
+]
