@@ -1,0 +1,537 @@
+[
+  {
+    "name": "visible",
+    "type": "Boolean",
+    "defaultValue": true,
+    "locale": {
+      "zh": "可见"
+    }
+  },
+  {
+    "name": "name",
+    "type": "Select",
+    "defaultValue": "AddUser",
+    "locale": {
+      "zh": "选择图标"
+    },
+    "desc": {
+      "zh": "对应IconPark官方图标库，默认值：-"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "AddUser",
+      "AddressBook",
+      "Appointment",
+      "Avatar",
+      "Baby",
+      "Classroom",
+      "EditName",
+      "EveryUser",
+      "Hands",
+      "IdCardH",
+      "IdCardV",
+      "Me",
+      "Passport",
+      "People",
+      "PeopleBottom",
+      "PeopleBottomCard",
+      "PeopleDelete",
+      "PeopleDeleteOne",
+      "PeopleDownload",
+      "PeopleLeft",
+      "PeopleMinus",
+      "PeopleMinusOne",
+      "PeoplePlus",
+      "PeoplePlusOne",
+      "PeopleRight",
+      "PeopleSafe",
+      "PeopleSafeOne",
+      "PeopleSearch",
+      "PeopleSearchOne",
+      "PeopleSpeak",
+      "PeopleTop",
+      "PeopleTopCard",
+      "PeopleUnknown",
+      "PeopleUpload",
+      "Peoples",
+      "PeoplesTwo",
+      "PersonalCollection",
+      "PersonalPrivacy",
+      "PublicToilet",
+      "ReduceUser",
+      "RightUser",
+      "TurnAround",
+      "User",
+      "UserBusiness",
+      "UserPositioning",
+      "UserToUserTransmission",
+      "WeixinPeopleNearby",
+      "Woman",
+      "Women",
+      "WrongUser"
+    ],
+    "optionLocales": {
+      "AddUser": {
+        "zh": "添加用户"
+      },
+      "AddressBook": {
+        "zh": "通讯录"
+      },
+      "Appointment": {
+        "zh": "定时见面"
+      },
+      "Avatar": {
+        "zh": "头像"
+      },
+      "Baby": {
+        "zh": "婴儿"
+      },
+      "Classroom": {
+        "zh": "课堂"
+      },
+      "EditName": {
+        "zh": "编辑姓名"
+      },
+      "EveryUser": {
+        "zh": "众多用户"
+      },
+      "Hands": {
+        "zh": "举手"
+      },
+      "IdCardH": {
+        "zh": "身份证"
+      },
+      "IdCardV": {
+        "zh": "身份证"
+      },
+      "Me": {
+        "zh": "我的"
+      },
+      "Passport": {
+        "zh": "护照"
+      },
+      "People": {
+        "zh": "人员"
+      },
+      "PeopleBottom": {
+        "zh": "人员下"
+      },
+      "PeopleBottomCard": {
+        "zh": "人像卡片下"
+      },
+      "PeopleDelete": {
+        "zh": "删除用户"
+      },
+      "PeopleDeleteOne": {
+        "zh": "删除用户"
+      },
+      "PeopleDownload": {
+        "zh": "用户下载"
+      },
+      "PeopleLeft": {
+        "zh": "人员左"
+      },
+      "PeopleMinus": {
+        "zh": "减少人群"
+      },
+      "PeopleMinusOne": {
+        "zh": "减少人群"
+      },
+      "PeoplePlus": {
+        "zh": "添加人群"
+      },
+      "PeoplePlusOne": {
+        "zh": "添加人群"
+      },
+      "PeopleRight": {
+        "zh": "人员右"
+      },
+      "PeopleSafe": {
+        "zh": "人身安全"
+      },
+      "PeopleSafeOne": {
+        "zh": "人身安全1"
+      },
+      "PeopleSearch": {
+        "zh": "搜索用户"
+      },
+      "PeopleSearchOne": {
+        "zh": "搜索用户"
+      },
+      "PeopleSpeak": {
+        "zh": "人员说话"
+      },
+      "PeopleTop": {
+        "zh": "人员上"
+      },
+      "PeopleTopCard": {
+        "zh": "人像卡片上"
+      },
+      "PeopleUnknown": {
+        "zh": "人员屏蔽"
+      },
+      "PeopleUpload": {
+        "zh": "用户上传"
+      },
+      "Peoples": {
+        "zh": "人群"
+      },
+      "PeoplesTwo": {
+        "zh": "人群"
+      },
+      "PersonalCollection": {
+        "zh": "收藏好友"
+      },
+      "PersonalPrivacy": {
+        "zh": "个人隐私"
+      },
+      "PublicToilet": {
+        "zh": "卫生间"
+      },
+      "ReduceUser": {
+        "zh": "减少用户"
+      },
+      "RightUser": {
+        "zh": "正确用户"
+      },
+      "TurnAround": {
+        "zh": "人员调动"
+      },
+      "User": {
+        "zh": "用户"
+      },
+      "UserBusiness": {
+        "zh": "商务用户"
+      },
+      "UserPositioning": {
+        "zh": "用户定位"
+      },
+      "UserToUserTransmission": {
+        "zh": "用户互传"
+      },
+      "WeixinPeopleNearby": {
+        "zh": "微信附近的人"
+      },
+      "Woman": {
+        "zh": "女人"
+      },
+      "Women": {
+        "zh": "女"
+      },
+      "WrongUser": {
+        "zh": "错误用户"
+      }
+    }
+  },
+  {
+    "name": "size",
+    "type": "Select",
+    "defaultValue": 16,
+    "locale": {
+      "zh": "尺寸"
+    },
+    "desc": {
+      "zh": "图标的宽度和高度；对应API的size，默认值：16"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      10,
+      12,
+      14,
+      16,
+      20,
+      24,
+      28,
+      36,
+      48,
+      64
+    ],
+    "optionLocales": {
+      "10": {
+        "zh": 10
+      },
+      "12": {
+        "zh": 12
+      },
+      "14": {
+        "zh": 14
+      },
+      "16": {
+        "zh": 16
+      },
+      "20": {
+        "zh": 20
+      },
+      "24": {
+        "zh": 24
+      },
+      "28": {
+        "zh": 28
+      },
+      "36": {
+        "zh": 36
+      },
+      "48": {
+        "zh": 48
+      },
+      "64": {
+        "zh": 64
+      }
+    }
+  },
+  {
+    "name": "spin",
+    "type": "Boolean",
+    "defaultValue": false,
+    "locale": {
+      "zh": "旋转"
+    },
+    "desc": {
+      "zh": "图标顺时针匀速旋转；对应API的spin，默认值：false"
+    },
+    "showDes": true
+  },
+  {
+    "name": "theme",
+    "type": "Select",
+    "defaultValue": "outline",
+    "affectPropsShow": true,
+    "locale": {
+      "zh": "图标风格"
+    },
+    "desc": {
+      "zh": "对应API的theme，默认值：outline"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "outline",
+      "filled",
+      "two-tone",
+      "multi-color"
+    ],
+    "optionLocales": {
+      "outline": {
+        "zh": "线性"
+      },
+      "filled": {
+        "zh": "填充"
+      },
+      "two-tone": {
+        "zh": "双色"
+      },
+      "multi-color": {
+        "zh": "多色"
+      }
+    }
+  },
+  {
+    "name": "strokeColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": false,
+      "values": [
+        "filled",
+        "multi-color"
+      ]
+    },
+    "locale": {
+      "zh": "描边颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "fillColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "multi-color"
+      ]
+    },
+    "locale": {
+      "zh": "填充颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "outerStrokeColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "外部描边颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "outerFillColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "外部填充颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "innerStrokeColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "内部描边颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "innerFillColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "内部填充颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "strokeWidth",
+    "type": "Select",
+    "defaultValue": "4",
+    "locale": {
+      "zh": "线段粗细"
+    },
+    "desc": {
+      "zh": "svg 元素的 stroke-width 属性；对应API的strokeWidth，默认值：4"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "optionLocales": {
+      "1": {
+        "zh": 1
+      },
+      "2": {
+        "zh": 2
+      },
+      "3": {
+        "zh": 3
+      },
+      "4": {
+        "zh": 4
+      }
+    }
+  },
+  {
+    "name": "strokeLinecap",
+    "type": "Select",
+    "defaultValue": null,
+    "locale": {
+      "zh": "端点类型"
+    },
+    "desc": {
+      "zh": "svg 元素的 stroke-linecap 属性；选择 无 则为圆头；对应API的strokeLinecap，默认值：-"
+    },
+    "showDes": true,
+    "optionsEmpty": true,
+    "options": [
+      "butt",
+      "square"
+    ],
+    "optionLocales": {
+      "butt": {
+        "zh": "方头"
+      },
+      "square": {
+        "zh": "平头"
+      }
+    }
+  },
+  {
+    "name": "strokeLinejoin",
+    "type": "Select",
+    "defaultValue": null,
+    "locale": {
+      "zh": "拐点类型"
+    },
+    "desc": {
+      "zh": "svg 元素的 stroke-linejoin 属性；选择 无 则为圆头；对应API的strokeLinejoin，默认值：-"
+    },
+    "showDes": true,
+    "optionsEmpty": true,
+    "options": [
+      "miter",
+      "bevel"
+    ],
+    "optionLocales": {
+      "miter": {
+        "zh": "方头"
+      },
+      "bevel": {
+        "zh": "平头"
+      }
+    }
+  }
+]
