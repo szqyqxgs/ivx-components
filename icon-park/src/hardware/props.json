@@ -1,0 +1,1229 @@
+[
+  {
+    "name": "visible",
+    "type": "Boolean",
+    "defaultValue": true,
+    "locale": {
+      "zh": "可见"
+    }
+  },
+  {
+    "name": "name",
+    "type": "Select",
+    "defaultValue": "AddComputer",
+    "locale": {
+      "zh": "选择图标"
+    },
+    "desc": {
+      "zh": "对应IconPark官方图标库，默认值：-"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "AddComputer",
+      "AirConditioning",
+      "Airplay",
+      "AsteriskKey",
+      "BatteryFailure",
+      "BatteryStorage",
+      "BatteryTips",
+      "BatteryWorkingOne",
+      "Bike",
+      "BoltOne",
+      "BroadcastRadio",
+      "Bus",
+      "Calculator",
+      "CalculatorOne",
+      "CameraFive",
+      "CameraFour",
+      "CameraOne",
+      "CameraThree",
+      "CameraTwo",
+      "Car",
+      "Cd",
+      "ChargingTreasure",
+      "Chip",
+      "CloudStorage",
+      "CodeComputer",
+      "CodeLaptop",
+      "CollectComputer",
+      "CollectLaptop",
+      "Computer",
+      "ComputerOne",
+      "Control",
+      "Cpu",
+      "Cup",
+      "DashboardOne",
+      "DashboardTwo",
+      "DataServer",
+      "DeleteKey",
+      "DeskLamp",
+      "Devices",
+      "DigitalWatches",
+      "DisabledComputer",
+      "DisabledLaptop",
+      "Disk",
+      "DiskOne",
+      "DiskTwo",
+      "DomeLight",
+      "DownloadComputer",
+      "DownloadLaptop",
+      "Drone",
+      "DroneOne",
+      "Dvi",
+      "EightKey",
+      "ElectricIron",
+      "ElectronicDoorLock",
+      "ElectronicLocksClose",
+      "ElectronicLocksOpen",
+      "ElectronicPen",
+      "EnterKey",
+      "EnterKeyOne",
+      "ErrorComputer",
+      "EthernetOff",
+      "EthernetOn",
+      "FEightKey",
+      "FFiveKey",
+      "FFourKey",
+      "FNKey",
+      "FNineKey",
+      "FOneKey",
+      "FSevenKey",
+      "FSixKey",
+      "FThreeKey",
+      "FTwoKey",
+      "FZeroKey",
+      "FiveKey",
+      "Flashlight",
+      "FourKey",
+      "GameConsole",
+      "GameConsoleOne",
+      "GameThree",
+      "Gamepad",
+      "Gopro",
+      "HairDryerOne",
+      "HandPaintedPlate",
+      "HardDisk",
+      "HardDiskOne",
+      "HashtagKey",
+      "Hdd",
+      "HdmiCable",
+      "HdmiConnector",
+      "HeadsetTwo",
+      "HuntingGear",
+      "IMac",
+      "InductionLock",
+      "Intercom",
+      "Ipad",
+      "IpadOne",
+      "Iphone",
+      "IwatchOne",
+      "IwatchTwo",
+      "Kettle",
+      "Keyboard",
+      "KeyboardOne",
+      "Lamp",
+      "Laptop",
+      "LaptopComputer",
+      "LaptopOne",
+      "LockingComputer",
+      "LockingLaptop",
+      "MacFinder",
+      "Master",
+      "Memory",
+      "MemoryCard",
+      "MemoryCardOne",
+      "MemoryOne",
+      "MicroSd",
+      "MicroSlrCamera",
+      "Microphone",
+      "MicrophoneOne",
+      "MicroscopeOne",
+      "MicrowaveOven",
+      "Microwaves",
+      "MiniSdCard",
+      "MonitorCamera",
+      "MonitorOne",
+      "Mouse",
+      "MouseOne",
+      "MultiFunctionKnife",
+      "NetworkDrive",
+      "NewComputer",
+      "NineKey",
+      "OneKey",
+      "Pad",
+      "PaintedScreen",
+      "Phone",
+      "PhoneOne",
+      "Phonograph",
+      "Plug",
+      "PlugOne",
+      "PowerSupply",
+      "PowerSupplyOne",
+      "Printer",
+      "PrinterOne",
+      "PrinterTwo",
+      "Projector",
+      "ProjectorOne",
+      "ProjectorThree",
+      "ProjectorTwo",
+      "Radio",
+      "RadioOne",
+      "Receiver",
+      "RecordPlayer",
+      "RemoteControl",
+      "RemoteControlOne",
+      "Robot",
+      "RobotOne",
+      "RocketOne",
+      "RoundSocket",
+      "Router",
+      "RouterOne",
+      "RsMale",
+      "Sd",
+      "SdCard",
+      "Seal",
+      "Server",
+      "SettingComputer",
+      "SettingLaptop",
+      "SevenKey",
+      "Shaver",
+      "SignalTower",
+      "Sim",
+      "SimCard",
+      "SixKey",
+      "Slave",
+      "SolarEnergy",
+      "SolidStateDisk",
+      "Sound",
+      "SoundOne",
+      "Speaker",
+      "SpeakerOne",
+      "Ssd",
+      "Stapler",
+      "StereoOne",
+      "StorageCardOne",
+      "StorageCardTwo",
+      "Strongbox",
+      "Subway",
+      "SurveillanceCameras",
+      "SurveillanceCamerasOne",
+      "SurveillanceCamerasTwo",
+      "SwitchNintendo",
+      "SwitchOne",
+      "TableLamp",
+      "Telescope",
+      "ThreeKey",
+      "Thunderbolt",
+      "Timer",
+      "Toilet",
+      "Transporter",
+      "Truck",
+      "Trumpet",
+      "Tv",
+      "TvOne",
+      "TwoKey",
+      "TypeDrive",
+      "UDisk",
+      "UploadComputer",
+      "UploadLaptop",
+      "Usb",
+      "UsbMemoryStick",
+      "UsbMicroOne",
+      "UsbMicroTwo",
+      "UsbOne",
+      "UsbTypeC",
+      "VacuumCleaner",
+      "Videocamera",
+      "VideocameraOne",
+      "VirtualRealityGlasses",
+      "VrGlasses",
+      "WashingMachine",
+      "WashingMachineOne",
+      "WatchOne",
+      "Webcam",
+      "ZeroKey"
+    ],
+    "optionLocales": {
+      "AddComputer": {
+        "zh": "计算机添加"
+      },
+      "AirConditioning": {
+        "zh": "空调"
+      },
+      "Airplay": {
+        "zh": "AirPlay"
+      },
+      "AsteriskKey": {
+        "zh": "星号键"
+      },
+      "BatteryFailure": {
+        "zh": "电池故障"
+      },
+      "BatteryStorage": {
+        "zh": "电池充电"
+      },
+      "BatteryTips": {
+        "zh": "电池提示"
+      },
+      "BatteryWorkingOne": {
+        "zh": "电池"
+      },
+      "Bike": {
+        "zh": "自行车"
+      },
+      "BoltOne": {
+        "zh": "插头"
+      },
+      "BroadcastRadio": {
+        "zh": "收音机"
+      },
+      "Bus": {
+        "zh": "大巴"
+      },
+      "Calculator": {
+        "zh": "计算器"
+      },
+      "CalculatorOne": {
+        "zh": "计算器"
+      },
+      "CameraFive": {
+        "zh": "摄像头"
+      },
+      "CameraFour": {
+        "zh": "监控录像"
+      },
+      "CameraOne": {
+        "zh": "摄像头"
+      },
+      "CameraThree": {
+        "zh": "智能摄像头"
+      },
+      "CameraTwo": {
+        "zh": "相机"
+      },
+      "Car": {
+        "zh": "汽车"
+      },
+      "Cd": {
+        "zh": "光盘"
+      },
+      "ChargingTreasure": {
+        "zh": "充电宝"
+      },
+      "Chip": {
+        "zh": "芯片"
+      },
+      "CloudStorage": {
+        "zh": "云存储"
+      },
+      "CodeComputer": {
+        "zh": "计算机代码"
+      },
+      "CodeLaptop": {
+        "zh": "笔记本电脑代码"
+      },
+      "CollectComputer": {
+        "zh": "计算机收藏"
+      },
+      "CollectLaptop": {
+        "zh": "笔记本电脑收集"
+      },
+      "Computer": {
+        "zh": "电脑"
+      },
+      "ComputerOne": {
+        "zh": "计算器"
+      },
+      "Control": {
+        "zh": "控制器"
+      },
+      "Cpu": {
+        "zh": "芯片"
+      },
+      "Cup": {
+        "zh": "咖啡机"
+      },
+      "DashboardOne": {
+        "zh": "仪表盘"
+      },
+      "DashboardTwo": {
+        "zh": "仪表盘"
+      },
+      "DataServer": {
+        "zh": "数据服务器"
+      },
+      "DeleteKey": {
+        "zh": "删除键"
+      },
+      "DeskLamp": {
+        "zh": "台灯"
+      },
+      "Devices": {
+        "zh": "设备"
+      },
+      "DigitalWatches": {
+        "zh": "电子表"
+      },
+      "DisabledComputer": {
+        "zh": "计算机禁用"
+      },
+      "DisabledLaptop": {
+        "zh": "笔记本电脑禁用"
+      },
+      "Disk": {
+        "zh": "磁盘"
+      },
+      "DiskOne": {
+        "zh": "U盘1"
+      },
+      "DiskTwo": {
+        "zh": "U盘2"
+      },
+      "DomeLight": {
+        "zh": "顶灯"
+      },
+      "DownloadComputer": {
+        "zh": "计算机下载"
+      },
+      "DownloadLaptop": {
+        "zh": "笔记本电脑下载"
+      },
+      "Drone": {
+        "zh": "无人机"
+      },
+      "DroneOne": {
+        "zh": "无人机"
+      },
+      "Dvi": {
+        "zh": "DVI"
+      },
+      "EightKey": {
+        "zh": "按键八"
+      },
+      "ElectricIron": {
+        "zh": "电熨斗"
+      },
+      "ElectronicDoorLock": {
+        "zh": "智能门锁"
+      },
+      "ElectronicLocksClose": {
+        "zh": "电子锁关"
+      },
+      "ElectronicLocksOpen": {
+        "zh": "电子锁开"
+      },
+      "ElectronicPen": {
+        "zh": "触电笔"
+      },
+      "EnterKey": {
+        "zh": "回车键"
+      },
+      "EnterKeyOne": {
+        "zh": "回车键"
+      },
+      "ErrorComputer": {
+        "zh": "计算机错误"
+      },
+      "EthernetOff": {
+        "zh": "网口关"
+      },
+      "EthernetOn": {
+        "zh": "网口开"
+      },
+      "FEightKey": {
+        "zh": "F8"
+      },
+      "FFiveKey": {
+        "zh": "F5"
+      },
+      "FFourKey": {
+        "zh": "F4"
+      },
+      "FNKey": {
+        "zh": "Fn"
+      },
+      "FNineKey": {
+        "zh": "F9"
+      },
+      "FOneKey": {
+        "zh": "F1"
+      },
+      "FSevenKey": {
+        "zh": "F7"
+      },
+      "FSixKey": {
+        "zh": "F6"
+      },
+      "FThreeKey": {
+        "zh": "F3"
+      },
+      "FTwoKey": {
+        "zh": "F2"
+      },
+      "FZeroKey": {
+        "zh": "F0"
+      },
+      "FiveKey": {
+        "zh": "按键五"
+      },
+      "Flashlight": {
+        "zh": "手电筒"
+      },
+      "FourKey": {
+        "zh": "按键四"
+      },
+      "GameConsole": {
+        "zh": "游戏机"
+      },
+      "GameConsoleOne": {
+        "zh": "移动游戏机"
+      },
+      "GameThree": {
+        "zh": "游戏手柄"
+      },
+      "Gamepad": {
+        "zh": "游戏机"
+      },
+      "Gopro": {
+        "zh": "运动相机"
+      },
+      "HairDryerOne": {
+        "zh": "吹风机"
+      },
+      "HandPaintedPlate": {
+        "zh": "手绘板"
+      },
+      "HardDisk": {
+        "zh": "硬盘"
+      },
+      "HardDiskOne": {
+        "zh": "移动硬盘"
+      },
+      "HashtagKey": {
+        "zh": "井号键"
+      },
+      "Hdd": {
+        "zh": "HDD"
+      },
+      "HdmiCable": {
+        "zh": "HDMI线"
+      },
+      "HdmiConnector": {
+        "zh": "HDMI接口"
+      },
+      "HeadsetTwo": {
+        "zh": "耳机"
+      },
+      "HuntingGear": {
+        "zh": "从动装置"
+      },
+      "IMac": {
+        "zh": "苹果电脑iMac"
+      },
+      "InductionLock": {
+        "zh": "感应锁"
+      },
+      "Intercom": {
+        "zh": "对讲机"
+      },
+      "Ipad": {
+        "zh": "Ipad"
+      },
+      "IpadOne": {
+        "zh": "平板电脑"
+      },
+      "Iphone": {
+        "zh": "苹果手机"
+      },
+      "IwatchOne": {
+        "zh": "智能手表"
+      },
+      "IwatchTwo": {
+        "zh": "苹果智能手表"
+      },
+      "Kettle": {
+        "zh": "热水壶"
+      },
+      "Keyboard": {
+        "zh": "键盘"
+      },
+      "KeyboardOne": {
+        "zh": "键盘"
+      },
+      "Lamp": {
+        "zh": "节能灯"
+      },
+      "Laptop": {
+        "zh": "笔记本"
+      },
+      "LaptopComputer": {
+        "zh": "笔记本电脑"
+      },
+      "LaptopOne": {
+        "zh": "笔记本电脑"
+      },
+      "LockingComputer": {
+        "zh": "计算机锁定"
+      },
+      "LockingLaptop": {
+        "zh": "笔记本电脑锁定"
+      },
+      "MacFinder": {
+        "zh": "访达"
+      },
+      "Master": {
+        "zh": "主机"
+      },
+      "Memory": {
+        "zh": "储存卡"
+      },
+      "MemoryCard": {
+        "zh": "存储卡"
+      },
+      "MemoryCardOne": {
+        "zh": "记忆卡"
+      },
+      "MemoryOne": {
+        "zh": "储存器"
+      },
+      "MicroSd": {
+        "zh": "微型SD"
+      },
+      "MicroSlrCamera": {
+        "zh": "微单"
+      },
+      "Microphone": {
+        "zh": "麦克风"
+      },
+      "MicrophoneOne": {
+        "zh": "收音器"
+      },
+      "MicroscopeOne": {
+        "zh": "显微镜"
+      },
+      "MicrowaveOven": {
+        "zh": "微波炉"
+      },
+      "Microwaves": {
+        "zh": "微波炉"
+      },
+      "MiniSdCard": {
+        "zh": "微型存储卡"
+      },
+      "MonitorCamera": {
+        "zh": "监控摄像头"
+      },
+      "MonitorOne": {
+        "zh": "显示器"
+      },
+      "Mouse": {
+        "zh": "鼠标"
+      },
+      "MouseOne": {
+        "zh": "鼠标"
+      },
+      "MultiFunctionKnife": {
+        "zh": "多功能刀"
+      },
+      "NetworkDrive": {
+        "zh": "云办公"
+      },
+      "NewComputer": {
+        "zh": "计算机"
+      },
+      "NineKey": {
+        "zh": "按键九"
+      },
+      "OneKey": {
+        "zh": "按键一"
+      },
+      "Pad": {
+        "zh": "平板电脑"
+      },
+      "PaintedScreen": {
+        "zh": "绘制屏"
+      },
+      "Phone": {
+        "zh": "手机"
+      },
+      "PhoneOne": {
+        "zh": "电话"
+      },
+      "Phonograph": {
+        "zh": "留声机"
+      },
+      "Plug": {
+        "zh": "插头"
+      },
+      "PlugOne": {
+        "zh": "插电头"
+      },
+      "PowerSupply": {
+        "zh": "插头2"
+      },
+      "PowerSupplyOne": {
+        "zh": "插头1"
+      },
+      "Printer": {
+        "zh": "打印机"
+      },
+      "PrinterOne": {
+        "zh": "打印机"
+      },
+      "PrinterTwo": {
+        "zh": "打印机"
+      },
+      "Projector": {
+        "zh": "投影仪"
+      },
+      "ProjectorOne": {
+        "zh": "投影仪"
+      },
+      "ProjectorThree": {
+        "zh": "放映机"
+      },
+      "ProjectorTwo": {
+        "zh": "投影仪"
+      },
+      "Radio": {
+        "zh": "收音机"
+      },
+      "RadioOne": {
+        "zh": "收音机"
+      },
+      "Receiver": {
+        "zh": "接收器"
+      },
+      "RecordPlayer": {
+        "zh": "播放器"
+      },
+      "RemoteControl": {
+        "zh": "遥控器"
+      },
+      "RemoteControlOne": {
+        "zh": "遥控器"
+      },
+      "Robot": {
+        "zh": "机器人2"
+      },
+      "RobotOne": {
+        "zh": "机器人1"
+      },
+      "RocketOne": {
+        "zh": "火箭"
+      },
+      "RoundSocket": {
+        "zh": "圆形插座"
+      },
+      "Router": {
+        "zh": "路由器"
+      },
+      "RouterOne": {
+        "zh": "路由器"
+      },
+      "RsMale": {
+        "zh": "RS"
+      },
+      "Sd": {
+        "zh": "SD卡"
+      },
+      "SdCard": {
+        "zh": "存储卡"
+      },
+      "Seal": {
+        "zh": "印章"
+      },
+      "Server": {
+        "zh": "服务器"
+      },
+      "SettingComputer": {
+        "zh": "计算机设置"
+      },
+      "SettingLaptop": {
+        "zh": "笔记本电脑设置"
+      },
+      "SevenKey": {
+        "zh": "按键七"
+      },
+      "Shaver": {
+        "zh": "剃须刀"
+      },
+      "SignalTower": {
+        "zh": "信号塔"
+      },
+      "Sim": {
+        "zh": "电话卡"
+      },
+      "SimCard": {
+        "zh": "储存卡"
+      },
+      "SixKey": {
+        "zh": "按键六"
+      },
+      "Slave": {
+        "zh": "附件"
+      },
+      "SolarEnergy": {
+        "zh": "太阳能"
+      },
+      "SolidStateDisk": {
+        "zh": "固态硬盘"
+      },
+      "Sound": {
+        "zh": "音响"
+      },
+      "SoundOne": {
+        "zh": "音响"
+      },
+      "Speaker": {
+        "zh": "音响"
+      },
+      "SpeakerOne": {
+        "zh": "喇叭"
+      },
+      "Ssd": {
+        "zh": "SSD"
+      },
+      "Stapler": {
+        "zh": "订书机"
+      },
+      "StereoOne": {
+        "zh": "立体声"
+      },
+      "StorageCardOne": {
+        "zh": "储存卡1"
+      },
+      "StorageCardTwo": {
+        "zh": "储存卡2"
+      },
+      "Strongbox": {
+        "zh": "保险箱"
+      },
+      "Subway": {
+        "zh": "地铁"
+      },
+      "SurveillanceCameras": {
+        "zh": "监控摄像头"
+      },
+      "SurveillanceCamerasOne": {
+        "zh": "监控摄像头"
+      },
+      "SurveillanceCamerasTwo": {
+        "zh": "监控摄像头"
+      },
+      "SwitchNintendo": {
+        "zh": "任天堂游戏"
+      },
+      "SwitchOne": {
+        "zh": "开关"
+      },
+      "TableLamp": {
+        "zh": "台灯"
+      },
+      "Telescope": {
+        "zh": "望远镜"
+      },
+      "ThreeKey": {
+        "zh": "按键三"
+      },
+      "Thunderbolt": {
+        "zh": "霹雳接口"
+      },
+      "Timer": {
+        "zh": "计时器"
+      },
+      "Toilet": {
+        "zh": "马桶"
+      },
+      "Transporter": {
+        "zh": "送货车"
+      },
+      "Truck": {
+        "zh": "货车"
+      },
+      "Trumpet": {
+        "zh": "喇叭"
+      },
+      "Tv": {
+        "zh": "电视"
+      },
+      "TvOne": {
+        "zh": "电视"
+      },
+      "TwoKey": {
+        "zh": "按键二"
+      },
+      "TypeDrive": {
+        "zh": "磁带"
+      },
+      "UDisk": {
+        "zh": "U盘"
+      },
+      "UploadComputer": {
+        "zh": "计算机上传"
+      },
+      "UploadLaptop": {
+        "zh": "笔记本电脑上传"
+      },
+      "Usb": {
+        "zh": "数据接口"
+      },
+      "UsbMemoryStick": {
+        "zh": "U盘"
+      },
+      "UsbMicroOne": {
+        "zh": "微型USB1"
+      },
+      "UsbMicroTwo": {
+        "zh": "微型USB2"
+      },
+      "UsbOne": {
+        "zh": "数据接口"
+      },
+      "UsbTypeC": {
+        "zh": "TypeC"
+      },
+      "VacuumCleaner": {
+        "zh": "吸尘器"
+      },
+      "Videocamera": {
+        "zh": "摄像机1"
+      },
+      "VideocameraOne": {
+        "zh": "摄像机2"
+      },
+      "VirtualRealityGlasses": {
+        "zh": "虚拟现实眼镜"
+      },
+      "VrGlasses": {
+        "zh": "VR 眼镜"
+      },
+      "WashingMachine": {
+        "zh": "洗衣机"
+      },
+      "WashingMachineOne": {
+        "zh": "洗衣机1"
+      },
+      "WatchOne": {
+        "zh": "手表"
+      },
+      "Webcam": {
+        "zh": "网络摄像头"
+      },
+      "ZeroKey": {
+        "zh": "按键零"
+      }
+    }
+  },
+  {
+    "name": "size",
+    "type": "Select",
+    "defaultValue": 16,
+    "locale": {
+      "zh": "尺寸"
+    },
+    "desc": {
+      "zh": "图标的宽度和高度；对应API的size，默认值：16"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      10,
+      12,
+      14,
+      16,
+      20,
+      24,
+      28,
+      36,
+      48,
+      64
+    ],
+    "optionLocales": {
+      "10": {
+        "zh": 10
+      },
+      "12": {
+        "zh": 12
+      },
+      "14": {
+        "zh": 14
+      },
+      "16": {
+        "zh": 16
+      },
+      "20": {
+        "zh": 20
+      },
+      "24": {
+        "zh": 24
+      },
+      "28": {
+        "zh": 28
+      },
+      "36": {
+        "zh": 36
+      },
+      "48": {
+        "zh": 48
+      },
+      "64": {
+        "zh": 64
+      }
+    }
+  },
+  {
+    "name": "spin",
+    "type": "Boolean",
+    "defaultValue": false,
+    "locale": {
+      "zh": "旋转"
+    },
+    "desc": {
+      "zh": "图标顺时针匀速旋转；对应API的spin，默认值：false"
+    },
+    "showDes": true
+  },
+  {
+    "name": "theme",
+    "type": "Select",
+    "defaultValue": "outline",
+    "affectPropsShow": true,
+    "locale": {
+      "zh": "图标风格"
+    },
+    "desc": {
+      "zh": "对应API的theme，默认值：outline"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "outline",
+      "filled",
+      "two-tone",
+      "multi-color"
+    ],
+    "optionLocales": {
+      "outline": {
+        "zh": "线性"
+      },
+      "filled": {
+        "zh": "填充"
+      },
+      "two-tone": {
+        "zh": "双色"
+      },
+      "multi-color": {
+        "zh": "多色"
+      }
+    }
+  },
+  {
+    "name": "strokeColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": false,
+      "values": [
+        "filled",
+        "multi-color"
+      ]
+    },
+    "locale": {
+      "zh": "描边颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "fillColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "multi-color"
+      ]
+    },
+    "locale": {
+      "zh": "填充颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "outerStrokeColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "外部描边颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "outerFillColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "外部填充颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "innerStrokeColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "内部描边颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "innerFillColor",
+    "type": "Color",
+    "defaultValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "内部填充颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "strokeWidth",
+    "type": "Select",
+    "defaultValue": "4",
+    "locale": {
+      "zh": "线段粗细"
+    },
+    "desc": {
+      "zh": "svg 元素的 stroke-width 属性；对应API的strokeWidth，默认值：4"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "optionLocales": {
+      "1": {
+        "zh": 1
+      },
+      "2": {
+        "zh": 2
+      },
+      "3": {
+        "zh": 3
+      },
+      "4": {
+        "zh": 4
+      }
+    }
+  },
+  {
+    "name": "strokeLinecap",
+    "type": "Select",
+    "defaultValue": null,
+    "locale": {
+      "zh": "端点类型"
+    },
+    "desc": {
+      "zh": "svg 元素的 stroke-linecap 属性；选择 无 则为圆头；对应API的strokeLinecap，默认值：-"
+    },
+    "showDes": true,
+    "optionsEmpty": true,
+    "options": [
+      "butt",
+      "square"
+    ],
+    "optionLocales": {
+      "butt": {
+        "zh": "方头"
+      },
+      "square": {
+        "zh": "平头"
+      }
+    }
+  },
+  {
+    "name": "strokeLinejoin",
+    "type": "Select",
+    "defaultValue": null,
+    "locale": {
+      "zh": "拐点类型"
+    },
+    "desc": {
+      "zh": "svg 元素的 stroke-linejoin 属性；选择 无 则为圆头；对应API的strokeLinejoin，默认值：-"
+    },
+    "showDes": true,
+    "optionsEmpty": true,
+    "options": [
+      "miter",
+      "bevel"
+    ],
+    "optionLocales": {
+      "miter": {
+        "zh": "方头"
+      },
+      "bevel": {
+        "zh": "平头"
+      }
+    }
+  }
+]
