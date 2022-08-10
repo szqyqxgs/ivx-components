@@ -607,20 +607,24 @@
   {
     "name": "strokeLinecap",
     "type": "Select",
-    "defaultValue": null,
+    "defaultValue": "round",
     "locale": {
       "zh": "端点类型"
     },
     "desc": {
-      "zh": "svg 元素的 stroke-linecap 属性；选择 无 则为圆头；对应API的strokeLinecap，默认值：-"
+      "zh": "svg 元素的 stroke-linecap 属性；对应API的strokeLinecap，默认值：-"
     },
     "showDes": true,
-    "optionsEmpty": true,
+    "optionsEmpty": false,
     "options": [
+      "round",
       "butt",
       "square"
     ],
     "optionLocales": {
+      "round": {
+        "zh": "圆头"
+      },
       "butt": {
         "zh": "方头"
       },
@@ -632,20 +636,24 @@
   {
     "name": "strokeLinejoin",
     "type": "Select",
-    "defaultValue": null,
+    "defaultValue": "round",
     "locale": {
       "zh": "拐点类型"
     },
     "desc": {
-      "zh": "svg 元素的 stroke-linejoin 属性；选择 无 则为圆头；对应API的strokeLinejoin，默认值：-"
+      "zh": "svg 元素的 stroke-linejoin 属性；对应API的strokeLinejoin，默认值：-"
     },
     "showDes": true,
-    "optionsEmpty": true,
+    "optionsEmpty": false,
     "options": [
+      "round",
       "miter",
       "bevel"
     ],
     "optionLocales": {
+      "round": {
+        "zh": "圆头"
+      },
       "miter": {
         "zh": "方头"
       },

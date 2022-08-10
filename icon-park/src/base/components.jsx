@@ -134,9 +134,6 @@ export default class IconParkBase extends React.Component {
     icon() {
         let {name, size, spin, theme, strokeWidth, strokeLinejoin, strokeLinecap} = this.props
         switch (name) {
-            case 'Home':
-                return <Home size={size} spin={spin} theme={theme} fill={this.fill(theme)} strokeWidth={strokeWidth}
-                             strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
             case 'Aiming':
                 return <Aiming size={size} spin={spin} theme={theme} fill={this.fill(theme)} strokeWidth={strokeWidth}
                                strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
@@ -182,6 +179,9 @@ export default class IconParkBase extends React.Component {
                 return <HamburgerButton size={size} spin={spin} theme={theme} fill={this.fill(theme)}
                                         strokeWidth={strokeWidth}
                                         strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
+            case 'Home':
+                return <Home size={size} spin={spin} theme={theme} fill={this.fill(theme)} strokeWidth={strokeWidth}
+                             strokeLinejoin={strokeLinejoin} strokeLinecap={strokeLinecap}/>
             case 'HourglassFull':
                 return <HourglassFull size={size} spin={spin} theme={theme} fill={this.fill(theme)}
                                       strokeWidth={strokeWidth}
@@ -335,7 +335,7 @@ export default class IconParkBase extends React.Component {
 // 默认属性
 IconParkBase.defaultProps = {
     visible: true,
-    name: 'Home',
+    name: 'Aiming',
     size: '16',
     spin: false,
     theme: 'outline',
@@ -346,6 +346,6 @@ IconParkBase.defaultProps = {
     innerStrokeColor: null,
     innerFillColor: null,
     strokeWidth: 4,
-    strokeLinecap: null,
-    strokeLinejoin: null
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
 }

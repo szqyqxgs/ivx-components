@@ -23,7 +23,7 @@ import {
     DataDisplay,
     DataLock,
     DataSwitching,
-    DataUser
+    DataUser,
 } from '@icon-park/react'
 import '@icon-park/react/styles/index.css'
 
@@ -223,6 +223,6 @@ IconParkDatas.defaultProps = {
     innerStrokeColor: null,
     innerFillColor: null,
     strokeWidth: 4,
-    strokeLinecap: null,
-    strokeLinejoin: null
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
 }

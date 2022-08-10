@@ -488,6 +488,6 @@ IconParkSports.defaultProps = {
     innerStrokeColor: null,
     innerFillColor: null,
     strokeWidth: 4,
-    strokeLinecap: null,
-    strokeLinejoin: null
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
 }
