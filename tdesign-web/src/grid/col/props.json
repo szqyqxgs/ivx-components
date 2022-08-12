@@ -1,0 +1,908 @@
+[
+  {
+    "name": "visible",
+    "type": "Boolean",
+    "defaultValue": true,
+    "locale": {
+      "zh": "可见"
+    }
+  },
+  {
+    "name": "Response",
+    "type": "Boolean",
+    "defaultValue": false,
+    "affectPropsShow": true,
+    "locale": {
+      "zh": "响应式"
+    },
+    "desc": {
+      "zh": "启用响应式可以对xs、sm、md、lg、xl、xxl分别设置左侧间隔、栅格顺序、左移格数、右移格数、占位格数"
+    },
+    "showDes": true
+  },
+  {
+    "name": "xsOffset",
+    "type": "Number",
+    "defaultValue": 0,
+    "hidePropBy": {
+      "name": "Response",
+      "includeEmpty": true,
+      "values": [
+        false
+      ]
+    },
+    "locale": {
+      "zh": "xs左侧间隔"
+    },
+    "desc": {
+      "zh": "合法值：0—12之间的数值；表示栅格左侧的间隔格数，间隔内不可以有栅格；xs 表示 <768px 响应式栅格；对应API的offset，默认值：0"
+    },
+    "showDes": true
+  },
+  {
+    "name": "smOffset",
+    "type": "Number",
+    "defaultValue": 0,
+    "hidePropBy": {
+      "name": "Response",
+      "includeEmpty": true,
+      "values": [
+        false
+      ]
+    },
+    "locale": {
+      "zh": "sm左侧间隔"
+    },
+    "desc": {
+      "zh": "合法值：0—12之间的数值；表示栅格左侧的间隔格数，间隔内不可以有栅格；sm 表示 ≥768px 响应式栅格；对应API的offset，默认值：0"
+    },
+    "showDes": true
+  },
+  {
+    "name": "mdOffset",
+    "type": "Number",
+    "defaultValue": 0,
+    "hidePropBy": {
+      "name": "Response",
+      "includeEmpty": true,
+      "values": [
+        false
+      ]
+    },
+    "locale": {
+      "zh": "md左侧间隔"
+    },
+    "desc": {
+      "zh": "合法值：0—12之间的数值；表示栅格左侧的间隔格数，间隔内不可以有栅格；md 表示 ≥992px 响应式栅格；对应API的offset，默认值：0"
+    },
+    "showDes": true
+  },
+  {
+    "name": "lgOffset",
+    "type": "Number",
+    "defaultValue": 0,
+    "hidePropBy": {
+      "name": "Response",
+      "includeEmpty": true,
+      "values": [
+        false
+      ]
+    },
+    "locale": {
+      "zh": "lg左侧间隔"
+    },
+    "desc": {
+      "zh": "合法值：0—12之间的数值；表示栅格左侧的间隔格数，间隔内不可以有栅格；lg 表示 ≥1200px 响应式栅格；对应API的offset，默认值：0"
+    },
+    "showDes": true
+  },
+  {
+    "name": "xlOffset",
+    "type": "Number",
+    "defaultValue": 0,
+    "hidePropBy": {
+      "name": "Response",
+      "includeEmpty": true,
+      "values": [
+        false
+      ]
+    },
+    "locale": {
+      "zh": "xl左侧间隔"
+    },
+    "desc": {
+      "zh": "合法值：0—12之间的数值；表示栅格左侧的间隔格数，间隔内不可以有栅格；xl 表示 ≥1400px 响应式栅格；对应API的offset，默认值：0"
+    },
+    "showDes": true
+  },
+  {
+    "name": "xxlOffset",
+    "type": "Number",
+    "defaultValue": 0,
+    "hidePropBy": {
+      "name": "Response",
+      "includeEmpty": true,
+      "values": [
+        false
+      ]
+    },
+    "locale": {
+      "zh": "xxl左侧间隔"
+    },
+    "desc": {
+      "zh": "合法值：0—12之间的数值；表示栅格左侧的间隔格数，间隔内不可以有栅格；xxl 表示 ≥1880px 响应式栅格；对应API的offset，默认值：0"
+    },
+    "showDes": true
+  },
+  {
+    "name": "xsOrder",
+    "type": "Number",
+    "defaultValue": 0,
+    "hidePropBy": {
+      "name": "Response",
+      "includeEmpty": true,
+      "values": [
+        false
+      ]
+    },
+    "locale": {
+      "zh": "xs栅格顺序"
+    },
+    "desc": {
+      "zh": "合法值：0—12之间的数值，值越小排列越靠前；在flex布局模式下有效；xs 表示 <768px 响应式栅格；对应API的order，默认值：0"
+    },
+    "showDes": true
+  },
+  {
+    "name": "smOrder",
+    "type": "Number",
+    "defaultValue": 0,
+    "hidePropBy": {
+      "name": "Response",
+      "includeEmpty": true,
+      "values": [
+        false
+      ]
+    },
+    "locale": {
+      "zh": "sm栅格顺序"
+    },
+    "desc": {
+      "zh": "合法值：0—12之间的数值，值越小排列越靠前；在flex布局模式下有效；sm 表示 ≥768px 响应式栅格；对应API的order，默认值：0"
+    },
+    "showDes": true
+  },
+  {
+    "name": "mdOrder",
+    "type": "Number",
+    "defaultValue": 0,
+    "hidePropBy": {
+      "name": "Response",
+      "includeEmpty": true,
+      "values": [
+        false
+      ]
+    },
+    "locale": {
+      "zh": "md栅格顺序"
+    },
+    "desc": {
+      "zh": "合法值：0—12之间的数值，值越小排列越靠前；在flex布局模式下有效；md 表示 ≥992px 响应式栅格；对应API的order，默认值：0"
+    },
+    "showDes": true
+  },
+  {
+    "name": "lgOrder",
+    "type": "Number",
+    "defaultValue": 0,
+    "hidePropBy": {
+      "name": "Response",
+      "includeEmpty": true,
+      "values": [
+        false
+      ]
+    },
+    "locale": {
+      "zh": "lg栅格顺序"
+    },
+    "desc": {
+      "zh": "合法值：0—12之间的数值，值越小排列越靠前；在flex布局模式下有效；lg 表示 ≥1200px 响应式栅格；对应API的order，默认值：0"
+    },
+    "showDes": true
+  },
+  {
+    "name": "xlOrder",
+    "type": "Number",
+    "defaultValue": 0,
+    "hidePropBy": {
+      "name": "Response",
+      "includeEmpty": true,
+      "values": [
+        false
+      ]
+    },
+    "locale": {
+      "zh": "xl栅格顺序"
+    },
+    "desc": {
+      "zh": "合法值：0—12之间的数值，值越小排列越靠前；在flex布局模式下有效；xl 表示 ≥1400px 响应式栅格；对应API的order，默认值：0"
+    },
+    "showDes": true
+  },
+  {
+    "name": "xxlOrder",
+    "type": "Number",
+    "defaultValue": 0,
+    "hidePropBy": {
+      "name": "Response",
+      "includeEmpty": true,
+      "values": [
+        false
+      ]
+    },
+    "locale": {
+      "zh": "xxl栅格顺序"
+    },
+    "desc": {
+      "zh": "合法值：0—12之间的数值，值越小排列越靠前；在flex布局模式下有效；xxl 表示 ≥1880px 响应式栅格；对应API的order，默认值：0"
+    },
+    "showDes": true
+  },
+  {
+    "name": "xsPull",
+    "type": "Number",
+    "defaultValue": 0,
+    "hidePropBy": {
+      "name": "Response",
+      "includeEmpty": true,
+      "values": [
+        false
+      ]
+    },
+    "locale": {
+      "zh": "xs左移格数"
+    },
+    "desc": {
+      "zh": "合法值：0—12之间的数值；表示栅格向左移动格数；xs 表示 <768px 响应式栅格；对应API的pull，默认值：0"
+    },
+    "showDes": true
+  },
+  {
+    "name": "smPull",
+    "type": "Number",
+    "defaultValue": 0,
+    "hidePropBy": {
+      "name": "Response",
+      "includeEmpty": true,
+      "values": [
+        false
+      ]
+    },
+    "locale": {
+      "zh": "sm左移格数"
+    },
+    "desc": {
+      "zh": "合法值：0—12之间的数值；表示栅格向左移动格数；sm 表示 ≥768px 响应式栅格；对应API的pull，默认值：0"
+    },
+    "showDes": true
+  },
+  {
+    "name": "mdPull",
+    "type": "Number",
+    "defaultValue": 0,
+    "hidePropBy": {
+      "name": "Response",
+      "includeEmpty": true,
+      "values": [
+        false
+      ]
+    },
+    "locale": {
+      "zh": "md左移格数"
+    },
+    "desc": {
+      "zh": "合法值：0—12之间的数值；表示栅格向左移动格数；md 表示 ≥992px 响应式栅格；对应API的pull，默认值：0"
+    },
+    "showDes": true
+  },
+  {
+    "name": "lgPull",
+    "type": "Number",
+    "defaultValue": 0,
+    "hidePropBy": {
+      "name": "Response",
+      "includeEmpty": true,
+      "values": [
+        false
+      ]
+    },
+    "locale": {
+      "zh": "lg左移格数"
+    },
+    "desc": {
+      "zh": "合法值：0—12之间的数值；表示栅格向左移动格数；lg 表示 ≥1200px 响应式栅格；对应API的pull，默认值：0"
+    },
+    "showDes": true
+  },
+  {
+    "name": "xlPull",
+    "type": "Number",
+    "defaultValue": 0,
+    "hidePropBy": {
+      "name": "Response",
+      "includeEmpty": true,
+      "values": [
+        false
+      ]
+    },
+    "locale": {
+      "zh": "xl左移格数"
+    },
+    "desc": {
+      "zh": "合法值：0—12之间的数值；表示栅格向左移动格数；xl 表示 ≥1400px 响应式栅格；对应API的pull，默认值：0"
+    },
+    "showDes": true
+  },
+  {
+    "name": "xxlPull",
+    "type": "Number",
+    "defaultValue": 0,
+    "hidePropBy": {
+      "name": "Response",
+      "includeEmpty": true,
+      "values": [
+        false
+      ]
+    },
+    "locale": {
+      "zh": "xxl左移格数"
+    },
+    "desc": {
+      "zh": "合法值：0—12之间的数值；表示栅格向左移动格数；xxl 表示 ≥1880px 响应式栅格；对应API的pull，默认值：0"
+    },
+    "showDes": true
+  },
+  {
+    "name": "xsPush",
+    "type": "Number",
+    "defaultValue": 0,
+    "hidePropBy": {
+      "name": "Response",
+      "includeEmpty": true,
+      "values": [
+        false
+      ]
+    },
+    "locale": {
+      "zh": "xs右移格数"
+    },
+    "desc": {
+      "zh": "合法值：0—12之间的数值；表示栅格向右移动格数；xs 表示 <768px 响应式栅格；对应API的push，默认值：0"
+    },
+    "showDes": true
+  },
+  {
+    "name": "smPush",
+    "type": "Number",
+    "defaultValue": 0,
+    "hidePropBy": {
+      "name": "Response",
+      "includeEmpty": true,
+      "values": [
+        false
+      ]
+    },
+    "locale": {
+      "zh": "sm右移格数"
+    },
+    "desc": {
+      "zh": "合法值：0—12之间的数值；表示栅格向右移动格数；sm 表示 ≥768px 响应式栅格；对应API的push，默认值：0"
+    },
+    "showDes": true
+  },
+  {
+    "name": "mdPush",
+    "type": "Number",
+    "defaultValue": 0,
+    "hidePropBy": {
+      "name": "Response",
+      "includeEmpty": true,
+      "values": [
+        false
+      ]
+    },
+    "locale": {
+      "zh": "md右移格数"
+    },
+    "desc": {
+      "zh": "合法值：0—12之间的数值；表示栅格向右移动格数；md 表示 ≥992px 响应式栅格；对应API的push，默认值：0"
+    },
+    "showDes": true
+  },
+  {
+    "name": "lgPush",
+    "type": "Number",
+    "defaultValue": 0,
+    "hidePropBy": {
+      "name": "Response",
+      "includeEmpty": true,
+      "values": [
+        false
+      ]
+    },
+    "locale": {
+      "zh": "lg右移格数"
+    },
+    "desc": {
+      "zh": "合法值：0—12之间的数值；表示栅格向右移动格数；lg 表示 ≥1200px 响应式栅格；对应API的push，默认值：0"
+    },
+    "showDes": true
+  },
+  {
+    "name": "xlPush",
+    "type": "Number",
+    "defaultValue": 0,
+    "hidePropBy": {
+      "name": "Response",
+      "includeEmpty": true,
+      "values": [
+        false
+      ]
+    },
+    "locale": {
+      "zh": "xl右移格数"
+    },
+    "desc": {
+      "zh": "合法值：0—12之间的数值；表示栅格向右移动格数；xl 表示 ≥1400px 响应式栅格；对应API的push，默认值：0"
+    },
+    "showDes": true
+  },
+  {
+    "name": "xxlPush",
+    "type": "Number",
+    "defaultValue": 0,
+    "hidePropBy": {
+      "name": "Response",
+      "includeEmpty": true,
+      "values": [
+        false
+      ]
+    },
+    "locale": {
+      "zh": "xxl右移格数"
+    },
+    "desc": {
+      "zh": "合法值：0—12之间的数值；表示栅格向右移动格数；xxl 表示 ≥1880px 响应式栅格；对应API的push，默认值：0"
+    },
+    "showDes": true
+  },
+  {
+    "name": "xsSpan",
+    "type": "Number",
+    "defaultValue": 12,
+    "hidePropBy": {
+      "name": "Response",
+      "includeEmpty": true,
+      "values": [
+        false
+      ]
+    },
+    "locale": {
+      "zh": "xs占位格数"
+    },
+    "desc": {
+      "zh": "合法值：0—12之间的数值；为 0 时相当于 display: none；xs 表示 <768px 响应式栅格；对应API的span，默认值：0"
+    },
+    "showDes": true
+  },
+  {
+    "name": "smSpan",
+    "type": "Number",
+    "defaultValue": 12,
+    "hidePropBy": {
+      "name": "Response",
+      "includeEmpty": true,
+      "values": [
+        false
+      ]
+    },
+    "locale": {
+      "zh": "sm占位格数"
+    },
+    "desc": {
+      "zh": "合法值：0—12之间的数值；为 0 时相当于 display: none；sm 表示 ≥768px 响应式栅格；对应API的span，默认值：0"
+    },
+    "showDes": true
+  },
+  {
+    "name": "mdSpan",
+    "type": "Number",
+    "defaultValue": 12,
+    "hidePropBy": {
+      "name": "Response",
+      "includeEmpty": true,
+      "values": [
+        false
+      ]
+    },
+    "locale": {
+      "zh": "md占位格数"
+    },
+    "desc": {
+      "zh": "合法值：0—12之间的数值；为 0 时相当于 display: none；md 表示 ≥992px 响应式栅格；对应API的span，默认值：0"
+    },
+    "showDes": true
+  },
+  {
+    "name": "lgSpan",
+    "type": "Number",
+    "defaultValue": 12,
+    "hidePropBy": {
+      "name": "Response",
+      "includeEmpty": true,
+      "values": [
+        false
+      ]
+    },
+    "locale": {
+      "zh": "lg占位格数"
+    },
+    "desc": {
+      "zh": "合法值：0—12之间的数值；为 0 时相当于 display: none；lg 表示 ≥1200px 响应式栅格；对应API的span，默认值：0"
+    },
+    "showDes": true
+  },
+  {
+    "name": "xlSpan",
+    "type": "Number",
+    "defaultValue": 12,
+    "hidePropBy": {
+      "name": "Response",
+      "includeEmpty": true,
+      "values": [
+        false
+      ]
+    },
+    "locale": {
+      "zh": "xl占位格数"
+    },
+    "desc": {
+      "zh": "合法值：0—12之间的数值；为 0 时相当于 display: none；xl 表示 ≥1400px 响应式栅格；对应API的span，默认值：0"
+    },
+    "showDes": true
+  },
+  {
+    "name": "xxlSpan",
+    "type": "Number",
+    "defaultValue": 12,
+    "hidePropBy": {
+      "name": "Response",
+      "includeEmpty": true,
+      "values": [
+        false
+      ]
+    },
+    "locale": {
+      "zh": "xxl占位格数"
+    },
+    "desc": {
+      "zh": "合法值：0—12之间的数值；为 0 时相当于 display: none；xxl 表示 ≥1880px 响应式栅格；对应API的span，默认值：0"
+    },
+    "showDes": true
+  },
+  {
+    "name": "offset",
+    "type": "Number",
+    "defaultValue": 0,
+    "hidePropBy": {
+      "name": "Response",
+      "includeEmpty": false,
+      "values": [
+        true
+      ]
+    },
+    "locale": {
+      "zh": "左侧间隔"
+    },
+    "desc": {
+      "zh": "合法值：0—12之间的数值；表示栅格左侧的间隔格数，间隔内不可以有栅格；对应API的offset，默认值：0"
+    },
+    "showDes": true
+  },
+  {
+    "name": "order",
+    "type": "Number",
+    "defaultValue": 0,
+    "hidePropBy": {
+      "name": "Response",
+      "includeEmpty": false,
+      "values": [
+        true
+      ]
+    },
+    "locale": {
+      "zh": "栅格顺序"
+    },
+    "desc": {
+      "zh": "合法值：0—12之间的数值，值越小排列越靠前；在flex布局模式下有效；对应API的order，默认值：0"
+    },
+    "showDes": true
+  },
+  {
+    "name": "pull",
+    "type": "Number",
+    "defaultValue": 0,
+    "hidePropBy": {
+      "name": "Response",
+      "includeEmpty": false,
+      "values": [
+        true
+      ]
+    },
+    "locale": {
+      "zh": "左移格数"
+    },
+    "desc": {
+      "zh": "合法值：0—12之间的数值；表示栅格向左移动格数；对应API的pull，默认值：0"
+    },
+    "showDes": true
+  },
+  {
+    "name": "push",
+    "type": "Number",
+    "defaultValue": 0,
+    "hidePropBy": {
+      "name": "Response",
+      "includeEmpty": false,
+      "values": [
+        true
+      ]
+    },
+    "locale": {
+      "zh": "右移格数"
+    },
+    "desc": {
+      "zh": "合法值：0—12之间的数值；表示栅格向右移动格数；对应API的push，默认值：0"
+    },
+    "showDes": true
+  },
+  {
+    "name": "span",
+    "type": "Number",
+    "defaultValue": 12,
+    "hidePropBy": {
+      "name": "Response",
+      "includeEmpty": false,
+      "values": [
+        true
+      ]
+    },
+    "locale": {
+      "zh": "占位格数"
+    },
+    "desc": {
+      "zh": "合法值：0—12之间的数值；为 0 时相当于 display: none；对应API的span，默认值：12"
+    },
+    "showDes": true
+  },
+  {
+    "name": "tag",
+    "type": "Select",
+    "defaultValue": "div",
+    "groupName": "标签设置",
+    "locale": {
+      "zh": "元素标签"
+    },
+    "desc": {
+      "zh": "一些定制化场景会使用span等；对应API的tag，默认值：div"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "div",
+      "span"
+    ],
+    "optionLocales": {
+      "div": {
+        "zh": "div"
+      },
+      "span": {
+        "zh": "span"
+      }
+    }
+  },
+  {
+    "name": "flexGSB",
+    "type": "Select",
+    "defaultValue": null,
+    "groupName": "填充设置",
+    "affectPropsShow": true,
+    "locale": {
+      "zh": "设置方式"
+    },
+    "desc": {
+      "zh": "flex布局填充是CSS属性flex值；示例：2、3、100px、auto、1 1 200px；对应API的flex，默认值为-"
+    },
+    "showDes": true,
+    "optionsEmpty": true,
+    "options": [
+      "quickSelect",
+      "growShrink",
+      "basis",
+      "detailedFlex"
+    ],
+    "optionLocales": {
+      "quickSelect": {
+        "zh": "快速选择"
+      },
+      "growShrink": {
+        "zh": "简写扩缩"
+      },
+      "basis": {
+        "zh": "简写长度"
+      },
+      "detailedFlex": {
+        "zh": "高级设置"
+      }
+    }
+  },
+  {
+    "name": "quickSelect",
+    "type": "Select",
+    "defaultValue": "initial",
+    "groupName": "填充设置",
+    "hidePropBy": {
+      "name": "flexGSB",
+      "includeEmpty": true,
+      "values": [
+        "growShrink",
+        "basis",
+        "detailedFlex",
+        null
+      ]
+    },
+    "locale": {
+      "zh": "选择"
+    },
+    "desc": {
+      "zh": "initial为默认值，等同于：0 1 auto；auto等同于：1 1 auto；none等同于：0 0 auto；inherit即从父元素继承"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "initial",
+      "auto",
+      "none",
+      "inherit"
+    ],
+    "optionLocales": {
+      "initial": {
+        "zh": "initial"
+      },
+      "auto": {
+        "zh": "auto"
+      },
+      "none": {
+        "zh": "none"
+      },
+      "inherit": {
+        "zh": "inherit"
+      }
+    }
+  },
+  {
+    "name": "growShrink",
+    "type": "Number",
+    "defaultValue": 1,
+    "groupName": "填充设置",
+    "hidePropBy": {
+      "name": "flexGSB",
+      "includeEmpty": true,
+      "values": [
+        "quickSelect",
+        "basis",
+        "detailedFlex",
+        null
+      ]
+    },
+    "locale": {
+      "zh": "扩缩"
+    },
+    "desc": {
+      "zh": "合法值：任意非负数值（正整数、正小数）；表示项目相对于其余弹性项目的扩展量和收缩量；设置值为flex-grow 和 flex-shrink；flex-basis默认值：auto"
+    },
+    "showDes": true
+  },
+  {
+    "name": "basis",
+    "type": "String",
+    "defaultValue": "auto",
+    "groupName": "填充设置",
+    "hidePropBy": {
+      "name": "flexGSB",
+      "includeEmpty": true,
+      "values": [
+        "quickSelect",
+        "growShrink",
+        "detailedFlex",
+        null
+      ]
+    },
+    "locale": {
+      "zh": "长度"
+    },
+    "desc": {
+      "zh": "合法值：auto、inherit 或任意后跟 px 或 % 的数值（示例：100px、20%）；设置值为flex-basis；flex-grow 和 flex-shrink默认值：1"
+    },
+    "showDes": true
+  },
+  {
+    "name": "flexGrow",
+    "type": "Number",
+    "defaultValue": 0,
+    "groupName": "填充设置",
+    "hidePropBy": {
+      "name": "flexGSB",
+      "includeEmpty": true,
+      "values": [
+        "quickSelect",
+        "growShrink",
+        "basis",
+        null
+      ]
+    },
+    "locale": {
+      "zh": "flex-grow"
+    },
+    "desc": {
+      "zh": "合法值：任意非负数值（正整数、正小数、0）；表示项目相对于其余弹性项目的扩展量"
+    },
+    "showDes": true
+  },
+  {
+    "name": "flexShrink",
+    "type": "Number",
+    "defaultValue": 1,
+    "groupName": "填充设置",
+    "hidePropBy": {
+      "name": "flexGSB",
+      "includeEmpty": true,
+      "values": [
+        "quickSelect",
+        "growShrink",
+        "basis",
+        null
+      ]
+    },
+    "locale": {
+      "zh": "flex-shrink"
+    },
+    "desc": {
+      "zh": "合法值：任意非负数值（正整数、正小数、0）；表示项目相对于其余弹性项目的收缩量"
+    },
+    "showDes": true
+  },
+  {
+    "name": "flexBasis",
+    "type": "String",
+    "defaultValue": "auto",
+    "groupName": "填充设置",
+    "hidePropBy": {
+      "name": "flexGSB",
+      "includeEmpty": true,
+      "values": [
+        "quickSelect",
+        "growShrink",
+        "basis",
+        null
+      ]
+    },
+    "locale": {
+      "zh": "flex-basis"
+    },
+    "desc": {
+      "zh": "合法值：auto、inherit 或任意后跟 px 或 % 的数值（示例：100px、20%）；表示项目的长度"
+    },
+    "showDes": true
+  }
+]
