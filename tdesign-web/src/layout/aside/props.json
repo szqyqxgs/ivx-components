@@ -1,0 +1,22 @@
+[
+  {
+    "name": "visible",
+    "type": "Boolean",
+    "defaultValue": true,
+    "locale": {
+      "zh": "可见"
+    }
+  },
+  {
+    "name": "width",
+    "type": "PercentPx",
+    "defaultValue": 232,
+    "locale": {
+      "zh": "侧边栏宽度"
+    },
+    "desc": {
+      "zh": "对应API的width，默认值：232px"
+    },
+    "showDes": true
+  }
+]

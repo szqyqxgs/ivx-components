@@ -1,0 +1,22 @@
+[
+  {
+    "name": "visible",
+    "type": "Boolean",
+    "defaultValue": true,
+    "locale": {
+      "zh": "可见"
+    }
+  },
+  {
+    "name": "height",
+    "type": "PercentPx",
+    "defaultValue": 64,
+    "locale": {
+      "zh": "顶栏高度"
+    },
+    "desc": {
+      "zh": "对应API的height，默认值：64px"
+    },
+    "showDes": true
+  }
+]

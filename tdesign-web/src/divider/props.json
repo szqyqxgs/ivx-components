@@ -65,7 +65,7 @@
     "type": "Select",
     "defaultValue": "horizontal",
     "locale": {
-      "zh": "分割类型"
+      "zh": "分割线类型"
     },
     "desc": {
       "zh": "对应API的layout，默认值：horizontal"

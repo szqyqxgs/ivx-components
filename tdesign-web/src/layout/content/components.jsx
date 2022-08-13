@@ -1,9 +1,8 @@
 import React from 'react'
-import {Button} from 'tdesign-react'
+import {Layout} from 'tdesign-react'
 import 'tdesign-react/es/style/index.css'
-import {AddIcon, CloudUploadIcon, DeleteIcon, SearchIcon, UploadIcon} from 'tdesign-icons-react'
 
-export default class Tdaaa extends React.Component {
+export default class TdLayoutContent extends React.Component {
 
     // 绑定事件和方法
     constructor(props) {
@@ -55,48 +54,21 @@ export default class Tdaaa extends React.Component {
         })
     }
 
-    // 定义组件函数
-    // 选择左侧图标
-    icon(icon) {
-        switch (icon) {
-            case 'AddIcon':
-                return <AddIcon/>
-            case 'DeleteIcon':
-                return <DeleteIcon/>
-            case 'CloudUploadIcon':
-                return <CloudUploadIcon/>
-            case 'UploadIcon':
-                return <UploadIcon/>
-            case 'SearchIcon':
-                return <SearchIcon/>
-            default:
-                return
-        }
-    }
-
     render() {
         // 属性、事件、函数
         let {
-            visible,
-            tag,
-            icon,
-            useIcon,
-            content
+            visible
         } = this.props
-        return visible ? <Button
+        const {Content} = Layout
+        return visible ? <Content
             onClick={this.click}
-            tag={tag}
-            icon={useIcon && icon ? this.icon(icon) : undefined}
         >
-            {content}
-        </Button> : null
+            {this.props.children}
+        </Content> : null
     }
 }
 
 // 默认属性
-Tdaaa.defaultProps = {
-    visible: true,
-    suffix: null,
-    childrenPosition: 'right',
-    spacing: 0
+TdLayoutContent.defaultProps = {
+    visible: true
 }
