@@ -1,5 +1,5 @@
 import React from 'react'
-import {Space} from 'tdesign-react'
+import {Divider, Space} from 'tdesign-react'
 import 'tdesign-react/es/style/index.css'
 
 export default class TdSpace extends React.Component {
@@ -47,22 +47,36 @@ export default class TdSpace extends React.Component {
         })
     }
 
+    // 定义组件函数
+    // 选择分隔符函数
+    separator(separator) {
+        let {delimiter, dividerAlign, dashed, layout, content} = this.props
+        switch (separator) {
+            case 'delimiter':
+                return delimiter
+            case 'divider':
+                return <Divider align={dividerAlign} dashed={dashed} layout={layout}>{content}</Divider>
+            default:
+                return
+        }
+    }
+
     render() {
         // 属性、事件、函数
         let {
             visible,
             align,
-            breakLine,
             direction,
-            separator,
-            size
+            breakLine,
+            size,
+            separator
         } = this.props
         return visible ? <Space
             align={align}
-            breakLine={breakLine}
             direction={direction}
-            separator={separator} // TODO: 2022/7/31 1.字符串分隔符 2.icon分隔符 3.横向分割线且正常显示（测试使用了align属性后不显示分割线），分割线里可以定义分割线的其他参数吗，分割线里可以放子组件吗？比如icon？
+            breakLine={breakLine}
             size={size}
+            separator={separator ? this.separator(separator) : undefined}
         >
             {this.props.children}</Space> : null
     }
@@ -72,8 +86,13 @@ export default class TdSpace extends React.Component {
 TdSpace.defaultProps = {
     visible: true,
     align: 'center',
-    breakLine: false,
     direction: 'horizontal',
+    breakLine: false,
+    size: 'medium',
     separator: null,
-    size: 'medium'
+    delimiter: '/',
+    content: null,
+    dividerAlign: 'center',
+    dashed: false,
+    layout: 'vertical'
 }

@@ -41,18 +41,6 @@
     }
   },
   {
-    "name": "breakLine",
-    "type": "Boolean",
-    "defaultValue": false,
-    "locale": {
-      "zh": "自动换行"
-    },
-    "desc": {
-      "zh": "仅在 间距方向为水平 时有效；对应API的breakLine，默认值：false"
-    },
-    "showDes": true
-  },
-  {
     "name": "direction",
     "type": "Select",
     "defaultValue": "horizontal",
@@ -78,14 +66,14 @@
     }
   },
   {
-    "name": "separator",
-    "type": "String",
-    "defaultValue": null,
+    "name": "breakLine",
+    "type": "Boolean",
+    "defaultValue": false,
     "locale": {
-      "zh": "分隔符"
+      "zh": "自动换行"
     },
     "desc": {
-      "zh": "对应API的separator，默认值：-"
+      "zh": "仅在 间距方向为水平 时有效；对应API的breakLine，默认值：false"
     },
     "showDes": true
   },
@@ -105,14 +93,17 @@
       "small",
       "medium",
       "large",
-      10,
+      4,
+      8,
       12,
       14,
       16,
       20,
       24,
       28,
+      32,
       36,
+      40,
       48,
       64
     ],
@@ -126,8 +117,11 @@
       "large": {
         "zh": "large"
       },
-      "10": {
-        "zh": 10
+      "4": {
+        "zh": 4
+      },
+      "8": {
+        "zh": 8
       },
       "12": {
         "zh": 12
@@ -147,14 +141,182 @@
       "28": {
         "zh": 28
       },
+      "32": {
+        "zh": 32
+      },
       "36": {
         "zh": 36
+      },
+      "40": {
+        "zh": 40
       },
       "48": {
         "zh": 48
       },
       "64": {
         "zh": 64
+      }
+    }
+  },
+  {
+    "name": "separator",
+    "type": "Select",
+    "defaultValue": null,
+    "groupName": "分隔设置",
+    "affectPropsShow": true,
+    "locale": {
+      "zh": "分隔类型"
+    },
+    "desc": {
+      "zh": "对应API的separator，默认值为-"
+    },
+    "showDes": true,
+    "optionsEmpty": true,
+    "options": [
+      "delimiter",
+      "divider"
+    ],
+    "optionLocales": {
+      "delimiter": {
+        "zh": "分隔符"
+      },
+      "divider": {
+        "zh": "分割线"
+      }
+    }
+  },
+  {
+    "name": "delimiter",
+    "type": "String",
+    "defaultValue": "/",
+    "groupName": "分隔设置",
+    "hidePropBy": {
+      "name": "separator",
+      "includeEmpty": true,
+      "values": [
+        "divider",
+        null
+      ]
+    },
+    "locale": {
+      "zh": "分隔符"
+    },
+    "desc": {
+      "zh": "合法值：任意字符串"
+    },
+    "showDes": true
+  },
+  {
+    "name": "content",
+    "type": "String",
+    "defaultValue": null,
+    "groupName": "分隔设置",
+    "hidePropBy": {
+      "name": "separator",
+      "includeEmpty": true,
+      "values": [
+        "delimiter",
+        null
+      ]
+    },
+    "locale": {
+      "zh": "分割线文本"
+    },
+    "desc": {
+      "zh": "对应分割线组件API的content，默认值：-"
+    },
+    "showDes": true
+  },
+  {
+    "name": "dividerAlign",
+    "type": "Select",
+    "defaultValue": "center",
+    "groupName": "分隔设置",
+    "hidePropBy": {
+      "name": "separator",
+      "includeEmpty": true,
+      "values": [
+        "delimiter",
+        null
+      ]
+    },
+    "locale": {
+      "zh": "文本位置"
+    },
+    "desc": {
+      "zh": "对应分割线组件API的align，默认值：center"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "left",
+      "center",
+      "right"
+    ],
+    "optionLocales": {
+      "left": {
+        "zh": "靠左"
+      },
+      "center": {
+        "zh": "居中"
+      },
+      "right": {
+        "zh": "靠右"
+      }
+    }
+  },
+  {
+    "name": "dashed",
+    "type": "Boolean",
+    "defaultValue": false,
+    "groupName": "分隔设置",
+    "hidePropBy": {
+      "name": "separator",
+      "includeEmpty": true,
+      "values": [
+        "delimiter",
+        null
+      ]
+    },
+    "locale": {
+      "zh": "是否虚线"
+    },
+    "desc": {
+      "zh": "对应分割线组件API的dashed，默认值：false"
+    },
+    "showDes": true
+  },
+  {
+    "name": "layout",
+    "type": "Select",
+    "defaultValue": "vertical",
+    "groupName": "分隔设置",
+    "hidePropBy": {
+      "name": "separator",
+      "includeEmpty": true,
+      "values": [
+        "delimiter",
+        null
+      ]
+    },
+    "locale": {
+      "zh": "分割类型"
+    },
+    "desc": {
+      "zh": "对应分割线组件API的layout，默认值：vertical"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "horizontal",
+      "vertical"
+    ],
+    "optionLocales": {
+      "horizontal": {
+        "zh": "水平"
+      },
+      "vertical": {
+        "zh": "垂直"
       }
     }
   }
