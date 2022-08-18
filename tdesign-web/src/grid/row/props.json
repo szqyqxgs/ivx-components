@@ -161,7 +161,8 @@
     "desc": {
       "zh": "合法值：任意数值"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "任意数值"
   },
   {
     "name": "xsHorizontal",
@@ -183,7 +184,8 @@
     "desc": {
       "zh": "合法值：任意数值；xs 表示 <768px 响应式栅格"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "任意数值"
   },
   {
     "name": "smHorizontal",
@@ -205,7 +207,8 @@
     "desc": {
       "zh": "合法值：任意数值；sm 表示 ≥768px 响应式栅格"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "任意数值"
   },
   {
     "name": "mdHorizontal",
@@ -227,7 +230,8 @@
     "desc": {
       "zh": "合法值：任意数值；md 表示 ≥992px 响应式栅格"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "任意数值"
   },
   {
     "name": "lgHorizontal",
@@ -249,7 +253,8 @@
     "desc": {
       "zh": "合法值：任意数值；lg 表示 ≥1200px 响应式栅格"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "任意数值"
   },
   {
     "name": "xlHorizontal",
@@ -271,7 +276,8 @@
     "desc": {
       "zh": "合法值：任意数值；xl 表示 ≥1400px 响应式栅格"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "任意数值"
   },
   {
     "name": "xxlHorizontal",
@@ -293,7 +299,8 @@
     "desc": {
       "zh": "合法值：任意数值；xxl 表示 ≥1880px 响应式栅格"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "任意数值"
   },
   {
     "name": "verticalSpacing",
@@ -316,7 +323,8 @@
     "desc": {
       "zh": "合法值：任意数值"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "任意数值"
   },
   {
     "name": "xsVertical",
@@ -339,7 +347,8 @@
     "desc": {
       "zh": "合法值：任意数值；xs 表示 <768px 响应式栅格"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "任意数值"
   },
   {
     "name": "smVertical",
@@ -362,7 +371,8 @@
     "desc": {
       "zh": "合法值：任意数值；sm 表示 ≥768px 响应式栅格"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "任意数值"
   },
   {
     "name": "mdVertical",
@@ -385,7 +395,8 @@
     "desc": {
       "zh": "合法值：任意数值；md 表示 ≥992px 响应式栅格"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "任意数值"
   },
   {
     "name": "lgVertical",
@@ -408,7 +419,8 @@
     "desc": {
       "zh": "合法值：任意数值；lg 表示 ≥1200px 响应式栅格"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "任意数值"
   },
   {
     "name": "xlVertical",
@@ -431,7 +443,8 @@
     "desc": {
       "zh": "合法值：任意数值；xl 表示 ≥1400px 响应式栅格"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "任意数值"
   },
   {
     "name": "xxlVertical",
@@ -454,6 +467,7 @@
     "desc": {
       "zh": "合法值：任意数值；xxl 表示 ≥1880px 响应式栅格"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "任意数值"
   }
 ]

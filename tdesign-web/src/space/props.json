@@ -196,7 +196,8 @@
     "desc": {
       "zh": "合法值：任意字符串"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "任意字符串"
   },
   {
     "name": "content",
@@ -217,7 +218,8 @@
     "desc": {
       "zh": "对应分割线组件API的content，默认值：-"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "任意字符串"
   },
   {
     "name": "dividerAlign",

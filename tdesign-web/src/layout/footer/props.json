@@ -17,6 +17,7 @@
     "desc": {
       "zh": "对应API的height，默认值：24px"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "任意正数"
   }
 ]

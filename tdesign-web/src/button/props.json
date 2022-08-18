@@ -17,7 +17,8 @@
     "desc": {
       "zh": "对应API的content，默认值：-"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "任意字符串"
   },
   {
     "name": "block",
@@ -408,6 +409,7 @@
     "desc": {
       "zh": "合法值：任意数值；表示当前组件元素（按钮文本）与子组件的间距；如需设置各子组件的间距请使用间距组件；仅在含有子组件时有效"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "任意数值"
   }
 ]

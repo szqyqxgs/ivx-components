@@ -37,7 +37,8 @@
     "desc": {
       "zh": "合法值：0—12之间的数值；表示栅格左侧的间隔格数，间隔内不可以有栅格；xs 表示 <768px 响应式栅格；对应API的offset，默认值：0"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "0-12之间的数值"
   },
   {
     "name": "smOffset",
@@ -56,7 +57,8 @@
     "desc": {
       "zh": "合法值：0—12之间的数值；表示栅格左侧的间隔格数，间隔内不可以有栅格；sm 表示 ≥768px 响应式栅格；对应API的offset，默认值：0"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "0-12之间的数值"
   },
   {
     "name": "mdOffset",
@@ -75,7 +77,8 @@
     "desc": {
       "zh": "合法值：0—12之间的数值；表示栅格左侧的间隔格数，间隔内不可以有栅格；md 表示 ≥992px 响应式栅格；对应API的offset，默认值：0"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "0-12之间的数值"
   },
   {
     "name": "lgOffset",
@@ -94,7 +97,8 @@
     "desc": {
       "zh": "合法值：0—12之间的数值；表示栅格左侧的间隔格数，间隔内不可以有栅格；lg 表示 ≥1200px 响应式栅格；对应API的offset，默认值：0"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "0-12之间的数值"
   },
   {
     "name": "xlOffset",
@@ -113,7 +117,8 @@
     "desc": {
       "zh": "合法值：0—12之间的数值；表示栅格左侧的间隔格数，间隔内不可以有栅格；xl 表示 ≥1400px 响应式栅格；对应API的offset，默认值：0"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "0-12之间的数值"
   },
   {
     "name": "xxlOffset",
@@ -132,7 +137,8 @@
     "desc": {
       "zh": "合法值：0—12之间的数值；表示栅格左侧的间隔格数，间隔内不可以有栅格；xxl 表示 ≥1880px 响应式栅格；对应API的offset，默认值：0"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "0-12之间的数值"
   },
   {
     "name": "xsOrder",
@@ -151,7 +157,8 @@
     "desc": {
       "zh": "合法值：0—12之间的数值，值越小排列越靠前；在flex布局模式下有效；xs 表示 <768px 响应式栅格；对应API的order，默认值：0"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "0-12之间的数值"
   },
   {
     "name": "smOrder",
@@ -170,7 +177,8 @@
     "desc": {
       "zh": "合法值：0—12之间的数值，值越小排列越靠前；在flex布局模式下有效；sm 表示 ≥768px 响应式栅格；对应API的order，默认值：0"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "0-12之间的数值"
   },
   {
     "name": "mdOrder",
@@ -189,7 +197,8 @@
     "desc": {
       "zh": "合法值：0—12之间的数值，值越小排列越靠前；在flex布局模式下有效；md 表示 ≥992px 响应式栅格；对应API的order，默认值：0"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "0-12之间的数值"
   },
   {
     "name": "lgOrder",
@@ -208,7 +217,8 @@
     "desc": {
       "zh": "合法值：0—12之间的数值，值越小排列越靠前；在flex布局模式下有效；lg 表示 ≥1200px 响应式栅格；对应API的order，默认值：0"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "0-12之间的数值"
   },
   {
     "name": "xlOrder",
@@ -227,7 +237,8 @@
     "desc": {
       "zh": "合法值：0—12之间的数值，值越小排列越靠前；在flex布局模式下有效；xl 表示 ≥1400px 响应式栅格；对应API的order，默认值：0"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "0-12之间的数值"
   },
   {
     "name": "xxlOrder",
@@ -246,7 +257,8 @@
     "desc": {
       "zh": "合法值：0—12之间的数值，值越小排列越靠前；在flex布局模式下有效；xxl 表示 ≥1880px 响应式栅格；对应API的order，默认值：0"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "0-12之间的数值"
   },
   {
     "name": "xsPull",
@@ -265,7 +277,8 @@
     "desc": {
       "zh": "合法值：0—12之间的数值；表示栅格向左移动格数；xs 表示 <768px 响应式栅格；对应API的pull，默认值：0"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "0-12之间的数值"
   },
   {
     "name": "smPull",
@@ -284,7 +297,8 @@
     "desc": {
       "zh": "合法值：0—12之间的数值；表示栅格向左移动格数；sm 表示 ≥768px 响应式栅格；对应API的pull，默认值：0"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "0-12之间的数值"
   },
   {
     "name": "mdPull",
@@ -303,7 +317,8 @@
     "desc": {
       "zh": "合法值：0—12之间的数值；表示栅格向左移动格数；md 表示 ≥992px 响应式栅格；对应API的pull，默认值：0"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "0-12之间的数值"
   },
   {
     "name": "lgPull",
@@ -322,7 +337,8 @@
     "desc": {
       "zh": "合法值：0—12之间的数值；表示栅格向左移动格数；lg 表示 ≥1200px 响应式栅格；对应API的pull，默认值：0"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "0-12之间的数值"
   },
   {
     "name": "xlPull",
@@ -341,7 +357,8 @@
     "desc": {
       "zh": "合法值：0—12之间的数值；表示栅格向左移动格数；xl 表示 ≥1400px 响应式栅格；对应API的pull，默认值：0"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "0-12之间的数值"
   },
   {
     "name": "xxlPull",
@@ -360,7 +377,8 @@
     "desc": {
       "zh": "合法值：0—12之间的数值；表示栅格向左移动格数；xxl 表示 ≥1880px 响应式栅格；对应API的pull，默认值：0"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "0-12之间的数值"
   },
   {
     "name": "xsPush",
@@ -379,7 +397,8 @@
     "desc": {
       "zh": "合法值：0—12之间的数值；表示栅格向右移动格数；xs 表示 <768px 响应式栅格；对应API的push，默认值：0"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "0-12之间的数值"
   },
   {
     "name": "smPush",
@@ -398,7 +417,8 @@
     "desc": {
       "zh": "合法值：0—12之间的数值；表示栅格向右移动格数；sm 表示 ≥768px 响应式栅格；对应API的push，默认值：0"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "0-12之间的数值"
   },
   {
     "name": "mdPush",
@@ -417,7 +437,8 @@
     "desc": {
       "zh": "合法值：0—12之间的数值；表示栅格向右移动格数；md 表示 ≥992px 响应式栅格；对应API的push，默认值：0"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "0-12之间的数值"
   },
   {
     "name": "lgPush",
@@ -436,7 +457,8 @@
     "desc": {
       "zh": "合法值：0—12之间的数值；表示栅格向右移动格数；lg 表示 ≥1200px 响应式栅格；对应API的push，默认值：0"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "0-12之间的数值"
   },
   {
     "name": "xlPush",
@@ -455,7 +477,8 @@
     "desc": {
       "zh": "合法值：0—12之间的数值；表示栅格向右移动格数；xl 表示 ≥1400px 响应式栅格；对应API的push，默认值：0"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "0-12之间的数值"
   },
   {
     "name": "xxlPush",
@@ -474,7 +497,8 @@
     "desc": {
       "zh": "合法值：0—12之间的数值；表示栅格向右移动格数；xxl 表示 ≥1880px 响应式栅格；对应API的push，默认值：0"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "0-12之间的数值"
   },
   {
     "name": "xsSpan",
@@ -493,7 +517,8 @@
     "desc": {
       "zh": "合法值：0—12之间的数值；为 0 时相当于 display: none；xs 表示 <768px 响应式栅格；对应API的span，默认值：0"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "0-12之间的数值"
   },
   {
     "name": "smSpan",
@@ -512,7 +537,8 @@
     "desc": {
       "zh": "合法值：0—12之间的数值；为 0 时相当于 display: none；sm 表示 ≥768px 响应式栅格；对应API的span，默认值：0"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "0-12之间的数值"
   },
   {
     "name": "mdSpan",
@@ -531,7 +557,8 @@
     "desc": {
       "zh": "合法值：0—12之间的数值；为 0 时相当于 display: none；md 表示 ≥992px 响应式栅格；对应API的span，默认值：0"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "0-12之间的数值"
   },
   {
     "name": "lgSpan",
@@ -550,7 +577,8 @@
     "desc": {
       "zh": "合法值：0—12之间的数值；为 0 时相当于 display: none；lg 表示 ≥1200px 响应式栅格；对应API的span，默认值：0"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "0-12之间的数值"
   },
   {
     "name": "xlSpan",
@@ -569,7 +597,8 @@
     "desc": {
       "zh": "合法值：0—12之间的数值；为 0 时相当于 display: none；xl 表示 ≥1400px 响应式栅格；对应API的span，默认值：0"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "0-12之间的数值"
   },
   {
     "name": "xxlSpan",
@@ -588,7 +617,8 @@
     "desc": {
       "zh": "合法值：0—12之间的数值；为 0 时相当于 display: none；xxl 表示 ≥1880px 响应式栅格；对应API的span，默认值：0"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "0-12之间的数值"
   },
   {
     "name": "offset",
@@ -607,7 +637,8 @@
     "desc": {
       "zh": "合法值：0—12之间的数值；表示栅格左侧的间隔格数，间隔内不可以有栅格；对应API的offset，默认值：0"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "0-12之间的数值"
   },
   {
     "name": "order",
@@ -626,7 +657,8 @@
     "desc": {
       "zh": "合法值：0—12之间的数值，值越小排列越靠前；在flex布局模式下有效；对应API的order，默认值：0"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "0-12之间的数值"
   },
   {
     "name": "pull",
@@ -645,7 +677,8 @@
     "desc": {
       "zh": "合法值：0—12之间的数值；表示栅格向左移动格数；对应API的pull，默认值：0"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "0-12之间的数值"
   },
   {
     "name": "push",
@@ -664,7 +697,8 @@
     "desc": {
       "zh": "合法值：0—12之间的数值；表示栅格向右移动格数；对应API的push，默认值：0"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "0-12之间的数值"
   },
   {
     "name": "span",
@@ -683,7 +717,8 @@
     "desc": {
       "zh": "合法值：0—12之间的数值；为 0 时相当于 display: none；对应API的span，默认值：12"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "0-12之间的数值"
   },
   {
     "name": "tag",
@@ -811,7 +846,8 @@
     "desc": {
       "zh": "合法值：任意非负数值（正整数、正小数）；表示项目相对于其余弹性项目的扩展量和收缩量；设置值为flex-grow 和 flex-shrink；flex-basis默认值：auto"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "任意非负数值"
   },
   {
     "name": "basis",
@@ -857,7 +893,8 @@
     "desc": {
       "zh": "合法值：任意非负数值（正整数、正小数、0）；表示项目相对于其余弹性项目的扩展量"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "任意非负数值"
   },
   {
     "name": "flexShrink",
@@ -880,7 +917,8 @@
     "desc": {
       "zh": "合法值：任意非负数值（正整数、正小数、0）；表示项目相对于其余弹性项目的收缩量"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "任意非负数值"
   },
   {
     "name": "flexBasis",
