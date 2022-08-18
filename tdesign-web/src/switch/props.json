@@ -105,7 +105,8 @@
     "desc": {
       "zh": "位于开关左侧，开关状态为开启时显示"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "任意字符串"
   },
   {
     "name": "closeText",
@@ -125,7 +126,8 @@
     "desc": {
       "zh": "位于开关右侧，开关状态为关闭时显示"
     },
-    "showDes": true
+    "showDes": true,
+    "placeholder": "任意字符串"
   },
   {
     "name": "openIcon",

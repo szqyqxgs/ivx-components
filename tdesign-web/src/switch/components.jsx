@@ -47,7 +47,9 @@ export default class TdSwitch extends React.Component {
         this.props.onOpenMethod && this.props.onOpenMethod({
             value: value
         })
-        callback('', {value: value})
+        callback('', {
+            value: value
+        })
     }
 
     // 设置开关状态为关闭
@@ -56,7 +58,9 @@ export default class TdSwitch extends React.Component {
         this.props.onCloseMethod && this.props.onCloseMethod({
             value: value
         })
-        callback('', {value: value})
+        callback('', {
+            value: value
+        })
     }
 
     // 交替设置开关状态为开启/关闭
@@ -65,7 +69,9 @@ export default class TdSwitch extends React.Component {
         this.props.onToggleMethod && this.props.onToggleMethod({
             value: value
         })
-        callback('', {value: value})
+        callback('', {
+            value: value
+        })
     }
 
     // 显示
