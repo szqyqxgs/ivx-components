@@ -6,7 +6,18 @@
     },
     "desc": {
       "zh": "初始打开，功能和界面在正常运行前的准备阶段；仅对非当前对象有效。"
-    }
+    },
+    "params": [
+      {
+        "name": "value",
+        "locale": {
+          "zh": "开关状态值"
+        },
+        "desc": {
+          "zh": "值为true/false。"
+        }
+      }
+    ]
   },
   {
     "name": "change",
@@ -19,45 +30,11 @@
     "params": [
       {
         "name": "value",
-        "type": "Boolean",
         "locale": {
           "zh": "开关状态值"
-        }
-      }
-    ]
-  },
-  {
-    "name": "openEvent",
-    "locale": {
-      "zh": "开关状态开启"
-    },
-    "desc": {
-      "zh": "切换开关状态为开启时触发（关闭切换至开启）。"
-    },
-    "params": [
-      {
-        "name": "value",
-        "type": "Boolean",
-        "locale": {
-          "zh": "开关状态值"
-        }
-      }
-    ]
-  },
-  {
-    "name": "closeEvent",
-    "locale": {
-      "zh": "开关状态关闭"
-    },
-    "desc": {
-      "zh": "切换开关状态为关闭时触发（开启切换至关闭）。"
-    },
-    "params": [
-      {
-        "name": "value",
-        "type": "Boolean",
-        "locale": {
-          "zh": "开关状态值"
+        },
+        "desc": {
+          "zh": "值为true/false。"
         }
       }
     ]

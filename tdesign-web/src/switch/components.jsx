@@ -23,21 +23,14 @@ export default class TdSwitch extends React.Component {
     }
 
     // 更新周期
-    componentDidUpdate(prevProps) {
-        if (this.props.value !== prevProps.value) {
-            if (this.props.value === true) {
-                this.openEvent()
-            }
-            if (this.props.value === false) {
-                this.closeEvent()
-            }
-        }
-    }
+    // componentDidUpdate(prevProps) {}
 
     // 定义组件事件
     // 初始化
     initialize() {
-        this.props.onInitialize && this.props.onInitialize()
+        this.props.onInitialize && this.props.onInitialize({
+            value: this.props.value
+        })
     }
 
     // 切换开关状态
@@ -47,36 +40,32 @@ export default class TdSwitch extends React.Component {
         })
     }
 
-    // 开关状态开启
-    openEvent() {
-        this.props.onOpenEvent && this.props.onOpenEvent()
-    }
-
-    // 开关状态关闭
-    closeEvent() {
-        this.props.onCloseEvent && this.props.onCloseEvent()
-    }
-
     // 定义组件方法
     // 设置开关状态为开启
-    openMethod() {
+    openMethod(callback) {
+        let value = true
         this.props.onOpenMethod && this.props.onOpenMethod({
-            value: true
+            value: value
         })
+        callback('', {value: value})
     }
 
     // 设置开关状态为关闭
-    closeMethod() {
+    closeMethod(callback) {
+        let value = false
         this.props.onCloseMethod && this.props.onCloseMethod({
-            value: false
+            value: value
         })
+        callback('', {value: value})
     }
 
     // 交替设置开关状态为开启/关闭
-    toggleMethod() {
+    toggleMethod(callback) {
+        let value = !this.props.value
         this.props.onToggleMethod && this.props.onToggleMethod({
-            value: !this.props.value
+            value: value
         })
+        callback('', {value: value})
     }
 
     // 显示
