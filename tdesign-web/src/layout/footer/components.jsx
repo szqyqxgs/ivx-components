@@ -58,12 +58,13 @@ export default class TdLayoutFooter extends React.Component {
         // 属性、事件、函数
         let {
             visible,
+            footerHeight,
             height
         } = this.props
         const {Footer} = Layout
         return visible ? <Footer
             onClick={this.click}
-            height={height}
+            height={footerHeight === 'auto' ? footerHeight : height}
         >
             {this.props.children}
         </Footer> : null
@@ -73,5 +74,6 @@ export default class TdLayoutFooter extends React.Component {
 // 默认属性
 TdLayoutFooter.defaultProps = {
     visible: true,
-    height: 24
+    footerHeight: 'auto',
+    height: 70
 }

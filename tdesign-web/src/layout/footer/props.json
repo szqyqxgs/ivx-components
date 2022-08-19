@@ -8,14 +8,47 @@
     }
   },
   {
-    "name": "height",
-    "type": "PercentPx",
-    "defaultValue": 24,
+    "name": "footerHeight",
+    "type": "Select",
+    "defaultValue": "auto",
+    "affectPropsShow": true,
     "locale": {
       "zh": "底栏高度"
     },
     "desc": {
-      "zh": "对应API的height，默认值：24px"
+      "zh": "自动包裹为auto；对应API的height，默认值：-"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "auto",
+      "fixedValue"
+    ],
+    "optionLocales": {
+      "auto": {
+        "zh": "自动包裹"
+      },
+      "fixedValue": {
+        "zh": "固定值"
+      }
+    }
+  },
+  {
+    "name": "height",
+    "type": "PercentPx",
+    "defaultValue": 70,
+    "hidePropBy": {
+      "name": "footerHeight",
+      "includeEmpty": true,
+      "values": [
+        "auto"
+      ]
+    },
+    "locale": {
+      "zh": "高度"
+    },
+    "desc": {
+      "zh": "对应API的height，默认值：-"
     },
     "showDes": true,
     "placeholder": "任意正数"

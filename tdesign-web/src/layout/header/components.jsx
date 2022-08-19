@@ -58,12 +58,13 @@ export default class TdLayoutHeader extends React.Component {
         // 属性、事件、函数
         let {
             visible,
+            headerHeight,
             height
         } = this.props
         const {Header} = Layout
         return visible ? <Header
             onClick={this.click}
-            height={height}
+            height={headerHeight === 'auto' ? headerHeight : height}
         >
             {this.props.children}
         </Header> : null
@@ -73,5 +74,6 @@ export default class TdLayoutHeader extends React.Component {
 // 默认属性
 TdLayoutHeader.defaultProps = {
     visible: true,
+    headerHeight: 'fixedValue',
     height: 64
 }
