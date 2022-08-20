@@ -1,0 +1,206 @@
+[
+  {
+    "name": "visible",
+    "type": "Boolean",
+    "defaultValue": true,
+    "locale": {
+      "zh": "可见"
+    }
+  },
+  {
+    "name": "theme",
+    "type": "Select",
+    "defaultValue": "info",
+    "locale": {
+      "zh": "风格"
+    },
+    "desc": {
+      "zh": "对应API的theme，默认值：info"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "success",
+      "info",
+      "warning",
+      "error"
+    ],
+    "optionLocales": {
+      "success": {
+        "zh": "成功"
+      },
+      "info": {
+        "zh": "信息"
+      },
+      "warning": {
+        "zh": "警告"
+      },
+      "error": {
+        "zh": "错误"
+      }
+    }
+  },
+  {
+    "name": "icon",
+    "type": "Select",
+    "defaultValue": "default",
+    "locale": {
+      "zh": "图标"
+    },
+    "desc": {
+      "zh": "对应API的icon；图标名对应图标API IconSVG的name，默认值：-"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "default",
+      "CheckCircleFilledIcon",
+      "CloseCircleFilledIcon",
+      "ErrorCircleFilledIcon",
+      "HelpCircleFilledIcon",
+      "InfoCircleFilledIcon",
+      "MinusCircleFilledIcon"
+    ],
+    "optionLocales": {
+      "default": {
+        "zh": "默认"
+      },
+      "CheckCircleFilledIcon": {
+        "zh": "CheckCircleFilledIcon"
+      },
+      "CloseCircleFilledIcon": {
+        "zh": "CloseCircleFilledIcon"
+      },
+      "ErrorCircleFilledIcon": {
+        "zh": "ErrorCircleFilledIcon"
+      },
+      "HelpCircleFilledIcon": {
+        "zh": "HelpCircleFilledIcon"
+      },
+      "InfoCircleFilledIcon": {
+        "zh": "InfoCircleFilledIcon"
+      },
+      "MinusCircleFilledIcon": {
+        "zh": "MinusCircleFilledIcon"
+      }
+    }
+  },
+  {
+    "name": "message",
+    "type": "String",
+    "defaultValue": null,
+    "groupName": "内容设置",
+    "locale": {
+      "zh": "警告内容"
+    },
+    "desc": {
+      "zh": "字符串为单行内容，一维数组为多行内容；对应API的message，默认值：-"
+    },
+    "showDes": true,
+    "placeholder": "任意字符串或一维数组"
+  },
+  {
+    "name": "maxLine",
+    "type": "Number",
+    "defaultValue": 0,
+    "groupName": "内容设置",
+    "locale": {
+      "zh": "显示行数"
+    },
+    "desc": {
+      "zh": "内容默认显示的最大行数，超出的内容会折叠收起，点击后再展开；仅内容为一维数组时有效；0 表示不折叠；对应API的maxLine，默认值：0"
+    },
+    "showDes": true,
+    "placeholder": "任意非负数值"
+  },
+  {
+    "name": "title",
+    "type": "String",
+    "defaultValue": null,
+    "groupName": "内容设置",
+    "locale": {
+      "zh": "标题"
+    },
+    "desc": {
+      "zh": "对应API的title，默认值：-"
+    },
+    "showDes": true,
+    "placeholder": "任意字符串"
+  },
+  {
+    "name": "useOperation",
+    "type": "Boolean",
+    "defaultValue": false,
+    "affectPropsShow": true,
+    "locale": {
+      "zh": "启用操作区"
+    }
+  },
+  {
+    "name": "operationText",
+    "type": "String",
+    "defaultValue": "操作",
+    "hidePropBy": {
+      "name": "useOperation",
+      "includeEmpty": true,
+      "values": [
+        false
+      ]
+    },
+    "locale": {
+      "zh": "操作区文本"
+    },
+    "desc": {
+      "zh": "对应API的operation，默认值：-"
+    },
+    "showDes": true,
+    "placeholder": "任意字符串"
+  },
+  {
+    "name": "closeButton",
+    "type": "Select",
+    "defaultValue": "icon",
+    "affectPropsShow": true,
+    "locale": {
+      "zh": "关闭按钮"
+    },
+    "desc": {
+      "zh": "选择 无 则不显示关闭按钮；对应API的close，默认值：图标"
+    },
+    "showDes": true,
+    "optionsEmpty": true,
+    "options": [
+      "icon",
+      "text"
+    ],
+    "optionLocales": {
+      "icon": {
+        "zh": "图标"
+      },
+      "text": {
+        "zh": "文本"
+      }
+    }
+  },
+  {
+    "name": "closeText",
+    "type": "String",
+    "defaultValue": "关闭",
+    "hidePropBy": {
+      "name": "closeButton",
+      "includeEmpty": true,
+      "values": [
+        "icon",
+        null
+      ]
+    },
+    "locale": {
+      "zh": "按钮文本"
+    },
+    "desc": {
+      "zh": "对应API的close，参考值：关闭 / 知道了"
+    },
+    "showDes": true,
+    "placeholder": "任意字符串"
+  }
+]
