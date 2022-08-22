@@ -48,7 +48,7 @@
       "zh": "图标"
     },
     "desc": {
-      "zh": "对应API的icon；图标名对应图标API IconSVG的name，默认值：-"
+      "zh": "对应API的icon，默认值：-；图标对应图标Icon组件API IconSVG的name"
     },
     "showDes": true,
     "optionsEmpty": false,

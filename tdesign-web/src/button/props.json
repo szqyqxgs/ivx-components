@@ -224,7 +224,7 @@
       "zh": "左侧图标"
     },
     "desc": {
-      "zh": "位于按钮文本左侧；对应API的icon，默认值：-；图标对应TDesign官方图标组件API IconSVG的name"
+      "zh": "位于按钮文本左侧；对应API的icon，默认值：-；图标对应图标Icon组件API IconSVG的name"
     },
     "showDes": true,
     "optionsEmpty": true,
@@ -269,7 +269,7 @@
       "zh": "右侧图标"
     },
     "desc": {
-      "zh": "位于按钮文本右侧；对应API的suffix，默认值：-；图标对应TDesign官方图标组件API IconSVG的name"
+      "zh": "位于按钮文本右侧；对应API的suffix，默认值：-；图标对应图标Icon组件API IconSVG的name"
     },
     "showDes": true,
     "optionsEmpty": true,

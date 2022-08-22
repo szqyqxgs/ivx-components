@@ -145,7 +145,7 @@
       "zh": "开启时图标"
     },
     "desc": {
-      "zh": "位于开关左侧，开关状态为开启时显示；图标对应TDesign官方图标组件API IconSVG的name"
+      "zh": "位于开关左侧，开关状态为开启时显示；图标对应图标Icon组件API IconSVG的name"
     },
     "showDes": true,
     "optionsEmpty": true,
@@ -174,7 +174,7 @@
       "zh": "关闭时图标"
     },
     "desc": {
-      "zh": "位于开关右侧，开关状态为关闭时显示；图标对应TDesign官方图标组件API IconSVG的name"
+      "zh": "位于开关右侧，开关状态为关闭时显示；图标对应图标Icon组件API IconSVG的name"
     },
     "showDes": true,
     "optionsEmpty": true,
