@@ -1,0 +1,29 @@
+[
+  {
+    "name": "initialize",
+    "locale": {
+      "zh": "初始化"
+    },
+    "desc": {
+      "zh": "初始打开，功能和界面在正常运行前的准备阶段；仅对非当前对象有效。"
+    }
+  },
+  {
+    "name": "closeBtnClick",
+    "locale": {
+      "zh": "点击关闭按钮"
+    },
+    "desc": {
+      "zh": "鼠标单击或手指点击关闭按钮时触发。"
+    }
+  },
+  {
+    "name": "durationEnd",
+    "locale": {
+      "zh": "计时结束"
+    },
+    "desc": {
+      "zh": "计时结束后触发。"
+    }
+  }
+]
