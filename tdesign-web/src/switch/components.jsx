@@ -133,6 +133,8 @@ export default class TdSwitch extends React.Component {
         let labelText = [checkText, closeText]
         let labelIcon = [this.openIcon(openIcon), this.closeIcon(closeIcon)]
         return visible ? <Switch
+            // style: {},
+            // className: '',
             onChange={this.change}
             disabled={disabled}
             label={switchContent === 'text' ? labelText : labelIcon}

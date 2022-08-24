@@ -63,6 +63,8 @@ export default class TdLayoutFooter extends React.Component {
         } = this.props
         const {Footer} = Layout
         return visible ? <Footer
+            // style: {},
+            // className: '',
             onClick={this.click}
             height={footerHeight === 'auto' ? footerHeight : height}
         >

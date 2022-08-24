@@ -61,6 +61,8 @@ export default class TdLayoutContent extends React.Component {
         } = this.props
         const {Content} = Layout
         return visible ? <Content
+            // style: {},
+            // className: '',
             onClick={this.click}
         >
             {this.props.children}

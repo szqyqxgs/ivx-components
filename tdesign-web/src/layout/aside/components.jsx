@@ -62,6 +62,8 @@ export default class TdLayoutAside extends React.Component {
         } = this.props
         const {Aside} = Layout
         return visible ? <Aside
+            // style: {},
+            // className: '',
             onClick={this.click}
             width={width}
         >

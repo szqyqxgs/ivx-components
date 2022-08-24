@@ -84,6 +84,8 @@ export default class Tdaaa extends React.Component {
             content
         } = this.props
         return visible ? <Button
+            // style: {},
+            // className: '',
             onClick={this.click}
             tag={tag}
             icon={useIcon && icon ? this.icon(icon) : undefined}

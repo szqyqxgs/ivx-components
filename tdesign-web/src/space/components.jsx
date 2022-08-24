@@ -72,6 +72,8 @@ export default class TdSpace extends React.Component {
             separator
         } = this.props
         return visible ? <Space
+            // style: {},
+            // className: '',
             align={align}
             direction={direction}
             breakLine={breakLine}

@@ -112,6 +112,8 @@ export default class TdAlert extends React.Component {
         let close = closeButton === 'icon' ? true : closeButton === 'text' ? closeText : false
         const operation = <span>{operationText}</span>
         return visible ? <Alert
+            // style: {},
+            // className: '',
             onClick={this.click}
             onClose={this.close}
             onClosed={this.closed}
