@@ -110,6 +110,8 @@ export default class TdDivider extends React.Component {
         >
             {this.dividerChildren(childrenPosition, spacing, content)}
         </Divider> : <Divider
+            // style: {},
+            // className: '',
             align={align}
             dashed={dashed}
             layout={layout}

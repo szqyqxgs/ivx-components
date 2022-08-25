@@ -181,6 +181,8 @@ export default class TdButton extends React.Component {
         >
             {this.dividerChildren(childrenPosition, spacing, content)}
         </Button> : <Button
+            // style: {},
+            // className: '',
             onClick={this.click}
             block={block}
             type={type}

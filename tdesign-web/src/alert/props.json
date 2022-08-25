@@ -111,7 +111,7 @@
       "zh": "内容默认显示的最大行数，超出的内容会折叠收起，点击后再展开；仅内容为一维数组时有效；0 表示不折叠；对应API的maxLine，默认值：0"
     },
     "showDes": true,
-    "placeholder": "任意非负数值"
+    "placeholder": "任意非负整数"
   },
   {
     "name": "title",

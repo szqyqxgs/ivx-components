@@ -2,7 +2,7 @@
   {
     "name": "icon",
     "type": "Select",
-    "defaultValue": "default",
+    "initValue": "default",
     "locale": {
       "zh": "图标"
     },
@@ -47,7 +47,7 @@
   {
     "name": "closeButton",
     "type": "Select",
-    "defaultValue": "icon",
+    "initValue": "icon",
     "affectPropsShow": true,
     "locale": {
       "zh": "关闭按钮"
@@ -73,7 +73,7 @@
   {
     "name": "closeText",
     "type": "String",
-    "defaultValue": "关闭",
+    "initValue": "关闭",
     "hidePropBy": {
       "name": "closeButton",
       "includeEmpty": true,
@@ -94,7 +94,7 @@
   {
     "name": "placement",
     "type": "Select",
-    "defaultValue": "top",
+    "initValue": "top",
     "locale": {
       "zh": "弹出位置"
     },
@@ -147,7 +147,7 @@
   {
     "name": "offsetX",
     "type": "Number",
-    "defaultValue": 0,
+    "initValue": 0,
     "locale": {
       "zh": "X轴偏移量"
     },
@@ -160,7 +160,7 @@
   {
     "name": "offsetY",
     "type": "Number",
-    "defaultValue": 0,
+    "initValue": 0,
     "locale": {
       "zh": "Y轴偏移量"
     },
@@ -173,7 +173,7 @@
   {
     "name": "attach",
     "type": "String",
-    "defaultValue": "body",
+    "initValue": "body",
     "locale": {
       "zh": "挂载节点"
     },
@@ -186,7 +186,7 @@
   {
     "name": "zIndex",
     "type": "Number",
-    "defaultValue": 5000,
+    "initValue": 5000,
     "locale": {
       "zh": "堆叠次序"
     },
