@@ -1,5 +1,5 @@
 import React from 'react'
-import {message, MessagePlugin} from 'tdesign-react'
+import {MessagePlugin} from 'tdesign-react'
 import 'tdesign-react/es/style/index.css'
 import {
     CheckCircleFilledIcon,
@@ -40,7 +40,7 @@ export default class TdMessage extends React.Component {
         this.props.onInitialize && this.props.onInitialize()
         let {icon, closeButton, closeText, placement, offsetX, offsetY, attach, zIndex} = this.props
         let closeBtn = closeButton === 'icon' ? true : closeButton === 'text' ? closeText : false
-        message.config({
+        MessagePlugin.config({
             // style: {},
             // className: '',
             onCloseBtnClick: this.closeBtnClick,
