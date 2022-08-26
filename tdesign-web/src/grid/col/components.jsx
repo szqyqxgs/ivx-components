@@ -35,14 +35,14 @@ export default class TdGridCol extends React.Component {
     // 定义组件方法
     // 显示
     showVisible() {
-        this.props.onShowVisible && this.props.onShowVisible({
+        this.props.onShowVisible && !this.props.visible && this.props.onShowVisible({
             visible: true
         })
     }
 
     // 隐藏
     hideVisible() {
-        this.props.onHideVisible && this.props.onHideVisible({
+        this.props.onHideVisible && this.props.visible && this.props.onHideVisible({
             visible: false
         })
     }
@@ -116,6 +116,7 @@ export default class TdGridCol extends React.Component {
             lgSpan,
             xlSpan,
             xxlSpan,
+            flexGSB,
             offset,
             order,
             pull,
@@ -129,6 +130,7 @@ export default class TdGridCol extends React.Component {
         let lg = {offset: lgOffset, order: lgOrder, pull: lgPull, push: lgPush, span: lgSpan}
         let xl = {offset: xlOffset, order: xlOrder, pull: xlPull, push: xlPush, span: xlSpan}
         let xxl = {offset: xxlOffset, order: xxlOrder, pull: xxlPull, push: xxlPush, span: xxlSpan}
+        let childrenCount = React.Children.count(this.props.children)
         return visible ? Response ? <Col
             // style: {},
             // className: '',
@@ -140,9 +142,9 @@ export default class TdGridCol extends React.Component {
             lg={lg}
             xl={xl}
             xxl={xxl}
-            flex={this.selectFlexGSB()}
+            flex={flexGSB === null ? null : this.selectFlexGSB()}
         >
-            {this.props.children}</Col> : <Col
+            {childrenCount !== 0 ? this.props.children : null}</Col> : <Col
             // style: {},
             // className: '',
             onClick={this.click}
@@ -152,9 +154,9 @@ export default class TdGridCol extends React.Component {
             push={push}
             span={span}
             tag={tag}
-            flex={this.selectFlexGSB()}
+            flex={flexGSB === null ? null : this.selectFlexGSB()}
         >
-            {this.props.children}</Col> : null
+            {childrenCount !== 0 ? this.props.children : null}</Col> : null
     }
 }
 

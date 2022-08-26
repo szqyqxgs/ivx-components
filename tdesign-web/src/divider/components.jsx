@@ -29,14 +29,14 @@ export default class TdDivider extends React.Component {
     // 定义组件方法
     // 显示
     showVisible() {
-        this.props.onShowVisible && this.props.onShowVisible({
+        this.props.onShowVisible && !this.props.visible && this.props.onShowVisible({
             visible: true
         })
     }
 
     // 隐藏
     hideVisible() {
-        this.props.onHideVisible && this.props.onHideVisible({
+        this.props.onHideVisible && this.props.visible && this.props.onHideVisible({
             visible: false
         })
     }
@@ -101,21 +101,15 @@ export default class TdDivider extends React.Component {
         // 属性、事件、函数
         let {visible, content, align, dashed, layout, childrenPosition, spacing} = this.props
         let childrenCount = React.Children.count(this.props.children)
-        return visible ? childrenCount ? <Divider
+        return visible ? <Divider
             // style: {},
             // className: '',
             align={align}
             dashed={dashed}
             layout={layout}
         >
-            {this.dividerChildren(childrenPosition, spacing, content)}
-        </Divider> : <Divider
-            // style: {},
-            // className: '',
-            align={align}
-            dashed={dashed}
-            layout={layout}
-        >{content}</Divider> : null
+            {childrenCount !== 0 ? this.dividerChildren(childrenPosition, spacing, content) : content}
+        </Divider> : null
     }
 }
 

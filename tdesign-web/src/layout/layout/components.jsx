@@ -35,14 +35,14 @@ export default class TdLayoutLayout extends React.Component {
     // 定义组件方法
     // 显示
     showVisible() {
-        this.props.onShowVisible && this.props.onShowVisible({
+        this.props.onShowVisible && !this.props.visible && this.props.onShowVisible({
             visible: true
         })
     }
 
     // 隐藏
     hideVisible() {
-        this.props.onHideVisible && this.props.onHideVisible({
+        this.props.onHideVisible && this.props.visible && this.props.onHideVisible({
             visible: false
         })
     }
@@ -60,13 +60,14 @@ export default class TdLayoutLayout extends React.Component {
             visible,
             direction
         } = this.props
+        let childrenCount = React.Children.count(this.props.children)
         return visible ? <Layout
             // style: {},
             // className: '',
             onClick={this.click}
             direction={direction}
         >
-            {this.props.children}
+            {childrenCount !== 0 ? this.props.children : null}
         </Layout> : null
     }
 }

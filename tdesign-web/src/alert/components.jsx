@@ -55,14 +55,14 @@ export default class TdAlert extends React.Component {
     // 定义组件方法
     // 显示
     showVisible() {
-        this.props.onShowVisible && this.props.onShowVisible({
+        this.props.onShowVisible && !this.props.visible && this.props.onShowVisible({
             visible: true
         })
     }
 
     // 隐藏
     hideVisible() {
-        this.props.onHideVisible && this.props.onHideVisible({
+        this.props.onHideVisible && this.props.visible && this.props.onHideVisible({
             visible: false
         })
     }
@@ -118,11 +118,11 @@ export default class TdAlert extends React.Component {
             onClose={this.close}
             onClosed={this.closed}
             theme={theme}
-            icon={icon === 'default' ? undefined : this.icon(icon)}
+            icon={icon === 'default' ? null : this.icon(icon)}
             message={message}
             maxLine={maxLine}
             title={title}
-            operation={useOperation && operationText ? operation : undefined}
+            operation={useOperation && operationText ? operation : null}
             close={close}
         /> : null
     }

@@ -35,14 +35,14 @@ export default class TdLayoutAside extends React.Component {
     // 定义组件方法
     // 显示
     showVisible() {
-        this.props.onShowVisible && this.props.onShowVisible({
+        this.props.onShowVisible && !this.props.visible && this.props.onShowVisible({
             visible: true
         })
     }
 
     // 隐藏
     hideVisible() {
-        this.props.onHideVisible && this.props.onHideVisible({
+        this.props.onHideVisible && this.props.visible && this.props.onHideVisible({
             visible: false
         })
     }
@@ -61,13 +61,14 @@ export default class TdLayoutAside extends React.Component {
             width
         } = this.props
         const {Aside} = Layout
+        let childrenCount = React.Children.count(this.props.children)
         return visible ? <Aside
             // style: {},
             // className: '',
             onClick={this.click}
             width={width}
         >
-            {this.props.children}
+            {childrenCount !== 0 ? this.props.children : null}
         </Aside> : null
     }
 }

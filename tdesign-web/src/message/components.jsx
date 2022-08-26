@@ -45,7 +45,7 @@ export default class TdMessage extends React.Component {
             // className: '',
             onCloseBtnClick: this.closeBtnClick,
             onDurationEnd: this.durationEnd,
-            icon: icon === 'default' ? undefined : this.icon(icon),
+            icon: icon === 'default' ? null : this.icon(icon),
             closeBtn: closeBtn,
             placement: placement,
             offset: [offsetX, offsetY],

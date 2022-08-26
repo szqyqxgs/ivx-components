@@ -36,14 +36,14 @@ export default class TdButton extends React.Component {
     // 定义组件方法
     // 显示
     showVisible() {
-        this.props.onShowVisible && this.props.onShowVisible({
+        this.props.onShowVisible && !this.props.visible && this.props.onShowVisible({
             visible: true
         })
     }
 
     // 隐藏
     hideVisible() {
-        this.props.onHideVisible && this.props.onHideVisible({
+        this.props.onHideVisible && this.props.visible && this.props.onHideVisible({
             visible: false
         })
     }
@@ -162,7 +162,7 @@ export default class TdButton extends React.Component {
             spacing
         } = this.props
         let childrenCount = React.Children.count(this.props.children)
-        return visible ? childrenCount ? <Button
+        return visible ? <Button
             // style: {},
             // className: '',
             onClick={this.click}
@@ -174,30 +174,12 @@ export default class TdButton extends React.Component {
             ghost={ghost}
             loading={loading}
             disabled={disabled}
-            icon={useIcon && icon ? this.icon(icon) : undefined}
-            suffix={useIcon && suffix ? this.suffix(suffix) : undefined}
+            icon={useIcon && icon ? this.icon(icon) : null}
+            suffix={useIcon && suffix ? this.suffix(suffix) : null}
             tag={tag}
             variant={variant}
         >
-            {this.dividerChildren(childrenPosition, spacing, content)}
-        </Button> : <Button
-            // style: {},
-            // className: '',
-            onClick={this.click}
-            block={block}
-            type={type}
-            shape={shape}
-            size={size}
-            theme={theme}
-            ghost={ghost}
-            loading={loading}
-            disabled={disabled}
-            icon={useIcon && icon ? this.icon(icon) : undefined}
-            suffix={useIcon && suffix ? this.suffix(suffix) : undefined}
-            tag={tag}
-            variant={variant}
-        >
-            {content}
+            {childrenCount !== 0 ? this.dividerChildren(childrenPosition, spacing, content) : content}
         </Button> : null
     }
 }

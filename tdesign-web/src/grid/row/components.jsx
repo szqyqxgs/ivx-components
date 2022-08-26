@@ -35,14 +35,14 @@ export default class TdGridRow extends React.Component {
     // 定义组件方法
     // 显示
     showVisible() {
-        this.props.onShowVisible && this.props.onShowVisible({
+        this.props.onShowVisible && !this.props.visible && this.props.onShowVisible({
             visible: true
         })
     }
 
     // 隐藏
     hideVisible() {
-        this.props.onHideVisible && this.props.onHideVisible({
+        this.props.onHideVisible && this.props.visible && this.props.onHideVisible({
             visible: false
         })
     }
@@ -118,8 +118,11 @@ export default class TdGridRow extends React.Component {
             visible,
             align,
             justify,
-            tag
+            tag,
+            spacing,
+            horizontalSpacing
         } = this.props
+        let childrenCount = React.Children.count(this.props.children)
         return visible ? <Row
             // style: {},
             // className: '',
@@ -127,9 +130,9 @@ export default class TdGridRow extends React.Component {
             align={align}
             justify={justify}
             tag={tag}
-            gutter={this.selectSpacing()}
+            gutter={spacing === 'horizontal' && horizontalSpacing === 0 ? 0 : this.selectSpacing()}
         >
-            {this.props.children}</Row> : null
+            {childrenCount !== 0 ? this.props.children : null}</Row> : null
     }
 }
 

@@ -36,14 +36,14 @@ export default class Tdaaa extends React.Component {
     // 定义组件方法
     // 显示
     showVisible() {
-        this.props.onShowVisible && this.props.onShowVisible({
+        this.props.onShowVisible && !this.props.visible && this.props.onShowVisible({
             visible: true
         })
     }
 
     // 隐藏
     hideVisible() {
-        this.props.onHideVisible && this.props.onHideVisible({
+        this.props.onHideVisible && this.props.visible && this.props.onHideVisible({
             visible: false
         })
     }
@@ -88,7 +88,7 @@ export default class Tdaaa extends React.Component {
             // className: '',
             onClick={this.click}
             tag={tag}
-            icon={useIcon && icon ? this.icon(icon) : undefined}
+            icon={useIcon && icon ? this.icon(icon) : null}
         >
             {content}
         </Button> : null
