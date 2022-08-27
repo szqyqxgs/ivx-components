@@ -179,7 +179,7 @@ export default class TdButton extends React.Component {
             tag={tag}
             variant={variant}
         >
-            {childrenCount !== 0 ? this.dividerChildren(childrenPosition, spacing, content) : content}
+            {childrenCount === 0 ? content : this.dividerChildren(childrenPosition, spacing, content)}
         </Button> : null
     }
 }
