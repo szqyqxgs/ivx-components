@@ -2,6 +2,8 @@ import React from 'react'
 import {Row} from 'tdesign-react'
 import 'tdesign-react/es/style/index.css'
 
+// 全局变量
+
 export default class TdGridRow extends React.Component {
 
     // 绑定事件和方法

@@ -2,6 +2,8 @@ import React from 'react'
 import {Layout} from 'tdesign-react'
 import 'tdesign-react/es/style/index.css'
 
+// 全局变量
+
 export default class TdLayoutAside extends React.Component {
 
     // 绑定事件和方法

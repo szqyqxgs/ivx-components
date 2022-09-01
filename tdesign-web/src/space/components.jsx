@@ -2,6 +2,8 @@ import React from 'react'
 import {Divider, Space} from 'tdesign-react'
 import 'tdesign-react/es/style/index.css'
 
+// 全局变量
+
 export default class TdSpace extends React.Component {
 
     // 绑定事件和方法

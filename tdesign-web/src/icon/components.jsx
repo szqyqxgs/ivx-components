@@ -2,6 +2,8 @@ import React from 'react'
 import {AddIcon, CloudUploadIcon, DeleteIcon, SearchIcon, UploadIcon} from 'tdesign-icons-react'
 import 'tdesign-react/es/style/index.css'
 
+// 全局变量
+
 export default class TdIcon extends React.Component {
 
     // 绑定事件和方法

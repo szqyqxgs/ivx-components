@@ -10,6 +10,8 @@ import {
     MinusCircleFilledIcon
 } from 'tdesign-icons-react'
 
+// 全局变量
+
 export default class TdAlert extends React.Component {
 
     // 绑定事件和方法

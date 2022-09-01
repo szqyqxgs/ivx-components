@@ -3,6 +3,8 @@ import {Button} from 'tdesign-react'
 import 'tdesign-react/es/style/index.css'
 import {AddIcon, CloudUploadIcon, DeleteIcon, SearchIcon, UploadIcon} from 'tdesign-icons-react'
 
+// 全局变量
+
 export default class TdButton extends React.Component {
 
     // 绑定事件和方法
