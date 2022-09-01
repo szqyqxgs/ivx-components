@@ -15,7 +15,7 @@
       "zh": "布局方向"
     },
     "desc": {
-      "zh": "布局Layout可添加子组件：布局Header、布局Footer、布局Aside、布局Content；当包含 布局Aside 时，布局方向必须设置为 水平；对应API的direction，默认值：vertical"
+      "zh": "布局Layout可使用布局子组件（布局Header、布局Footer、布局Aside、布局Content）及布局Layout本身进行布局；当包含 布局Aside 子组件时，方向必须设置为 水平；对应API的direction，默认值：vertical"
     },
     "showDes": true,
     "optionsEmpty": false,

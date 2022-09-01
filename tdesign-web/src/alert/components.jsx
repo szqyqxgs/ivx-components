@@ -104,7 +104,7 @@ export default class TdAlert extends React.Component {
             message,
             maxLine,
             title,
-            useOperation,
+            enabledOperation,
             operationText,
             closeButton,
             closeText
@@ -122,7 +122,7 @@ export default class TdAlert extends React.Component {
             message={message}
             maxLine={maxLine}
             title={title}
-            operation={useOperation && operationText ? operation : null}
+            operation={enabledOperation && operationText ? operation : null}
             close={close}
         /> : null
     }
@@ -136,7 +136,7 @@ TdAlert.defaultProps = {
     message: null,
     maxLine: 0,
     title: null,
-    useOperation: false,
+    enabledOperation: false,
     operationText: '操作',
     closeButton: 'icon',
     closeText: '关闭'

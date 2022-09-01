@@ -199,7 +199,7 @@
     "showDes": true
   },
   {
-    "name": "useIcon",
+    "name": "enabledIcon",
     "type": "Boolean",
     "defaultValue": false,
     "group": "icon",
@@ -214,7 +214,7 @@
     "defaultValue": null,
     "group": "icon",
     "hidePropBy": {
-      "name": "useIcon",
+      "name": "enabledIcon",
       "includeEmpty": true,
       "values": [
         false
@@ -259,7 +259,7 @@
     "defaultValue": null,
     "group": "icon",
     "hidePropBy": {
-      "name": "useIcon",
+      "name": "enabledIcon",
       "includeEmpty": true,
       "values": [
         false

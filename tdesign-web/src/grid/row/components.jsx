@@ -122,7 +122,6 @@ export default class TdGridRow extends React.Component {
             spacing,
             horizontalSpacing
         } = this.props
-        let childrenCount = React.Children.count(this.props.children)
         return visible ? <Row
             // style: {},
             // className: '',
@@ -132,7 +131,7 @@ export default class TdGridRow extends React.Component {
             tag={tag}
             gutter={spacing === 'horizontal' && horizontalSpacing === 0 ? 0 : this.selectSpacing()}
         >
-            {childrenCount !== 0 ? this.props.children : null}</Row> : null
+            {this.props.children}</Row> : null
     }
 }
 

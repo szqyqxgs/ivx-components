@@ -130,7 +130,6 @@ export default class TdGridCol extends React.Component {
         let lg = {offset: lgOffset, order: lgOrder, pull: lgPull, push: lgPush, span: lgSpan}
         let xl = {offset: xlOffset, order: xlOrder, pull: xlPull, push: xlPush, span: xlSpan}
         let xxl = {offset: xxlOffset, order: xxlOrder, pull: xxlPull, push: xxlPush, span: xxlSpan}
-        let childrenCount = React.Children.count(this.props.children)
         return visible ? Response ? <Col
             // style: {},
             // className: '',
@@ -144,7 +143,7 @@ export default class TdGridCol extends React.Component {
             xxl={xxl}
             flex={flexGSB === null ? null : this.selectFlexGSB()}
         >
-            {childrenCount !== 0 ? this.props.children : null}</Col> : <Col
+            {this.props.children}</Col> : <Col
             // style: {},
             // className: '',
             onClick={this.click}
@@ -156,7 +155,7 @@ export default class TdGridCol extends React.Component {
             tag={tag}
             flex={flexGSB === null ? null : this.selectFlexGSB()}
         >
-            {childrenCount !== 0 ? this.props.children : null}</Col> : null
+            {this.props.children}</Col> : null
     }
 }
 

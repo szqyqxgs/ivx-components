@@ -128,7 +128,7 @@
     "placeholder": "任意字符串"
   },
   {
-    "name": "useOperation",
+    "name": "enabledOperation",
     "type": "Boolean",
     "defaultValue": false,
     "affectPropsShow": true,
@@ -141,7 +141,7 @@
     "type": "String",
     "defaultValue": "操作",
     "hidePropBy": {
-      "name": "useOperation",
+      "name": "enabledOperation",
       "includeEmpty": true,
       "values": [
         false

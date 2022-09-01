@@ -60,13 +60,12 @@ export default class TdLayoutContent extends React.Component {
             visible
         } = this.props
         const {Content} = Layout
-        let childrenCount = React.Children.count(this.props.children)
         return visible ? <Content
             // style: {},
             // className: '',
             onClick={this.click}
         >
-            {childrenCount !== 0 ? this.props.children : null}
+            {this.props.children}
         </Content> : null
     }
 }

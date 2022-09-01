@@ -153,7 +153,7 @@ export default class TdButton extends React.Component {
             ghost,
             loading,
             disabled,
-            useIcon,
+            enabledIcon,
             icon,
             suffix,
             tag,
@@ -174,8 +174,8 @@ export default class TdButton extends React.Component {
             ghost={ghost}
             loading={loading}
             disabled={disabled}
-            icon={useIcon && icon ? this.icon(icon) : null}
-            suffix={useIcon && suffix ? this.suffix(suffix) : null}
+            icon={enabledIcon && icon ? this.icon(icon) : null}
+            suffix={enabledIcon && suffix ? this.suffix(suffix) : null}
             tag={tag}
             variant={variant}
         >
@@ -196,7 +196,7 @@ TdButton.defaultProps = {
     ghost: false,
     loading: false,
     disabled: false,
-    useIcon: false,
+    enabledIcon: false,
     icon: null,
     suffix: null,
     tag: 'button',

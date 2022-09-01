@@ -5,7 +5,11 @@
     "defaultValue": true,
     "locale": {
       "zh": "可见"
-    }
+    },
+    "desc": {
+      "zh": "栅格Col仅能添加在栅格Row下为直接子组件；栅格Col下可添加任何子组件"
+    },
+    "showDes": true
   },
   {
     "name": "Response",
@@ -515,7 +519,7 @@
       "zh": "xs占位格数"
     },
     "desc": {
-      "zh": "合法值：0—12之间的数值；为 0 时相当于 display: none；xs 表示 <768px 响应式栅格；对应API的span，默认值：0"
+      "zh": "合法值：0—12之间的数值；为 0 时相当于 display: none；xs 表示 <768px 响应式栅格；对应API的span，默认值：12"
     },
     "showDes": true,
     "placeholder": "0-12之间的数值"
@@ -535,7 +539,7 @@
       "zh": "sm占位格数"
     },
     "desc": {
-      "zh": "合法值：0—12之间的数值；为 0 时相当于 display: none；sm 表示 ≥768px 响应式栅格；对应API的span，默认值：0"
+      "zh": "合法值：0—12之间的数值；为 0 时相当于 display: none；sm 表示 ≥768px 响应式栅格；对应API的span，默认值：12"
     },
     "showDes": true,
     "placeholder": "0-12之间的数值"
@@ -555,7 +559,7 @@
       "zh": "md占位格数"
     },
     "desc": {
-      "zh": "合法值：0—12之间的数值；为 0 时相当于 display: none；md 表示 ≥992px 响应式栅格；对应API的span，默认值：0"
+      "zh": "合法值：0—12之间的数值；为 0 时相当于 display: none；md 表示 ≥992px 响应式栅格；对应API的span，默认值：12"
     },
     "showDes": true,
     "placeholder": "0-12之间的数值"
@@ -575,7 +579,7 @@
       "zh": "lg占位格数"
     },
     "desc": {
-      "zh": "合法值：0—12之间的数值；为 0 时相当于 display: none；lg 表示 ≥1200px 响应式栅格；对应API的span，默认值：0"
+      "zh": "合法值：0—12之间的数值；为 0 时相当于 display: none；lg 表示 ≥1200px 响应式栅格；对应API的span，默认值：12"
     },
     "showDes": true,
     "placeholder": "0-12之间的数值"
@@ -595,7 +599,7 @@
       "zh": "xl占位格数"
     },
     "desc": {
-      "zh": "合法值：0—12之间的数值；为 0 时相当于 display: none；xl 表示 ≥1400px 响应式栅格；对应API的span，默认值：0"
+      "zh": "合法值：0—12之间的数值；为 0 时相当于 display: none；xl 表示 ≥1400px 响应式栅格；对应API的span，默认值：12"
     },
     "showDes": true,
     "placeholder": "0-12之间的数值"
@@ -615,7 +619,7 @@
       "zh": "xxl占位格数"
     },
     "desc": {
-      "zh": "合法值：0—12之间的数值；为 0 时相当于 display: none；xxl 表示 ≥1880px 响应式栅格；对应API的span，默认值：0"
+      "zh": "合法值：0—12之间的数值；为 0 时相当于 display: none；xxl 表示 ≥1880px 响应式栅格；对应API的span，默认值：12"
     },
     "showDes": true,
     "placeholder": "0-12之间的数值"

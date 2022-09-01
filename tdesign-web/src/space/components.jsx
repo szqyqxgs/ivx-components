@@ -71,7 +71,6 @@ export default class TdSpace extends React.Component {
             size,
             separator
         } = this.props
-        let childrenCount = React.Children.count(this.props.children)
         return visible ? <Space
             // style: {},
             // className: '',
@@ -81,7 +80,8 @@ export default class TdSpace extends React.Component {
             size={size}
             separator={separator === null ? null : this.separator(separator)}
         >
-            {childrenCount !== 0 ? this.props.children : null}</Space> : null
+            {this.props.children}
+        </Space> : null
     }
 }
 

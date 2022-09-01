@@ -62,14 +62,13 @@ export default class TdLayoutHeader extends React.Component {
             height
         } = this.props
         const {Header} = Layout
-        let childrenCount = React.Children.count(this.props.children)
         return visible ? <Header
             // style: {},
             // className: '',
             onClick={this.click}
             height={headerHeight === 'auto' ? headerHeight : height}
         >
-            {childrenCount !== 0 ? this.props.children : null}
+            {this.props.children}
         </Header> : null
     }
 }

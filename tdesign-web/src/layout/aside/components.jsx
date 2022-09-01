@@ -61,14 +61,13 @@ export default class TdLayoutAside extends React.Component {
             width
         } = this.props
         const {Aside} = Layout
-        let childrenCount = React.Children.count(this.props.children)
         return visible ? <Aside
             // style: {},
             // className: '',
             onClick={this.click}
             width={width}
         >
-            {childrenCount !== 0 ? this.props.children : null}
+            {this.props.children}
         </Aside> : null
     }
 }
