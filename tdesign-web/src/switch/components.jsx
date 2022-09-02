@@ -46,7 +46,7 @@ export default class TdSwitch extends React.Component {
     // 设置开关状态为开启
     openMethod(callback) {
         let value = true
-        this.props.onOpenMethod && this.props.onOpenMethod({
+        this.props.onOpenMethod && !this.props.value && this.props.onOpenMethod({
             value: value
         })
         callback('', {
@@ -57,7 +57,7 @@ export default class TdSwitch extends React.Component {
     // 设置开关状态为关闭
     closeMethod(callback) {
         let value = false
-        this.props.onCloseMethod && this.props.onCloseMethod({
+        this.props.onCloseMethod && this.props.value && this.props.onCloseMethod({
             value: value
         })
         callback('', {
