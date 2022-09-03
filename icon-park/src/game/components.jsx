@@ -39,6 +39,8 @@ import {
 } from '@icon-park/react'
 import '@icon-park/react/styles/index.css'
 
+// 全局变量
+
 export default class IconParkGame extends React.Component {
 
     // 绑定事件和方法
@@ -72,14 +74,14 @@ export default class IconParkGame extends React.Component {
     // 定义组件方法
     // 显示
     showVisible() {
-        this.props.onShowVisible && this.props.onShowVisible({
+        this.props.onShowVisible && !this.props.visible && this.props.onShowVisible({
             visible: true
         })
     }
 
     // 隐藏
     hideVisible() {
-        this.props.onHideVisible && this.props.onHideVisible({
+        this.props.onHideVisible && this.props.visible && this.props.onHideVisible({
             visible: false
         })
     }
