@@ -94,7 +94,7 @@
       "zh": "当前按钮"
     },
     "desc": {
-      "zh": "是否显示当前按钮；对应API的showCurrent，默认值：true"
+      "zh": "对应API的showCurrent，默认值：true"
     },
     "showDes": true
   },
@@ -107,7 +107,7 @@
       "zh": "提示文案"
     },
     "desc": {
-      "zh": "是否显示提示文案；对应API的tips，默认值：-"
+      "zh": "对应API的tips，默认值：-"
     },
     "showDes": true
   },
@@ -175,7 +175,7 @@
   {
     "name": "prevDisabled",
     "type": "Boolean",
-    "defaultValue": false,
+    "defaultValue": true,
     "hidePropBy": {
       "name": "disabled",
       "includeEmpty": true,
@@ -184,13 +184,17 @@
       ]
     },
     "locale": {
-      "zh": "上一页"
-    }
+      "zh": "禁用上一页"
+    },
+    "desc": {
+      "zh": "禁用上一页按钮"
+    },
+    "showDes": true
   },
   {
     "name": "currentDisabled",
     "type": "Boolean",
-    "defaultValue": false,
+    "defaultValue": true,
     "hidePropBy": {
       "name": "disabled",
       "includeEmpty": true,
@@ -199,13 +203,17 @@
       ]
     },
     "locale": {
-      "zh": "当前"
-    }
+      "zh": "禁用当前"
+    },
+    "desc": {
+      "zh": "禁用当前按钮"
+    },
+    "showDes": true
   },
   {
     "name": "nextDisabled",
     "type": "Boolean",
-    "defaultValue": false,
+    "defaultValue": true,
     "hidePropBy": {
       "name": "disabled",
       "includeEmpty": true,
@@ -214,7 +222,11 @@
       ]
     },
     "locale": {
-      "zh": "下一页"
-    }
+      "zh": "禁用下一页"
+    },
+    "desc": {
+      "zh": "禁用下一页按钮"
+    },
+    "showDes": true
   }
 ]

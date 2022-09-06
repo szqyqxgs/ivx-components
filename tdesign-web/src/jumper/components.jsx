@@ -103,7 +103,7 @@ TdJumper.defaultProps = {
     currentTips: '当前',
     nextTips: '下一页',
     disabled: false,
-    prevDisabled: false,
-    currentDisabled: false,
-    nextDisabled: false
+    prevDisabled: true,
+    currentDisabled: true,
+    nextDisabled: true
 }
