@@ -753,7 +753,7 @@
   {
     "name": "flexGSB",
     "type": "Select",
-    "defaultValue": null,
+    "defaultValue": "none",
     "groupName": "填充设置",
     "affectPropsShow": true,
     "locale": {
@@ -763,14 +763,18 @@
       "zh": "flex布局填充是CSS属性flex值；示例：2、3、100px、auto、1 1 200px；对应API的flex，默认值为-"
     },
     "showDes": true,
-    "optionsEmpty": true,
+    "optionsEmpty": false,
     "options": [
+      "none",
       "quickSelect",
       "growShrink",
       "basis",
       "detailedFlex"
     ],
     "optionLocales": {
+      "none": {
+        "zh": "无"
+      },
       "quickSelect": {
         "zh": "快速选择"
       },

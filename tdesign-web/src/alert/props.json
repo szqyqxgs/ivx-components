@@ -168,12 +168,16 @@
       "zh": "选择 无 则不显示关闭按钮；对应API的close，默认值：图标"
     },
     "showDes": true,
-    "optionsEmpty": true,
+    "optionsEmpty": false,
     "options": [
+      "none",
       "icon",
       "text"
     ],
     "optionLocales": {
+      "none": {
+        "zh": "无"
+      },
       "icon": {
         "zh": "图标"
       },

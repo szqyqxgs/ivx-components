@@ -70,6 +70,8 @@ export default class TdGridCol extends React.Component {
         } = this.props
         let detailedFlex = flexGrow + ' ' + flexShrink + ' ' + flexBasis
         switch (flexGSB) {
+            case 'none':
+                return null
             case 'quickSelect':
                 return quickSelect
             case 'growShrink':
@@ -143,7 +145,7 @@ export default class TdGridCol extends React.Component {
             lg={lg}
             xl={xl}
             xxl={xxl}
-            flex={flexGSB === null ? null : this.selectFlexGSB()}
+            flex={this.selectFlexGSB()}
         >
             {this.props.children}</Col> : <Col
             // style: {},
@@ -155,7 +157,7 @@ export default class TdGridCol extends React.Component {
             push={push}
             span={span}
             tag={tag}
-            flex={flexGSB === null ? null : this.selectFlexGSB()}
+            flex={this.selectFlexGSB()}
         >
             {this.props.children}</Col> : null
     }
@@ -201,7 +203,7 @@ TdGridCol.defaultProps = {
     push: 0,
     span: 12,
     tag: 'div',
-    flexGSB: null,
+    flexGSB: 'none',
     quickSelect: 'initial',
     growShrink: 1,
     basis: 'auto',

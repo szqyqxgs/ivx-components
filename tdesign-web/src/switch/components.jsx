@@ -101,6 +101,8 @@ export default class TdSwitch extends React.Component {
     // 选择开启时图标
     openIcon(openIcon) {
         switch (openIcon) {
+            case 'none':
+                return null
             case 'CheckIcon':
                 return <CheckIcon/>
             default:
@@ -111,6 +113,8 @@ export default class TdSwitch extends React.Component {
     // 选择关闭时图标
     closeIcon(closeIcon) {
         switch (closeIcon) {
+            case 'none':
+                return null
             case 'CloseIcon':
                 return <CloseIcon/>
             default:

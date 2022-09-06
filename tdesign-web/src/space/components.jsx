@@ -54,6 +54,8 @@ export default class TdSpace extends React.Component {
     separator(separator) {
         let {delimiter, dividerAlign, dashed, layout, content} = this.props
         switch (separator) {
+            case 'none':
+                return null
             case 'delimiter':
                 return delimiter
             case 'divider':
@@ -80,7 +82,7 @@ export default class TdSpace extends React.Component {
             direction={direction}
             breakLine={breakLine}
             size={size}
-            separator={separator === null ? null : this.separator(separator)}
+            separator={this.separator(separator)}
         >
             {this.props.children}
         </Space> : null
@@ -94,7 +96,7 @@ TdSpace.defaultProps = {
     direction: 'horizontal',
     breakLine: false,
     size: 'medium',
-    separator: null,
+    separator: 'none',
     delimiter: '/',
     content: null,
     dividerAlign: 'center',

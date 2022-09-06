@@ -211,7 +211,7 @@
   {
     "name": "icon",
     "type": "Select",
-    "defaultValue": null,
+    "defaultValue": "none",
     "group": "icon",
     "hidePropBy": {
       "name": "enabledIcon",
@@ -227,8 +227,9 @@
       "zh": "位于按钮文本左侧；对应API的icon，默认值：-；图标对应图标Icon组件API IconSVG的name"
     },
     "showDes": true,
-    "optionsEmpty": true,
+    "optionsEmpty": false,
     "options": [
+      "none",
       "AddIcon",
       "DeleteIcon",
       "CloudUploadIcon",
@@ -236,6 +237,9 @@
       "SearchIcon"
     ],
     "optionLocales": {
+      "none": {
+        "zh": "无"
+      },
       "AddIcon": {
         "zh": "AddIcon"
       },
@@ -256,7 +260,7 @@
   {
     "name": "suffix",
     "type": "Select",
-    "defaultValue": null,
+    "defaultValue": "none",
     "group": "icon",
     "hidePropBy": {
       "name": "enabledIcon",
@@ -272,8 +276,9 @@
       "zh": "位于按钮文本右侧；对应API的suffix，默认值：-；图标对应图标Icon组件API IconSVG的name"
     },
     "showDes": true,
-    "optionsEmpty": true,
+    "optionsEmpty": false,
     "options": [
+      "none",
       "AddIcon",
       "DeleteIcon",
       "CloudUploadIcon",
@@ -281,6 +286,9 @@
       "SearchIcon"
     ],
     "optionLocales": {
+      "none": {
+        "zh": "无"
+      },
       "AddIcon": {
         "zh": "AddIcon"
       },

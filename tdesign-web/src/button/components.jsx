@@ -61,6 +61,8 @@ export default class TdButton extends React.Component {
     // 选择左侧图标
     icon(icon) {
         switch (icon) {
+            case 'none':
+                return null
             case 'AddIcon':
                 return <AddIcon/>
             case 'DeleteIcon':
@@ -79,6 +81,8 @@ export default class TdButton extends React.Component {
     // 选择右侧图标
     suffix(suffix) {
         switch (suffix) {
+            case 'none':
+                return null
             case 'AddIcon':
                 return <AddIcon/>
             case 'DeleteIcon':
@@ -176,8 +180,8 @@ export default class TdButton extends React.Component {
             ghost={ghost}
             loading={loading}
             disabled={disabled}
-            icon={enabledIcon && icon ? this.icon(icon) : null}
-            suffix={enabledIcon && suffix ? this.suffix(suffix) : null}
+            icon={enabledIcon ? this.icon(icon) : null}
+            suffix={enabledIcon ? this.suffix(suffix) : null}
             tag={tag}
             variant={variant}
         >
@@ -199,8 +203,8 @@ TdButton.defaultProps = {
     loading: false,
     disabled: false,
     enabledIcon: false,
-    icon: null,
-    suffix: null,
+    icon: 'none',
+    suffix: 'none',
     tag: 'button',
     variant: 'base',
     childrenPosition: 'right',

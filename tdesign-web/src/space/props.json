@@ -153,7 +153,7 @@
   {
     "name": "separator",
     "type": "Select",
-    "defaultValue": null,
+    "defaultValue": "none",
     "groupName": "分隔设置",
     "affectPropsShow": true,
     "locale": {
@@ -163,12 +163,16 @@
       "zh": "对应API的separator，默认值为-"
     },
     "showDes": true,
-    "optionsEmpty": true,
+    "optionsEmpty": false,
     "options": [
+      "none",
       "delimiter",
       "divider"
     ],
     "optionLocales": {
+      "none": {
+        "zh": "无"
+      },
       "delimiter": {
         "zh": "分隔符"
       },
