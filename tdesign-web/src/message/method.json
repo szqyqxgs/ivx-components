@@ -52,7 +52,7 @@
       {
         "name": "content",
         "type": "Formula",
-        "defaultValue": null,
+        "defaultValue": "",
         "locale": {
           "zh": "提示内容"
         },
@@ -65,7 +65,7 @@
       {
         "name": "duration",
         "type": "Formula",
-        "defaultValue": 3000,
+        "defaultValue": "3000",
         "locale": {
           "zh": "自动关闭延时"
         },
