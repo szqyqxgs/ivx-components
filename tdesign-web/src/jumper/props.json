@@ -94,7 +94,7 @@
       "zh": "当前按钮"
     },
     "desc": {
-      "zh": "是否展示当前按钮；对应API的showCurrent，默认值：true"
+      "zh": "是否显示当前按钮；对应API的showCurrent，默认值：true"
     },
     "showDes": true
   },
@@ -107,7 +107,7 @@
       "zh": "提示文案"
     },
     "desc": {
-      "zh": "对应API的tips，默认值：-"
+      "zh": "是否显示提示文案；对应API的tips，默认值：-"
     },
     "showDes": true
   },
@@ -124,7 +124,8 @@
     },
     "locale": {
       "zh": "上一页"
-    }
+    },
+    "placeholder": "任意字符串"
   },
   {
     "name": "currentTips",
@@ -139,7 +140,8 @@
     },
     "locale": {
       "zh": "当前"
-    }
+    },
+    "placeholder": "任意字符串"
   },
   {
     "name": "nextTips",
@@ -154,7 +156,8 @@
     },
     "locale": {
       "zh": "下一页"
-    }
+    },
+    "placeholder": "任意字符串"
   },
   {
     "name": "disabled",
