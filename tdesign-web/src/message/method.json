@@ -18,7 +18,6 @@
         "desc": {
           "zh": "对应API的theme，默认值：info"
         },
-        "showDes": true,
         "optionsEmpty": false,
         "options": [
           "info",
@@ -59,7 +58,6 @@
         "desc": {
           "zh": "合法值：任意字符串；对应API的content，默认值：-"
         },
-        "showDes": true,
         "placeholder": "任意字符串"
       },
       {
@@ -72,7 +70,6 @@
         "desc": {
           "zh": "单位：毫秒，值为 0 则不自动关闭；对应API的duration，建议使用默认值：3000"
         },
-        "showDes": true,
         "placeholder": "任意非负整数"
       }
     ]
