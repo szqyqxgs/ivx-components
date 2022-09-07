@@ -1,0 +1,108 @@
+[
+  {
+    "name": "openNotificationPlugin",
+    "locale": {
+      "zh": "弹出一条消息通知"
+    },
+    "desc": {
+      "zh": "在当前窗口弹出一条消息通知。"
+    },
+    "params": [
+      {
+        "name": "theme",
+        "type": "Select",
+        "defaultValue": "info",
+        "locale": {
+          "zh": "风格"
+        },
+        "desc": {
+          "zh": "对应API的theme，默认值：info"
+        },
+        "optionsEmpty": false,
+        "options": [
+          "info",
+          "success",
+          "warning",
+          "error"
+        ],
+        "optionLocales": {
+          "info": {
+            "zh": "信息"
+          },
+          "success": {
+            "zh": "成功"
+          },
+          "warning": {
+            "zh": "警告"
+          },
+          "error": {
+            "zh": "错误"
+          }
+        }
+      },
+      {
+        "name": "title",
+        "type": "Formula",
+        "defaultValue": "",
+        "locale": {
+          "zh": "标题"
+        },
+        "desc": {
+          "zh": "合法值：任意字符串；对应API的title，默认值：-"
+        },
+        "placeholder": "任意字符串"
+      },
+      {
+        "name": "content",
+        "type": "Formula",
+        "defaultValue": "",
+        "locale": {
+          "zh": "消息内容"
+        },
+        "desc": {
+          "zh": "合法值：任意字符串；对应API的content，默认值：-"
+        },
+        "placeholder": "任意字符串"
+      },
+      {
+        "name": "duration",
+        "type": "Formula",
+        "defaultValue": "3000",
+        "locale": {
+          "zh": "自动关闭延时"
+        },
+        "desc": {
+          "zh": "单位：毫秒，值为 0 则不自动关闭；对应API的duration，建议使用默认值：3000"
+        },
+        "placeholder": "任意非负整数"
+      }
+    ]
+  },
+  {
+    "name": "closeAll",
+    "locale": {
+      "zh": "关闭所有消息通知"
+    },
+    "desc": {
+      "zh": "关闭当前窗口的所有消息通知。"
+    }
+  },
+  {
+    "name": "closeFirst",
+    "locale": {
+      "zh": "关闭最先弹出的一条消息通知"
+    },
+    "desc": {
+      "zh": "关闭当前窗口最先弹出的一条消息通知。"
+    }
+  },
+  {
+    "name": "closeLast",
+    "locale": {
+      "zh": "关闭最后弹出的一条消息通知"
+    },
+    "desc": {
+      "zh": "关闭当前窗口最后弹出的一条消息通知。"
+    }
+  }
+]

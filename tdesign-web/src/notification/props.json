@@ -1,0 +1,200 @@
+[
+  {
+    "name": "icon",
+    "type": "Select",
+    "initValue": "default",
+    "locale": {
+      "zh": "图标"
+    },
+    "desc": {
+      "zh": "选择 默认 则对应组件内置图标；对应API的icon；图标对应图标Icon组件API IconSVG的name，默认值：-"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "default",
+      "none",
+      "CheckCircleFilledIcon",
+      "CloseCircleFilledIcon",
+      "ErrorCircleFilledIcon",
+      "HelpCircleFilledIcon",
+      "InfoCircleFilledIcon",
+      "MinusCircleFilledIcon"
+    ],
+    "optionLocales": {
+      "default": {
+        "zh": "默认"
+      },
+      "none": {
+        "zh": "无"
+      },
+      "CheckCircleFilledIcon": {
+        "zh": "CheckCircleFilledIcon"
+      },
+      "CloseCircleFilledIcon": {
+        "zh": "CloseCircleFilledIcon"
+      },
+      "ErrorCircleFilledIcon": {
+        "zh": "ErrorCircleFilledIcon"
+      },
+      "HelpCircleFilledIcon": {
+        "zh": "HelpCircleFilledIcon"
+      },
+      "InfoCircleFilledIcon": {
+        "zh": "InfoCircleFilledIcon"
+      },
+      "MinusCircleFilledIcon": {
+        "zh": "MinusCircleFilledIcon"
+      }
+    }
+  },
+  {
+    "name": "closeButton",
+    "type": "Select",
+    "initValue": "icon",
+    "affectPropsShow": true,
+    "locale": {
+      "zh": "关闭按钮"
+    },
+    "desc": {
+      "zh": "选择 无 则不显示关闭按钮；对应API的closeBtn，默认值：图标"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "none",
+      "icon",
+      "text"
+    ],
+    "optionLocales": {
+      "none": {
+        "zh": "无"
+      },
+      "icon": {
+        "zh": "图标"
+      },
+      "text": {
+        "zh": "文本"
+      }
+    }
+  },
+  {
+    "name": "closeText",
+    "type": "String",
+    "initValue": "关闭",
+    "hidePropBy": {
+      "name": "closeButton",
+      "includeEmpty": true,
+      "values": [
+        "none",
+        "icon"
+      ]
+    },
+    "locale": {
+      "zh": "按钮文本"
+    },
+    "desc": {
+      "zh": "对应API的closeBtn，参考值：关闭"
+    },
+    "showDes": true,
+    "placeholder": "任意字符串"
+  },
+  {
+    "name": "placement",
+    "type": "Select",
+    "initValue": "top-right",
+    "locale": {
+      "zh": "弹出位置"
+    },
+    "desc": {
+      "zh": "消息通知框弹出位置；对应API的placement，默认值：top"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "top-left",
+      "top-right",
+      "bottom-left",
+      "bottom-right"
+    ],
+    "optionLocales": {
+      "top-left": {
+        "zh": "top-left"
+      },
+      "top-right": {
+        "zh": "top-right"
+      },
+      "bottom-left": {
+        "zh": "bottom-left"
+      },
+      "bottom-right": {
+        "zh": "bottom-right"
+      }
+    }
+  },
+  {
+    "name": "footer",
+    "type": "String",
+    "initValue": null,
+    "locale": {
+      "zh": "底部内容"
+    },
+    "desc": {
+      "zh": "对应API的footer，默认值：-"
+    },
+    "showDes": true,
+    "placeholder": "任意字符串"
+  },
+  {
+    "name": "offsetX",
+    "type": "Number",
+    "initValue": 16,
+    "locale": {
+      "zh": "X轴偏移量"
+    },
+    "desc": {
+      "zh": "相对于弹出位置的X轴偏移量；对应API的offset，默认值：-"
+    },
+    "showDes": true,
+    "placeholder": "任意数值"
+  },
+  {
+    "name": "offsetY",
+    "type": "Number",
+    "initValue": 16,
+    "locale": {
+      "zh": "Y轴偏移量"
+    },
+    "desc": {
+      "zh": "相对于弹出位置的Y轴偏移量；对应API的offset，默认值：-"
+    },
+    "showDes": true,
+    "placeholder": "任意数值"
+  },
+  {
+    "name": "attach",
+    "type": "String",
+    "initValue": "body",
+    "locale": {
+      "zh": "挂载节点"
+    },
+    "desc": {
+      "zh": "对应API的attach，建议使用默认值：body"
+    },
+    "showDes": true,
+    "placeholder": "任意字符串"
+  },
+  {
+    "name": "zIndex",
+    "type": "Number",
+    "initValue": 6000,
+    "locale": {
+      "zh": "堆叠次序"
+    },
+    "desc": {
+      "zh": "即“z轴”上的叠放次序，是一个整数，可以为负数。数值越高的组件会相对同一个父节点下的其他对象叠放在更上面；对应API的zIndex，建议使用默认值：5000"
+    },
+    "showDes": true,
+    "placeholder": "任意整数"
+  }
+]
