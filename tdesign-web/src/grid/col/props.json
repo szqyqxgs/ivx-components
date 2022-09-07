@@ -798,10 +798,10 @@
       "name": "flexGSB",
       "includeEmpty": true,
       "values": [
+        "none",
         "growShrink",
         "basis",
-        "detailedFlex",
-        null
+        "detailedFlex"
       ]
     },
     "locale": {
@@ -815,7 +815,6 @@
     "options": [
       "initial",
       "auto",
-      "none",
       "inherit"
     ],
     "optionLocales": {
@@ -824,9 +823,6 @@
       },
       "auto": {
         "zh": "auto"
-      },
-      "none": {
-        "zh": "none"
       },
       "inherit": {
         "zh": "inherit"
@@ -842,10 +838,10 @@
       "name": "flexGSB",
       "includeEmpty": true,
       "values": [
+        "none",
         "quickSelect",
         "basis",
-        "detailedFlex",
-        null
+        "detailedFlex"
       ]
     },
     "locale": {
@@ -866,10 +862,10 @@
       "name": "flexGSB",
       "includeEmpty": true,
       "values": [
+        "none",
         "quickSelect",
         "growShrink",
-        "detailedFlex",
-        null
+        "detailedFlex"
       ]
     },
     "locale": {
@@ -889,10 +885,10 @@
       "name": "flexGSB",
       "includeEmpty": true,
       "values": [
+        "none",
         "quickSelect",
         "growShrink",
-        "basis",
-        null
+        "basis"
       ]
     },
     "locale": {
@@ -913,10 +909,10 @@
       "name": "flexGSB",
       "includeEmpty": true,
       "values": [
+        "none",
         "quickSelect",
         "growShrink",
-        "basis",
-        null
+        "basis"
       ]
     },
     "locale": {
@@ -937,10 +933,10 @@
       "name": "flexGSB",
       "includeEmpty": true,
       "values": [
+        "none",
         "quickSelect",
         "growShrink",
-        "basis",
-        null
+        "basis"
       ]
     },
     "locale": {

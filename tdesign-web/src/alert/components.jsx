@@ -80,6 +80,8 @@ export default class TdAlert extends React.Component {
     // 选择图标
     icon(icon) {
         switch (icon) {
+            case 'default':
+                return null
             case 'CheckCircleFilledIcon':
                 return <CheckCircleFilledIcon/>
             case 'CloseCircleFilledIcon':
@@ -120,7 +122,7 @@ export default class TdAlert extends React.Component {
             onClose={this.close}
             onClosed={this.closed}
             theme={theme}
-            icon={icon === 'default' ? null : this.icon(icon)}
+            icon={this.icon(icon)}
             message={message}
             maxLine={maxLine}
             title={title}

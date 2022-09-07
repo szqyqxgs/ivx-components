@@ -120,7 +120,6 @@ export default class TdGridCol extends React.Component {
             lgSpan,
             xlSpan,
             xxlSpan,
-            flexGSB,
             offset,
             order,
             pull,

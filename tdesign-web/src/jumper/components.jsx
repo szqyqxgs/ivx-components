@@ -85,8 +85,8 @@ export default class TdJumper extends React.Component {
             layout={layout}
             size={size}
             showCurrent={showCurrent}
-            tips={tips === false ? tips : enabledTips}
-            disabled={disabled === false ? disabled : enabledDisabled}
+            tips={tips ? enabledTips : tips}
+            disabled={disabled ? enabledDisabled : disabled}
         /> : null
     }
 }

@@ -110,7 +110,7 @@ export default class TdDivider extends React.Component {
             dashed={dashed}
             layout={layout}
         >
-            {childrenCount === 0 ? content : this.dividerChildren(childrenPosition, spacing, content)}
+            {childrenCount ? this.dividerChildren(childrenPosition, spacing, content) : content}
         </Divider> : null
     }
 }

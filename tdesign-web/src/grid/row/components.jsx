@@ -120,9 +120,7 @@ export default class TdGridRow extends React.Component {
             visible,
             align,
             justify,
-            tag,
-            spacing,
-            horizontalSpacing
+            tag
         } = this.props
         return visible ? <Row
             // style: {},
@@ -131,7 +129,7 @@ export default class TdGridRow extends React.Component {
             align={align}
             justify={justify}
             tag={tag}
-            gutter={spacing === 'horizontal' && horizontalSpacing === 0 ? 0 : this.selectSpacing()}
+            gutter={this.selectSpacing()}
         >
             {this.props.children}</Row> : null
     }

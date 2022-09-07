@@ -190,8 +190,8 @@
       "name": "separator",
       "includeEmpty": true,
       "values": [
-        "divider",
-        null
+        "none",
+        "divider"
       ]
     },
     "locale": {
@@ -212,8 +212,8 @@
       "name": "separator",
       "includeEmpty": true,
       "values": [
-        "delimiter",
-        null
+        "none",
+        "delimiter"
       ]
     },
     "locale": {
@@ -234,8 +234,8 @@
       "name": "separator",
       "includeEmpty": true,
       "values": [
-        "delimiter",
-        null
+        "none",
+        "delimiter"
       ]
     },
     "locale": {
@@ -272,8 +272,8 @@
       "name": "separator",
       "includeEmpty": true,
       "values": [
-        "delimiter",
-        null
+        "none",
+        "delimiter"
       ]
     },
     "locale": {
@@ -293,8 +293,8 @@
       "name": "separator",
       "includeEmpty": true,
       "values": [
-        "delimiter",
-        null
+        "none",
+        "delimiter"
       ]
     },
     "locale": {

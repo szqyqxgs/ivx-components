@@ -12,6 +12,7 @@
     "showDes": true,
     "optionsEmpty": false,
     "options": [
+      "none",
       "default",
       "CheckCircleFilledIcon",
       "CloseCircleFilledIcon",
@@ -21,6 +22,9 @@
       "MinusCircleFilledIcon"
     ],
     "optionLocales": {
+      "none": {
+        "zh": "无"
+      },
       "default": {
         "zh": "默认"
       },
@@ -82,8 +86,8 @@
       "name": "closeButton",
       "includeEmpty": true,
       "values": [
-        "icon",
-        null
+        "none",
+        "icon"
       ]
     },
     "locale": {

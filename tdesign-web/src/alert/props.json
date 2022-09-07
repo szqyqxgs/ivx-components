@@ -194,8 +194,8 @@
       "name": "closeButton",
       "includeEmpty": true,
       "values": [
-        "icon",
-        null
+        "none",
+        "icon"
       ]
     },
     "locale": {

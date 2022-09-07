@@ -45,7 +45,7 @@ export default class TdMessage extends React.Component {
             // className: '',
             onCloseBtnClick: this.closeBtnClick,
             onDurationEnd: this.durationEnd,
-            icon: icon === 'default' ? null : this.icon(icon),
+            icon: this.icon(icon),
             closeBtn: closeBtn,
             placement: placement,
             offset: [offsetX, offsetY],
@@ -99,6 +99,10 @@ export default class TdMessage extends React.Component {
     // 选择图标
     icon(icon) {
         switch (icon) {
+            case 'none':
+                return false
+            case 'default':
+                return true
             case 'CheckCircleFilledIcon':
                 return <CheckCircleFilledIcon/>
             case 'CloseCircleFilledIcon':

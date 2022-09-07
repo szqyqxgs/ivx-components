@@ -102,6 +102,7 @@
     "name": "tips",
     "type": "Boolean",
     "defaultValue": false,
+    "groupName": "文案设置",
     "affectPropsShow": true,
     "locale": {
       "zh": "提示文案"
@@ -115,6 +116,7 @@
     "name": "prevTips",
     "type": "String",
     "defaultValue": "上一页",
+    "groupName": "文案设置",
     "hidePropBy": {
       "name": "tips",
       "includeEmpty": true,
@@ -125,12 +127,17 @@
     "locale": {
       "zh": "上一页"
     },
+    "desc": {
+      "zh": "上一页按钮提示文案"
+    },
+    "showDes": true,
     "placeholder": "任意字符串"
   },
   {
     "name": "currentTips",
     "type": "String",
     "defaultValue": "当前",
+    "groupName": "文案设置",
     "hidePropBy": {
       "name": "tips",
       "includeEmpty": true,
@@ -141,12 +148,17 @@
     "locale": {
       "zh": "当前"
     },
+    "desc": {
+      "zh": "当前按钮提示文案"
+    },
+    "showDes": true,
     "placeholder": "任意字符串"
   },
   {
     "name": "nextTips",
     "type": "String",
     "defaultValue": "下一页",
+    "groupName": "文案设置",
     "hidePropBy": {
       "name": "tips",
       "includeEmpty": true,
@@ -157,12 +169,17 @@
     "locale": {
       "zh": "下一页"
     },
+    "desc": {
+      "zh": "下一页按钮提示文案"
+    },
+    "showDes": true,
     "placeholder": "任意字符串"
   },
   {
     "name": "disabled",
     "type": "Boolean",
     "defaultValue": false,
+    "groupName": "禁用设置",
     "affectPropsShow": true,
     "locale": {
       "zh": "禁用"
@@ -176,6 +193,7 @@
     "name": "prevDisabled",
     "type": "Boolean",
     "defaultValue": true,
+    "groupName": "禁用设置",
     "hidePropBy": {
       "name": "disabled",
       "includeEmpty": true,
@@ -184,7 +202,7 @@
       ]
     },
     "locale": {
-      "zh": "禁用上一页"
+      "zh": "上一页"
     },
     "desc": {
       "zh": "禁用上一页按钮"
@@ -195,6 +213,7 @@
     "name": "currentDisabled",
     "type": "Boolean",
     "defaultValue": true,
+    "groupName": "禁用设置",
     "hidePropBy": {
       "name": "disabled",
       "includeEmpty": true,
@@ -203,7 +222,7 @@
       ]
     },
     "locale": {
-      "zh": "禁用当前"
+      "zh": "当前"
     },
     "desc": {
       "zh": "禁用当前按钮"
@@ -214,6 +233,7 @@
     "name": "nextDisabled",
     "type": "Boolean",
     "defaultValue": true,
+    "groupName": "禁用设置",
     "hidePropBy": {
       "name": "disabled",
       "includeEmpty": true,
@@ -222,7 +242,7 @@
       ]
     },
     "locale": {
-      "zh": "禁用下一页"
+      "zh": "下一页"
     },
     "desc": {
       "zh": "禁用下一页按钮"
