@@ -815,6 +815,7 @@
     "options": [
       "initial",
       "auto",
+      "none",
       "inherit"
     ],
     "optionLocales": {
@@ -823,6 +824,9 @@
       },
       "auto": {
         "zh": "auto"
+      },
+      "none": {
+        "zh": "none"
       },
       "inherit": {
         "zh": "inherit"
