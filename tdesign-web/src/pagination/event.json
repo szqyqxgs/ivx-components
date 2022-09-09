@@ -1,0 +1,109 @@
+[
+  {
+    "name": "initialize",
+    "locale": {
+      "zh": "初始化"
+    },
+    "desc": {
+      "zh": "初始打开，功能和界面在正常运行前的准备阶段；仅对非当前对象有效。"
+    },
+    "params": [
+      {
+        "name": "current",
+        "locale": {
+          "zh": "当前页码"
+        },
+        "desc": {
+          "zh": "当前页码。"
+        }
+      },
+      {
+        "name": "pageSize",
+        "locale": {
+          "zh": "每页数据数"
+        },
+        "desc": {
+          "zh": "每页数据数。"
+        }
+      }
+    ]
+  },
+  {
+    "name": "currentChange",
+    "locale": {
+      "zh": "当前页码改变"
+    },
+    "desc": {
+      "zh": "当前页码发生变化时。"
+    },
+    "params": [
+      {
+        "name": "current",
+        "locale": {
+          "zh": "当前页码"
+        },
+        "desc": {
+          "zh": "当前页码。"
+        }
+      }
+    ]
+  },
+  {
+    "name": "pageSizeChange",
+    "locale": {
+      "zh": "分页大小改变"
+    },
+    "desc": {
+      "zh": "分页大小发生变化时。"
+    },
+    "params": [
+      {
+        "name": "pageSize",
+        "locale": {
+          "zh": "每页数据数"
+        },
+        "desc": {
+          "zh": "每页数据数。"
+        }
+      }
+    ]
+  },
+  {
+    "name": "change",
+    "locale": {
+      "zh": "当前页码或分页大小改变"
+    },
+    "desc": {
+      "zh": "当前页码或分页大小发生变化时。"
+    },
+    "params": [
+      {
+        "name": "current",
+        "locale": {
+          "zh": "当前页码"
+        },
+        "desc": {
+          "zh": "当前页码。"
+        }
+      },
+      {
+        "name": "previous",
+        "locale": {
+          "zh": "以前页码"
+        },
+        "desc": {
+          "zh": "选中当前页码前所选中的页码。"
+        }
+      },
+      {
+        "name": "pageSize",
+        "locale": {
+          "zh": "每页数据数"
+        },
+        "desc": {
+          "zh": "每页数据数。"
+        }
+      }
+    ]
+  }
+]

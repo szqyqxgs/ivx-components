@@ -1,12 +1,26 @@
 [
   {
-    "name": "openMethod",
+    "name": "setTotal",
     "locale": {
-      "zh": "设置开关状态为开启"
+      "zh": "设置数据总数"
     },
     "desc": {
-      "zh": "开关状态将设置为开启。"
+      "zh": "设置数据总数。"
     },
+    "params": [
+      {
+        "name": "total",
+        "type": "Formula",
+        "defaultValue": "",
+        "locale": {
+          "zh": "数据总数"
+        },
+        "desc": {
+          "zh": "对应API的total，默认值：0"
+        },
+        "placeholder": "任意非负整数"
+      }
+    ],
     "callback": {
       "result": {
         "single": false,
@@ -19,25 +33,39 @@
       "emptyValue": true,
       "params": [
         {
-          "name": "value",
+          "name": "total",
           "locale": {
-            "zh": "开关状态值"
+            "zh": "数据总数"
           },
           "desc": {
-            "zh": "值为true。"
+            "zh": "数据总数。"
           }
         }
       ]
     }
   },
   {
-    "name": "closeMethod",
+    "name": "setCurrent",
     "locale": {
-      "zh": "设置开关状态为关闭"
+      "zh": "跳转到页码"
     },
     "desc": {
-      "zh": "开关状态将设置为关闭。"
+      "zh": "跳转到页码。"
     },
+    "params": [
+      {
+        "name": "current",
+        "type": "Formula",
+        "defaultValue": "",
+        "locale": {
+          "zh": "页码"
+        },
+        "desc": {
+          "zh": "对应API的current，默认值：1"
+        },
+        "placeholder": "任意正整数"
+      }
+    ],
     "callback": {
       "result": {
         "single": false,
@@ -50,43 +78,12 @@
       "emptyValue": true,
       "params": [
         {
-          "name": "value",
+          "name": "current",
           "locale": {
-            "zh": "开关状态值"
+            "zh": "当前页码"
           },
           "desc": {
-            "zh": "值为false。"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "name": "toggleMethod",
-    "locale": {
-      "zh": "交替设置开关状态为开启/关闭"
-    },
-    "desc": {
-      "zh": "开关状态执行“开启——关闭”的交替动作，当前如是开启状态则变为关闭；反之亦然。"
-    },
-    "callback": {
-      "result": {
-        "single": false,
-        "noResult": false,
-        "noValue": true,
-        "locale": {
-          "zh": "返回结果"
-        }
-      },
-      "emptyValue": true,
-      "params": [
-        {
-          "name": "value",
-          "locale": {
-            "zh": "开关状态值"
-          },
-          "desc": {
-            "zh": "值为true/false。"
+            "zh": "当前页码。"
           }
         }
       ]

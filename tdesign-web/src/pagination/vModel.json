@@ -1,0 +1,9 @@
+[
+  "currentChange,current,current",
+  "pageSizeChange,pageSize,pageSize",
+  "setTotal,total,total",
+  "setCurrent,current,current",
+  "showVisible,visible,visible",
+  "hideVisible,visible,visible",
+  "toggleVisible,visible,visible"
+]
