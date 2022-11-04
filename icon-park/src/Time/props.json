@@ -10,7 +10,7 @@
   {
     "name": "name",
     "type": "Select",
-    "initValue": "aaa",
+    "initValue": "AlarmClock",
     "locale": {
       "zh": "选择图标"
     },
@@ -20,42 +20,75 @@
     "showDes": true,
     "optionsEmpty": false,
     "options": [
-      "aaa",
-      "aaa"
+      "AlarmClock",
+      "BigClock",
+      "CalendarDot",
+      "CalendarThirty",
+      "CalendarThirtyTwo",
+      "CalendarThree",
+      "Dashboard",
+      "History",
+      "Iwatch",
+      "LoadingThree",
+      "RadarTwo",
+      "Speed",
+      "SpeedOne",
+      "Stopwatch",
+      "StopwatchStart",
+      "Time",
+      "Watch"
     ],
     "optionLocales": {
-      "aaa": {
-        "zh": ""
+      "AlarmClock": {
+        "zh": "闹钟"
       },
-      "aaa": {
-        "zh": ""
+      "BigClock": {
+        "zh": "大钟表"
       },
-      "aaa": {
-        "zh": ""
+      "CalendarDot": {
+        "zh": "日历"
       },
-      "aaa": {
-        "zh": ""
+      "CalendarThirty": {
+        "zh": "日历"
       },
-      "aaa": {
-        "zh": ""
+      "CalendarThirtyTwo": {
+        "zh": "日历"
       },
-      "aaa": {
-        "zh": ""
+      "CalendarThree": {
+        "zh": "日历"
       },
-      "aaa": {
-        "zh": ""
+      "Dashboard": {
+        "zh": "仪表盘"
       },
-      "aaa": {
-        "zh": ""
+      "History": {
+        "zh": "历史记录"
       },
-      "aaa": {
-        "zh": ""
+      "Iwatch": {
+        "zh": "智能手表"
       },
-      "aaa": {
-        "zh": ""
+      "LoadingThree": {
+        "zh": "加载"
       },
-      "aaa": {
-        "zh": ""
+      "RadarTwo": {
+        "zh": "雷达"
+      },
+      "Speed": {
+        "zh": "速度"
+      },
+      "SpeedOne": {
+        "zh": "速度"
+      },
+      "Stopwatch": {
+        "zh": "秒表"
+      },
+      "StopwatchStart": {
+        "zh": "计时器"
+      },
+      "Time": {
+        "zh": "时间"
+      },
+      "Watch": {
+        "zh": "手表"
       }
     }
   },

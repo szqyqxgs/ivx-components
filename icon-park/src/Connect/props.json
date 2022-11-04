@@ -10,7 +10,7 @@
   {
     "name": "name",
     "type": "Select",
-    "initValue": "aaa",
+    "initValue": "Anchor",
     "locale": {
       "zh": "选择图标"
     },
@@ -20,42 +20,215 @@
     "showDes": true,
     "optionsEmpty": false,
     "options": [
-      "aaa",
-      "aaa"
+      "Anchor",
+      "AnchorOne",
+      "AnchorRound",
+      "AnchorSqure",
+      "Api",
+      "AppletClosed",
+      "AssemblyLine",
+      "BezierCurve",
+      "Branch",
+      "BranchOne",
+      "BranchTwo",
+      "Clue",
+      "Command",
+      "Connect",
+      "ConnectAddressOne",
+      "ConnectAddressTwo",
+      "Connection",
+      "ConnectionBox",
+      "ConnectionPoint",
+      "ConnectionPointTwo",
+      "Fork",
+      "LeftAndRightBranch",
+      "LeftBranch",
+      "LinkBreak",
+      "LinkCloud",
+      "LinkCloudFaild",
+      "LinkCloudSucess",
+      "LinkFour",
+      "LinkInterrupt",
+      "LinkThree",
+      "LowerBranch",
+      "NetworkTree",
+      "PullRequests",
+      "RelationalGraph",
+      "RightBranch",
+      "RightBranchOne",
+      "RightBranchTwo",
+      "Ring",
+      "RingOne",
+      "STurnDown",
+      "STurnLeft",
+      "STurnRight",
+      "STurnUp",
+      "ShareOne",
+      "SplitTurnDownLeft",
+      "SplitTurnDownRight",
+      "TreeDiagram",
+      "UTurnDown",
+      "UTurnLeft",
+      "UTurnRight",
+      "UTurnUp",
+      "WholeSiteAccelerator"
     ],
     "optionLocales": {
-      "aaa": {
-        "zh": ""
+      "Anchor": {
+        "zh": "锚点"
       },
-      "aaa": {
-        "zh": ""
+      "AnchorOne": {
+        "zh": "锚点"
       },
-      "aaa": {
-        "zh": ""
+      "AnchorRound": {
+        "zh": "锚轮"
       },
-      "aaa": {
-        "zh": ""
+      "AnchorSqure": {
+        "zh": "锚方"
       },
-      "aaa": {
-        "zh": ""
+      "Api": {
+        "zh": "API接口"
       },
-      "aaa": {
-        "zh": ""
+      "AppletClosed": {
+        "zh": "小程序关闭"
       },
-      "aaa": {
-        "zh": ""
+      "AssemblyLine": {
+        "zh": "流水线"
       },
-      "aaa": {
-        "zh": ""
+      "BezierCurve": {
+        "zh": "贝塞尔曲线"
       },
-      "aaa": {
-        "zh": ""
+      "Branch": {
+        "zh": "分支"
       },
-      "aaa": {
-        "zh": ""
+      "BranchOne": {
+        "zh": "分支"
       },
-      "aaa": {
-        "zh": ""
+      "BranchTwo": {
+        "zh": "分支"
+      },
+      "Clue": {
+        "zh": "线索"
+      },
+      "Command": {
+        "zh": "命令键"
+      },
+      "Connect": {
+        "zh": "链接"
+      },
+      "ConnectAddressOne": {
+        "zh": "连接地址1"
+      },
+      "ConnectAddressTwo": {
+        "zh": "连接地址2"
+      },
+      "Connection": {
+        "zh": "连接"
+      },
+      "ConnectionBox": {
+        "zh": "分组"
+      },
+      "ConnectionPoint": {
+        "zh": "连接点"
+      },
+      "ConnectionPointTwo": {
+        "zh": "两点连接"
+      },
+      "Fork": {
+        "zh": "分叉"
+      },
+      "LeftAndRightBranch": {
+        "zh": "左右分支"
+      },
+      "LeftBranch": {
+        "zh": "左分支"
+      },
+      "LinkBreak": {
+        "zh": "断开连接"
+      },
+      "LinkCloud": {
+        "zh": "云运行"
+      },
+      "LinkCloudFaild": {
+        "zh": "云中断"
+      },
+      "LinkCloudSucess": {
+        "zh": "云连接"
+      },
+      "LinkFour": {
+        "zh": "链接4"
+      },
+      "LinkInterrupt": {
+        "zh": "链接中断"
+      },
+      "LinkThree": {
+        "zh": "链接"
+      },
+      "LowerBranch": {
+        "zh": "下分支"
+      },
+      "NetworkTree": {
+        "zh": "网络节点"
+      },
+      "PullRequests": {
+        "zh": "推送请求"
+      },
+      "RelationalGraph": {
+        "zh": "关系链"
+      },
+      "RightBranch": {
+        "zh": "右分支"
+      },
+      "RightBranchOne": {
+        "zh": "右分支1"
+      },
+      "RightBranchTwo": {
+        "zh": "右分支2"
+      },
+      "Ring": {
+        "zh": "圆环"
+      },
+      "RingOne": {
+        "zh": "圆环"
+      },
+      "STurnDown": {
+        "zh": "底部连接"
+      },
+      "STurnLeft": {
+        "zh": "左侧连接"
+      },
+      "STurnRight": {
+        "zh": "右侧连接"
+      },
+      "STurnUp": {
+        "zh": "顶部连接"
+      },
+      "ShareOne": {
+        "zh": "分享"
+      },
+      "SplitTurnDownLeft": {
+        "zh": "左下分支"
+      },
+      "SplitTurnDownRight": {
+        "zh": "有下分支"
+      },
+      "TreeDiagram": {
+        "zh": "树状图"
+      },
+      "UTurnDown": {
+        "zh": "上回转"
+      },
+      "UTurnLeft": {
+        "zh": "右回转"
+      },
+      "UTurnRight": {
+        "zh": "左回转"
+      },
+      "UTurnUp": {
+        "zh": "下回转"
+      },
+      "WholeSiteAccelerator": {
+        "zh": "站点加速"
       }
     }
   },

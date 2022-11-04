@@ -10,7 +10,7 @@
   {
     "name": "name",
     "type": "Select",
-    "initValue": "aaa",
+    "initValue": "ACane",
     "locale": {
       "zh": "选择图标"
     },
@@ -20,42 +20,295 @@
     "showDes": true,
     "optionsEmpty": false,
     "options": [
-      "aaa",
-      "aaa"
+      "ACane",
+      "BachelorCap",
+      "BachelorCapOne",
+      "BachelorCapTwo",
+      "Backpack",
+      "BaseballCap",
+      "BasketballClothes",
+      "Belt",
+      "Boots",
+      "Bow",
+      "Briefcase",
+      "ChefHat",
+      "ChildrenCap",
+      "ClothesBriefs",
+      "ClothesCardigan",
+      "ClothesCrewNeck",
+      "ClothesDiapers",
+      "ClothesGloves",
+      "ClothesGlovesTwo",
+      "ClothesHoodie",
+      "ClothesPants",
+      "ClothesPantsShort",
+      "ClothesPantsSweat",
+      "ClothesShortSleeve",
+      "ClothesSkates",
+      "ClothesSuit",
+      "ClothesSweater",
+      "ClothesTurtleneck",
+      "ClothesWindbreaker",
+      "CoatHanger",
+      "CommuterBag",
+      "CrownThree",
+      "DiamondNecklace",
+      "DiamondRing",
+      "Diamonds",
+      "DiapersOne",
+      "FullDressLonguette",
+      "Glasses",
+      "GlassesOne",
+      "Handbag",
+      "HanfuChineseStyle",
+      "HangerOne",
+      "Hat",
+      "Headwear",
+      "HighHeeledShoes",
+      "HolySword",
+      "MagicHat",
+      "MenJacket",
+      "Necktie",
+      "Panties",
+      "Perfume",
+      "RetroBag",
+      "ShortSkirt",
+      "Shorts",
+      "Skates",
+      "Slippers",
+      "SlippersOne",
+      "Socks",
+      "SorcererHat",
+      "StrawHat",
+      "SunHat",
+      "Sweater",
+      "Swimsuit",
+      "TShirt",
+      "TheSingleShoulderBag",
+      "Theme",
+      "ThreeDGlasses",
+      "TrousersBellBottoms",
+      "Trunk",
+      "Vest",
+      "WomenCoat",
+      "WoolenHat"
     ],
     "optionLocales": {
-      "aaa": {
-        "zh": ""
+      "ACane": {
+        "zh": "拐杖"
       },
-      "aaa": {
-        "zh": ""
+      "BachelorCap": {
+        "zh": "学士帽"
       },
-      "aaa": {
-        "zh": ""
+      "BachelorCapOne": {
+        "zh": "博士帽1"
       },
-      "aaa": {
-        "zh": ""
+      "BachelorCapTwo": {
+        "zh": "博士帽2"
       },
-      "aaa": {
-        "zh": ""
+      "Backpack": {
+        "zh": "背包"
       },
-      "aaa": {
-        "zh": ""
+      "BaseballCap": {
+        "zh": "棒球帽"
       },
-      "aaa": {
-        "zh": ""
+      "BasketballClothes": {
+        "zh": "篮球服"
       },
-      "aaa": {
-        "zh": ""
+      "Belt": {
+        "zh": "腰带"
       },
-      "aaa": {
-        "zh": ""
+      "Boots": {
+        "zh": "靴子"
       },
-      "aaa": {
-        "zh": ""
+      "Bow": {
+        "zh": "领结"
       },
-      "aaa": {
-        "zh": ""
+      "Briefcase": {
+        "zh": "公文包"
+      },
+      "ChefHat": {
+        "zh": "厨师帽"
+      },
+      "ChildrenCap": {
+        "zh": "儿童帽"
+      },
+      "ClothesBriefs": {
+        "zh": "内裤"
+      },
+      "ClothesCardigan": {
+        "zh": "开衫"
+      },
+      "ClothesCrewNeck": {
+        "zh": "圆领衫"
+      },
+      "ClothesDiapers": {
+        "zh": "纸尿裤"
+      },
+      "ClothesGloves": {
+        "zh": "手套"
+      },
+      "ClothesGlovesTwo": {
+        "zh": "手套"
+      },
+      "ClothesHoodie": {
+        "zh": "卫衣"
+      },
+      "ClothesPants": {
+        "zh": "裤子"
+      },
+      "ClothesPantsShort": {
+        "zh": "短裤"
+      },
+      "ClothesPantsSweat": {
+        "zh": "运动裤"
+      },
+      "ClothesShortSleeve": {
+        "zh": "短裤"
+      },
+      "ClothesSkates": {
+        "zh": "滑冰鞋"
+      },
+      "ClothesSuit": {
+        "zh": "西装"
+      },
+      "ClothesSweater": {
+        "zh": "帽衫"
+      },
+      "ClothesTurtleneck": {
+        "zh": "高领毛衣"
+      },
+      "ClothesWindbreaker": {
+        "zh": "风衣"
+      },
+      "CoatHanger": {
+        "zh": "衣架"
+      },
+      "CommuterBag": {
+        "zh": "通勤包"
+      },
+      "CrownThree": {
+        "zh": "皇冠帽"
+      },
+      "DiamondNecklace": {
+        "zh": "钻石项链"
+      },
+      "DiamondRing": {
+        "zh": "钻戒"
+      },
+      "Diamonds": {
+        "zh": "钻石"
+      },
+      "DiapersOne": {
+        "zh": "尿不湿"
+      },
+      "FullDressLonguette": {
+        "zh": "礼服长裙"
+      },
+      "Glasses": {
+        "zh": "眼镜"
+      },
+      "GlassesOne": {
+        "zh": "眼镜"
+      },
+      "Handbag": {
+        "zh": "手提包"
+      },
+      "HanfuChineseStyle": {
+        "zh": "中式汉服"
+      },
+      "HangerOne": {
+        "zh": "衣架"
+      },
+      "Hat": {
+        "zh": "帽子"
+      },
+      "Headwear": {
+        "zh": "头饰"
+      },
+      "HighHeeledShoes": {
+        "zh": "高跟鞋"
+      },
+      "HolySword": {
+        "zh": "圣剑"
+      },
+      "MagicHat": {
+        "zh": "魔术帽"
+      },
+      "MenJacket": {
+        "zh": "男士外套"
+      },
+      "Necktie": {
+        "zh": "领带"
+      },
+      "Panties": {
+        "zh": "内裤"
+      },
+      "Perfume": {
+        "zh": "香水"
+      },
+      "RetroBag": {
+        "zh": "复古包"
+      },
+      "ShortSkirt": {
+        "zh": "短裙"
+      },
+      "Shorts": {
+        "zh": "短裤"
+      },
+      "Skates": {
+        "zh": "冰鞋"
+      },
+      "Slippers": {
+        "zh": "拖鞋"
+      },
+      "SlippersOne": {
+        "zh": "拖鞋"
+      },
+      "Socks": {
+        "zh": "袜子"
+      },
+      "SorcererHat": {
+        "zh": "巫师帽"
+      },
+      "StrawHat": {
+        "zh": "草帽"
+      },
+      "SunHat": {
+        "zh": "太阳帽"
+      },
+      "Sweater": {
+        "zh": "毛衣"
+      },
+      "Swimsuit": {
+        "zh": "泳装"
+      },
+      "TShirt": {
+        "zh": "T恤"
+      },
+      "TheSingleShoulderBag": {
+        "zh": "单肩包"
+      },
+      "Theme": {
+        "zh": "主题"
+      },
+      "ThreeDGlasses": {
+        "zh": "3D眼镜"
+      },
+      "TrousersBellBottoms": {
+        "zh": "喇叭裤"
+      },
+      "Trunk": {
+        "zh": "行李箱"
+      },
+      "Vest": {
+        "zh": "背心"
+      },
+      "WomenCoat": {
+        "zh": "女大衣"
+      },
+      "WoolenHat": {
+        "zh": "呢帽"
       }
     }
   },

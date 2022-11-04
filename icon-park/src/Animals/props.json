@@ -10,7 +10,7 @@
   {
     "name": "name",
     "type": "Select",
-    "initValue": "aaa",
+    "initValue": "Bat",
     "locale": {
       "zh": "选择图标"
     },
@@ -20,42 +20,151 @@
     "showDes": true,
     "optionsEmpty": false,
     "options": [
-      "aaa",
-      "aaa"
+      "Bat",
+      "Bear",
+      "Bee",
+      "Bird",
+      "Butterfly",
+      "Cat",
+      "Cattle",
+      "CattleZodiac",
+      "ChickenZodiac",
+      "Deer",
+      "Dog",
+      "DogZodiac",
+      "Dolphin",
+      "DragonZodiac",
+      "Duck",
+      "Eagle",
+      "Elephant",
+      "FishOne",
+      "Frog",
+      "Hippo",
+      "HorseZodiac",
+      "KoalaBear",
+      "Monkey",
+      "MonkeyZodiac",
+      "MouseZodiac",
+      "Owl",
+      "Panda",
+      "Pig",
+      "PigZodiac",
+      "Pigeon",
+      "Rabbit",
+      "RabbitZodiac",
+      "SheepZodiac",
+      "SnakeZodiac",
+      "TigerZodiac",
+      "Whale"
     ],
     "optionLocales": {
-      "aaa": {
-        "zh": ""
+      "Bat": {
+        "zh": "蝙蝠"
       },
-      "aaa": {
-        "zh": ""
+      "Bear": {
+        "zh": "熊"
       },
-      "aaa": {
-        "zh": ""
+      "Bee": {
+        "zh": "蜜蜂"
       },
-      "aaa": {
-        "zh": ""
+      "Bird": {
+        "zh": "鸟"
       },
-      "aaa": {
-        "zh": ""
+      "Butterfly": {
+        "zh": "蝴蝶"
       },
-      "aaa": {
-        "zh": ""
+      "Cat": {
+        "zh": "猫"
       },
-      "aaa": {
-        "zh": ""
+      "Cattle": {
+        "zh": "牛"
       },
-      "aaa": {
-        "zh": ""
+      "CattleZodiac": {
+        "zh": "生肖牛"
       },
-      "aaa": {
-        "zh": ""
+      "ChickenZodiac": {
+        "zh": "生肖鸡"
       },
-      "aaa": {
-        "zh": ""
+      "Deer": {
+        "zh": "鹿"
       },
-      "aaa": {
-        "zh": ""
+      "Dog": {
+        "zh": "狗"
+      },
+      "DogZodiac": {
+        "zh": "生肖狗"
+      },
+      "Dolphin": {
+        "zh": "海豚"
+      },
+      "DragonZodiac": {
+        "zh": "生肖龙"
+      },
+      "Duck": {
+        "zh": "鸭子"
+      },
+      "Eagle": {
+        "zh": "鹰"
+      },
+      "Elephant": {
+        "zh": "大象"
+      },
+      "FishOne": {
+        "zh": "鱼"
+      },
+      "Frog": {
+        "zh": "青蛙"
+      },
+      "Hippo": {
+        "zh": "河马"
+      },
+      "HorseZodiac": {
+        "zh": "生肖马"
+      },
+      "KoalaBear": {
+        "zh": "树袋熊"
+      },
+      "Monkey": {
+        "zh": "猴"
+      },
+      "MonkeyZodiac": {
+        "zh": "生肖猴"
+      },
+      "MouseZodiac": {
+        "zh": "生肖鼠"
+      },
+      "Owl": {
+        "zh": "猫头鹰"
+      },
+      "Panda": {
+        "zh": "熊猫"
+      },
+      "Pig": {
+        "zh": "猪"
+      },
+      "PigZodiac": {
+        "zh": "生肖猪"
+      },
+      "Pigeon": {
+        "zh": "鸽子"
+      },
+      "Rabbit": {
+        "zh": "兔子"
+      },
+      "RabbitZodiac": {
+        "zh": "生肖兔"
+      },
+      "SheepZodiac": {
+        "zh": "生肖羊"
+      },
+      "SnakeZodiac": {
+        "zh": "生肖蛇"
+      },
+      "TigerZodiac": {
+        "zh": "生肖虎"
+      },
+      "Whale": {
+        "zh": "鲸鱼"
       }
     }
   },

@@ -17,7 +17,9 @@ export default class IconParkaaa extends React.Component {
 
     // 初始化周期
     componentDidMount() {
-        this.initialize()
+        process.nextTick(() => {
+            this.initialize()
+        })
     }
 
     // 更新周期
@@ -123,22 +125,4 @@ export default class IconParkaaa extends React.Component {
         let {visible} = this.props
         return visible ? <span onClick={this.click}>{this.icon()}</span> : null
     }
-}
-
-// 默认属性
-IconParkaaa.defaultProps = {
-    visible: true,
-    name: 'aaa',
-    size: '16',
-    spin: false,
-    theme: 'outline',
-    strokeColor: null,
-    fillColor: null,
-    outerStrokeColor: null,
-    outerFillColor: null,
-    innerStrokeColor: null,
-    innerFillColor: null,
-    strokeWidth: 4,
-    strokeLinecap: "round",
-    strokeLinejoin: "round"
 }

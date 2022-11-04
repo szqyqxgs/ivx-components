@@ -10,7 +10,7 @@
   {
     "name": "name",
     "type": "Select",
-    "initValue": "aaa",
+    "initValue": "Bad",
     "locale": {
       "zh": "选择图标"
     },
@@ -20,42 +20,271 @@
     "showDes": true,
     "optionsEmpty": false,
     "options": [
-      "aaa",
-      "aaa"
+      "Bad",
+      "BadOne",
+      "BadTwo",
+      "Bless",
+      "Bye",
+      "Clap",
+      "ClickTap",
+      "ClickTapTwo",
+      "Come",
+      "ConceptSharing",
+      "Cool",
+      "Delivery",
+      "Easy",
+      "Empty",
+      "Fingerprint",
+      "FingerprintThree",
+      "FingerprintTwo",
+      "First",
+      "Fist",
+      "Five",
+      "FiveFive",
+      "Flirt",
+      "Four",
+      "FourFour",
+      "Good",
+      "GoodOne",
+      "GoodTwo",
+      "HandDown",
+      "HandDrag",
+      "HandLeft",
+      "HandRight",
+      "HandUp",
+      "Hi",
+      "Hold",
+      "HoldInterface",
+      "HoldSeeds",
+      "IndexFinger",
+      "MayuraGesture",
+      "MiddleFinger",
+      "Move",
+      "Okay",
+      "One",
+      "OneOne",
+      "Open",
+      "Palm",
+      "Point",
+      "PointOut",
+      "Press",
+      "Reload",
+      "Respect",
+      "Rock",
+      "RockGesture",
+      "Six",
+      "SpiderMan",
+      "Swing",
+      "Three",
+      "ThreeThree",
+      "ThumbsDown",
+      "ThumbsUp",
+      "TurnOn",
+      "Two",
+      "TwoFingers",
+      "TwoHands",
+      "TwoTwo",
+      "Yep",
+      "Zoom"
     ],
     "optionLocales": {
-      "aaa": {
-        "zh": ""
+      "Bad": {
+        "zh": "坏的"
       },
-      "aaa": {
-        "zh": ""
+      "BadOne": {
+        "zh": "差劲"
       },
-      "aaa": {
-        "zh": ""
+      "BadTwo": {
+        "zh": "踩"
       },
-      "aaa": {
-        "zh": ""
+      "Bless": {
+        "zh": "保佑"
       },
-      "aaa": {
-        "zh": ""
+      "Bye": {
+        "zh": "拜拜"
       },
-      "aaa": {
-        "zh": ""
+      "Clap": {
+        "zh": "鼓掌"
       },
-      "aaa": {
-        "zh": ""
+      "ClickTap": {
+        "zh": "点击"
       },
-      "aaa": {
-        "zh": ""
+      "ClickTapTwo": {
+        "zh": "点击"
       },
-      "aaa": {
-        "zh": ""
+      "Come": {
+        "zh": "招引"
       },
-      "aaa": {
-        "zh": ""
+      "ConceptSharing": {
+        "zh": "理念共享"
       },
-      "aaa": {
-        "zh": ""
+      "Cool": {
+        "zh": "酷的"
+      },
+      "Delivery": {
+        "zh": "交货"
+      },
+      "Easy": {
+        "zh": "简单"
+      },
+      "Empty": {
+        "zh": "空手"
+      },
+      "Fingerprint": {
+        "zh": "指纹"
+      },
+      "FingerprintThree": {
+        "zh": "指纹"
+      },
+      "FingerprintTwo": {
+        "zh": "指纹"
+      },
+      "First": {
+        "zh": "第一"
+      },
+      "Fist": {
+        "zh": "拳头"
+      },
+      "Five": {
+        "zh": "五"
+      },
+      "FiveFive": {
+        "zh": "五"
+      },
+      "Flirt": {
+        "zh": "勾引"
+      },
+      "Four": {
+        "zh": "四"
+      },
+      "FourFour": {
+        "zh": "四"
+      },
+      "Good": {
+        "zh": "好的"
+      },
+      "GoodOne": {
+        "zh": "优秀"
+      },
+      "GoodTwo": {
+        "zh": "赞"
+      },
+      "HandDown": {
+        "zh": "向下指"
+      },
+      "HandDrag": {
+        "zh": "手指拖动"
+      },
+      "HandLeft": {
+        "zh": "向左指"
+      },
+      "HandRight": {
+        "zh": "向右指"
+      },
+      "HandUp": {
+        "zh": "向上指"
+      },
+      "Hi": {
+        "zh": "打招呼"
+      },
+      "Hold": {
+        "zh": "承接"
+      },
+      "HoldInterface": {
+        "zh": "托起"
+      },
+      "HoldSeeds": {
+        "zh": "孕育"
+      },
+      "IndexFinger": {
+        "zh": "食指"
+      },
+      "MayuraGesture": {
+        "zh": "马尤拉手势"
+      },
+      "MiddleFinger": {
+        "zh": "中指"
+      },
+      "Move": {
+        "zh": "移动"
+      },
+      "Okay": {
+        "zh": "认可"
+      },
+      "One": {
+        "zh": "一"
+      },
+      "OneOne": {
+        "zh": "一"
+      },
+      "Open": {
+        "zh": "打开"
+      },
+      "Palm": {
+        "zh": "手掌"
+      },
+      "Point": {
+        "zh": "指向"
+      },
+      "PointOut": {
+        "zh": "指出"
+      },
+      "Press": {
+        "zh": "点击"
+      },
+      "Reload": {
+        "zh": "重装"
+      },
+      "Respect": {
+        "zh": "抱拳"
+      },
+      "Rock": {
+        "zh": "摇滚指"
+      },
+      "RockGesture": {
+        "zh": "摇滚手势"
+      },
+      "Six": {
+        "zh": "六"
+      },
+      "SpiderMan": {
+        "zh": "弹指"
+      },
+      "Swing": {
+        "zh": "招手"
+      },
+      "Three": {
+        "zh": "三"
+      },
+      "ThreeThree": {
+        "zh": "三"
+      },
+      "ThumbsDown": {
+        "zh": "踩"
+      },
+      "ThumbsUp": {
+        "zh": "赞"
+      },
+      "TurnOn": {
+        "zh": "打开"
+      },
+      "Two": {
+        "zh": "二"
+      },
+      "TwoFingers": {
+        "zh": "两个手指"
+      },
+      "TwoHands": {
+        "zh": "两只手"
+      },
+      "TwoTwo": {
+        "zh": "二"
+      },
+      "Yep": {
+        "zh": "胜利"
+      },
+      "Zoom": {
+        "zh": "放大"
       }
     }
   },

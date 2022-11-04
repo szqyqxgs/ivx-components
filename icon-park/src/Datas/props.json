@@ -10,7 +10,7 @@
   {
     "name": "name",
     "type": "Select",
-    "initValue": "aaa",
+    "initValue": "DataDisplay",
     "locale": {
       "zh": "选择图标"
     },
@@ -20,42 +20,103 @@
     "showDes": true,
     "optionsEmpty": false,
     "options": [
-      "aaa",
-      "aaa"
+      "DataDisplay",
+      "DataLock",
+      "DataSwitching",
+      "DataUser",
+      "DatabaseAlert",
+      "DatabaseCode",
+      "DatabaseConfig",
+      "DatabaseDownload",
+      "DatabaseEnter",
+      "DatabaseFail",
+      "DatabaseFirst",
+      "DatabaseForbid",
+      "DatabaseLock",
+      "DatabaseNetwork",
+      "DatabaseNetworkPoint",
+      "DatabasePoint",
+      "DatabasePosition",
+      "DatabasePower",
+      "DatabaseProportion",
+      "DatabaseSearch",
+      "DatabaseSetting",
+      "DatabaseSuccess",
+      "DatabaseSync",
+      "DatabaseTime"
     ],
     "optionLocales": {
-      "aaa": {
-        "zh": ""
+      "DataDisplay": {
+        "zh": "数据显示"
       },
-      "aaa": {
-        "zh": ""
+      "DataLock": {
+        "zh": "数据锁定"
       },
-      "aaa": {
-        "zh": ""
+      "DataSwitching": {
+        "zh": "数据切换"
       },
-      "aaa": {
-        "zh": ""
+      "DataUser": {
+        "zh": "数据用户"
       },
-      "aaa": {
-        "zh": ""
+      "DatabaseAlert": {
+        "zh": "数据库警示"
       },
-      "aaa": {
-        "zh": ""
+      "DatabaseCode": {
+        "zh": "数据库代码"
       },
-      "aaa": {
-        "zh": ""
+      "DatabaseConfig": {
+        "zh": "数据库配置"
       },
-      "aaa": {
-        "zh": ""
+      "DatabaseDownload": {
+        "zh": "数据库下载"
       },
-      "aaa": {
-        "zh": ""
+      "DatabaseEnter": {
+        "zh": "数据库进入"
       },
-      "aaa": {
-        "zh": ""
+      "DatabaseFail": {
+        "zh": "数据库错误"
       },
-      "aaa": {
-        "zh": ""
+      "DatabaseFirst": {
+        "zh": "数据库第一"
+      },
+      "DatabaseForbid": {
+        "zh": "数据库禁止"
+      },
+      "DatabaseLock": {
+        "zh": "数据库锁定"
+      },
+      "DatabaseNetwork": {
+        "zh": "数据库网络"
+      },
+      "DatabaseNetworkPoint": {
+        "zh": "数据库网络节点"
+      },
+      "DatabasePoint": {
+        "zh": "数据库节点"
+      },
+      "DatabasePosition": {
+        "zh": "数据库定位"
+      },
+      "DatabasePower": {
+        "zh": "数据库电源"
+      },
+      "DatabaseProportion": {
+        "zh": "数据库占比"
+      },
+      "DatabaseSearch": {
+        "zh": "数据库搜索"
+      },
+      "DatabaseSetting": {
+        "zh": "数据库设置"
+      },
+      "DatabaseSuccess": {
+        "zh": "数据库成功"
+      },
+      "DatabaseSync": {
+        "zh": "数据库同步"
+      },
+      "DatabaseTime": {
+        "zh": "数据库时间"
       }
     }
   },

@@ -10,7 +10,7 @@
   {
     "name": "name",
     "type": "Select",
-    "initValue": "aaa",
+    "initValue": "Acoustic",
     "locale": {
       "zh": "选择图标"
     },
@@ -20,42 +20,235 @@
     "showDes": true,
     "optionsEmpty": false,
     "options": [
-      "aaa",
-      "aaa"
+      "Acoustic",
+      "AddMusic",
+      "Airpods",
+      "BellRing",
+      "CarouselVideo",
+      "CloseRemind",
+      "CollectionRecords",
+      "Concern",
+      "Entertainment",
+      "Film",
+      "Fm",
+      "HeadphoneSound",
+      "Headset",
+      "HeadsetOne",
+      "ListAdd",
+      "Monitor",
+      "MonitorOff",
+      "MonitorTwo",
+      "Movie",
+      "MovieBoard",
+      "Music",
+      "MusicCd",
+      "MusicList",
+      "MusicMenu",
+      "MusicOne",
+      "MusicRhythm",
+      "Mute",
+      "Pause",
+      "PauseOne",
+      "Performance",
+      "Piano",
+      "Play",
+      "PlayOne",
+      "PlayWrong",
+      "PlaybackProgress",
+      "Ppt",
+      "Record",
+      "RecordDisc",
+      "Remind",
+      "RemindDisable",
+      "ReplayFive",
+      "ReplayMusic",
+      "SignalStrength",
+      "SoundWave",
+      "Tape",
+      "Video",
+      "Voice",
+      "VoiceOff",
+      "VoiceOne",
+      "Voicemail",
+      "VolumeDown",
+      "VolumeMute",
+      "VolumeNotice",
+      "VolumeSmall",
+      "VolumeUp",
+      "WavesLeft",
+      "WavesRight"
     ],
     "optionLocales": {
-      "aaa": {
-        "zh": ""
+      "Acoustic": {
+        "zh": "声波"
       },
-      "aaa": {
-        "zh": ""
+      "AddMusic": {
+        "zh": "添加音乐"
       },
-      "aaa": {
-        "zh": ""
+      "Airpods": {
+        "zh": "AirPods"
       },
-      "aaa": {
-        "zh": ""
+      "BellRing": {
+        "zh": "上课铃"
       },
-      "aaa": {
-        "zh": ""
+      "CarouselVideo": {
+        "zh": "轮播视频"
       },
-      "aaa": {
-        "zh": ""
+      "CloseRemind": {
+        "zh": "关闭提醒"
       },
-      "aaa": {
-        "zh": ""
+      "CollectionRecords": {
+        "zh": "收藏音乐"
       },
-      "aaa": {
-        "zh": ""
+      "Concern": {
+        "zh": "关注"
       },
-      "aaa": {
-        "zh": ""
+      "Entertainment": {
+        "zh": "娱乐"
       },
-      "aaa": {
-        "zh": ""
+      "Film": {
+        "zh": "胶片"
       },
-      "aaa": {
-        "zh": ""
+      "Fm": {
+        "zh": "电台"
+      },
+      "HeadphoneSound": {
+        "zh": "耳机声音"
+      },
+      "Headset": {
+        "zh": "耳机"
+      },
+      "HeadsetOne": {
+        "zh": "耳机"
+      },
+      "ListAdd": {
+        "zh": "添加列表"
+      },
+      "Monitor": {
+        "zh": "摄像"
+      },
+      "MonitorOff": {
+        "zh": "关闭摄像"
+      },
+      "MonitorTwo": {
+        "zh": "音波控制"
+      },
+      "Movie": {
+        "zh": "电影"
+      },
+      "MovieBoard": {
+        "zh": "影视板"
+      },
+      "Music": {
+        "zh": "音乐"
+      },
+      "MusicCd": {
+        "zh": "音乐cd"
+      },
+      "MusicList": {
+        "zh": "音乐菜单"
+      },
+      "MusicMenu": {
+        "zh": "音乐菜单"
+      },
+      "MusicOne": {
+        "zh": "音乐"
+      },
+      "MusicRhythm": {
+        "zh": "音乐律动"
+      },
+      "Mute": {
+        "zh": "静音"
+      },
+      "Pause": {
+        "zh": "暂停"
+      },
+      "PauseOne": {
+        "zh": "暂停"
+      },
+      "Performance": {
+        "zh": "演出"
+      },
+      "Piano": {
+        "zh": "钢琴"
+      },
+      "Play": {
+        "zh": "播放"
+      },
+      "PlayOne": {
+        "zh": "播放"
+      },
+      "PlayWrong": {
+        "zh": "播放出错"
+      },
+      "PlaybackProgress": {
+        "zh": "播放进度"
+      },
+      "Ppt": {
+        "zh": "幻灯片"
+      },
+      "Record": {
+        "zh": "唱片集"
+      },
+      "RecordDisc": {
+        "zh": "光盘"
+      },
+      "Remind": {
+        "zh": "提醒"
+      },
+      "RemindDisable": {
+        "zh": "无效提醒"
+      },
+      "ReplayFive": {
+        "zh": "播放5次"
+      },
+      "ReplayMusic": {
+        "zh": "重新播放"
+      },
+      "SignalStrength": {
+        "zh": "信号强度"
+      },
+      "SoundWave": {
+        "zh": "音波"
+      },
+      "Tape": {
+        "zh": "磁带"
+      },
+      "Video": {
+        "zh": "视频"
+      },
+      "Voice": {
+        "zh": "录音"
+      },
+      "VoiceOff": {
+        "zh": "关闭录音"
+      },
+      "VoiceOne": {
+        "zh": "声音"
+      },
+      "Voicemail": {
+        "zh": "语音信息"
+      },
+      "VolumeDown": {
+        "zh": "音量减小"
+      },
+      "VolumeMute": {
+        "zh": "静音"
+      },
+      "VolumeNotice": {
+        "zh": "声音-大"
+      },
+      "VolumeSmall": {
+        "zh": "声音-小"
+      },
+      "VolumeUp": {
+        "zh": "音量增大"
+      },
+      "WavesLeft": {
+        "zh": "左音波"
+      },
+      "WavesRight": {
+        "zh": "右音波"
       }
     }
   },

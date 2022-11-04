@@ -10,7 +10,7 @@
   {
     "name": "name",
     "type": "Select",
-    "initValue": "aaa",
+    "initValue": "AfroPick",
     "locale": {
       "zh": "选择图标"
     },
@@ -20,42 +20,191 @@
     "showDes": true,
     "optionsEmpty": false,
     "options": [
-      "aaa",
-      "aaa"
+      "AfroPick",
+      "BarberBrush",
+      "BarberClippers",
+      "BeautyInstrument",
+      "Blade",
+      "Comb",
+      "Conditioner",
+      "CosmeticBrush",
+      "EnglishMustache",
+      "Eyebrow",
+      "FacePowder",
+      "FacialCleanser",
+      "Fingernail",
+      "FoundationMakeup",
+      "HairBrush",
+      "HairClip",
+      "HandCream",
+      "Handwashing",
+      "HandwashingFluid",
+      "HealthProducts",
+      "Jewelry",
+      "LipGloss",
+      "LipTattoo",
+      "Lipstick",
+      "LipstickOne",
+      "Lotion",
+      "Makeups",
+      "Mascara",
+      "MassageChair",
+      "MassageChairOne",
+      "MassageTable",
+      "Mirror",
+      "MirrorTwo",
+      "Mouth",
+      "NailPolish",
+      "NailPolishOne",
+      "Paint",
+      "PerfumerBottle",
+      "Razor",
+      "Reel",
+      "Scissors",
+      "ShaverOne",
+      "Shaving",
+      "SoapBubble",
+      "SpaCandle",
+      "StraightRazor"
     ],
     "optionLocales": {
-      "aaa": {
-        "zh": ""
+      "AfroPick": {
+        "zh": "发簪"
       },
-      "aaa": {
-        "zh": ""
+      "BarberBrush": {
+        "zh": "理发器"
       },
-      "aaa": {
-        "zh": ""
+      "BarberClippers": {
+        "zh": "理发剪"
       },
-      "aaa": {
-        "zh": ""
+      "BeautyInstrument": {
+        "zh": "美容仪"
       },
-      "aaa": {
-        "zh": ""
+      "Blade": {
+        "zh": "刀片"
       },
-      "aaa": {
-        "zh": ""
+      "Comb": {
+        "zh": "梳子"
       },
-      "aaa": {
-        "zh": ""
+      "Conditioner": {
+        "zh": "护发素"
       },
-      "aaa": {
-        "zh": ""
+      "CosmeticBrush": {
+        "zh": "化妆刷"
       },
-      "aaa": {
-        "zh": ""
+      "EnglishMustache": {
+        "zh": "胡子"
       },
-      "aaa": {
-        "zh": ""
+      "Eyebrow": {
+        "zh": "眼眉"
       },
-      "aaa": {
-        "zh": ""
+      "FacePowder": {
+        "zh": "脸粉"
+      },
+      "FacialCleanser": {
+        "zh": "洗面奶"
+      },
+      "Fingernail": {
+        "zh": "指甲"
+      },
+      "FoundationMakeup": {
+        "zh": "粉底液"
+      },
+      "HairBrush": {
+        "zh": "发梳"
+      },
+      "HairClip": {
+        "zh": "发夹"
+      },
+      "HandCream": {
+        "zh": "护手霜"
+      },
+      "Handwashing": {
+        "zh": "洗手"
+      },
+      "HandwashingFluid": {
+        "zh": "洗手液"
+      },
+      "HealthProducts": {
+        "zh": "保健品"
+      },
+      "Jewelry": {
+        "zh": "首饰"
+      },
+      "LipGloss": {
+        "zh": "唇彩"
+      },
+      "LipTattoo": {
+        "zh": "唇纹身"
+      },
+      "Lipstick": {
+        "zh": "口红"
+      },
+      "LipstickOne": {
+        "zh": "口红1"
+      },
+      "Lotion": {
+        "zh": "乳液"
+      },
+      "Makeups": {
+        "zh": "美容"
+      },
+      "Mascara": {
+        "zh": "睫毛膏"
+      },
+      "MassageChair": {
+        "zh": "按摩椅"
+      },
+      "MassageChairOne": {
+        "zh": "按摩椅1"
+      },
+      "MassageTable": {
+        "zh": "按摩椅"
+      },
+      "Mirror": {
+        "zh": "镜子"
+      },
+      "MirrorTwo": {
+        "zh": "镜子2"
+      },
+      "Mouth": {
+        "zh": "嘴巴"
+      },
+      "NailPolish": {
+        "zh": "指甲油"
+      },
+      "NailPolishOne": {
+        "zh": "指甲油1"
+      },
+      "Paint": {
+        "zh": "化妆刷"
+      },
+      "PerfumerBottle": {
+        "zh": "香水瓶"
+      },
+      "Razor": {
+        "zh": "剃刀"
+      },
+      "Reel": {
+        "zh": "线轮"
+      },
+      "Scissors": {
+        "zh": "剪刀"
+      },
+      "ShaverOne": {
+        "zh": "剃须刀"
+      },
+      "Shaving": {
+        "zh": "刮胡泡"
+      },
+      "SoapBubble": {
+        "zh": "泡泡"
+      },
+      "SpaCandle": {
+        "zh": "蜡烛沐浴"
+      },
+      "StraightRazor": {
+        "zh": "直剃刀"
       }
     }
   },

@@ -10,7 +10,7 @@
   {
     "name": "name",
     "type": "Select",
-    "initValue": "aaa",
+    "initValue": "Beauty",
     "locale": {
       "zh": "选择图标"
     },
@@ -20,42 +20,131 @@
     "showDes": true,
     "optionsEmpty": false,
     "options": [
-      "aaa",
-      "aaa"
+      "Beauty",
+      "Click",
+      "ColorFilter",
+      "Contrast",
+      "ContrastView",
+      "ContrastViewCircle",
+      "Effects",
+      "Erase",
+      "FaceRecognition",
+      "FigmaMask",
+      "Fill",
+      "FlipCamera",
+      "GameTwo",
+      "LatticePattern",
+      "LoadingOne",
+      "LoadingTwo",
+      "Magnet",
+      "MaskOne",
+      "Material",
+      "MaterialTwo",
+      "MirrorOne",
+      "PicOne",
+      "RecycleBin",
+      "ReverseRotation",
+      "RotatingAdd",
+      "RotatingForward",
+      "Rotation",
+      "ScanSetting",
+      "ScreenRotation",
+      "Stickers",
+      "SwitchTrack"
     ],
     "optionLocales": {
-      "aaa": {
-        "zh": ""
+      "Beauty": {
+        "zh": "美颜"
       },
-      "aaa": {
-        "zh": ""
+      "Click": {
+        "zh": "点击"
       },
-      "aaa": {
-        "zh": ""
+      "ColorFilter": {
+        "zh": "颜色滤镜"
       },
-      "aaa": {
-        "zh": ""
+      "Contrast": {
+        "zh": "对比度"
       },
-      "aaa": {
-        "zh": ""
+      "ContrastView": {
+        "zh": "对比"
       },
-      "aaa": {
-        "zh": ""
+      "ContrastViewCircle": {
+        "zh": "对比"
       },
-      "aaa": {
-        "zh": ""
+      "Effects": {
+        "zh": "特效"
       },
-      "aaa": {
-        "zh": ""
+      "Erase": {
+        "zh": "擦除"
       },
-      "aaa": {
-        "zh": ""
+      "FaceRecognition": {
+        "zh": "人脸识别"
       },
-      "aaa": {
-        "zh": ""
+      "FigmaMask": {
+        "zh": "遮罩"
       },
-      "aaa": {
-        "zh": ""
+      "Fill": {
+        "zh": "填充"
+      },
+      "FlipCamera": {
+        "zh": "翻转镜头"
+      },
+      "GameTwo": {
+        "zh": "游戏"
+      },
+      "LatticePattern": {
+        "zh": "晶格图案"
+      },
+      "LoadingOne": {
+        "zh": "加载"
+      },
+      "LoadingTwo": {
+        "zh": "加载"
+      },
+      "Magnet": {
+        "zh": "磁铁"
+      },
+      "MaskOne": {
+        "zh": "面具"
+      },
+      "Material": {
+        "zh": "素材"
+      },
+      "MaterialTwo": {
+        "zh": "材质"
+      },
+      "MirrorOne": {
+        "zh": "镜子"
+      },
+      "PicOne": {
+        "zh": "图片1"
+      },
+      "RecycleBin": {
+        "zh": "回收站"
+      },
+      "ReverseRotation": {
+        "zh": "逆向旋转"
+      },
+      "RotatingAdd": {
+        "zh": "旋转添加"
+      },
+      "RotatingForward": {
+        "zh": "正向旋转"
+      },
+      "Rotation": {
+        "zh": "旋转"
+      },
+      "ScanSetting": {
+        "zh": "扫描设置"
+      },
+      "ScreenRotation": {
+        "zh": "屏幕旋转"
+      },
+      "Stickers": {
+        "zh": "贴纸"
+      },
+      "SwitchTrack": {
+        "zh": "切换轨道"
       }
     }
   },

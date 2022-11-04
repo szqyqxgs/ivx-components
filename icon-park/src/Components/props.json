@@ -10,7 +10,7 @@
   {
     "name": "name",
     "type": "Select",
-    "initValue": "aaa",
+    "initValue": "Carousel",
     "locale": {
       "zh": "选择图标"
     },
@@ -20,42 +20,39 @@
     "showDes": true,
     "optionsEmpty": false,
     "options": [
-      "aaa",
-      "aaa"
+      "Carousel",
+      "Checklist",
+      "Page",
+      "PageTemplate",
+      "Platte",
+      "SwitchButton",
+      "TableFile",
+      "TreeList"
     ],
     "optionLocales": {
-      "aaa": {
-        "zh": ""
+      "Carousel": {
+        "zh": "轮播"
       },
-      "aaa": {
-        "zh": ""
+      "Checklist": {
+        "zh": "检查列表"
       },
-      "aaa": {
-        "zh": ""
+      "Page": {
+        "zh": "页面"
       },
-      "aaa": {
-        "zh": ""
+      "PageTemplate": {
+        "zh": "页面模板"
       },
-      "aaa": {
-        "zh": ""
+      "Platte": {
+        "zh": "调色盘"
       },
-      "aaa": {
-        "zh": ""
+      "SwitchButton": {
+        "zh": "切换按钮"
       },
-      "aaa": {
-        "zh": ""
+      "TableFile": {
+        "zh": "表格"
       },
-      "aaa": {
-        "zh": ""
-      },
-      "aaa": {
-        "zh": ""
-      },
-      "aaa": {
-        "zh": ""
-      },
-      "aaa": {
-        "zh": ""
+      "TreeList": {
+        "zh": "树结构"
       }
     }
   },

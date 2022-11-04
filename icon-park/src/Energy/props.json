@@ -10,7 +10,7 @@
   {
     "name": "name",
     "type": "Select",
-    "initValue": "aaa",
+    "initValue": "BatteryCharge",
     "locale": {
       "zh": "选择图标"
     },
@@ -20,42 +20,135 @@
     "showDes": true,
     "optionsEmpty": false,
     "options": [
-      "aaa",
-      "aaa"
+      "BatteryCharge",
+      "BatteryEmpty",
+      "BatteryFull",
+      "BatteryWorking",
+      "Bloom",
+      "Blossom",
+      "Cactus",
+      "ChristmasTree",
+      "ChristmasTreeOne",
+      "Coronavirus",
+      "Fire",
+      "FireTwo",
+      "Fruiter",
+      "GreenNewEnergy",
+      "Leaf",
+      "Leaves",
+      "LeavesOne",
+      "LeavesTwo",
+      "Lifebuoy",
+      "Lotus",
+      "Outdoor",
+      "Pinwheel",
+      "Ripple",
+      "Sapling",
+      "Seedling",
+      "Tree",
+      "TreeOne",
+      "TreeTwo",
+      "Water",
+      "WaterNo",
+      "Windmill",
+      "WindmillTwo"
     ],
     "optionLocales": {
-      "aaa": {
-        "zh": ""
+      "BatteryCharge": {
+        "zh": "电池充电"
       },
-      "aaa": {
-        "zh": ""
+      "BatteryEmpty": {
+        "zh": "电池没电"
       },
-      "aaa": {
-        "zh": ""
+      "BatteryFull": {
+        "zh": "电池满电"
       },
-      "aaa": {
-        "zh": ""
+      "BatteryWorking": {
+        "zh": "电池运行"
       },
-      "aaa": {
-        "zh": ""
+      "Bloom": {
+        "zh": "开花"
       },
-      "aaa": {
-        "zh": ""
+      "Blossom": {
+        "zh": "花"
       },
-      "aaa": {
-        "zh": ""
+      "Cactus": {
+        "zh": "仙人掌"
       },
-      "aaa": {
-        "zh": ""
+      "ChristmasTree": {
+        "zh": "圣诞树"
       },
-      "aaa": {
-        "zh": ""
+      "ChristmasTreeOne": {
+        "zh": "松树"
       },
-      "aaa": {
-        "zh": ""
+      "Coronavirus": {
+        "zh": "冠状病毒"
       },
-      "aaa": {
-        "zh": ""
+      "Fire": {
+        "zh": "火热"
+      },
+      "FireTwo": {
+        "zh": "火堆"
+      },
+      "Fruiter": {
+        "zh": "果树"
+      },
+      "GreenNewEnergy": {
+        "zh": "绿色新能源"
+      },
+      "Leaf": {
+        "zh": "叶子"
+      },
+      "Leaves": {
+        "zh": "树叶"
+      },
+      "LeavesOne": {
+        "zh": "叶子1"
+      },
+      "LeavesTwo": {
+        "zh": "叶子"
+      },
+      "Lifebuoy": {
+        "zh": "救生圈"
+      },
+      "Lotus": {
+        "zh": "莲花"
+      },
+      "Outdoor": {
+        "zh": "户外"
+      },
+      "Pinwheel": {
+        "zh": "风车"
+      },
+      "Ripple": {
+        "zh": "波纹"
+      },
+      "Sapling": {
+        "zh": "树苗"
+      },
+      "Seedling": {
+        "zh": "幼苗"
+      },
+      "Tree": {
+        "zh": "树"
+      },
+      "TreeOne": {
+        "zh": "树1"
+      },
+      "TreeTwo": {
+        "zh": "树"
+      },
+      "Water": {
+        "zh": "水资源"
+      },
+      "WaterNo": {
+        "zh": "水缺乏"
+      },
+      "Windmill": {
+        "zh": "风车"
+      },
+      "WindmillTwo": {
+        "zh": "风车"
       }
     }
   },

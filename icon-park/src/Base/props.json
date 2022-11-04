@@ -10,7 +10,7 @@
   {
     "name": "name",
     "type": "Select",
-    "initValue": "aaa",
+    "initValue": "Aiming",
     "locale": {
       "zh": "选择图标"
     },
@@ -20,42 +20,227 @@
     "showDes": true,
     "optionsEmpty": false,
     "options": [
-      "aaa",
-      "aaa"
+      "Aiming",
+      "AllApplication",
+      "Bill",
+      "Bookmark",
+      "BookmarkOne",
+      "Camera",
+      "Config",
+      "DeleteTwo",
+      "Dislike",
+      "DislikeTwo",
+      "Equalizer",
+      "Female",
+      "HamburgerButton",
+      "Home",
+      "HourglassFull",
+      "HourglassNull",
+      "Lightning",
+      "Like",
+      "Loading",
+      "LoadingFour",
+      "Male",
+      "More",
+      "MoreApp",
+      "MoreOne",
+      "MoreTwo",
+      "Pic",
+      "Power",
+      "PreviewClose",
+      "PreviewCloseOne",
+      "PreviewOpen",
+      "Radar",
+      "Refresh",
+      "Rss",
+      "Save",
+      "SaveOne",
+      "Search",
+      "Setting",
+      "SettingConfig",
+      "SettingOne",
+      "SettingThree",
+      "SettingTwo",
+      "Share",
+      "ShareThree",
+      "Sleep",
+      "System",
+      "Tag",
+      "TagOne",
+      "Tips",
+      "Tool",
+      "Translate",
+      "Unlike",
+      "WaterfallsH",
+      "WaterfallsV",
+      "ZoomIn",
+      "ZoomOut"
     ],
     "optionLocales": {
-      "aaa": {
-        "zh": ""
+      "Aiming": {
+        "zh": "瞄准"
       },
-      "aaa": {
-        "zh": ""
+      "AllApplication": {
+        "zh": "全部"
       },
-      "aaa": {
-        "zh": ""
+      "Bill": {
+        "zh": "法案"
       },
-      "aaa": {
-        "zh": ""
+      "Bookmark": {
+        "zh": "书签"
       },
-      "aaa": {
-        "zh": ""
+      "BookmarkOne": {
+        "zh": "书签"
       },
-      "aaa": {
-        "zh": ""
+      "Camera": {
+        "zh": "相机"
       },
-      "aaa": {
-        "zh": ""
+      "Config": {
+        "zh": "配置"
       },
-      "aaa": {
-        "zh": ""
+      "DeleteTwo": {
+        "zh": "删除"
       },
-      "aaa": {
-        "zh": ""
+      "Dislike": {
+        "zh": "不喜欢"
       },
-      "aaa": {
-        "zh": ""
+      "DislikeTwo": {
+        "zh": "不喜欢"
       },
-      "aaa": {
-        "zh": ""
+      "Equalizer": {
+        "zh": "均衡器"
+      },
+      "Female": {
+        "zh": "女性"
+      },
+      "HamburgerButton": {
+        "zh": "汉堡图标"
+      },
+      "Home": {
+        "zh": "首页"
+      },
+      "HourglassFull": {
+        "zh": "沙漏满"
+      },
+      "HourglassNull": {
+        "zh": "沙漏空"
+      },
+      "Lightning": {
+        "zh": "闪电"
+      },
+      "Like": {
+        "zh": "喜欢"
+      },
+      "Loading": {
+        "zh": "加载"
+      },
+      "LoadingFour": {
+        "zh": "加载"
+      },
+      "Male": {
+        "zh": "男性"
+      },
+      "More": {
+        "zh": "更多"
+      },
+      "MoreApp": {
+        "zh": "更多"
+      },
+      "MoreOne": {
+        "zh": "更多1"
+      },
+      "MoreTwo": {
+        "zh": "更多2"
+      },
+      "Pic": {
+        "zh": "照片"
+      },
+      "Power": {
+        "zh": "开关"
+      },
+      "PreviewClose": {
+        "zh": "预览-关闭"
+      },
+      "PreviewCloseOne": {
+        "zh": "预览-关闭"
+      },
+      "PreviewOpen": {
+        "zh": "预览-打开"
+      },
+      "Radar": {
+        "zh": "雷达"
+      },
+      "Refresh": {
+        "zh": "刷新"
+      },
+      "Rss": {
+        "zh": "订阅"
+      },
+      "Save": {
+        "zh": "保存"
+      },
+      "SaveOne": {
+        "zh": "保存硬盘"
+      },
+      "Search": {
+        "zh": "搜索"
+      },
+      "Setting": {
+        "zh": "设置"
+      },
+      "SettingConfig": {
+        "zh": "设置配置"
+      },
+      "SettingOne": {
+        "zh": "设置"
+      },
+      "SettingThree": {
+        "zh": "设置"
+      },
+      "SettingTwo": {
+        "zh": "设置"
+      },
+      "Share": {
+        "zh": "分享"
+      },
+      "ShareThree": {
+        "zh": "分享3"
+      },
+      "Sleep": {
+        "zh": "睡眠"
+      },
+      "System": {
+        "zh": "系统"
+      },
+      "Tag": {
+        "zh": "标签"
+      },
+      "TagOne": {
+        "zh": "标签"
+      },
+      "Tips": {
+        "zh": "提示"
+      },
+      "Tool": {
+        "zh": "工具"
+      },
+      "Translate": {
+        "zh": "翻译"
+      },
+      "Unlike": {
+        "zh": "不喜欢"
+      },
+      "WaterfallsH": {
+        "zh": "瀑布流横向"
+      },
+      "WaterfallsV": {
+        "zh": "瀑布流纵向"
+      },
+      "ZoomIn": {
+        "zh": "放大"
+      },
+      "ZoomOut": {
+        "zh": "缩小"
       }
     }
   },

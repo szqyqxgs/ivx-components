@@ -10,7 +10,7 @@
   {
     "name": "name",
     "type": "Select",
-    "initValue": "aaa",
+    "initValue": "ElectricDrill",
     "locale": {
       "zh": "选择图标"
     },
@@ -20,42 +20,111 @@
     "showDes": true,
     "optionsEmpty": false,
     "options": [
-      "aaa",
-      "aaa"
+      "ElectricDrill",
+      "EngineeringBrand",
+      "EngineeringVehicle",
+      "FireExtinguisherOne",
+      "HammerAndAnvil",
+      "HeaterResistor",
+      "HelmetOne",
+      "IndustrialScales",
+      "Ladder",
+      "LadderOne",
+      "LandSurveying",
+      "LedDiode",
+      "OilIndustry",
+      "Oscillator",
+      "Petrol",
+      "Potentiometer",
+      "Resistor",
+      "RobotTwo",
+      "ScaleOne",
+      "Screwdriver",
+      "SolarEnergyOne",
+      "Spanner",
+      "StackLight",
+      "TapeMeasure",
+      "WindTurbine",
+      "Worker"
     ],
     "optionLocales": {
-      "aaa": {
-        "zh": ""
+      "ElectricDrill": {
+        "zh": "电钻"
       },
-      "aaa": {
-        "zh": ""
+      "EngineeringBrand": {
+        "zh": "工程牌"
       },
-      "aaa": {
-        "zh": ""
+      "EngineeringVehicle": {
+        "zh": "工程车"
       },
-      "aaa": {
-        "zh": ""
+      "FireExtinguisherOne": {
+        "zh": "灭火器"
       },
-      "aaa": {
-        "zh": ""
+      "HammerAndAnvil": {
+        "zh": "铁锤"
       },
-      "aaa": {
-        "zh": ""
+      "HeaterResistor": {
+        "zh": "加热电阻"
       },
-      "aaa": {
-        "zh": ""
+      "HelmetOne": {
+        "zh": "安全帽"
       },
-      "aaa": {
-        "zh": ""
+      "IndustrialScales": {
+        "zh": "电子秤"
       },
-      "aaa": {
-        "zh": ""
+      "Ladder": {
+        "zh": "梯子"
       },
-      "aaa": {
-        "zh": ""
+      "LadderOne": {
+        "zh": "梯子1"
       },
-      "aaa": {
-        "zh": ""
+      "LandSurveying": {
+        "zh": "观测仪"
+      },
+      "LedDiode": {
+        "zh": "发光二极管"
+      },
+      "OilIndustry": {
+        "zh": "工业油漆"
+      },
+      "Oscillator": {
+        "zh": "震荡器"
+      },
+      "Petrol": {
+        "zh": "汽油"
+      },
+      "Potentiometer": {
+        "zh": "电位器"
+      },
+      "Resistor": {
+        "zh": "电阻器"
+      },
+      "RobotTwo": {
+        "zh": "机器人2"
+      },
+      "ScaleOne": {
+        "zh": "测量"
+      },
+      "Screwdriver": {
+        "zh": "螺丝刀"
+      },
+      "SolarEnergyOne": {
+        "zh": "太阳能"
+      },
+      "Spanner": {
+        "zh": "扳手"
+      },
+      "StackLight": {
+        "zh": "堆栈灯"
+      },
+      "TapeMeasure": {
+        "zh": "卷尺"
+      },
+      "WindTurbine": {
+        "zh": "风力发电机"
+      },
+      "Worker": {
+        "zh": "工人"
       }
     }
   },

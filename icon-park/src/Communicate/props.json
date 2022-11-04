@@ -10,7 +10,7 @@
   {
     "name": "name",
     "type": "Select",
-    "initValue": "aaa",
+    "initValue": "Comment",
     "locale": {
       "zh": "选择图标"
     },
@@ -20,42 +20,115 @@
     "showDes": true,
     "optionsEmpty": false,
     "options": [
-      "aaa",
-      "aaa"
+      "Comment",
+      "CommentOne",
+      "Comments",
+      "Communication",
+      "Message",
+      "MessageEmoji",
+      "MessageFailed",
+      "MessageOne",
+      "MessagePrivacy",
+      "MessageSearch",
+      "MessageSecurity",
+      "MessageSent",
+      "MessageSuccess",
+      "MessageUnread",
+      "OnlineMeeting",
+      "PhoneCall",
+      "PhoneIncoming",
+      "PhoneIncomingOne",
+      "PhoneMissed",
+      "PhoneOff",
+      "PhoneOutgoing",
+      "PhoneOutgoingOne",
+      "PhoneTelephone",
+      "PhoneVideoCall",
+      "TipsOne",
+      "Topic",
+      "TopicDiscussion"
     ],
     "optionLocales": {
-      "aaa": {
-        "zh": ""
+      "Comment": {
+        "zh": "评论"
       },
-      "aaa": {
-        "zh": ""
+      "CommentOne": {
+        "zh": "评论"
       },
-      "aaa": {
-        "zh": ""
+      "Comments": {
+        "zh": "评论"
       },
-      "aaa": {
-        "zh": ""
+      "Communication": {
+        "zh": "沟通"
       },
-      "aaa": {
-        "zh": ""
+      "Message": {
+        "zh": "信息"
       },
-      "aaa": {
-        "zh": ""
+      "MessageEmoji": {
+        "zh": "表情信息"
       },
-      "aaa": {
-        "zh": ""
+      "MessageFailed": {
+        "zh": "信息失败"
       },
-      "aaa": {
-        "zh": ""
+      "MessageOne": {
+        "zh": "消息"
       },
-      "aaa": {
-        "zh": ""
+      "MessagePrivacy": {
+        "zh": "信息加密"
       },
-      "aaa": {
-        "zh": ""
+      "MessageSearch": {
+        "zh": "信息搜索"
       },
-      "aaa": {
-        "zh": ""
+      "MessageSecurity": {
+        "zh": "信息安全"
+      },
+      "MessageSent": {
+        "zh": "信息已发送"
+      },
+      "MessageSuccess": {
+        "zh": "信息成功"
+      },
+      "MessageUnread": {
+        "zh": "未读消息"
+      },
+      "OnlineMeeting": {
+        "zh": "线上办公室"
+      },
+      "PhoneCall": {
+        "zh": "电话呼叫"
+      },
+      "PhoneIncoming": {
+        "zh": "电话拨入"
+      },
+      "PhoneIncomingOne": {
+        "zh": "电话拨入"
+      },
+      "PhoneMissed": {
+        "zh": "电话错过"
+      },
+      "PhoneOff": {
+        "zh": "电话关闭"
+      },
+      "PhoneOutgoing": {
+        "zh": "电话拨出"
+      },
+      "PhoneOutgoingOne": {
+        "zh": "电话拨出"
+      },
+      "PhoneTelephone": {
+        "zh": "电话"
+      },
+      "PhoneVideoCall": {
+        "zh": "视频电话"
+      },
+      "TipsOne": {
+        "zh": "提示"
+      },
+      "Topic": {
+        "zh": "话题"
+      },
+      "TopicDiscussion": {
+        "zh": "话题讨论"
       }
     }
   },

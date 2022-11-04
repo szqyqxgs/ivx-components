@@ -10,7 +10,7 @@
   {
     "name": "name",
     "type": "Select",
-    "initValue": "aaa",
+    "initValue": "BeachUmbrella",
     "locale": {
       "zh": "选择图标"
     },
@@ -20,42 +20,107 @@
     "showDes": true,
     "optionsEmpty": false,
     "options": [
-      "aaa",
-      "aaa"
+      "BeachUmbrella",
+      "Bedside",
+      "BedsideTwo",
+      "Boiler",
+      "CoffeeMachine",
+      "CookingPot",
+      "DoorHandle",
+      "DoubleBed",
+      "Fan",
+      "FloorTile",
+      "HairDryer",
+      "Hanger",
+      "HangerTwo",
+      "HotelDoNotClean",
+      "HotelPleaseClean",
+      "Iron",
+      "IronDisable",
+      "IronThree",
+      "IronTwo",
+      "ShowerHead",
+      "SingleBed",
+      "Sofa",
+      "SofaTwo",
+      "Terrace",
+      "Tub"
     ],
     "optionLocales": {
-      "aaa": {
-        "zh": ""
+      "BeachUmbrella": {
+        "zh": "海滩雨伞"
       },
-      "aaa": {
-        "zh": ""
+      "Bedside": {
+        "zh": "床头柜"
       },
-      "aaa": {
-        "zh": ""
+      "BedsideTwo": {
+        "zh": "床头柜"
       },
-      "aaa": {
-        "zh": ""
+      "Boiler": {
+        "zh": "壁炉"
       },
-      "aaa": {
-        "zh": ""
+      "CoffeeMachine": {
+        "zh": "咖啡机"
       },
-      "aaa": {
-        "zh": ""
+      "CookingPot": {
+        "zh": "煮锅"
       },
-      "aaa": {
-        "zh": ""
+      "DoorHandle": {
+        "zh": "门把手"
       },
-      "aaa": {
-        "zh": ""
+      "DoubleBed": {
+        "zh": "双人床"
       },
-      "aaa": {
-        "zh": ""
+      "Fan": {
+        "zh": "扇子"
       },
-      "aaa": {
-        "zh": ""
+      "FloorTile": {
+        "zh": "地板"
       },
-      "aaa": {
-        "zh": ""
+      "HairDryer": {
+        "zh": "吹风机"
+      },
+      "Hanger": {
+        "zh": "晾衣架"
+      },
+      "HangerTwo": {
+        "zh": "衣架"
+      },
+      "HotelDoNotClean": {
+        "zh": "请勿打扫"
+      },
+      "HotelPleaseClean": {
+        "zh": "请打扫"
+      },
+      "Iron": {
+        "zh": "熨斗"
+      },
+      "IronDisable": {
+        "zh": "熨斗坏了"
+      },
+      "IronThree": {
+        "zh": "熨斗"
+      },
+      "IronTwo": {
+        "zh": "熨斗"
+      },
+      "ShowerHead": {
+        "zh": "淋浴喷头"
+      },
+      "SingleBed": {
+        "zh": "单人床"
+      },
+      "Sofa": {
+        "zh": "沙发"
+      },
+      "SofaTwo": {
+        "zh": "沙发"
+      },
+      "Terrace": {
+        "zh": "阳台"
+      },
+      "Tub": {
+        "zh": "浴缸"
       }
     }
   },

@@ -10,7 +10,7 @@
   {
     "name": "name",
     "type": "Select",
-    "initValue": "aaa",
+    "initValue": "Ad",
     "locale": {
       "zh": "选择图标"
     },
@@ -20,42 +20,139 @@
     "showDes": true,
     "optionsEmpty": false,
     "options": [
-      "aaa",
-      "aaa"
+      "Ad",
+      "Add",
+      "AddOne",
+      "AtSign",
+      "Attention",
+      "BigX",
+      "Bitcoin",
+      "CeMarking",
+      "Check",
+      "CheckOne",
+      "CheckSmall",
+      "Close",
+      "CloseOne",
+      "CloseSmall",
+      "Copyright",
+      "Correct",
+      "Division",
+      "Error",
+      "FontSizeTwo",
+      "Forbid",
+      "Help",
+      "Info",
+      "Minus",
+      "MoreThree",
+      "Percentage",
+      "Plus",
+      "PlusCross",
+      "Reduce",
+      "ReduceOne",
+      "Success",
+      "Symbol",
+      "Trademark",
+      "Vip"
     ],
     "optionLocales": {
-      "aaa": {
-        "zh": ""
+      "Ad": {
+        "zh": "广告"
       },
-      "aaa": {
-        "zh": ""
+      "Add": {
+        "zh": "添加"
       },
-      "aaa": {
-        "zh": ""
+      "AddOne": {
+        "zh": "添加"
       },
-      "aaa": {
-        "zh": ""
+      "AtSign": {
+        "zh": "邮件符号"
       },
-      "aaa": {
-        "zh": ""
+      "Attention": {
+        "zh": "注意"
       },
-      "aaa": {
-        "zh": ""
+      "BigX": {
+        "zh": "错误"
       },
-      "aaa": {
-        "zh": ""
+      "Bitcoin": {
+        "zh": "比特币"
       },
-      "aaa": {
-        "zh": ""
+      "CeMarking": {
+        "zh": "欧洲市场"
       },
-      "aaa": {
-        "zh": ""
+      "Check": {
+        "zh": "校验"
       },
-      "aaa": {
-        "zh": ""
+      "CheckOne": {
+        "zh": "校验"
       },
-      "aaa": {
-        "zh": ""
+      "CheckSmall": {
+        "zh": "校验-小"
+      },
+      "Close": {
+        "zh": "关闭"
+      },
+      "CloseOne": {
+        "zh": "关闭"
+      },
+      "CloseSmall": {
+        "zh": "关闭-小"
+      },
+      "Copyright": {
+        "zh": "版权符号"
+      },
+      "Correct": {
+        "zh": "正确的"
+      },
+      "Division": {
+        "zh": "除号"
+      },
+      "Error": {
+        "zh": "错误"
+      },
+      "FontSizeTwo": {
+        "zh": "字体大小"
+      },
+      "Forbid": {
+        "zh": "禁止"
+      },
+      "Help": {
+        "zh": "帮助"
+      },
+      "Info": {
+        "zh": "信息"
+      },
+      "Minus": {
+        "zh": "减"
+      },
+      "MoreThree": {
+        "zh": "更多3"
+      },
+      "Percentage": {
+        "zh": "百分号"
+      },
+      "Plus": {
+        "zh": "加"
+      },
+      "PlusCross": {
+        "zh": "加号"
+      },
+      "Reduce": {
+        "zh": "减少"
+      },
+      "ReduceOne": {
+        "zh": "减少"
+      },
+      "Success": {
+        "zh": "成功"
+      },
+      "Symbol": {
+        "zh": "符号"
+      },
+      "Trademark": {
+        "zh": "商标符号"
+      },
+      "Vip": {
+        "zh": "VIP"
       }
     }
   },

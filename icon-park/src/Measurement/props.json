@@ -10,7 +10,7 @@
   {
     "name": "name",
     "type": "Select",
-    "initValue": "aaa",
+    "initValue": "ColorCard",
     "locale": {
       "zh": "选择图标"
     },
@@ -20,42 +20,59 @@
     "showDes": true,
     "optionsEmpty": false,
     "options": [
-      "aaa",
-      "aaa"
+      "ColorCard",
+      "Compass",
+      "Cuvette",
+      "Experiment",
+      "ExperimentOne",
+      "Flask",
+      "RuleTwo",
+      "Ruler",
+      "RulerOne",
+      "TestTube",
+      "Thermometer",
+      "TriangleRuler",
+      "Vial"
     ],
     "optionLocales": {
-      "aaa": {
-        "zh": ""
+      "ColorCard": {
+        "zh": "色卡"
       },
-      "aaa": {
-        "zh": ""
+      "Compass": {
+        "zh": "圆规"
       },
-      "aaa": {
-        "zh": ""
+      "Cuvette": {
+        "zh": "试管"
       },
-      "aaa": {
-        "zh": ""
+      "Experiment": {
+        "zh": "实验"
       },
-      "aaa": {
-        "zh": ""
+      "ExperimentOne": {
+        "zh": "实验"
       },
-      "aaa": {
-        "zh": ""
+      "Flask": {
+        "zh": "三角杯"
       },
-      "aaa": {
-        "zh": ""
+      "RuleTwo": {
+        "zh": "尺子2"
       },
-      "aaa": {
-        "zh": ""
+      "Ruler": {
+        "zh": "尺子"
       },
-      "aaa": {
-        "zh": ""
+      "RulerOne": {
+        "zh": "尺子1"
       },
-      "aaa": {
-        "zh": ""
+      "TestTube": {
+        "zh": "试管"
       },
-      "aaa": {
-        "zh": ""
+      "Thermometer": {
+        "zh": "温度计"
+      },
+      "TriangleRuler": {
+        "zh": "三角尺"
+      },
+      "Vial": {
+        "zh": "试管"
       }
     }
   },

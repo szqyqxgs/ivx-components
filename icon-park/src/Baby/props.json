@@ -10,7 +10,7 @@
   {
     "name": "name",
     "type": "Select",
-    "initValue": "aaa",
+    "initValue": "BabyApp",
     "locale": {
       "zh": "选择图标"
     },
@@ -20,42 +20,195 @@
     "showDes": true,
     "optionsEmpty": false,
     "options": [
-      "aaa",
-      "aaa"
+      "BabyApp",
+      "BabyBottle",
+      "BabyCarSeat",
+      "BabyFeet",
+      "BabyMeal",
+      "BabyMobile",
+      "BabyOne",
+      "BabyPants",
+      "BabySling",
+      "BabyTaste",
+      "Bib",
+      "BoosterCarSeat",
+      "Boy",
+      "BoyOne",
+      "BoyStroller",
+      "BoyTwo",
+      "BreastPump",
+      "Chair",
+      "ChairOne",
+      "ChildWithPacifier",
+      "ChildrenPyramid",
+      "Crib",
+      "CryingBaby",
+      "Family",
+      "Float",
+      "Girl",
+      "GirlOne",
+      "GirlTwo",
+      "HeartBallon",
+      "HoldingHands",
+      "Onesies",
+      "Pacifier",
+      "PaperShip",
+      "ParentingBook",
+      "PartyBalloon",
+      "PokeballOne",
+      "Powder",
+      "Preschool",
+      "RadioNanny",
+      "Rattle",
+      "RattleOne",
+      "RockingHorse",
+      "Romper",
+      "SippyCup",
+      "SleepOne",
+      "Steoller",
+      "TireSwing"
     ],
     "optionLocales": {
-      "aaa": {
-        "zh": ""
+      "BabyApp": {
+        "zh": "应用"
       },
-      "aaa": {
-        "zh": ""
+      "BabyBottle": {
+        "zh": "奶瓶"
       },
-      "aaa": {
-        "zh": ""
+      "BabyCarSeat": {
+        "zh": "车载座"
       },
-      "aaa": {
-        "zh": ""
+      "BabyFeet": {
+        "zh": "脚掌"
       },
-      "aaa": {
-        "zh": ""
+      "BabyMeal": {
+        "zh": "餐具"
       },
-      "aaa": {
-        "zh": ""
+      "BabyMobile": {
+        "zh": "摇玩"
       },
-      "aaa": {
-        "zh": ""
+      "BabyOne": {
+        "zh": "儿童1"
       },
-      "aaa": {
-        "zh": ""
+      "BabyPants": {
+        "zh": "裤子"
       },
-      "aaa": {
-        "zh": ""
+      "BabySling": {
+        "zh": "背带"
       },
-      "aaa": {
-        "zh": ""
+      "BabyTaste": {
+        "zh": "品尝"
       },
-      "aaa": {
-        "zh": ""
+      "Bib": {
+        "zh": "吊带裙"
+      },
+      "BoosterCarSeat": {
+        "zh": "辅助座椅"
+      },
+      "Boy": {
+        "zh": "男孩"
+      },
+      "BoyOne": {
+        "zh": "男孩1"
+      },
+      "BoyStroller": {
+        "zh": "男儿童车"
+      },
+      "BoyTwo": {
+        "zh": "男孩2"
+      },
+      "BreastPump": {
+        "zh": "吸奶器"
+      },
+      "Chair": {
+        "zh": "座椅"
+      },
+      "ChairOne": {
+        "zh": "座椅1"
+      },
+      "ChildWithPacifier": {
+        "zh": "吃奶嘴"
+      },
+      "ChildrenPyramid": {
+        "zh": "儿童金字塔"
+      },
+      "Crib": {
+        "zh": "摇篮"
+      },
+      "CryingBaby": {
+        "zh": "孩子哭泣"
+      },
+      "Family": {
+        "zh": "家庭"
+      },
+      "Float": {
+        "zh": "漂浮圈"
+      },
+      "Girl": {
+        "zh": "女孩"
+      },
+      "GirlOne": {
+        "zh": "女孩1"
+      },
+      "GirlTwo": {
+        "zh": "女孩2"
+      },
+      "HeartBallon": {
+        "zh": "心形气球"
+      },
+      "HoldingHands": {
+        "zh": "牵手"
+      },
+      "Onesies": {
+        "zh": "连体衣"
+      },
+      "Pacifier": {
+        "zh": "奶嘴"
+      },
+      "PaperShip": {
+        "zh": "纸船"
+      },
+      "ParentingBook": {
+        "zh": "育儿书"
+      },
+      "PartyBalloon": {
+        "zh": "气球"
+      },
+      "PokeballOne": {
+        "zh": "精灵球1"
+      },
+      "Powder": {
+        "zh": "搽粉"
+      },
+      "Preschool": {
+        "zh": "学前班"
+      },
+      "RadioNanny": {
+        "zh": "广播保姆"
+      },
+      "Rattle": {
+        "zh": "拨浪鼓"
+      },
+      "RattleOne": {
+        "zh": "拨浪鼓1"
+      },
+      "RockingHorse": {
+        "zh": "摇马"
+      },
+      "Romper": {
+        "zh": "连体衣"
+      },
+      "SippyCup": {
+        "zh": "吸管杯"
+      },
+      "SleepOne": {
+        "zh": "睡觉"
+      },
+      "Steoller": {
+        "zh": "童车"
+      },
+      "TireSwing": {
+        "zh": "溜溜球"
       }
     }
   },

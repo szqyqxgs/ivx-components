@@ -10,7 +10,7 @@
   {
     "name": "name",
     "type": "Select",
-    "initValue": "aaa",
+    "initValue": "AddUser",
     "locale": {
       "zh": "选择图标"
     },
@@ -20,42 +20,207 @@
     "showDes": true,
     "optionsEmpty": false,
     "options": [
-      "aaa",
-      "aaa"
+      "AddUser",
+      "AddressBook",
+      "Appointment",
+      "Avatar",
+      "Baby",
+      "Classroom",
+      "EditName",
+      "EveryUser",
+      "Hands",
+      "IdCardH",
+      "IdCardV",
+      "Me",
+      "Passport",
+      "People",
+      "PeopleBottom",
+      "PeopleBottomCard",
+      "PeopleDelete",
+      "PeopleDeleteOne",
+      "PeopleDownload",
+      "PeopleLeft",
+      "PeopleMinus",
+      "PeopleMinusOne",
+      "PeoplePlus",
+      "PeoplePlusOne",
+      "PeopleRight",
+      "PeopleSafe",
+      "PeopleSafeOne",
+      "PeopleSearch",
+      "PeopleSearchOne",
+      "PeopleSpeak",
+      "PeopleTop",
+      "PeopleTopCard",
+      "PeopleUnknown",
+      "PeopleUpload",
+      "Peoples",
+      "PeoplesTwo",
+      "PersonalCollection",
+      "PersonalPrivacy",
+      "PublicToilet",
+      "ReduceUser",
+      "RightUser",
+      "TurnAround",
+      "User",
+      "UserBusiness",
+      "UserPositioning",
+      "UserToUserTransmission",
+      "WeixinPeopleNearby",
+      "Woman",
+      "Women",
+      "WrongUser"
     ],
     "optionLocales": {
-      "aaa": {
-        "zh": ""
+      "AddUser": {
+        "zh": "添加用户"
       },
-      "aaa": {
-        "zh": ""
+      "AddressBook": {
+        "zh": "通讯录"
       },
-      "aaa": {
-        "zh": ""
+      "Appointment": {
+        "zh": "定时见面"
       },
-      "aaa": {
-        "zh": ""
+      "Avatar": {
+        "zh": "头像"
       },
-      "aaa": {
-        "zh": ""
+      "Baby": {
+        "zh": "婴儿"
       },
-      "aaa": {
-        "zh": ""
+      "Classroom": {
+        "zh": "课堂"
       },
-      "aaa": {
-        "zh": ""
+      "EditName": {
+        "zh": "编辑姓名"
       },
-      "aaa": {
-        "zh": ""
+      "EveryUser": {
+        "zh": "众多用户"
       },
-      "aaa": {
-        "zh": ""
+      "Hands": {
+        "zh": "举手"
       },
-      "aaa": {
-        "zh": ""
+      "IdCardH": {
+        "zh": "身份证"
       },
-      "aaa": {
-        "zh": ""
+      "IdCardV": {
+        "zh": "身份证"
+      },
+      "Me": {
+        "zh": "我的"
+      },
+      "Passport": {
+        "zh": "护照"
+      },
+      "People": {
+        "zh": "人员"
+      },
+      "PeopleBottom": {
+        "zh": "人员下"
+      },
+      "PeopleBottomCard": {
+        "zh": "人像卡片下"
+      },
+      "PeopleDelete": {
+        "zh": "删除用户"
+      },
+      "PeopleDeleteOne": {
+        "zh": "删除用户"
+      },
+      "PeopleDownload": {
+        "zh": "用户下载"
+      },
+      "PeopleLeft": {
+        "zh": "人员左"
+      },
+      "PeopleMinus": {
+        "zh": "减少人群"
+      },
+      "PeopleMinusOne": {
+        "zh": "减少人群"
+      },
+      "PeoplePlus": {
+        "zh": "添加人群"
+      },
+      "PeoplePlusOne": {
+        "zh": "添加人群"
+      },
+      "PeopleRight": {
+        "zh": "人员右"
+      },
+      "PeopleSafe": {
+        "zh": "人身安全"
+      },
+      "PeopleSafeOne": {
+        "zh": "人身安全1"
+      },
+      "PeopleSearch": {
+        "zh": "搜索用户"
+      },
+      "PeopleSearchOne": {
+        "zh": "搜索用户"
+      },
+      "PeopleSpeak": {
+        "zh": "人员说话"
+      },
+      "PeopleTop": {
+        "zh": "人员上"
+      },
+      "PeopleTopCard": {
+        "zh": "人像卡片上"
+      },
+      "PeopleUnknown": {
+        "zh": "人员屏蔽"
+      },
+      "PeopleUpload": {
+        "zh": "用户上传"
+      },
+      "Peoples": {
+        "zh": "人群"
+      },
+      "PeoplesTwo": {
+        "zh": "人群"
+      },
+      "PersonalCollection": {
+        "zh": "收藏好友"
+      },
+      "PersonalPrivacy": {
+        "zh": "个人隐私"
+      },
+      "PublicToilet": {
+        "zh": "卫生间"
+      },
+      "ReduceUser": {
+        "zh": "减少用户"
+      },
+      "RightUser": {
+        "zh": "正确用户"
+      },
+      "TurnAround": {
+        "zh": "人员调动"
+      },
+      "User": {
+        "zh": "用户"
+      },
+      "UserBusiness": {
+        "zh": "商务用户"
+      },
+      "UserPositioning": {
+        "zh": "用户定位"
+      },
+      "UserToUserTransmission": {
+        "zh": "用户互传"
+      },
+      "WeixinPeopleNearby": {
+        "zh": "微信附近的人"
+      },
+      "Woman": {
+        "zh": "女人"
+      },
+      "Women": {
+        "zh": "女"
+      },
+      "WrongUser": {
+        "zh": "错误用户"
       }
     }
   },

@@ -10,7 +10,7 @@
   {
     "name": "name",
     "type": "Select",
-    "initValue": "aaa",
+    "initValue": "Aquarius",
     "locale": {
       "zh": "选择图标"
     },
@@ -20,42 +20,55 @@
     "showDes": true,
     "optionsEmpty": false,
     "options": [
-      "aaa",
-      "aaa"
+      "Aquarius",
+      "Aries",
+      "Cancer",
+      "Capricornus",
+      "Gemini",
+      "Leo",
+      "Libra",
+      "Pisces",
+      "Sagittarius",
+      "Scorpio",
+      "Taurus",
+      "Virgo"
     ],
     "optionLocales": {
-      "aaa": {
-        "zh": ""
+      "Aquarius": {
+        "zh": "水瓶座"
       },
-      "aaa": {
-        "zh": ""
+      "Aries": {
+        "zh": "白羊座"
       },
-      "aaa": {
-        "zh": ""
+      "Cancer": {
+        "zh": "巨蟹座"
       },
-      "aaa": {
-        "zh": ""
+      "Capricornus": {
+        "zh": "摩羯座"
       },
-      "aaa": {
-        "zh": ""
+      "Gemini": {
+        "zh": "双子座"
       },
-      "aaa": {
-        "zh": ""
+      "Leo": {
+        "zh": "狮子座"
       },
-      "aaa": {
-        "zh": ""
+      "Libra": {
+        "zh": "天秤座"
       },
-      "aaa": {
-        "zh": ""
+      "Pisces": {
+        "zh": "双鱼座"
       },
-      "aaa": {
-        "zh": ""
+      "Sagittarius": {
+        "zh": "射手座"
       },
-      "aaa": {
-        "zh": ""
+      "Scorpio": {
+        "zh": "天蝎座"
       },
-      "aaa": {
-        "zh": ""
+      "Taurus": {
+        "zh": "金牛座"
+      },
+      "Virgo": {
+        "zh": "处女座"
       }
     }
   },

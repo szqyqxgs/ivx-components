@@ -10,7 +10,7 @@
   {
     "name": "name",
     "type": "Select",
-    "initValue": "aaa",
+    "initValue": "ArithmeticButtons",
     "locale": {
       "zh": "选择图标"
     },
@@ -20,42 +20,151 @@
     "showDes": true,
     "optionsEmpty": false,
     "options": [
-      "aaa",
-      "aaa"
+      "ArithmeticButtons",
+      "ArrowKeys",
+      "BlockEight",
+      "BlockFive",
+      "BlockFour",
+      "BlockNine",
+      "BlockOne",
+      "BlockSeven",
+      "BlockSix",
+      "BlockTen",
+      "BlockThree",
+      "BlockTwo",
+      "Game",
+      "GameHandle",
+      "GamePs",
+      "Ghost",
+      "Handheld",
+      "HandleA",
+      "HandleB",
+      "HandleC",
+      "HandleDown",
+      "HandleLeft",
+      "HandleRight",
+      "HandleRound",
+      "HandleSquare",
+      "HandleTriangle",
+      "HandleUp",
+      "HandleX",
+      "HandleY",
+      "HandleZ",
+      "Joystick",
+      "NintendoSwitch",
+      "Poker",
+      "Puzzle",
+      "Skull",
+      "Trophy"
     ],
     "optionLocales": {
-      "aaa": {
-        "zh": ""
+      "ArithmeticButtons": {
+        "zh": "加减乘除"
       },
-      "aaa": {
-        "zh": ""
+      "ArrowKeys": {
+        "zh": "方向键"
       },
-      "aaa": {
-        "zh": ""
+      "BlockEight": {
+        "zh": "俄罗斯方块"
       },
-      "aaa": {
-        "zh": ""
+      "BlockFive": {
+        "zh": "俄罗斯方块"
       },
-      "aaa": {
-        "zh": ""
+      "BlockFour": {
+        "zh": "俄罗斯方块"
       },
-      "aaa": {
-        "zh": ""
+      "BlockNine": {
+        "zh": "俄罗斯方块"
       },
-      "aaa": {
-        "zh": ""
+      "BlockOne": {
+        "zh": "俄罗斯方块"
       },
-      "aaa": {
-        "zh": ""
+      "BlockSeven": {
+        "zh": "俄罗斯方块"
       },
-      "aaa": {
-        "zh": ""
+      "BlockSix": {
+        "zh": "俄罗斯方块"
       },
-      "aaa": {
-        "zh": ""
+      "BlockTen": {
+        "zh": "俄罗斯方块"
       },
-      "aaa": {
-        "zh": ""
+      "BlockThree": {
+        "zh": "俄罗斯方块"
+      },
+      "BlockTwo": {
+        "zh": "俄罗斯方块"
+      },
+      "Game": {
+        "zh": "游戏"
+      },
+      "GameHandle": {
+        "zh": "游戏手柄"
+      },
+      "GamePs": {
+        "zh": "游戏机"
+      },
+      "Ghost": {
+        "zh": "幽灵"
+      },
+      "Handheld": {
+        "zh": "掌机"
+      },
+      "HandleA": {
+        "zh": "手柄A"
+      },
+      "HandleB": {
+        "zh": "手柄B"
+      },
+      "HandleC": {
+        "zh": "手柄C"
+      },
+      "HandleDown": {
+        "zh": "手柄下"
+      },
+      "HandleLeft": {
+        "zh": "手柄左"
+      },
+      "HandleRight": {
+        "zh": "手柄右"
+      },
+      "HandleRound": {
+        "zh": "手柄圆圈"
+      },
+      "HandleSquare": {
+        "zh": "手柄方形"
+      },
+      "HandleTriangle": {
+        "zh": "手柄三角形"
+      },
+      "HandleUp": {
+        "zh": "手柄上"
+      },
+      "HandleX": {
+        "zh": "手柄X"
+      },
+      "HandleY": {
+        "zh": "手柄Y"
+      },
+      "HandleZ": {
+        "zh": "手柄Z"
+      },
+      "Joystick": {
+        "zh": "游戏摇杆"
+      },
+      "NintendoSwitch": {
+        "zh": "任天堂游戏机"
+      },
+      "Poker": {
+        "zh": "扑克"
+      },
+      "Puzzle": {
+        "zh": "拼图"
+      },
+      "Skull": {
+        "zh": "骷髅"
+      },
+      "Trophy": {
+        "zh": "奖杯"
       }
     }
   },

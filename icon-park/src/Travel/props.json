@@ -1,0 +1,749 @@
+[
+  {
+    "name": "visible",
+    "type": "Boolean",
+    "initValue": true,
+    "locale": {
+      "zh": "可见"
+    }
+  },
+  {
+    "name": "name",
+    "type": "Select",
+    "initValue": "Acceleration",
+    "locale": {
+      "zh": "选择图标"
+    },
+    "desc": {
+      "zh": "对应IconPark官方图标库，默认值：-"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "Acceleration",
+      "Airplane",
+      "AirplaneWindow",
+      "AirplaneWindowOne",
+      "AnchorTwo",
+      "Aviation",
+      "BaggageDelay",
+      "BrakePads",
+      "BusOne",
+      "BusTwo",
+      "CableCar",
+      "Camp",
+      "CarBattery",
+      "CheckIn",
+      "Cocktail",
+      "CoconutTree",
+      "CompassOne",
+      "Consignment",
+      "Cruise",
+      "Descend",
+      "Diving",
+      "Earth",
+      "Enquire",
+      "Fishing",
+      "Flag",
+      "FlightAirflow",
+      "FlightSafety",
+      "Frigate",
+      "GateMachine",
+      "Globe",
+      "Gps",
+      "GuideBoard",
+      "HighSpeedRail",
+      "Homestay",
+      "HotAirBalloon",
+      "InFlight",
+      "International",
+      "Journey",
+      "Landing",
+      "Landscape",
+      "Local",
+      "LocalPin",
+      "LocalTwo",
+      "Luggage",
+      "ManualGear",
+      "MapDistance",
+      "MapDraw",
+      "MapRoad",
+      "MapRoadTwo",
+      "MapTwo",
+      "Mark",
+      "Mountain",
+      "Mounted",
+      "Navigation",
+      "Parachute",
+      "Parking",
+      "PassportOne",
+      "Pennant",
+      "Photograph",
+      "Planet",
+      "PyramidOne",
+      "Railway",
+      "Repositioning",
+      "Resting",
+      "RidingOne",
+      "Road",
+      "RoadCone",
+      "RoadOne",
+      "RoadSign",
+      "RoadSignBoth",
+      "Rocket",
+      "RoundTrip",
+      "SailboatOne",
+      "Sailing",
+      "Sandals",
+      "Selfie",
+      "SetOff",
+      "Shade",
+      "Ship",
+      "SteeringWheel",
+      "Sunbath",
+      "Sunrise",
+      "Sunset",
+      "Sunshade",
+      "TakeOff",
+      "TakeOffOne",
+      "Taxi",
+      "Tent",
+      "TentBanner",
+      "Theater",
+      "TicketsChecked",
+      "TicketsOne",
+      "TicketsTwo",
+      "TourBus",
+      "Train",
+      "Transfer",
+      "Transport",
+      "Universal",
+      "Vacation",
+      "Wheelchair",
+      "World"
+    ],
+    "optionLocales": {
+      "Acceleration": {
+        "zh": "飞机加速"
+      },
+      "Airplane": {
+        "zh": "飞机"
+      },
+      "AirplaneWindow": {
+        "zh": "飞机窗口"
+      },
+      "AirplaneWindowOne": {
+        "zh": "飞机窗口"
+      },
+      "AnchorTwo": {
+        "zh": "抛锚"
+      },
+      "Aviation": {
+        "zh": "航空"
+      },
+      "BaggageDelay": {
+        "zh": "行李延误"
+      },
+      "BrakePads": {
+        "zh": "刹车片"
+      },
+      "BusOne": {
+        "zh": "公交"
+      },
+      "BusTwo": {
+        "zh": "公交车"
+      },
+      "CableCar": {
+        "zh": "缆车"
+      },
+      "Camp": {
+        "zh": "野营"
+      },
+      "CarBattery": {
+        "zh": "汽车电瓶"
+      },
+      "CheckIn": {
+        "zh": "插入"
+      },
+      "Cocktail": {
+        "zh": "鸡尾酒"
+      },
+      "CoconutTree": {
+        "zh": "椰子树"
+      },
+      "CompassOne": {
+        "zh": "指南针"
+      },
+      "Consignment": {
+        "zh": "托运"
+      },
+      "Cruise": {
+        "zh": "航海"
+      },
+      "Descend": {
+        "zh": "下降"
+      },
+      "Diving": {
+        "zh": "潜水"
+      },
+      "Earth": {
+        "zh": "地球仪"
+      },
+      "Enquire": {
+        "zh": "安检"
+      },
+      "Fishing": {
+        "zh": "垂钓"
+      },
+      "Flag": {
+        "zh": "旗子"
+      },
+      "FlightAirflow": {
+        "zh": "飞行气流"
+      },
+      "FlightSafety": {
+        "zh": "飞行安全"
+      },
+      "Frigate": {
+        "zh": "军舰"
+      },
+      "GateMachine": {
+        "zh": "检票机"
+      },
+      "Globe": {
+        "zh": "全球"
+      },
+      "Gps": {
+        "zh": "汽车导航"
+      },
+      "GuideBoard": {
+        "zh": "指示牌"
+      },
+      "HighSpeedRail": {
+        "zh": "高铁"
+      },
+      "Homestay": {
+        "zh": "民宿"
+      },
+      "HotAirBalloon": {
+        "zh": "热气球"
+      },
+      "InFlight": {
+        "zh": "飞行巡航"
+      },
+      "International": {
+        "zh": "国际化"
+      },
+      "Journey": {
+        "zh": "旅行"
+      },
+      "Landing": {
+        "zh": "降落"
+      },
+      "Landscape": {
+        "zh": "风景区"
+      },
+      "Local": {
+        "zh": "已定位"
+      },
+      "LocalPin": {
+        "zh": "本地"
+      },
+      "LocalTwo": {
+        "zh": "本地"
+      },
+      "Luggage": {
+        "zh": "行李箱"
+      },
+      "ManualGear": {
+        "zh": "手动挡"
+      },
+      "MapDistance": {
+        "zh": "地图距离"
+      },
+      "MapDraw": {
+        "zh": "地图"
+      },
+      "MapRoad": {
+        "zh": "地图道路"
+      },
+      "MapRoadTwo": {
+        "zh": "地图"
+      },
+      "MapTwo": {
+        "zh": "地图"
+      },
+      "Mark": {
+        "zh": "标记"
+      },
+      "Mountain": {
+        "zh": "山"
+      },
+      "Mounted": {
+        "zh": "摩托"
+      },
+      "Navigation": {
+        "zh": "导航"
+      },
+      "Parachute": {
+        "zh": "降落伞"
+      },
+      "Parking": {
+        "zh": "停车场"
+      },
+      "PassportOne": {
+        "zh": "护照"
+      },
+      "Pennant": {
+        "zh": "三角旗"
+      },
+      "Photograph": {
+        "zh": "旅行照"
+      },
+      "Planet": {
+        "zh": "星球"
+      },
+      "PyramidOne": {
+        "zh": "金字塔"
+      },
+      "Railway": {
+        "zh": "铁路"
+      },
+      "Repositioning": {
+        "zh": "重新定位"
+      },
+      "Resting": {
+        "zh": "休闲"
+      },
+      "RidingOne": {
+        "zh": "骑术"
+      },
+      "Road": {
+        "zh": "道路"
+      },
+      "RoadCone": {
+        "zh": "路锥"
+      },
+      "RoadOne": {
+        "zh": "马路1"
+      },
+      "RoadSign": {
+        "zh": "方向标识"
+      },
+      "RoadSignBoth": {
+        "zh": "方向标识"
+      },
+      "Rocket": {
+        "zh": "火箭"
+      },
+      "RoundTrip": {
+        "zh": "往返飞"
+      },
+      "SailboatOne": {
+        "zh": "帆船1"
+      },
+      "Sailing": {
+        "zh": "航行"
+      },
+      "Sandals": {
+        "zh": "凉鞋"
+      },
+      "Selfie": {
+        "zh": "自拍杆"
+      },
+      "SetOff": {
+        "zh": "出发"
+      },
+      "Shade": {
+        "zh": "乘凉"
+      },
+      "Ship": {
+        "zh": "船"
+      },
+      "SteeringWheel": {
+        "zh": "方向盘"
+      },
+      "Sunbath": {
+        "zh": "日光浴"
+      },
+      "Sunrise": {
+        "zh": "日出"
+      },
+      "Sunset": {
+        "zh": "落日"
+      },
+      "Sunshade": {
+        "zh": "遮阳棚"
+      },
+      "TakeOff": {
+        "zh": "飞机起飞"
+      },
+      "TakeOffOne": {
+        "zh": "起飞"
+      },
+      "Taxi": {
+        "zh": "出租车"
+      },
+      "Tent": {
+        "zh": "帐篷"
+      },
+      "TentBanner": {
+        "zh": "帐篷旗帜"
+      },
+      "Theater": {
+        "zh": "影院"
+      },
+      "TicketsChecked": {
+        "zh": "票务检查"
+      },
+      "TicketsOne": {
+        "zh": "门票"
+      },
+      "TicketsTwo": {
+        "zh": "门票"
+      },
+      "TourBus": {
+        "zh": "旅游巴士"
+      },
+      "Train": {
+        "zh": "火车"
+      },
+      "Transfer": {
+        "zh": "转机"
+      },
+      "Transport": {
+        "zh": "运送车"
+      },
+      "Universal": {
+        "zh": "宇宙"
+      },
+      "Vacation": {
+        "zh": "椰树"
+      },
+      "Wheelchair": {
+        "zh": "轮椅"
+      },
+      "World": {
+        "zh": "世界"
+      }
+    }
+  },
+  {
+    "name": "size",
+    "type": "Select",
+    "initValue": 16,
+    "locale": {
+      "zh": "尺寸"
+    },
+    "desc": {
+      "zh": "图标的宽度和高度；对应API的size，默认值：16"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      10,
+      12,
+      14,
+      16,
+      20,
+      24,
+      28,
+      36,
+      48,
+      64
+    ],
+    "optionLocales": {
+      "10": {
+        "zh": 10
+      },
+      "12": {
+        "zh": 12
+      },
+      "14": {
+        "zh": 14
+      },
+      "16": {
+        "zh": 16
+      },
+      "20": {
+        "zh": 20
+      },
+      "24": {
+        "zh": 24
+      },
+      "28": {
+        "zh": 28
+      },
+      "36": {
+        "zh": 36
+      },
+      "48": {
+        "zh": 48
+      },
+      "64": {
+        "zh": 64
+      }
+    }
+  },
+  {
+    "name": "spin",
+    "type": "Boolean",
+    "initValue": false,
+    "locale": {
+      "zh": "旋转"
+    },
+    "desc": {
+      "zh": "图标顺时针匀速旋转；对应API的spin，默认值：false"
+    },
+    "showDes": true
+  },
+  {
+    "name": "theme",
+    "type": "Select",
+    "initValue": "outline",
+    "affectPropsShow": true,
+    "locale": {
+      "zh": "图标风格"
+    },
+    "desc": {
+      "zh": "对应API的theme，默认值：outline"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "outline",
+      "filled",
+      "two-tone",
+      "multi-color"
+    ],
+    "optionLocales": {
+      "outline": {
+        "zh": "线性"
+      },
+      "filled": {
+        "zh": "填充"
+      },
+      "two-tone": {
+        "zh": "双色"
+      },
+      "multi-color": {
+        "zh": "多色"
+      }
+    }
+  },
+  {
+    "name": "strokeColor",
+    "type": "Color",
+    "initValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": false,
+      "values": [
+        "filled",
+        "multi-color"
+      ]
+    },
+    "locale": {
+      "zh": "描边颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "fillColor",
+    "type": "Color",
+    "initValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "multi-color"
+      ]
+    },
+    "locale": {
+      "zh": "填充颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "outerStrokeColor",
+    "type": "Color",
+    "initValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "外部描边颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "outerFillColor",
+    "type": "Color",
+    "initValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "外部填充颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "innerStrokeColor",
+    "type": "Color",
+    "initValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "内部描边颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "innerFillColor",
+    "type": "Color",
+    "initValue": null,
+    "hidePropBy": {
+      "name": "theme",
+      "includeEmpty": true,
+      "values": [
+        "outline",
+        "filled",
+        "two-tone"
+      ]
+    },
+    "locale": {
+      "zh": "内部填充颜色"
+    },
+    "desc": {
+      "zh": "颜色为无时，线性和填充图标颜色跟随图标所在节点的文本颜色，双色和多色图标颜色使用图标内置颜色；当设置颜色后，图标元素将始终显示为该颜色"
+    },
+    "showDes": true
+  },
+  {
+    "name": "strokeWidth",
+    "type": "Select",
+    "initValue": "4",
+    "locale": {
+      "zh": "线段粗细"
+    },
+    "desc": {
+      "zh": "svg 元素的 stroke-width 属性；对应API的strokeWidth，默认值：4"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "optionLocales": {
+      "1": {
+        "zh": 1
+      },
+      "2": {
+        "zh": 2
+      },
+      "3": {
+        "zh": 3
+      },
+      "4": {
+        "zh": 4
+      }
+    }
+  },
+  {
+    "name": "strokeLinecap",
+    "type": "Select",
+    "initValue": "round",
+    "locale": {
+      "zh": "端点类型"
+    },
+    "desc": {
+      "zh": "svg 元素的 stroke-linecap 属性；对应API的strokeLinecap，默认值：-"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "round",
+      "butt",
+      "square"
+    ],
+    "optionLocales": {
+      "round": {
+        "zh": "圆头"
+      },
+      "butt": {
+        "zh": "方头"
+      },
+      "square": {
+        "zh": "平头"
+      }
+    }
+  },
+  {
+    "name": "strokeLinejoin",
+    "type": "Select",
+    "initValue": "round",
+    "locale": {
+      "zh": "拐点类型"
+    },
+    "desc": {
+      "zh": "svg 元素的 stroke-linejoin 属性；对应API的strokeLinejoin，默认值：-"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "round",
+      "miter",
+      "bevel"
+    ],
+    "optionLocales": {
+      "round": {
+        "zh": "圆头"
+      },
+      "miter": {
+        "zh": "方头"
+      },
+      "bevel": {
+        "zh": "平头"
+      }
+    }
+  }
+]

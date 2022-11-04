@@ -10,7 +10,7 @@
   {
     "name": "name",
     "type": "Select",
-    "initValue": "aaa",
+    "initValue": "AddTwo",
     "locale": {
       "zh": "选择图标"
     },
@@ -20,42 +20,275 @@
     "showDes": true,
     "optionsEmpty": false,
     "options": [
-      "aaa",
-      "aaa"
+      "AddTwo",
+      "Audit",
+      "Balance",
+      "Blackboard",
+      "Bluetooth",
+      "BookmarkThree",
+      "Broadcast",
+      "Browser",
+      "BytedanceMiniApp",
+      "CardTwo",
+      "CastScreen",
+      "Certificate",
+      "CloseWifi",
+      "CodeOne",
+      "CooperativeHandshake",
+      "Creative",
+      "Crown",
+      "DashboardCar",
+      "DegreeHat",
+      "DeskLampOne",
+      "Diamond",
+      "EnergySocket",
+      "ExpressDelivery",
+      "Fireworks",
+      "FolderOne",
+      "FullScreenPlay",
+      "Gas",
+      "Gavel",
+      "GlassesThree",
+      "IdCard",
+      "Light",
+      "LightMember",
+      "Luminous",
+      "Magic",
+      "MedalOne",
+      "PayCode",
+      "Pencil",
+      "RadarThree",
+      "ReadBook",
+      "Seat",
+      "Shake",
+      "ShareSys",
+      "Sickbed",
+      "Signal",
+      "SignalOne",
+      "Sleaves",
+      "SleepTwo",
+      "Snowman",
+      "StandUp",
+      "Target",
+      "Terminal",
+      "ThinkingProblem",
+      "Toolkit",
+      "Trace",
+      "TurnOffBluetooth",
+      "VipOne",
+      "VoiceInput",
+      "VoiceMessage",
+      "WeixinCardsOffers",
+      "WeixinFavorites",
+      "WeixinGames",
+      "WeixinMiniApp",
+      "WeixinScan",
+      "WeixinSearch",
+      "WeixinShake",
+      "WeixinTopStories",
+      "Wifi"
     ],
     "optionLocales": {
-      "aaa": {
-        "zh": ""
+      "AddTwo": {
+        "zh": "添加2"
       },
-      "aaa": {
-        "zh": ""
+      "Audit": {
+        "zh": "审核"
       },
-      "aaa": {
-        "zh": ""
+      "Balance": {
+        "zh": "平衡"
       },
-      "aaa": {
-        "zh": ""
+      "Blackboard": {
+        "zh": "黑板"
       },
-      "aaa": {
-        "zh": ""
+      "Bluetooth": {
+        "zh": "蓝牙"
       },
-      "aaa": {
-        "zh": ""
+      "BookmarkThree": {
+        "zh": "书签3"
       },
-      "aaa": {
-        "zh": ""
+      "Broadcast": {
+        "zh": "广播"
       },
-      "aaa": {
-        "zh": ""
+      "Browser": {
+        "zh": "浏览器"
       },
-      "aaa": {
-        "zh": ""
+      "BytedanceMiniApp": {
+        "zh": "应用程序"
       },
-      "aaa": {
-        "zh": ""
+      "CardTwo": {
+        "zh": "双卡片"
       },
-      "aaa": {
-        "zh": ""
+      "CastScreen": {
+        "zh": "投射屏幕"
+      },
+      "Certificate": {
+        "zh": "证书"
+      },
+      "CloseWifi": {
+        "zh": "关闭无线网络"
+      },
+      "CodeOne": {
+        "zh": "代码1"
+      },
+      "CooperativeHandshake": {
+        "zh": "合作握手"
+      },
+      "Creative": {
+        "zh": "创意"
+      },
+      "Crown": {
+        "zh": "皇冠"
+      },
+      "DashboardCar": {
+        "zh": "仪表盘"
+      },
+      "DegreeHat": {
+        "zh": "学位帽"
+      },
+      "DeskLampOne": {
+        "zh": "台灯1"
+      },
+      "Diamond": {
+        "zh": "钻石"
+      },
+      "EnergySocket": {
+        "zh": "能源插座"
+      },
+      "ExpressDelivery": {
+        "zh": "快递"
+      },
+      "Fireworks": {
+        "zh": "礼花"
+      },
+      "FolderOne": {
+        "zh": "文件夹1"
+      },
+      "FullScreenPlay": {
+        "zh": "全屏播放"
+      },
+      "Gas": {
+        "zh": "气体"
+      },
+      "Gavel": {
+        "zh": "拍卖"
+      },
+      "GlassesThree": {
+        "zh": "眼镜3"
+      },
+      "IdCard": {
+        "zh": "名片"
+      },
+      "Light": {
+        "zh": "光源"
+      },
+      "LightMember": {
+        "zh": "轻会员"
+      },
+      "Luminous": {
+        "zh": "发光"
+      },
+      "Magic": {
+        "zh": "魔法棒"
+      },
+      "MedalOne": {
+        "zh": "徽章"
+      },
+      "PayCode": {
+        "zh": "支付码"
+      },
+      "Pencil": {
+        "zh": "铅笔"
+      },
+      "RadarThree": {
+        "zh": "雷达3"
+      },
+      "ReadBook": {
+        "zh": "读书"
+      },
+      "Seat": {
+        "zh": "座位"
+      },
+      "Shake": {
+        "zh": "震动"
+      },
+      "ShareSys": {
+        "zh": "分享"
+      },
+      "Sickbed": {
+        "zh": "病床"
+      },
+      "Signal": {
+        "zh": "信号"
+      },
+      "SignalOne": {
+        "zh": "信号"
+      },
+      "Sleaves": {
+        "zh": "树叶"
+      },
+      "SleepTwo": {
+        "zh": "睡觉"
+      },
+      "Snowman": {
+        "zh": "雪人"
+      },
+      "StandUp": {
+        "zh": "站起来"
+      },
+      "Target": {
+        "zh": "靶子"
+      },
+      "Terminal": {
+        "zh": "终端"
+      },
+      "ThinkingProblem": {
+        "zh": "思考问题"
+      },
+      "Toolkit": {
+        "zh": "工具箱"
+      },
+      "Trace": {
+        "zh": "追踪"
+      },
+      "TurnOffBluetooth": {
+        "zh": "关闭蓝牙"
+      },
+      "VipOne": {
+        "zh": "vip"
+      },
+      "VoiceInput": {
+        "zh": "语音文字"
+      },
+      "VoiceMessage": {
+        "zh": "语音信息"
+      },
+      "WeixinCardsOffers": {
+        "zh": "微信卡包"
+      },
+      "WeixinFavorites": {
+        "zh": "微信收藏"
+      },
+      "WeixinGames": {
+        "zh": "微信游戏"
+      },
+      "WeixinMiniApp": {
+        "zh": "微信小程序"
+      },
+      "WeixinScan": {
+        "zh": "微信扫一扫"
+      },
+      "WeixinSearch": {
+        "zh": "微信搜索"
+      },
+      "WeixinShake": {
+        "zh": "微信摇一摇"
+      },
+      "WeixinTopStories": {
+        "zh": "微信看一看"
+      },
+      "Wifi": {
+        "zh": "无线网络"
       }
     }
   },

@@ -10,7 +10,7 @@
   {
     "name": "name",
     "type": "Select",
-    "initValue": "aaa",
+    "initValue": "AddSubtract",
     "locale": {
       "zh": "选择图标"
     },
@@ -20,42 +20,327 @@
     "showDes": true,
     "optionsEmpty": false,
     "options": [
-      "aaa",
-      "aaa"
+      "AddSubtract",
+      "Bank",
+      "BankCard",
+      "BankCardOne",
+      "BankCardTwo",
+      "BankTransfer",
+      "BarCode",
+      "Blockchain",
+      "Buy",
+      "Commodity",
+      "Consume",
+      "Coupon",
+      "Credit",
+      "Currency",
+      "Deposit",
+      "DiscoveryIndex",
+      "Dollar",
+      "Exchange",
+      "ExchangeFour",
+      "ExchangeOne",
+      "ExchangeThree",
+      "ExchangeTwo",
+      "Expenses",
+      "ExpensesOne",
+      "Finance",
+      "Financing",
+      "FinancingOne",
+      "FinancingTwo",
+      "FlashPayment",
+      "Funds",
+      "Gift",
+      "GiftBag",
+      "GiftBox",
+      "HeavyMetal",
+      "HistoryQuery",
+      "Income",
+      "IncomeOne",
+      "InsertCard",
+      "IosFaceRecognition",
+      "Ipo",
+      "MallBag",
+      "MedicationTime",
+      "OpenAnAccount",
+      "Optional",
+      "PaperMoney",
+      "PaperMoneyTwo",
+      "PayCodeOne",
+      "PayCodeTwo",
+      "PaymentMethod",
+      "RedEnvelope",
+      "RedEnvelopes",
+      "ScanCode",
+      "Shopping",
+      "ShoppingBag",
+      "ShoppingBagOne",
+      "ShoppingCart",
+      "ShoppingCartAdd",
+      "ShoppingCartDel",
+      "ShoppingCartOne",
+      "ShoppingCartTwo",
+      "ShoulderBag",
+      "StockMarket",
+      "Swipe",
+      "Transaction",
+      "TransactionOrder",
+      "Trend",
+      "TrendTwo",
+      "TwoDimensionalCode",
+      "TwoDimensionalCodeOne",
+      "TwoDimensionalCodeTwo",
+      "Wallet",
+      "WalletOne",
+      "WalletThree",
+      "WalletTwo",
+      "WaterLevel",
+      "WaterRate",
+      "WaterRateTwo",
+      "Waves",
+      "WeixinMarket",
+      "Workbench"
     ],
     "optionLocales": {
-      "aaa": {
-        "zh": ""
+      "AddSubtract": {
+        "zh": "加减"
       },
-      "aaa": {
-        "zh": ""
+      "Bank": {
+        "zh": "银行"
       },
-      "aaa": {
-        "zh": ""
+      "BankCard": {
+        "zh": "银行卡"
       },
-      "aaa": {
-        "zh": ""
+      "BankCardOne": {
+        "zh": "银行卡"
       },
-      "aaa": {
-        "zh": ""
+      "BankCardTwo": {
+        "zh": "银行卡"
       },
-      "aaa": {
-        "zh": ""
+      "BankTransfer": {
+        "zh": "银行转账"
       },
-      "aaa": {
-        "zh": ""
+      "BarCode": {
+        "zh": "条形码"
       },
-      "aaa": {
-        "zh": ""
+      "Blockchain": {
+        "zh": "区块链"
       },
-      "aaa": {
-        "zh": ""
+      "Buy": {
+        "zh": "购买"
       },
-      "aaa": {
-        "zh": ""
+      "Commodity": {
+        "zh": "商品"
       },
-      "aaa": {
-        "zh": ""
+      "Consume": {
+        "zh": "消费"
+      },
+      "Coupon": {
+        "zh": "优惠券"
+      },
+      "Credit": {
+        "zh": "信用卡"
+      },
+      "Currency": {
+        "zh": "货币流通"
+      },
+      "Deposit": {
+        "zh": "存款"
+      },
+      "DiscoveryIndex": {
+        "zh": "发现指数"
+      },
+      "Dollar": {
+        "zh": "美元"
+      },
+      "Exchange": {
+        "zh": "货币兑换"
+      },
+      "ExchangeFour": {
+        "zh": "兑换4"
+      },
+      "ExchangeOne": {
+        "zh": "兑换1"
+      },
+      "ExchangeThree": {
+        "zh": "兑换3"
+      },
+      "ExchangeTwo": {
+        "zh": "兑换2"
+      },
+      "Expenses": {
+        "zh": "转出"
+      },
+      "ExpensesOne": {
+        "zh": "支出"
+      },
+      "Finance": {
+        "zh": "金融"
+      },
+      "Financing": {
+        "zh": "理财"
+      },
+      "FinancingOne": {
+        "zh": "理财"
+      },
+      "FinancingTwo": {
+        "zh": "融资2"
+      },
+      "FlashPayment": {
+        "zh": "闪付"
+      },
+      "Funds": {
+        "zh": "基金"
+      },
+      "Gift": {
+        "zh": "礼物"
+      },
+      "GiftBag": {
+        "zh": "礼盒"
+      },
+      "GiftBox": {
+        "zh": "礼物盒"
+      },
+      "HeavyMetal": {
+        "zh": "重金属"
+      },
+      "HistoryQuery": {
+        "zh": "历史搜索"
+      },
+      "Income": {
+        "zh": "转入"
+      },
+      "IncomeOne": {
+        "zh": "收入"
+      },
+      "InsertCard": {
+        "zh": "插卡"
+      },
+      "IosFaceRecognition": {
+        "zh": "人脸识别"
+      },
+      "Ipo": {
+        "zh": "ipo"
+      },
+      "MallBag": {
+        "zh": "购物袋"
+      },
+      "MedicationTime": {
+        "zh": "准时吃药"
+      },
+      "OpenAnAccount": {
+        "zh": "开户"
+      },
+      "Optional": {
+        "zh": "自选"
+      },
+      "PaperMoney": {
+        "zh": "钞票"
+      },
+      "PaperMoneyTwo": {
+        "zh": "钞票"
+      },
+      "PayCodeOne": {
+        "zh": "付款码"
+      },
+      "PayCodeTwo": {
+        "zh": "支付码"
+      },
+      "PaymentMethod": {
+        "zh": "币种兑换"
+      },
+      "RedEnvelope": {
+        "zh": "红包"
+      },
+      "RedEnvelopes": {
+        "zh": "红包"
+      },
+      "ScanCode": {
+        "zh": "扫码"
+      },
+      "Shopping": {
+        "zh": "购物车"
+      },
+      "ShoppingBag": {
+        "zh": "购物袋"
+      },
+      "ShoppingBagOne": {
+        "zh": "购物袋1"
+      },
+      "ShoppingCart": {
+        "zh": "购物车"
+      },
+      "ShoppingCartAdd": {
+        "zh": "添加购物车"
+      },
+      "ShoppingCartDel": {
+        "zh": "删除购物车"
+      },
+      "ShoppingCartOne": {
+        "zh": "购物车1"
+      },
+      "ShoppingCartTwo": {
+        "zh": "购物车2"
+      },
+      "ShoulderBag": {
+        "zh": "单肩包"
+      },
+      "StockMarket": {
+        "zh": "股市"
+      },
+      "Swipe": {
+        "zh": "刷卡"
+      },
+      "Transaction": {
+        "zh": "成交"
+      },
+      "TransactionOrder": {
+        "zh": "交易清单"
+      },
+      "Trend": {
+        "zh": "趋势"
+      },
+      "TrendTwo": {
+        "zh": "趋势"
+      },
+      "TwoDimensionalCode": {
+        "zh": "二维码"
+      },
+      "TwoDimensionalCodeOne": {
+        "zh": "二维码"
+      },
+      "TwoDimensionalCodeTwo": {
+        "zh": "二维码"
+      },
+      "Wallet": {
+        "zh": "钱包"
+      },
+      "WalletOne": {
+        "zh": "钱包"
+      },
+      "WalletThree": {
+        "zh": "钱包3"
+      },
+      "WalletTwo": {
+        "zh": "钱包"
+      },
+      "WaterLevel": {
+        "zh": "水位线"
+      },
+      "WaterRate": {
+        "zh": "水费"
+      },
+      "WaterRateTwo": {
+        "zh": "水电费"
+      },
+      "Waves": {
+        "zh": "电波"
+      },
+      "WeixinMarket": {
+        "zh": "微信电商"
+      },
+      "Workbench": {
+        "zh": "工作台"
       }
     }
   },

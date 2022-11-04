@@ -10,7 +10,7 @@
   {
     "name": "name",
     "type": "Select",
-    "initValue": "aaa",
+    "initValue": "DiamondOne",
     "locale": {
       "zh": "选择图标"
     },
@@ -20,42 +20,79 @@
     "showDes": true,
     "optionsEmpty": false,
     "options": [
-      "aaa",
-      "aaa"
+      "DiamondOne",
+      "DiamondThree",
+      "DiamondTwo",
+      "HexagonOne",
+      "Octagon",
+      "OvalOne",
+      "Parallelogram",
+      "PentagonOne",
+      "Quadrilateral",
+      "Rectangle",
+      "RectangleOne",
+      "RectangleSmall",
+      "RightAngle",
+      "Round",
+      "Square",
+      "SquareSmall",
+      "Trapezoid",
+      "Triangle"
     ],
     "optionLocales": {
-      "aaa": {
-        "zh": ""
+      "DiamondOne": {
+        "zh": "菱形1"
       },
-      "aaa": {
-        "zh": ""
+      "DiamondThree": {
+        "zh": "菱形3"
       },
-      "aaa": {
-        "zh": ""
+      "DiamondTwo": {
+        "zh": "菱形2"
       },
-      "aaa": {
-        "zh": ""
+      "HexagonOne": {
+        "zh": "六边形1"
       },
-      "aaa": {
-        "zh": ""
+      "Octagon": {
+        "zh": "八边形"
       },
-      "aaa": {
-        "zh": ""
+      "OvalOne": {
+        "zh": "椭圆形"
       },
-      "aaa": {
-        "zh": ""
+      "Parallelogram": {
+        "zh": "平行四边形"
       },
-      "aaa": {
-        "zh": ""
+      "PentagonOne": {
+        "zh": "五边形"
       },
-      "aaa": {
-        "zh": ""
+      "Quadrilateral": {
+        "zh": "四边形"
       },
-      "aaa": {
-        "zh": ""
+      "Rectangle": {
+        "zh": "矩形"
       },
-      "aaa": {
-        "zh": ""
+      "RectangleOne": {
+        "zh": "矩形1"
+      },
+      "RectangleSmall": {
+        "zh": "小矩形"
+      },
+      "RightAngle": {
+        "zh": "直角形"
+      },
+      "Round": {
+        "zh": "圆形"
+      },
+      "Square": {
+        "zh": "方形"
+      },
+      "SquareSmall": {
+        "zh": "小方形"
+      },
+      "Trapezoid": {
+        "zh": "梯形"
+      },
+      "Triangle": {
+        "zh": "三角形"
       }
     }
   },

@@ -10,7 +10,7 @@
   {
     "name": "name",
     "type": "Select",
-    "initValue": "aaa",
+    "initValue": "Cloudy",
     "locale": {
       "zh": "选择图标"
     },
@@ -20,42 +20,71 @@
     "showDes": true,
     "optionsEmpty": false,
     "options": [
-      "aaa",
-      "aaa"
+      "Cloudy",
+      "CloudyNight",
+      "Fog",
+      "HeavyRain",
+      "HeavyWind",
+      "LightRain",
+      "Moon",
+      "Sandstorm",
+      "Snow",
+      "Snowflake",
+      "Sun",
+      "SunOne",
+      "Sunny",
+      "Thunderstorm",
+      "ThunderstormOne",
+      "Wind"
     ],
     "optionLocales": {
-      "aaa": {
-        "zh": ""
+      "Cloudy": {
+        "zh": "多云"
       },
-      "aaa": {
-        "zh": ""
+      "CloudyNight": {
+        "zh": "夜间多云"
       },
-      "aaa": {
-        "zh": ""
+      "Fog": {
+        "zh": "大雾"
       },
-      "aaa": {
-        "zh": ""
+      "HeavyRain": {
+        "zh": "大雨"
       },
-      "aaa": {
-        "zh": ""
+      "HeavyWind": {
+        "zh": "大风"
       },
-      "aaa": {
-        "zh": ""
+      "LightRain": {
+        "zh": "小雨"
       },
-      "aaa": {
-        "zh": ""
+      "Moon": {
+        "zh": "月亮"
       },
-      "aaa": {
-        "zh": ""
+      "Sandstorm": {
+        "zh": "沙尘暴"
       },
-      "aaa": {
-        "zh": ""
+      "Snow": {
+        "zh": "下雪"
       },
-      "aaa": {
-        "zh": ""
+      "Snowflake": {
+        "zh": "雪花"
       },
-      "aaa": {
-        "zh": ""
+      "Sun": {
+        "zh": "太阳"
+      },
+      "SunOne": {
+        "zh": "太阳1"
+      },
+      "Sunny": {
+        "zh": "晴天"
+      },
+      "Thunderstorm": {
+        "zh": "雷雨"
+      },
+      "ThunderstormOne": {
+        "zh": "雷雨"
+      },
+      "Wind": {
+        "zh": "刮风"
       }
     }
   },

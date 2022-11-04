@@ -10,7 +10,7 @@
   {
     "name": "name",
     "type": "Select",
-    "initValue": "aaa",
+    "initValue": "Alarm",
     "locale": {
       "zh": "选择图标"
     },
@@ -20,42 +20,79 @@
     "showDes": true,
     "optionsEmpty": false,
     "options": [
-      "aaa",
-      "aaa"
+      "Alarm",
+      "BalanceTwo",
+      "Bug",
+      "Caution",
+      "FireExtinguisher",
+      "Harm",
+      "Imbalance",
+      "Key",
+      "Keyhole",
+      "Protect",
+      "Protection",
+      "Radiation",
+      "Report",
+      "Shield",
+      "ShieldAdd",
+      "Umbrella",
+      "UmbrellaOne",
+      "UmbrellaTwo"
     ],
     "optionLocales": {
-      "aaa": {
-        "zh": ""
+      "Alarm": {
+        "zh": "警报"
       },
-      "aaa": {
-        "zh": ""
+      "BalanceTwo": {
+        "zh": "天平"
       },
-      "aaa": {
-        "zh": ""
+      "Bug": {
+        "zh": "程序问题"
       },
-      "aaa": {
-        "zh": ""
+      "Caution": {
+        "zh": "报错"
       },
-      "aaa": {
-        "zh": ""
+      "FireExtinguisher": {
+        "zh": "灭火器"
       },
-      "aaa": {
-        "zh": ""
+      "Harm": {
+        "zh": "危害"
       },
-      "aaa": {
-        "zh": ""
+      "Imbalance": {
+        "zh": "失衡天平"
       },
-      "aaa": {
-        "zh": ""
+      "Key": {
+        "zh": "钥匙"
       },
-      "aaa": {
-        "zh": ""
+      "Keyhole": {
+        "zh": "钥匙孔"
       },
-      "aaa": {
-        "zh": ""
+      "Protect": {
+        "zh": "保护"
       },
-      "aaa": {
-        "zh": ""
+      "Protection": {
+        "zh": "保护"
+      },
+      "Radiation": {
+        "zh": "辐射"
+      },
+      "Report": {
+        "zh": "举报"
+      },
+      "Shield": {
+        "zh": "安全"
+      },
+      "ShieldAdd": {
+        "zh": "安全增加"
+      },
+      "Umbrella": {
+        "zh": "雨伞"
+      },
+      "UmbrellaOne": {
+        "zh": "雨伞"
+      },
+      "UmbrellaTwo": {
+        "zh": "雨伞"
       }
     }
   },
