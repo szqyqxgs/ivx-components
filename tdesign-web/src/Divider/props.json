@@ -1,0 +1,137 @@
+[
+  {
+    "name": "visible",
+    "type": "Boolean",
+    "initValue": true,
+    "locale": {
+      "zh": "可见"
+    }
+  },
+  {
+    "name": "content",
+    "type": "String",
+    "initValue": "分割线",
+    "locale": {
+      "zh": "分割线文本"
+    },
+    "desc": {
+      "zh": "对应API的content，默认值：-"
+    },
+    "showDes": true,
+    "placeholder": "任意字符串"
+  },
+  {
+    "name": "align",
+    "type": "Select",
+    "initValue": "center",
+    "locale": {
+      "zh": "文本位置"
+    },
+    "desc": {
+      "zh": "对应API的align，默认值：center"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "left",
+      "center",
+      "right"
+    ],
+    "optionLocales": {
+      "left": {
+        "zh": "靠左"
+      },
+      "center": {
+        "zh": "居中"
+      },
+      "right": {
+        "zh": "靠右"
+      }
+    }
+  },
+  {
+    "name": "dashed",
+    "type": "Boolean",
+    "initValue": false,
+    "locale": {
+      "zh": "是否虚线"
+    },
+    "desc": {
+      "zh": "对应API的dashed，默认值：false"
+    },
+    "showDes": true
+  },
+  {
+    "name": "layout",
+    "type": "Select",
+    "initValue": "horizontal",
+    "locale": {
+      "zh": "分割线类型"
+    },
+    "desc": {
+      "zh": "对应API的layout，默认值：horizontal"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "horizontal",
+      "vertical"
+    ],
+    "optionLocales": {
+      "horizontal": {
+        "zh": "水平"
+      },
+      "vertical": {
+        "zh": "垂直"
+      }
+    }
+  },
+  {
+    "name": "childrenPosition",
+    "type": "Select",
+    "initValue": "right",
+    "groupName": "子组件设置",
+    "locale": {
+      "zh": "子组件位置"
+    },
+    "desc": {
+      "zh": "表示子组件位于当前组件元素（分割线文本）的...位置；仅在分割类型：水平 且 含有子组件时有效"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "top",
+      "bottom",
+      "left",
+      "right"
+    ],
+    "optionLocales": {
+      "top": {
+        "zh": "居上"
+      },
+      "bottom": {
+        "zh": "居下"
+      },
+      "left": {
+        "zh": "居左"
+      },
+      "right": {
+        "zh": "居右"
+      }
+    }
+  },
+  {
+    "name": "spacing",
+    "type": "Number",
+    "initValue": 0,
+    "groupName": "子组件设置",
+    "locale": {
+      "zh": "元素间距"
+    },
+    "desc": {
+      "zh": "合法值：任意数值；表示当前组件元素（分割线文本）与子组件的间距；如需设置各子组件的间距请使用间距组件；仅在分割类型：水平 且 含有子组件时有效"
+    },
+    "showDes": true,
+    "placeholder": "任意数值"
+  }
+]

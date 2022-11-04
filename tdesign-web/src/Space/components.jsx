@@ -1,20 +1,17 @@
 import React from 'react'
-import {Button} from 'tdesign-react'
+import {Divider, Space} from 'tdesign-react'
 import 'tdesign-react/es/style/index.css'
-import {AddIcon, CloudUploadIcon, DeleteIcon, SearchIcon, UploadIcon} from 'tdesign-icons-react'
 
 // 全局变量
 
-export default class Tdaaa extends React.Component {
+export default class TdSpace extends React.Component {
 
     // 绑定事件和方法
+    /*
     constructor(props) {
         super(props)
-        this.click = this.click.bind(this)
-        this.showVisible = this.showVisible.bind(this)
-        this.hideVisible = this.hideVisible.bind(this)
-        this.toggleVisible = this.toggleVisible.bind(this)
     }
+    */
 
     // 初始化周期
     componentDidMount() {
@@ -30,11 +27,6 @@ export default class Tdaaa extends React.Component {
     // 初始化
     initialize() {
         this.props.onInitialize && this.props.onInitialize()
-    }
-
-    // 点击
-    click() {
-        this.props.onClick && this.props.onClick()
     }
 
     // 定义组件方法
@@ -60,19 +52,16 @@ export default class Tdaaa extends React.Component {
     }
 
     // 定义组件函数
-    // 选择左侧图标
-    icon(icon) {
-        switch (icon) {
-            case 'AddIcon':
-                return <AddIcon/>
-            case 'DeleteIcon':
-                return <DeleteIcon/>
-            case 'CloudUploadIcon':
-                return <CloudUploadIcon/>
-            case 'UploadIcon':
-                return <UploadIcon/>
-            case 'SearchIcon':
-                return <SearchIcon/>
+    // 选择分隔符函数
+    separator(separator) {
+        let {delimiter, dividerAlign, dashed, layout, content} = this.props
+        switch (separator) {
+            case 'none':
+                return null
+            case 'delimiter':
+                return delimiter
+            case 'divider':
+                return <Divider align={dividerAlign} dashed={dashed} layout={layout}>{content}</Divider>
             default:
                 return
         }
@@ -82,19 +71,22 @@ export default class Tdaaa extends React.Component {
         // 属性、事件、函数
         let {
             visible,
-            tag,
-            icon,
-            useIcon,
-            content
+            align,
+            direction,
+            breakLine,
+            size,
+            separator
         } = this.props
-        return visible ? <Button
+        return visible ? <Space
             // style: {},
             // className: '',
-            onClick={this.click}
-            tag={tag}
-            icon={useIcon && icon ? this.icon(icon) : null}
+            align={align}
+            direction={direction}
+            breakLine={breakLine}
+            size={size}
+            separator={this.separator(separator)}
         >
-            {content}
-        </Button> : null
+            {this.props.children}
+        </Space> : null
     }
 }

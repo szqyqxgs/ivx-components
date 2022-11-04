@@ -1,16 +1,15 @@
 import React from 'react'
-import {Button} from 'tdesign-react'
+import {Jumper} from 'tdesign-react'
 import 'tdesign-react/es/style/index.css'
-import {AddIcon, CloudUploadIcon, DeleteIcon, SearchIcon, UploadIcon} from 'tdesign-icons-react'
 
 // 全局变量
 
-export default class Tdaaa extends React.Component {
+export default class TdJumper extends React.Component {
 
     // 绑定事件和方法
     constructor(props) {
         super(props)
-        this.click = this.click.bind(this)
+        this.change = this.change.bind(this)
         this.showVisible = this.showVisible.bind(this)
         this.hideVisible = this.hideVisible.bind(this)
         this.toggleVisible = this.toggleVisible.bind(this)
@@ -33,8 +32,8 @@ export default class Tdaaa extends React.Component {
     }
 
     // 点击
-    click() {
-        this.props.onClick && this.props.onClick()
+    change() {
+        this.props.onChange && this.props.onChange()
     }
 
     // 定义组件方法
@@ -60,41 +59,36 @@ export default class Tdaaa extends React.Component {
     }
 
     // 定义组件函数
-    // 选择左侧图标
-    icon(icon) {
-        switch (icon) {
-            case 'AddIcon':
-                return <AddIcon/>
-            case 'DeleteIcon':
-                return <DeleteIcon/>
-            case 'CloudUploadIcon':
-                return <CloudUploadIcon/>
-            case 'UploadIcon':
-                return <UploadIcon/>
-            case 'SearchIcon':
-                return <SearchIcon/>
-            default:
-                return
-        }
-    }
 
     render() {
         // 属性、事件、函数
         let {
             visible,
-            tag,
-            icon,
-            useIcon,
-            content
+            variant,
+            layout,
+            size,
+            showCurrent,
+            tips,
+            prevTips,
+            currentTips,
+            nextTips,
+            disabled,
+            prevDisabled,
+            currentDisabled,
+            nextDisabled
         } = this.props
-        return visible ? <Button
+        const enabledDisabled = {prev: prevDisabled, current: currentDisabled, next: nextDisabled}
+        const enabledTips = {prev: prevTips, current: currentTips, next: nextTips}
+        return visible ? <Jumper
             // style: {},
             // className: '',
-            onClick={this.click}
-            tag={tag}
-            icon={useIcon && icon ? this.icon(icon) : null}
-        >
-            {content}
-        </Button> : null
+            onChange={this.change}
+            variant={variant}
+            layout={layout}
+            size={size}
+            showCurrent={showCurrent}
+            tips={tips ? enabledTips : tips}
+            disabled={disabled ? enabledDisabled : disabled}
+        /> : null
     }
 }

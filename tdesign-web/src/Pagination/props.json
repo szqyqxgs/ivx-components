@@ -1,0 +1,364 @@
+[
+  {
+    "name": "visible",
+    "type": "Boolean",
+    "initValue": true,
+    "locale": {
+      "zh": "可见"
+    }
+  },
+  {
+    "name": "disabled",
+    "type": "Boolean",
+    "initValue": false,
+    "locale": {
+      "zh": "禁用"
+    },
+    "desc": {
+      "zh": "对应API的disabled，默认值：false"
+    },
+    "showDes": true
+  },
+  {
+    "name": "total",
+    "type": "Number",
+    "initValue": 0,
+    "locale": {
+      "zh": "数据总数"
+    },
+    "desc": {
+      "zh": "对应API的total，默认值：0"
+    },
+    "showDes": true,
+    "placeholder": "任意整数"
+  },
+  {
+    "name": "pageSize",
+    "type": "Number",
+    "initValue": 10,
+    "locale": {
+      "zh": "每页数据数"
+    },
+    "desc": {
+      "zh": "对应API的pageSize，默认值：10"
+    },
+    "showDes": true,
+    "placeholder": "任意正整数"
+  },
+  {
+    "name": "current",
+    "type": "Number",
+    "initValue": 1,
+    "locale": {
+      "zh": "当前页码"
+    },
+    "desc": {
+      "zh": "对应API的current，默认值：1"
+    },
+    "showDes": true,
+    "placeholder": "任意正整数"
+  },
+  {
+    "name": "theme",
+    "type": "Select",
+    "initValue": "default",
+    "locale": {
+      "zh": "风格"
+    },
+    "desc": {
+      "zh": "对应API的theme，默认值：default"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "default",
+      "simple"
+    ],
+    "optionLocales": {
+      "default": {
+        "zh": "默认"
+      },
+      "simple": {
+        "zh": "极简"
+      }
+    }
+  },
+  {
+    "name": "size",
+    "type": "Select",
+    "initValue": "medium",
+    "locale": {
+      "zh": "尺寸"
+    },
+    "desc": {
+      "zh": "分页组件尺寸；对应API的size，默认值：medium"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "small",
+      "medium"
+    ],
+    "optionLocales": {
+      "small": {
+        "zh": "small"
+      },
+      "medium": {
+        "zh": "medium"
+      }
+    }
+  },
+  {
+    "name": "totalContent",
+    "type": "Boolean",
+    "initValue": true,
+    "locale": {
+      "zh": "显示总数"
+    },
+    "desc": {
+      "zh": "显示数据总数；对应API的totalContent，默认值：true"
+    },
+    "showDes": true
+  },
+  {
+    "name": "showJumper",
+    "type": "Boolean",
+    "initValue": false,
+    "locale": {
+      "zh": "跳转控制器"
+    },
+    "desc": {
+      "zh": "跳转页码控制器"
+    },
+    "showDes": true
+  },
+  {
+    "name": "showFirstAndLastPageBtn",
+    "type": "Boolean",
+    "initValue": false,
+    "group": "页码控制器设置",
+    "locale": {
+      "zh": "跳转首尾页"
+    },
+    "desc": {
+      "zh": "跳转首尾页按钮；对应API的showFirstAndLastPageBtn，默认值：false"
+    },
+    "showDes": true
+  },
+  {
+    "name": "showPreviousAndNextBtn",
+    "type": "Boolean",
+    "initValue": true,
+    "group": "页码控制器设置",
+    "locale": {
+      "zh": "跳转前后页"
+    },
+    "desc": {
+      "zh": "跳转前后页页码控制器"
+    },
+    "showDes": true
+  },
+  {
+    "name": "showPageNumber",
+    "type": "Boolean",
+    "initValue": true,
+    "group": "页码控制器设置",
+    "affectPropsShow": true,
+    "locale": {
+      "zh": "页码控制器"
+    },
+    "desc": {
+      "zh": "页码控制器"
+    },
+    "showDes": true
+  },
+  {
+    "name": "maxPageBtn",
+    "type": "Number",
+    "initValue": 10,
+    "group": "页码控制器设置",
+    "hidePropBy": {
+      "name": "showPageNumber",
+      "includeEmpty": true,
+      "values": [
+        false
+      ]
+    },
+    "locale": {
+      "zh": "最多显示按钮数"
+    },
+    "desc": {
+      "zh": "最多显示页码按钮数；对应API的maxPageBtn，默认值：10"
+    },
+    "showDes": true,
+    "placeholder": "任意正整数"
+  },
+  {
+    "name": "foldedMaxPageBtn",
+    "type": "Number",
+    "initValue": 5,
+    "group": "页码控制器设置",
+    "hidePropBy": {
+      "name": "showPageNumber",
+      "includeEmpty": true,
+      "values": [
+        false
+      ]
+    },
+    "locale": {
+      "zh": "折叠显示按钮数"
+    },
+    "desc": {
+      "zh": "折叠时最多显示页码按钮数；对应API的foldedMaxPageBtn，默认值：5"
+    },
+    "showDes": true,
+    "placeholder": "任意正整数"
+  },
+  {
+    "name": "pageEllipsisMode",
+    "type": "Select",
+    "initValue": "mid",
+    "group": "页码控制器设置",
+    "hidePropBy": {
+      "name": "showPageNumber",
+      "includeEmpty": true,
+      "values": [
+        false
+      ]
+    },
+    "locale": {
+      "zh": "省略模式"
+    },
+    "desc": {
+      "zh": "页码数量超出时，前后省略模式； mid表示中间省略, both-ends表示两端省略；对应API的pageEllipsisMode，默认值：mid"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "mid",
+      "both-ends"
+    ],
+    "optionLocales": {
+      "mid": {
+        "zh": "中间省略"
+      },
+      "both-ends": {
+        "zh": "两端省略"
+      }
+    }
+  },
+  {
+    "name": "showPageSize",
+    "type": "Boolean",
+    "initValue": true,
+    "group": "数量控制器设置",
+    "affectPropsShow": true,
+    "locale": {
+      "zh": "数量控制器"
+    },
+    "desc": {
+      "zh": "分页数量控制器；对应API的showPageSize，默认值：true"
+    },
+    "showDes": true
+  },
+  {
+    "name": "pageSizeOptions1",
+    "type": "Boolean",
+    "initValue": true,
+    "group": "数量控制器设置",
+    "hidePropBy": {
+      "name": "showPageSize",
+      "includeEmpty": true,
+      "values": [
+        false
+      ]
+    },
+    "locale": {
+      "zh": "5 条/页"
+    },
+    "desc": {
+      "zh": "5 条/页"
+    },
+    "showDes": true
+  },
+  {
+    "name": "pageSizeOptions2",
+    "type": "Boolean",
+    "initValue": true,
+    "group": "数量控制器设置",
+    "hidePropBy": {
+      "name": "showPageSize",
+      "includeEmpty": true,
+      "values": [
+        false
+      ]
+    },
+    "locale": {
+      "zh": "10 条/页"
+    },
+    "desc": {
+      "zh": "10 条/页"
+    },
+    "showDes": true
+  },
+  {
+    "name": "pageSizeOptions3",
+    "type": "Boolean",
+    "initValue": true,
+    "group": "数量控制器设置",
+    "hidePropBy": {
+      "name": "showPageSize",
+      "includeEmpty": true,
+      "values": [
+        false
+      ]
+    },
+    "locale": {
+      "zh": "20 条/页"
+    },
+    "desc": {
+      "zh": "20 条/页"
+    },
+    "showDes": true
+  },
+  {
+    "name": "pageSizeOptions4",
+    "type": "Boolean",
+    "initValue": true,
+    "group": "数量控制器设置",
+    "hidePropBy": {
+      "name": "showPageSize",
+      "includeEmpty": true,
+      "values": [
+        false
+      ]
+    },
+    "locale": {
+      "zh": "50 条/页"
+    },
+    "desc": {
+      "zh": "50 条/页"
+    },
+    "showDes": true
+  },
+  {
+    "name": "pageSizeOptions5",
+    "type": "Boolean",
+    "initValue": false,
+    "group": "数量控制器设置",
+    "hidePropBy": {
+      "name": "showPageSize",
+      "includeEmpty": true,
+      "values": [
+        false
+      ]
+    },
+    "locale": {
+      "zh": "100 条/页"
+    },
+    "desc": {
+      "zh": "100 条/页"
+    },
+    "showDes": true
+  }
+]

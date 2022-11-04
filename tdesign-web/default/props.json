@@ -2,7 +2,7 @@
   {
     "name": "visible",
     "type": "Boolean",
-    "defaultValue": true,
+    "initValue": true,
     "locale": {
       "zh": "可见"
     }

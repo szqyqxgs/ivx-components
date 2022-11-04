@@ -1,0 +1,60 @@
+[
+  {
+    "name": "visible",
+    "type": "Boolean",
+    "initValue": true,
+    "locale": {
+      "zh": "可见"
+    },
+    "desc": {
+      "zh": "布局Header仅能添加在布局Layout下为直接子组件；布局Header下可添加任何子组件"
+    },
+    "showDes": true
+  },
+  {
+    "name": "headerHeight",
+    "type": "Select",
+    "initValue": "fixedValue",
+    "affectPropsShow": true,
+    "locale": {
+      "zh": "顶栏高度"
+    },
+    "desc": {
+      "zh": "自动包裹为auto；对应API的height，默认值：64px"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "auto",
+      "fixedValue"
+    ],
+    "optionLocales": {
+      "auto": {
+        "zh": "自动包裹"
+      },
+      "fixedValue": {
+        "zh": "固定值"
+      }
+    }
+  },
+  {
+    "name": "height",
+    "type": "PercentPx",
+    "initValue": 64,
+    "hidePropBy": {
+      "name": "headerHeight",
+      "includeEmpty": false,
+      "values": [
+        "auto"
+      ]
+    },
+    "locale": {
+      "zh": "高度"
+    },
+    "desc": {
+      "zh": "对应API的height，默认值：64px"
+    },
+    "showDes": true,
+    "placeholder": "任意正数"
+  }
+]

@@ -1,11 +1,10 @@
 import React from 'react'
-import {Button} from 'tdesign-react'
-import 'tdesign-react/es/style/index.css'
 import {AddIcon, CloudUploadIcon, DeleteIcon, SearchIcon, UploadIcon} from 'tdesign-icons-react'
+import 'tdesign-react/es/style/index.css'
 
 // 全局变量
 
-export default class Tdaaa extends React.Component {
+export default class TdIcon extends React.Component {
 
     // 绑定事件和方法
     constructor(props) {
@@ -60,19 +59,19 @@ export default class Tdaaa extends React.Component {
     }
 
     // 定义组件函数
-    // 选择左侧图标
-    icon(icon) {
-        switch (icon) {
+    // 选择图标
+    icon(name, size) {
+        switch (name) {
             case 'AddIcon':
-                return <AddIcon/>
+                return <AddIcon size={size}/>
             case 'DeleteIcon':
-                return <DeleteIcon/>
+                return <DeleteIcon size={size}/>
             case 'CloudUploadIcon':
-                return <CloudUploadIcon/>
+                return <CloudUploadIcon size={size}/>
             case 'UploadIcon':
-                return <UploadIcon/>
+                return <UploadIcon size={size}/>
             case 'SearchIcon':
-                return <SearchIcon/>
+                return <SearchIcon size={size}/>
             default:
                 return
         }
@@ -80,21 +79,15 @@ export default class Tdaaa extends React.Component {
 
     render() {
         // 属性、事件、函数
-        let {
-            visible,
-            tag,
-            icon,
-            useIcon,
-            content
-        } = this.props
-        return visible ? <Button
-            // style: {},
+        let {visible, name, size, color} = this.props
+        return visible ? <span
             // className: '',
             onClick={this.click}
-            tag={tag}
-            icon={useIcon && icon ? this.icon(icon) : null}
+            style={{
+                color: color
+            }}
         >
-            {content}
-        </Button> : null
+            {this.icon(name, size)}
+        </span> : null
     }
 }

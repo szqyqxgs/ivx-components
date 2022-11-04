@@ -1,0 +1,252 @@
+[
+  {
+    "name": "visible",
+    "type": "Boolean",
+    "initValue": true,
+    "locale": {
+      "zh": "可见"
+    }
+  },
+  {
+    "name": "variant",
+    "type": "Select",
+    "initValue": "text",
+    "locale": {
+      "zh": "按钮形式"
+    },
+    "desc": {
+      "zh": "对应API的variant，默认值：text"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "text",
+      "outline"
+    ],
+    "optionLocales": {
+      "text": {
+        "zh": "text"
+      },
+      "outline": {
+        "zh": "outline"
+      }
+    }
+  },
+  {
+    "name": "layout",
+    "type": "Select",
+    "initValue": "horizontal",
+    "locale": {
+      "zh": "按钮方向"
+    },
+    "desc": {
+      "zh": "对应API的layout，默认值：horizontal"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "horizontal",
+      "vertical"
+    ],
+    "optionLocales": {
+      "horizontal": {
+        "zh": "水平"
+      },
+      "vertical": {
+        "zh": "垂直"
+      }
+    }
+  },
+  {
+    "name": "size",
+    "type": "Select",
+    "initValue": "medium",
+    "locale": {
+      "zh": "尺寸"
+    },
+    "desc": {
+      "zh": "对应API的size，默认值：medium"
+    },
+    "showDes": true,
+    "optionsEmpty": false,
+    "options": [
+      "small",
+      "medium",
+      "large"
+    ],
+    "optionLocales": {
+      "small": {
+        "zh": "小号"
+      },
+      "medium": {
+        "zh": "中号"
+      },
+      "large": {
+        "zh": "大号"
+      }
+    }
+  },
+  {
+    "name": "showCurrent",
+    "type": "Boolean",
+    "initValue": true,
+    "locale": {
+      "zh": "当前按钮"
+    },
+    "desc": {
+      "zh": "对应API的showCurrent，默认值：true"
+    },
+    "showDes": true
+  },
+  {
+    "name": "tips",
+    "type": "Boolean",
+    "initValue": false,
+    "groupName": "文案设置",
+    "affectPropsShow": true,
+    "locale": {
+      "zh": "提示文案"
+    },
+    "desc": {
+      "zh": "对应API的tips，默认值：-"
+    },
+    "showDes": true
+  },
+  {
+    "name": "prevTips",
+    "type": "String",
+    "initValue": "上一页",
+    "groupName": "文案设置",
+    "hidePropBy": {
+      "name": "tips",
+      "includeEmpty": true,
+      "values": [
+        false
+      ]
+    },
+    "locale": {
+      "zh": "上一页"
+    },
+    "desc": {
+      "zh": "上一页按钮提示文案"
+    },
+    "showDes": true,
+    "placeholder": "任意字符串"
+  },
+  {
+    "name": "currentTips",
+    "type": "String",
+    "initValue": "当前",
+    "groupName": "文案设置",
+    "hidePropBy": {
+      "name": "tips",
+      "includeEmpty": true,
+      "values": [
+        false
+      ]
+    },
+    "locale": {
+      "zh": "当前"
+    },
+    "desc": {
+      "zh": "当前按钮提示文案"
+    },
+    "showDes": true,
+    "placeholder": "任意字符串"
+  },
+  {
+    "name": "nextTips",
+    "type": "String",
+    "initValue": "下一页",
+    "groupName": "文案设置",
+    "hidePropBy": {
+      "name": "tips",
+      "includeEmpty": true,
+      "values": [
+        false
+      ]
+    },
+    "locale": {
+      "zh": "下一页"
+    },
+    "desc": {
+      "zh": "下一页按钮提示文案"
+    },
+    "showDes": true,
+    "placeholder": "任意字符串"
+  },
+  {
+    "name": "disabled",
+    "type": "Boolean",
+    "initValue": false,
+    "groupName": "禁用设置",
+    "affectPropsShow": true,
+    "locale": {
+      "zh": "禁用"
+    },
+    "desc": {
+      "zh": "对应API的disabled，默认值：false"
+    },
+    "showDes": true
+  },
+  {
+    "name": "prevDisabled",
+    "type": "Boolean",
+    "initValue": true,
+    "groupName": "禁用设置",
+    "hidePropBy": {
+      "name": "disabled",
+      "includeEmpty": true,
+      "values": [
+        false
+      ]
+    },
+    "locale": {
+      "zh": "上一页"
+    },
+    "desc": {
+      "zh": "禁用上一页按钮"
+    },
+    "showDes": true
+  },
+  {
+    "name": "currentDisabled",
+    "type": "Boolean",
+    "initValue": true,
+    "groupName": "禁用设置",
+    "hidePropBy": {
+      "name": "disabled",
+      "includeEmpty": true,
+      "values": [
+        false
+      ]
+    },
+    "locale": {
+      "zh": "当前"
+    },
+    "desc": {
+      "zh": "禁用当前按钮"
+    },
+    "showDes": true
+  },
+  {
+    "name": "nextDisabled",
+    "type": "Boolean",
+    "initValue": true,
+    "groupName": "禁用设置",
+    "hidePropBy": {
+      "name": "disabled",
+      "includeEmpty": true,
+      "values": [
+        false
+      ]
+    },
+    "locale": {
+      "zh": "下一页"
+    },
+    "desc": {
+      "zh": "禁用下一页按钮"
+    },
+    "showDes": true
+  }
+]
