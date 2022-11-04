@@ -148,7 +148,7 @@
   {
     "name": "offsetX",
     "type": "Number",
-    "initValue": 16,
+    "initValue": -32,
     "locale": {
       "zh": "X轴偏移量"
     },
@@ -161,7 +161,7 @@
   {
     "name": "offsetY",
     "type": "Number",
-    "initValue": 16,
+    "initValue": 32,
     "locale": {
       "zh": "Y轴偏移量"
     },
