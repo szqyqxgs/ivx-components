@@ -321,7 +321,7 @@
     "initValue": null,
     "hidePropBy": {
       "name": "theme",
-      "includeEmpty": false,
+      "includeEmpty": true,
       "values": [
         "filled",
         "multi-color"
