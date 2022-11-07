@@ -94,7 +94,7 @@
     "groupName": "内容设置",
     "hidePropBy": {
       "name": "switchContent",
-      "includeEmpty": false,
+      "includeEmpty": true,
       "values": [
         "icon"
       ]
@@ -115,7 +115,7 @@
     "groupName": "内容设置",
     "hidePropBy": {
       "name": "switchContent",
-      "includeEmpty": false,
+      "includeEmpty": true,
       "values": [
         "icon"
       ]

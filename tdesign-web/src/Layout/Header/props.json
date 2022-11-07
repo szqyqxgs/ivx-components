@@ -43,7 +43,7 @@
     "initValue": 64,
     "hidePropBy": {
       "name": "headerHeight",
-      "includeEmpty": false,
+      "includeEmpty": true,
       "values": [
         "auto"
       ]

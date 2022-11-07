@@ -152,7 +152,7 @@
     "groupName": "间隔设置",
     "hidePropBy": {
       "name": "spacing",
-      "includeEmpty": false,
+      "includeEmpty": true,
       "values": [
         "horizontalResponse",
         "horizontalResponseVertical",
