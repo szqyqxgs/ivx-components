@@ -14,7 +14,7 @@
           "zh": "开关状态值"
         },
         "desc": {
-          "zh": "由事件返回的开关状态值，为true/false。"
+          "zh": "值为true/false。"
         }
       }
     ]
@@ -34,7 +34,7 @@
           "zh": "开关状态值"
         },
         "desc": {
-          "zh": "由事件返回的开关状态值，为true/false。"
+          "zh": "值为true/false。"
         }
       }
     ]
