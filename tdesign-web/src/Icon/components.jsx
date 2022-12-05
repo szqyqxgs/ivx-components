@@ -81,8 +81,8 @@ export default class TdIcon extends React.Component {
         // 属性、事件、函数
         let {visible, name, size, color} = this.props
         return visible ? <span
-            // className: '',
             onClick={this.click}
+            // className={}
             style={{
                 color: color
             }}

@@ -43,10 +43,10 @@ export default class TdNotification extends React.Component {
         let {icon, closeButton, closeText, placement, footer, offsetX, offsetY, attach, zIndex} = this.props
         let closeBtn = closeButton === 'icon' ? true : closeButton === 'text' ? closeText : false
         NotificationPlugin.config({
-            // style: {},
-            // className: '',
             onCloseBtnClick: this.closeBtnClick,
             onDurationEnd: this.durationEnd,
+            // style: XX,
+            // className: XX,
             icon: this.icon(icon),
             closeBtn: closeBtn,
             placement: placement,

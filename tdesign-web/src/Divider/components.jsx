@@ -106,8 +106,8 @@ export default class TdDivider extends React.Component {
         let {visible, content, align, dashed, layout, childrenPosition, spacing} = this.props
         let childrenCount = React.Children.count(this.props.children)
         return visible ? <Divider
-            // style: {},
-            // className: '',
+            // style={}
+            // className={}
             align={align}
             dashed={dashed}
             layout={layout}

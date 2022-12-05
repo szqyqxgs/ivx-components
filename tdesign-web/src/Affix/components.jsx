@@ -1,16 +1,15 @@
 import React from 'react'
-import {Button} from 'tdesign-react'
+import {Affix} from 'tdesign-react'
 import 'tdesign-react/es/style/index.css'
-import {AddIcon, CloudUploadIcon, DeleteIcon, SearchIcon, UploadIcon} from 'tdesign-icons-react'
 
 // 全局变量
 
-export default class Tdaaa extends React.Component {
+export default class TdAffix extends React.Component {
 
     // 绑定事件和方法
     constructor(props) {
         super(props)
-        this.click = this.click.bind(this)
+        this.fixedChange = this.fixedChange.bind(this)
         this.showVisible = this.showVisible.bind(this)
         this.hideVisible = this.hideVisible.bind(this)
         this.toggleVisible = this.toggleVisible.bind(this)
@@ -32,9 +31,9 @@ export default class Tdaaa extends React.Component {
         this.props.onInitialize && this.props.onInitialize()
     }
 
-    // 点击
-    click() {
-        this.props.onClick && this.props.onClick()
+    // 固定状态发生变化
+    fixedChange() {
+        this.props.onFixedChange && this.props.onFixedChange()
     }
 
     // 定义组件方法
@@ -60,41 +59,26 @@ export default class Tdaaa extends React.Component {
     }
 
     // 定义组件函数
-    // 选择左侧图标
-    icon(icon) {
-        switch (icon) {
-            case 'AddIcon':
-                return <AddIcon/>
-            case 'DeleteIcon':
-                return <DeleteIcon/>
-            case 'CloudUploadIcon':
-                return <CloudUploadIcon/>
-            case 'UploadIcon':
-                return <UploadIcon/>
-            case 'SearchIcon':
-                return <SearchIcon/>
-            default:
-                return
-        }
-    }
 
     render() {
         // 属性、事件、函数
         let {
             visible,
-            tag,
-            icon,
-            useIcon,
-            content
+            offsetTop,
+            offsetBottom,
+            zIndex,
+            container
         } = this.props
-        return visible ? <Button
-            // style: {},
-            // className: '',
-            onClick={this.click}
-            tag={tag}
-            icon={useIcon && icon ? this.icon(icon) : null}
+        return visible ? <Affix
+            onFixedChange={this.fixedChange}
+            // style={}
+            // className={}
+            offsetTop={offsetTop}
+            offsetBottom={offsetBottom}
+            zIndex={zIndex}
+            container={container}
         >
-            {content}
-        </Button> : null
+            {this.props.children}
+        </Affix> : null
     }
 }

@@ -125,9 +125,9 @@ export default class TdGridRow extends React.Component {
             tag
         } = this.props
         return visible ? <Row
-            // style: {},
-            // className: '',
             onClick={this.click}
+            // style={}
+            // className={}
             align={align}
             justify={justify}
             tag={tag}

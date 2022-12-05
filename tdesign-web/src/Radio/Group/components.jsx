@@ -77,9 +77,9 @@ export default class TdRadioGroup extends React.Component {
             buttonType
         } = this.props
         return visible ? <Radio.Group
-            // style: {},
-            // className: '',
             onChange={this.change}
+            // style={}
+            // className={}
             disabled={disabled}
             name={name}
             options={buttonType === 'roundButton' ? null : options}

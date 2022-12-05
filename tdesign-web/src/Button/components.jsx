@@ -171,9 +171,9 @@ export default class TdButton extends React.Component {
         } = this.props
         let childrenCount = React.Children.count(this.props.children)
         return visible ? <Button
-            // style: {},
-            // className: '',
             onClick={this.click}
+            // style={}
+            // className={}
             block={block}
             type={type}
             shape={shape}

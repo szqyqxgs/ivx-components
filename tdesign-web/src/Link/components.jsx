@@ -113,9 +113,9 @@ export default class TdLink extends React.Component {
         } = this.props
         let childrenCount = React.Children.count(this.props.children)
         return visible ? <Link
-            // style: {},
-            // className: '',
             onClick={this.click}
+            // style={}
+            // className={}
             content={content}
             disabled={disabled}
             hover={hover}

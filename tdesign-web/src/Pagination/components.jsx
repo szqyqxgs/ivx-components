@@ -137,11 +137,11 @@ export default class TdPagination extends React.Component {
         showPageSize && pageSizeOptions4 && pageSizeOptions.push(50)
         showPageSize && pageSizeOptions5 && pageSizeOptions.push(100)
         return visible ? <Pagination
-            // style: {},
-            // className: '',
             onChange={this.change}
             onCurrentChange={this.currentChange}
             onPageSizeChange={this.pageSizeChange}
+            // style={}
+            // className={}
             disabled={disabled}
             total={total}
             pageSize={pageSize}

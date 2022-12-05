@@ -65,9 +65,9 @@ export default class TdLayoutLayout extends React.Component {
             direction
         } = this.props
         return visible ? <Layout
-            // style: {},
-            // className: '',
             onClick={this.click}
+            // style={}
+            // className={}
             direction={direction}
         >
             {this.props.children}

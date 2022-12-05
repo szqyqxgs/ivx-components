@@ -136,9 +136,9 @@ export default class TdGridCol extends React.Component {
         let xl = {offset: xlOffset, order: xlOrder, pull: xlPull, push: xlPush, span: xlSpan}
         let xxl = {offset: xxlOffset, order: xxlOrder, pull: xxlPull, push: xxlPush, span: xxlSpan}
         return visible ? Response ? <Col
-            // style: {},
-            // className: '',
             onClick={this.click}
+            // style={}
+            // className={}
             tag={tag}
             xs={xs}
             sm={sm}
@@ -149,9 +149,9 @@ export default class TdGridCol extends React.Component {
             flex={this.selectFlexGSB()}
         >
             {this.props.children}</Col> : <Col
-            // style: {},
-            // className: '',
             onClick={this.click}
+            // style={}
+            // className={}
             offset={offset}
             order={order}
             pull={pull}

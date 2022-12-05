@@ -6,5 +6,57 @@
     "locale": {
       "zh": "可见"
     }
+  },
+  {
+    "name": "offsetTop",
+    "type": "Number",
+    "initValue": 0,
+    "locale": {
+      "zh": "距离顶部"
+    },
+    "desc": {
+      "zh": "距离容器顶部达到指定距离后触发固定；对应API的offsetTop，默认值：0"
+    },
+    "showDes": true,
+    "placeholder": "任意数值"
+  },
+  {
+    "name": "offsetBottom",
+    "type": "Number",
+    "initValue": 0,
+    "locale": {
+      "zh": "距离底部"
+    },
+    "desc": {
+      "zh": "距离容器底部达到指定距离后触发固定；对应API的offsetBottom，默认值：0"
+    },
+    "showDes": true,
+    "placeholder": "任意数值"
+  },
+  {
+    "name": "zIndex",
+    "type": "Number",
+    "initValue": 500,
+    "locale": {
+      "zh": "堆叠次序"
+    },
+    "desc": {
+      "zh": "即“z轴”上的叠放次序，是一个整数，可以为负数。数值越高的组件会相对同一个父节点下的其他对象叠放在更上面；对应API的content，建议使用默认值：500"
+    },
+    "showDes": true,
+    "placeholder": "任意整数"
+  },
+  {
+    "name": "container",
+    "type": "String",
+    "initValue": "body",
+    "locale": {
+      "zh": "滚动容器"
+    },
+    "desc": {
+      "zh": "对应API的container，默认值：-"
+    },
+    "showDes": true,
+    "placeholder": "任意字符串"
   }
 ]
