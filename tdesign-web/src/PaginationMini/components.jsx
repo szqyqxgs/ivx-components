@@ -1,10 +1,10 @@
 import React from 'react'
-import {Jumper} from 'tdesign-react'
+import {PaginationMini} from 'tdesign-react'
 import 'tdesign-react/es/style/index.css'
 
 // 全局变量
 
-export default class TdJumper extends React.Component {
+export default class TdPaginationMini extends React.Component {
 
     // 绑定事件和方法
     constructor(props) {
@@ -79,10 +79,10 @@ export default class TdJumper extends React.Component {
         } = this.props
         const enabledDisabled = {prev: prevDisabled, current: currentDisabled, next: nextDisabled}
         const enabledTips = {prev: prevTips, current: currentTips, next: nextTips}
-        return visible ? <Jumper
-            // style: {},
-            // className: '',
+        return visible ? <PaginationMini
             onChange={this.change}
+            // style={}
+            // className={}
             variant={variant}
             layout={layout}
             size={size}
