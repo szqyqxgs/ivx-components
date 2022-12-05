@@ -1,0 +1,42 @@
+[
+  {
+    "name": "initialize",
+    "locale": {
+      "zh": "初始化"
+    },
+    "desc": {
+      "zh": "初始打开，功能和界面在正常运行前的准备阶段；仅对非当前对象有效。"
+    },
+    "params": [
+      {
+        "name": "value",
+        "locale": {
+          "zh": "选中值"
+        },
+        "desc": {
+          "zh": "选中值"
+        }
+      }
+    ]
+  },
+  {
+    "name": "change",
+    "locale": {
+      "zh": "选中值发生变化"
+    },
+    "desc": {
+      "zh": "单选框选中值发生变化。"
+    },
+    "params": [
+      {
+        "name": "value",
+        "locale": {
+          "zh": "选中值"
+        },
+        "desc": {
+          "zh": "选中值"
+        }
+      }
+    ]
+  }
+]

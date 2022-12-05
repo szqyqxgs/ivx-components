@@ -1,0 +1,10 @@
+[
+  {
+    "name": "visible",
+    "type": "Boolean",
+    "initValue": true,
+    "locale": {
+      "zh": "可见"
+    }
+  }
+]

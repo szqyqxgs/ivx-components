@@ -1,0 +1,140 @@
+[
+  {
+    "name": "visible",
+    "type": "Boolean",
+    "initValue": true,
+    "locale": {
+      "zh": "可见"
+    }
+  },
+  {
+    "name": "disabled",
+    "type": "Boolean",
+    "initValue": false,
+    "locale": {
+      "zh": "禁用"
+    },
+    "desc": {
+      "zh": "禁用单选组；对应API的disabled，默认值：undefined"
+    },
+    "showDes": true
+  },
+  {
+    "name": "name",
+    "type": "String",
+    "initValue": null,
+    "locale": {
+      "zh": "name属性"
+    },
+    "desc": {
+      "zh": "HTML元素原生属性；对应API的name，默认值：-"
+    },
+    "showDes": true,
+    "placeholder": "任意字符串"
+  },
+  {
+    "name": "buttonType",
+    "type": "Select",
+    "initValue": "roundButton",
+    "affectPropsShow": true,
+    "locale": {
+      "zh": "按钮类型"
+    },
+    "optionsEmpty": false,
+    "options": [
+      "roundButton",
+      "squareButton"
+    ],
+    "optionLocales": {
+      "roundButton": {
+        "zh": "圆形按钮"
+      },
+      "squareButton": {
+        "zh": "方形按钮"
+      }
+    }
+  },
+  {
+    "name": "options",
+    "type": "Array",
+    "initValue": [],
+    "hidePropBy": {
+      "name": "buttonType",
+      "includeEmpty": true,
+      "values": [
+        "roundButton"
+      ]
+    },
+    "locale": {
+      "zh": "单选项；"
+    },
+    "desc": {
+      "zh": "HTML元素原生属性；对应API的options，默认值：-"
+    },
+    "showDes": true,
+    "placeholder": "任意字符串"
+  },
+  {
+    "name": "size",
+    "type": "Select",
+    "initValue": "medium",
+    "locale": {
+      "zh": "尺寸"
+    },
+    "optionsEmpty": false,
+    "options": [
+      "small",
+      "medium",
+      "large"
+    ],
+    "optionLocales": {
+      "small": {
+        "zh": "小号"
+      },
+      "medium": {
+        "zh": "中号"
+      },
+      "large": {
+        "zh": "大号"
+      }
+    }
+  },
+  {
+    "name": "value",
+    "type": "String",
+    "initValue": null,
+    "locale": {
+      "zh": "选中值"
+    },
+    "desc": {
+      "zh": "选中的值，默认值：false"
+    },
+    "showDes": true,
+    "placeholder": "任意字符串"
+  },
+  {
+    "name": "variant",
+    "type": "Select",
+    "initValue": "outline",
+    "locale": {
+      "zh": "形式"
+    },
+    "optionsEmpty": false,
+    "options": [
+      "outline",
+      "primary-filled",
+      "default-filled"
+    ],
+    "optionLocales": {
+      "outline": {
+        "zh": "outline"
+      },
+      "primary-filled": {
+        "zh": "primary-filled"
+      },
+      "default-filled": {
+        "zh": "default-filled"
+      }
+    }
+  }
+]
