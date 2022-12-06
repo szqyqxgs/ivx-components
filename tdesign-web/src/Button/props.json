@@ -373,13 +373,13 @@
     }
   },
   {
-    "name": "enabledClass",
+    "name": "enabledClassName",
     "type": "Boolean",
     "initValue": false,
     "groupName": "自定义样式",
     "affectPropsShow": true,
     "locale": {
-      "zh": "class"
+      "zh": "类名"
     },
     "desc": {
       "zh": "对应API的className，默认值：-"
@@ -392,17 +392,17 @@
     "defaultValue": null,
     "groupName": "自定义样式",
     "hidePropBy": {
-      "name": "enabledClass",
+      "name": "enabledClassName",
       "includeEmpty": true,
       "values": [
         false
       ]
     },
     "locale": {
-      "zh": "class"
+      "zh": "类值"
     },
     "desc": {
-      "zh": "多个class请使用空格分隔"
+      "zh": "多个类值请使用空格分隔"
     },
     "showDes": true,
     "placeholder": "任意字符串"

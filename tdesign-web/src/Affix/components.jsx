@@ -64,7 +64,7 @@ export default class TdAffix extends React.Component {
         // 属性、事件、函数
         let {
             visible,
-            enabledClass,
+            enabledClassName,
             className,
             offsetTop,
             offsetBottom,
@@ -74,7 +74,7 @@ export default class TdAffix extends React.Component {
         return visible ? <Affix
             onFixedChange={this.fixedChange}
             // style={}
-            className={enabledClass && className ? className : null}
+            className={enabledClassName && className ? className : null}
             offsetTop={offsetTop}
             offsetBottom={offsetBottom}
             zIndex={zIndex}

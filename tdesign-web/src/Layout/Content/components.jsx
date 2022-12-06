@@ -62,14 +62,14 @@ export default class TdLayoutContent extends React.Component {
         // 属性、事件、函数
         let {
             visible,
-            enabledClass,
+            enabledClassName,
             className
         } = this.props
         const {Content} = Layout
         return visible ? <Content
             onClick={this.click}
             // style={}
-            className={enabledClass && className ? className : null}
+            className={enabledClassName && className ? className : null}
         >
             {this.props.children}
         </Content> : null

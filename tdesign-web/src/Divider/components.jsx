@@ -103,11 +103,11 @@ export default class TdDivider extends React.Component {
 
     render() {
         // 属性、事件、函数
-        let {visible, enabledClass, className, content, align, dashed, layout, childrenPosition, spacing} = this.props
+        let {visible, enabledClassName, className, content, align, dashed, layout, childrenPosition, spacing} = this.props
         let childrenCount = React.Children.count(this.props.children)
         return visible ? <Divider
             // style={}
-            className={enabledClass && className ? className : null}
+            className={enabledClassName && className ? className : null}
             align={align}
             dashed={dashed}
             layout={layout}

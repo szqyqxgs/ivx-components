@@ -82,7 +82,7 @@ export default class Tdaaa extends React.Component {
         // 属性、事件、函数
         let {
             visible,
-            enabledClass,
+            enabledClassName,
             className,
             tag,
             icon,
@@ -92,7 +92,7 @@ export default class Tdaaa extends React.Component {
         return visible ? <Button
             onClick={this.click}
             // style={}
-            className={enabledClass && className ? className : null}
+            className={enabledClassName && className ? className : null}
             tag={tag}
             icon={useIcon && icon ? this.icon(icon) : null}
         >

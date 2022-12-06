@@ -105,7 +105,7 @@ export default class TdAlert extends React.Component {
         // 属性、事件、函数
         let {
             visible,
-            enabledClass,
+            enabledClassName,
             className,
             theme,
             icon,
@@ -124,7 +124,7 @@ export default class TdAlert extends React.Component {
             onClose={this.close}
             onClosed={this.closed}
             // style={}
-            className={enabledClass && className ? className : null}
+            className={enabledClassName && className ? className : null}
             theme={theme}
             icon={this.icon(icon)}
             message={message}

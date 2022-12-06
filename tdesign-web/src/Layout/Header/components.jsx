@@ -62,7 +62,7 @@ export default class TdLayoutHeader extends React.Component {
         // 属性、事件、函数
         let {
             visible,
-            enabledClass,
+            enabledClassName,
             className,
             headerHeight,
             height
@@ -71,7 +71,7 @@ export default class TdLayoutHeader extends React.Component {
         return visible ? <Header
             onClick={this.click}
             // style={}
-            className={enabledClass && className ? className : null}
+            className={enabledClassName && className ? className : null}
             height={headerHeight === 'auto' ? headerHeight : height}
         >
             {this.props.children}

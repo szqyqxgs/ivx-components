@@ -152,7 +152,7 @@ export default class TdButton extends React.Component {
         // 属性、事件、函数
         let {
             visible,
-            enabledClass,
+            enabledClassName,
             className,
             content,
             block,
@@ -175,7 +175,7 @@ export default class TdButton extends React.Component {
         return visible ? <Button
             onClick={this.click}
             // style={}
-            className={enabledClass && className ? className : null}
+            className={enabledClassName && className ? className : null}
             block={block}
             type={type}
             shape={shape}

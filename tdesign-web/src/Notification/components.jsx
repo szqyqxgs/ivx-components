@@ -42,7 +42,7 @@ export default class TdNotification extends React.Component {
         this.props.onInitialize && this.props.onInitialize()
         let {
             icon,
-            enabledClass,
+            enabledClassName,
             className,
             closeButton,
             closeText,
@@ -58,7 +58,7 @@ export default class TdNotification extends React.Component {
             onCloseBtnClick: this.closeBtnClick,
             onDurationEnd: this.durationEnd,
             // style: XX,
-            className: enabledClass && className ? className : null,
+            className: enabledClassName && className ? className : null,
             icon: this.icon(icon),
             closeBtn: closeBtn,
             placement: placement,
