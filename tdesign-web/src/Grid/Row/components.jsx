@@ -120,6 +120,8 @@ export default class TdGridRow extends React.Component {
         // 属性、事件、函数
         let {
             visible,
+            enabledClass,
+            className,
             align,
             justify,
             tag
@@ -127,7 +129,7 @@ export default class TdGridRow extends React.Component {
         return visible ? <Row
             onClick={this.click}
             // style={}
-            // className={}
+            className={enabledClass && className ? className : null}
             align={align}
             justify={justify}
             tag={tag}

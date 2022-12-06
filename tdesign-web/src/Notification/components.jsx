@@ -40,13 +40,25 @@ export default class TdNotification extends React.Component {
     // 初始化
     initialize() {
         this.props.onInitialize && this.props.onInitialize()
-        let {icon, closeButton, closeText, placement, footer, offsetX, offsetY, attach, zIndex} = this.props
+        let {
+            icon,
+            enabledClass,
+            className,
+            closeButton,
+            closeText,
+            placement,
+            footer,
+            offsetX,
+            offsetY,
+            attach,
+            zIndex
+        } = this.props
         let closeBtn = closeButton === 'icon' ? true : closeButton === 'text' ? closeText : false
         NotificationPlugin.config({
             onCloseBtnClick: this.closeBtnClick,
             onDurationEnd: this.durationEnd,
             // style: XX,
-            // className: XX,
+            className: enabledClass && className ? className : null,
             icon: this.icon(icon),
             closeBtn: closeBtn,
             placement: placement,
@@ -71,7 +83,7 @@ export default class TdNotification extends React.Component {
     // 弹出一条消息通知
     openNotificationPlugin(theme, title, content, duration) {
         this.props.onOpenNotificationPlugin && this.props.onOpenNotificationPlugin()
-        notificationList.unshift(NotificationPlugin(theme,{title,content,duration}))
+        notificationList.unshift(NotificationPlugin(theme, {title, content, duration}))
     }
 
     // 关闭所有消息通知

@@ -64,6 +64,8 @@ export default class TdPaginationMini extends React.Component {
         // 属性、事件、函数
         let {
             visible,
+            enabledClass,
+            className,
             variant,
             layout,
             size,
@@ -82,7 +84,7 @@ export default class TdPaginationMini extends React.Component {
         return visible ? <PaginationMini
             onChange={this.change}
             // style={}
-            // className={}
+            className={enabledClass && className ? className : null}
             variant={variant}
             layout={layout}
             size={size}

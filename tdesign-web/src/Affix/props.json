@@ -58,5 +58,40 @@
     },
     "showDes": true,
     "placeholder": "任意字符串"
+  },
+  {
+    "name": "enabledClass",
+    "type": "Boolean",
+    "initValue": false,
+    "groupName": "自定义样式",
+    "affectPropsShow": true,
+    "locale": {
+      "zh": "class"
+    },
+    "desc": {
+      "zh": "对应API的className，默认值：-"
+    },
+    "showDes": true
+  },
+  {
+    "name": "className",
+    "type": "String",
+    "defaultValue": null,
+    "groupName": "自定义样式",
+    "hidePropBy": {
+      "name": "enabledClass",
+      "includeEmpty": true,
+      "values": [
+        false
+      ]
+    },
+    "locale": {
+      "zh": "class"
+    },
+    "desc": {
+      "zh": "多个class请使用空格分隔"
+    },
+    "showDes": true,
+    "placeholder": "任意字符串"
   }
 ]

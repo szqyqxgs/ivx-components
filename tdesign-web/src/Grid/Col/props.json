@@ -950,5 +950,40 @@
       "zh": "合法值：auto、inherit 或任意后跟 px 或 % 的数值（示例：100px、20%）；表示项目的长度"
     },
     "showDes": true
+  },
+  {
+    "name": "enabledClass",
+    "type": "Boolean",
+    "initValue": false,
+    "groupName": "自定义样式",
+    "affectPropsShow": true,
+    "locale": {
+      "zh": "class"
+    },
+    "desc": {
+      "zh": "对应API的className，默认值：-"
+    },
+    "showDes": true
+  },
+  {
+    "name": "className",
+    "type": "String",
+    "defaultValue": null,
+    "groupName": "自定义样式",
+    "hidePropBy": {
+      "name": "enabledClass",
+      "includeEmpty": true,
+      "values": [
+        false
+      ]
+    },
+    "locale": {
+      "zh": "class"
+    },
+    "desc": {
+      "zh": "多个class请使用空格分隔"
+    },
+    "showDes": true,
+    "placeholder": "任意字符串"
   }
 ]

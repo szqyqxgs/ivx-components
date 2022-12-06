@@ -68,6 +68,8 @@ export default class TdRadioGroup extends React.Component {
         // 属性、事件、函数
         let {
             visible,
+            enabledClass,
+            className,
             disabled,
             name,
             options,
@@ -79,7 +81,7 @@ export default class TdRadioGroup extends React.Component {
         return visible ? <Radio.Group
             onChange={this.change}
             // style={}
-            // className={}
+            className={enabledClass && className ? className : null}
             disabled={disabled}
             name={name}
             options={buttonType === 'roundButton' ? null : options}

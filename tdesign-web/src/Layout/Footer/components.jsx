@@ -62,6 +62,8 @@ export default class TdLayoutFooter extends React.Component {
         // 属性、事件、函数
         let {
             visible,
+            enabledClass,
+            className,
             footerHeight,
             height
         } = this.props
@@ -69,7 +71,7 @@ export default class TdLayoutFooter extends React.Component {
         return visible ? <Footer
             onClick={this.click}
             // style={}
-            // className={}
+            className={enabledClass && className ? className : null}
             height={footerHeight === 'auto' ? footerHeight : height}
         >
             {this.props.children}

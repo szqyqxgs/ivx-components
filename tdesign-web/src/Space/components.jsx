@@ -71,6 +71,8 @@ export default class TdSpace extends React.Component {
         // 属性、事件、函数
         let {
             visible,
+            enabledClass,
+            className,
             align,
             direction,
             breakLine,
@@ -79,7 +81,7 @@ export default class TdSpace extends React.Component {
         } = this.props
         return visible ? <Space
             // style={}
-            // className={}
+            className={enabledClass && className ? className : null}
             align={align}
             direction={direction}
             breakLine={breakLine}

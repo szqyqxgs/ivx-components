@@ -100,6 +100,8 @@ export default class TdLink extends React.Component {
         // 属性、事件、函数
         let {
             visible,
+            enabledClass,
+            className,
             content,
             disabled,
             hover,
@@ -115,7 +117,7 @@ export default class TdLink extends React.Component {
         return visible ? <Link
             onClick={this.click}
             // style={}
-            // className={}
+            className={enabledClass && className ? className : null}
             content={content}
             disabled={disabled}
             hover={hover}

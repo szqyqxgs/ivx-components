@@ -10,5 +10,40 @@
       "zh": "布局Content仅能添加在布局Layout下为直接子组件；布局Content下可添加任何子组件"
     },
     "showDes": true
+  },
+  {
+    "name": "enabledClass",
+    "type": "Boolean",
+    "initValue": false,
+    "groupName": "自定义样式",
+    "affectPropsShow": true,
+    "locale": {
+      "zh": "class"
+    },
+    "desc": {
+      "zh": "对应API的className，默认值：-"
+    },
+    "showDes": true
+  },
+  {
+    "name": "className",
+    "type": "String",
+    "defaultValue": null,
+    "groupName": "自定义样式",
+    "hidePropBy": {
+      "name": "enabledClass",
+      "includeEmpty": true,
+      "values": [
+        false
+      ]
+    },
+    "locale": {
+      "zh": "class"
+    },
+    "desc": {
+      "zh": "多个class请使用空格分隔"
+    },
+    "showDes": true,
+    "placeholder": "任意字符串"
   }
 ]

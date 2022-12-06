@@ -109,6 +109,8 @@ export default class TdPagination extends React.Component {
         // 属性、事件、函数
         let {
             visible,
+            enabledClass,
+            className,
             disabled,
             total,
             pageSize,
@@ -141,7 +143,7 @@ export default class TdPagination extends React.Component {
             onCurrentChange={this.currentChange}
             onPageSizeChange={this.pageSizeChange}
             // style={}
-            // className={}
+            className={enabledClass && className ? className : null}
             disabled={disabled}
             total={total}
             pageSize={pageSize}

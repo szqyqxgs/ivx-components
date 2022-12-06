@@ -91,6 +91,8 @@ export default class TdGridCol extends React.Component {
         // 属性、事件、函数
         let {
             visible,
+            enabledClass,
+            className,
             Response,
             xsOffset,
             smOffset,
@@ -138,7 +140,7 @@ export default class TdGridCol extends React.Component {
         return visible ? Response ? <Col
             onClick={this.click}
             // style={}
-            // className={}
+            className={enabledClass && className ? className : null}
             tag={tag}
             xs={xs}
             sm={sm}
@@ -151,7 +153,7 @@ export default class TdGridCol extends React.Component {
             {this.props.children}</Col> : <Col
             onClick={this.click}
             // style={}
-            // className={}
+            className={enabledClass && className ? className : null}
             offset={offset}
             order={order}
             pull={pull}

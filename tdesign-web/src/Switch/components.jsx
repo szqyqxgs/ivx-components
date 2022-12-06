@@ -128,6 +128,8 @@ export default class TdSwitch extends React.Component {
         // 属性、事件、函数
         let {
             visible,
+            enabledClass,
+            className,
             disabled,
             checkText,
             closeText,
@@ -143,7 +145,7 @@ export default class TdSwitch extends React.Component {
         return visible ? <Switch
             onChange={this.change}
             // style={}
-            // className={}
+            className={enabledClass && className ? className : null}
             disabled={disabled}
             label={switchContent === 'text' ? labelText : labelIcon}
             loading={loading}

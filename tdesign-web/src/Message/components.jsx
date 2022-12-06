@@ -40,13 +40,24 @@ export default class TdMessage extends React.Component {
     // 初始化
     initialize() {
         this.props.onInitialize && this.props.onInitialize()
-        let {icon, closeButton, closeText, placement, offsetX, offsetY, attach, zIndex} = this.props
+        let {
+            icon,
+            enabledClass,
+            className,
+            closeButton,
+            closeText,
+            placement,
+            offsetX,
+            offsetY,
+            attach,
+            zIndex
+        } = this.props
         let closeBtn = closeButton === 'icon' ? true : closeButton === 'text' ? closeText : false
         MessagePlugin.config({
             onCloseBtnClick: this.closeBtnClick,
             onDurationEnd: this.durationEnd,
             // style: XX,
-            // className: XX,
+            className: enabledClass && className ? className : null,
             icon: this.icon(icon),
             closeBtn: closeBtn,
             placement: placement,
