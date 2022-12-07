@@ -124,13 +124,13 @@ export default class IconParkMusic extends React.Component {
         let multiColor = [outerStrokeColor, outerFillColor, innerStrokeColor, innerFillColor]
         switch (theme) {
             case 'outline':
-                return strokeColor ? strokeColor : undefined
+                return strokeColor ? strokeColor : null
             case 'filled':
-                return fillColor ? fillColor : undefined
+                return fillColor ? fillColor : null
             case 'two-tone':
-                return strokeColor || fillColor ? twoToneColor : undefined
+                return strokeColor || fillColor ? twoToneColor : null
             case 'multi-color':
-                return outerStrokeColor || outerFillColor || innerStrokeColor || innerFillColor ? multiColor : undefined
+                return outerStrokeColor || outerFillColor || innerStrokeColor || innerFillColor ? multiColor : null
             default:
                 return
         }
