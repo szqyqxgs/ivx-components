@@ -20,29 +20,7 @@
         },
         "placeholder": "任意非负整数"
       }
-    ],
-    "callback": {
-      "result": {
-        "single": false,
-        "noResult": false,
-        "noValue": true,
-        "locale": {
-          "zh": "返回结果"
-        }
-      },
-      "emptyValue": true,
-      "params": [
-        {
-          "name": "total",
-          "locale": {
-            "zh": "数据总数"
-          },
-          "desc": {
-            "zh": "由动作返回的数据总数。"
-          }
-        }
-      ]
-    }
+    ]
   },
   {
     "name": "setCurrent",
@@ -65,29 +43,7 @@
         },
         "placeholder": "任意正整数"
       }
-    ],
-    "callback": {
-      "result": {
-        "single": false,
-        "noResult": false,
-        "noValue": true,
-        "locale": {
-          "zh": "返回结果"
-        }
-      },
-      "emptyValue": true,
-      "params": [
-        {
-          "name": "current",
-          "locale": {
-            "zh": "当前页码"
-          },
-          "desc": {
-            "zh": "由动作返回的当前页码。"
-          }
-        }
-      ]
-    }
+    ]
   },
   {
     "name": "showVisible",

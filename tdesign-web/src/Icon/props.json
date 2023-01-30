@@ -21,26 +21,382 @@
     "optionsEmpty": false,
     "options": [
       "AddIcon",
-      "DeleteIcon",
+      "AddRectangleIcon",
+      "ArrowDownIcon",
+      "ArrowUpIcon",
+      "ArrowLeftIcon",
+      "ArrowRightIcon",
+      "BrowseOffIcon",
+      "BrowseIcon",
+      "CartIcon",
+      "CheckIcon",
+      "ChevronLeftDoubleIcon",
+      "ChevronRightDoubleIcon",
+      "ChevronLeftIcon",
+      "ChevronRightIcon",
+      "ChevronUpIcon",
+      "ClearIcon",
+      "CloseIcon",
+      "CloudDownloadIcon",
       "CloudUploadIcon",
+      "CloudIcon",
+      "CodeIcon",
+      "DeleteIcon",
+      "DesktopIcon",
+      "DiscountFilledIcon",
+      "DiscountIcon",
+      "DownloadIcon",
+      "EditIcon",
+      "EllipsisIcon",
+      "EnterIcon",
+      "FileAddIcon",
+      "FileCopyIcon",
+      "FileExcelIcon",
+      "FilterIcon",
+      "FolderAddIcon",
+      "FolderIcon",
+      "BackwardIcon",
+      "ForwardIcon",
+      "FullscreenExitIcon",
+      "FullscreenIcon",
+      "HeartIcon",
+      "HeartFilledIcon",
+      "HelpIcon",
+      "HelpCircleIcon",
+      "HomeIcon",
+      "HourglassIcon",
+      "InternetIcon",
+      "LinkUnlinkIcon",
+      "LinkIcon",
+      "LaptopIcon",
+      "JumpIcon",
+      "LocationIcon",
+      "LockOffIcon",
+      "OrderAscendingIcon",
+      "OrderDescendingIcon",
+      "PageFirstIcon",
+      "PageLastIcon",
+      "PhotoIcon",
+      "PinFilledIcon",
+      "PinIcon",
+      "PlayCircleFilledIcon",
+      "PlayCircleStrokeIcon",
+      "PlayCircleIcon",
+      "PoweroffIcon",
+      "PreviousIcon",
+      "PrintIcon",
+      "QrcodeIcon",
+      "RefreshIcon",
+      "RollbackIcon",
+      "RollfrontIcon",
+      "SaveIcon",
+      "ScanIcon",
+      "SearchIcon",
+      "SettingIcon",
+      "ShareIcon",
+      "StarFilledIcon",
+      "StarIcon",
+      "StopCircle1Icon",
+      "StopCircleFilledIcon",
+      "StopCircleIcon",
+      "SwapIcon",
+      "ThumbDownIcon",
+      "ThumbUpIcon",
+      "ToolsIcon",
+      "UnfoldLessIcon",
+      "UnfoldMoreIcon",
       "UploadIcon",
-      "SearchIcon"
+      "UserAddIcon",
+      "UserCircleIcon",
+      "UserClearIcon",
+      "ViewColumnIcon",
+      "ViewListIcon",
+      "WifiIcon",
+      "ZoomInIcon",
+      "ZoomOutIcon"
     ],
     "optionLocales": {
       "AddIcon": {
         "zh": "AddIcon"
       },
-      "DeleteIcon": {
-        "zh": "DeleteIcon"
+      "AddRectangleIcon": {
+        "zh": "AddRectangleIcon"
+      },
+      "ArrowDownIcon": {
+        "zh": "ArrowDownIcon"
+      },
+      "ArrowUpIcon": {
+        "zh": "ArrowUpIcon"
+      },
+      "ArrowLeftIcon": {
+        "zh": "ArrowLeftIcon"
+      },
+      "ArrowRightIcon": {
+        "zh": "ArrowRightIcon"
+      },
+      "BrowseOffIcon": {
+        "zh": "BrowseOffIcon"
+      },
+      "BrowseIcon": {
+        "zh": "BrowseIcon"
+      },
+      "CartIcon": {
+        "zh": "CartIcon"
+      },
+      "CheckIcon": {
+        "zh": "CheckIcon"
+      },
+      "ChevronLeftDoubleIcon": {
+        "zh": "ChevronLeftDoubleIcon"
+      },
+      "ChevronRightDoubleIcon": {
+        "zh": "ChevronRightDoubleIcon"
+      },
+      "ChevronLeftIcon": {
+        "zh": "ChevronLeftIcon"
+      },
+      "ChevronRightIcon": {
+        "zh": "ChevronRightIcon"
+      },
+      "ChevronUpIcon": {
+        "zh": "ChevronUpIcon"
+      },
+      "ClearIcon": {
+        "zh": "ClearIcon"
+      },
+      "CloseIcon": {
+        "zh": "CloseIcon"
+      },
+      "CloudDownloadIcon": {
+        "zh": "CloudDownloadIcon"
       },
       "CloudUploadIcon": {
         "zh": "CloudUploadIcon"
       },
-      "UploadIcon": {
-        "zh": "UploadIcon"
+      "CloudIcon": {
+        "zh": "CloudIcon"
+      },
+      "CodeIcon": {
+        "zh": "CodeIcon"
+      },
+      "DeleteIcon": {
+        "zh": "DeleteIcon"
+      },
+      "DesktopIcon": {
+        "zh": "DesktopIcon"
+      },
+      "DiscountFilledIcon": {
+        "zh": "DiscountFilledIcon"
+      },
+      "DiscountIcon": {
+        "zh": "DiscountIcon"
+      },
+      "DownloadIcon": {
+        "zh": "DownloadIcon"
+      },
+      "EditIcon": {
+        "zh": "EditIcon"
+      },
+      "EllipsisIcon": {
+        "zh": "EllipsisIcon"
+      },
+      "EnterIcon": {
+        "zh": "EnterIcon"
+      },
+      "FileAddIcon": {
+        "zh": "FileAddIcon"
+      },
+      "FileCopyIcon": {
+        "zh": "FileCopyIcon"
+      },
+      "FileExcelIcon": {
+        "zh": "FileExcelIcon"
+      },
+      "FilterIcon": {
+        "zh": "FilterIcon"
+      },
+      "FolderAddIcon": {
+        "zh": "FolderAddIcon"
+      },
+      "FolderIcon": {
+        "zh": "FolderIcon"
+      },
+      "BackwardIcon": {
+        "zh": "BackwardIcon"
+      },
+      "ForwardIcon": {
+        "zh": "ForwardIcon"
+      },
+      "FullscreenExitIcon": {
+        "zh": "FullscreenExitIcon"
+      },
+      "FullscreenIcon": {
+        "zh": "FullscreenIcon"
+      },
+      "HeartIcon": {
+        "zh": "HeartIcon"
+      },
+      "HeartFilledIcon": {
+        "zh": "HeartFilledIcon"
+      },
+      "HelpIcon": {
+        "zh": "HelpIcon"
+      },
+      "HelpCircleIcon": {
+        "zh": "HelpCircleIcon"
+      },
+      "HomeIcon": {
+        "zh": "HomeIcon"
+      },
+      "HourglassIcon": {
+        "zh": "HourglassIcon"
+      },
+      "InternetIcon": {
+        "zh": "InternetIcon"
+      },
+      "LinkUnlinkIcon": {
+        "zh": "LinkUnlinkIcon"
+      },
+      "LinkIcon": {
+        "zh": "LinkIcon"
+      },
+      "LaptopIcon": {
+        "zh": "LaptopIcon"
+      },
+      "JumpIcon": {
+        "zh": "JumpIcon"
+      },
+      "LocationIcon": {
+        "zh": "LocationIcon"
+      },
+      "LockOffIcon": {
+        "zh": "LockOffIcon"
+      },
+      "OrderAscendingIcon": {
+        "zh": "OrderAscendingIcon"
+      },
+      "OrderDescendingIcon": {
+        "zh": "OrderDescendingIcon"
+      },
+      "PageFirstIcon": {
+        "zh": "PageFirstIcon"
+      },
+      "PageLastIcon": {
+        "zh": "PageLastIcon"
+      },
+      "PhotoIcon": {
+        "zh": "PhotoIcon"
+      },
+      "PinFilledIcon": {
+        "zh": "PinFilledIcon"
+      },
+      "PinIcon": {
+        "zh": "PinIcon"
+      },
+      "PlayCircleFilledIcon": {
+        "zh": "PlayCircleFilledIcon"
+      },
+      "PlayCircleStrokeIcon": {
+        "zh": "PlayCircleStrokeIcon"
+      },
+      "PlayCircleIcon": {
+        "zh": "PlayCircleIcon"
+      },
+      "PoweroffIcon": {
+        "zh": "PoweroffIcon"
+      },
+      "PreviousIcon": {
+        "zh": "PreviousIcon"
+      },
+      "PrintIcon": {
+        "zh": "PrintIcon"
+      },
+      "QrcodeIcon": {
+        "zh": "QrcodeIcon"
+      },
+      "RefreshIcon": {
+        "zh": "RefreshIcon"
+      },
+      "RollbackIcon": {
+        "zh": "RollbackIcon"
+      },
+      "RollfrontIcon": {
+        "zh": "RollfrontIcon"
+      },
+      "SaveIcon": {
+        "zh": "SaveIcon"
+      },
+      "ScanIcon": {
+        "zh": "ScanIcon"
       },
       "SearchIcon": {
         "zh": "SearchIcon"
+      },
+      "SettingIcon": {
+        "zh": "SettingIcon"
+      },
+      "ShareIcon": {
+        "zh": "ShareIcon"
+      },
+      "StarFilledIcon": {
+        "zh": "StarFilledIcon"
+      },
+      "StarIcon": {
+        "zh": "StarIcon"
+      },
+      "StopCircle1Icon": {
+        "zh": "StopCircle1Icon"
+      },
+      "StopCircleFilledIcon": {
+        "zh": "StopCircleFilledIcon"
+      },
+      "StopCircleIcon": {
+        "zh": "StopCircleIcon"
+      },
+      "SwapIcon": {
+        "zh": "SwapIcon"
+      },
+      "ThumbDownIcon": {
+        "zh": "ThumbDownIcon"
+      },
+      "ThumbUpIcon": {
+        "zh": "ThumbUpIcon"
+      },
+      "ToolsIcon": {
+        "zh": "ToolsIcon"
+      },
+      "UnfoldLessIcon": {
+        "zh": "UnfoldLessIcon"
+      },
+      "UnfoldMoreIcon": {
+        "zh": "UnfoldMoreIcon"
+      },
+      "UploadIcon": {
+        "zh": "UploadIcon"
+      },
+      "UserAddIcon": {
+        "zh": "UserAddIcon"
+      },
+      "UserCircleIcon": {
+        "zh": "UserCircleIcon"
+      },
+      "UserClearIcon": {
+        "zh": "UserClearIcon"
+      },
+      "ViewColumnIcon": {
+        "zh": "ViewColumnIcon"
+      },
+      "ViewListIcon": {
+        "zh": "ViewListIcon"
+      },
+      "WifiIcon": {
+        "zh": "WifiIcon"
+      },
+      "ZoomInIcon": {
+        "zh": "ZoomInIcon"
+      },
+      "ZoomOutIcon": {
+        "zh": "ZoomOutIcon"
       }
     }
   },

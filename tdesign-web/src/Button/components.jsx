@@ -1,7 +1,102 @@
 import React from 'react'
 import {Button} from 'tdesign-react'
 import 'tdesign-react/es/style/index.css'
-import {AddIcon, CloudUploadIcon, DeleteIcon, SearchIcon, UploadIcon} from 'tdesign-icons-react'
+import {
+    AddIcon,
+    AddRectangleIcon,
+    ArrowDownIcon,
+    ArrowUpIcon,
+    ArrowLeftIcon,
+    ArrowRightIcon,
+    BrowseOffIcon,
+    BrowseIcon,
+    CartIcon,
+    CheckIcon,
+    ChevronLeftDoubleIcon,
+    ChevronRightDoubleIcon,
+    ChevronLeftIcon,
+    ChevronRightIcon,
+    ChevronUpIcon,
+    ClearIcon,
+    CloseIcon,
+    CloudDownloadIcon,
+    CloudUploadIcon,
+    CloudIcon,
+    CodeIcon,
+    DeleteIcon,
+    DesktopIcon,
+    DiscountFilledIcon,
+    DiscountIcon,
+    DownloadIcon,
+    EditIcon,
+    EllipsisIcon,
+    EnterIcon,
+    FileAddIcon,
+    FileCopyIcon,
+    FileExcelIcon,
+    FilterIcon,
+    FolderAddIcon,
+    FolderIcon,
+    BackwardIcon,
+    ForwardIcon,
+    FullscreenExitIcon,
+    FullscreenIcon,
+    HeartIcon,
+    HeartFilledIcon,
+    HelpIcon,
+    HelpCircleIcon,
+    HomeIcon,
+    HourglassIcon,
+    InternetIcon,
+    LinkUnlinkIcon,
+    LinkIcon,
+    LaptopIcon,
+    JumpIcon,
+    LocationIcon,
+    LockOffIcon,
+    OrderAscendingIcon,
+    OrderDescendingIcon,
+    PageFirstIcon,
+    PageLastIcon,
+    PhotoIcon,
+    PinFilledIcon,
+    PinIcon,
+    PlayCircleFilledIcon,
+    PlayCircleStrokeIcon,
+    PlayCircleIcon,
+    PoweroffIcon,
+    PreviousIcon,
+    PrintIcon,
+    QrcodeIcon,
+    RefreshIcon,
+    RollbackIcon,
+    RollfrontIcon,
+    SaveIcon,
+    ScanIcon,
+    SearchIcon,
+    SettingIcon,
+    ShareIcon,
+    StarFilledIcon,
+    StarIcon,
+    StopCircle1Icon,
+    StopCircleFilledIcon,
+    StopCircleIcon,
+    SwapIcon,
+    ThumbDownIcon,
+    ThumbUpIcon,
+    ToolsIcon,
+    UnfoldLessIcon,
+    UnfoldMoreIcon,
+    UploadIcon,
+    UserAddIcon,
+    UserCircleIcon,
+    UserClearIcon,
+    ViewColumnIcon,
+    ViewListIcon,
+    WifiIcon,
+    ZoomInIcon,
+    ZoomOutIcon
+} from 'tdesign-icons-react'
 
 // 全局变量
 
@@ -67,14 +162,192 @@ export default class TdButton extends React.Component {
                 return null
             case 'AddIcon':
                 return <AddIcon/>
-            case 'DeleteIcon':
-                return <DeleteIcon/>
+            case 'AddRectangleIcon':
+                return <AddRectangleIcon/>
+            case 'ArrowDownIcon':
+                return <ArrowDownIcon/>
+            case 'ArrowUpIcon':
+                return <ArrowUpIcon/>
+            case 'ArrowLeftIcon':
+                return <ArrowLeftIcon/>
+            case 'ArrowRightIcon':
+                return <ArrowRightIcon/>
+            case 'BrowseOffIcon':
+                return <BrowseOffIcon/>
+            case 'BrowseIcon':
+                return <BrowseIcon/>
+            case 'CartIcon':
+                return <CartIcon/>
+            case 'CheckIcon':
+                return <CheckIcon/>
+            case 'ChevronLeftDoubleIcon':
+                return <ChevronLeftDoubleIcon/>
+            case 'ChevronRightDoubleIcon':
+                return <ChevronRightDoubleIcon/>
+            case 'ChevronLeftIcon':
+                return <ChevronLeftIcon/>
+            case 'ChevronRightIcon':
+                return <ChevronRightIcon/>
+            case 'ChevronUpIcon':
+                return <ChevronUpIcon/>
+            case 'ClearIcon':
+                return <ClearIcon/>
+            case 'CloseIcon':
+                return <CloseIcon/>
+            case 'CloudDownloadIcon':
+                return <CloudDownloadIcon/>
             case 'CloudUploadIcon':
                 return <CloudUploadIcon/>
-            case 'UploadIcon':
-                return <UploadIcon/>
+            case 'CloudIcon':
+                return <CloudIcon/>
+            case 'CodeIcon':
+                return <CodeIcon/>
+            case 'DeleteIcon':
+                return <DeleteIcon/>
+            case 'DesktopIcon':
+                return <DesktopIcon/>
+            case 'DiscountFilledIcon':
+                return <DiscountFilledIcon/>
+            case 'DiscountIcon':
+                return <DiscountIcon/>
+            case 'DownloadIcon':
+                return <DownloadIcon/>
+            case 'EditIcon':
+                return <EditIcon/>
+            case 'EllipsisIcon':
+                return <EllipsisIcon/>
+            case 'EnterIcon':
+                return <EnterIcon/>
+            case 'FileAddIcon':
+                return <FileAddIcon/>
+            case 'FileCopyIcon':
+                return <FileCopyIcon/>
+            case 'FileExcelIcon':
+                return <FileExcelIcon/>
+            case 'FilterIcon':
+                return <FilterIcon/>
+            case 'FolderAddIcon':
+                return <FolderAddIcon/>
+            case 'FolderIcon':
+                return <FolderIcon/>
+            case 'BackwardIcon':
+                return <BackwardIcon/>
+            case 'ForwardIcon':
+                return <ForwardIcon/>
+            case 'FullscreenExitIcon':
+                return <FullscreenExitIcon/>
+            case 'FullscreenIcon':
+                return <FullscreenIcon/>
+            case 'HeartIcon':
+                return <HeartIcon/>
+            case 'HeartFilledIcon':
+                return <HeartFilledIcon/>
+            case 'HelpIcon':
+                return <HelpIcon/>
+            case 'HelpCircleIcon':
+                return <HelpCircleIcon/>
+            case 'HomeIcon':
+                return <HomeIcon/>
+            case 'HourglassIcon':
+                return <HourglassIcon/>
+            case 'InternetIcon':
+                return <InternetIcon/>
+            case 'LinkUnlinkIcon':
+                return <LinkUnlinkIcon/>
+            case 'LinkIcon':
+                return <LinkIcon/>
+            case 'LaptopIcon':
+                return <LaptopIcon/>
+            case 'JumpIcon':
+                return <JumpIcon/>
+            case 'LocationIcon':
+                return <LocationIcon/>
+            case 'LockOffIcon':
+                return <LockOffIcon/>
+            case 'OrderAscendingIcon':
+                return <OrderAscendingIcon/>
+            case 'OrderDescendingIcon':
+                return <OrderDescendingIcon/>
+            case 'PageFirstIcon':
+                return <PageFirstIcon/>
+            case 'PageLastIcon':
+                return <PageLastIcon/>
+            case 'PhotoIcon':
+                return <PhotoIcon/>
+            case 'PinFilledIcon':
+                return <PinFilledIcon/>
+            case 'PinIcon':
+                return <PinIcon/>
+            case 'PlayCircleFilledIcon':
+                return <PlayCircleFilledIcon/>
+            case 'PlayCircleStrokeIcon':
+                return <PlayCircleStrokeIcon/>
+            case 'PlayCircleIcon':
+                return <PlayCircleIcon/>
+            case 'PoweroffIcon':
+                return <PoweroffIcon/>
+            case 'PreviousIcon':
+                return <PreviousIcon/>
+            case 'PrintIcon':
+                return <PrintIcon/>
+            case 'QrcodeIcon':
+                return <QrcodeIcon/>
+            case 'RefreshIcon':
+                return <RefreshIcon/>
+            case 'RollbackIcon':
+                return <RollbackIcon/>
+            case 'RollfrontIcon':
+                return <RollfrontIcon/>
+            case 'SaveIcon':
+                return <SaveIcon/>
+            case 'ScanIcon':
+                return <ScanIcon/>
             case 'SearchIcon':
                 return <SearchIcon/>
+            case 'SettingIcon':
+                return <SettingIcon/>
+            case 'ShareIcon':
+                return <ShareIcon/>
+            case 'StarFilledIcon':
+                return <StarFilledIcon/>
+            case 'StarIcon':
+                return <StarIcon/>
+            case 'StopCircle1Icon':
+                return <StopCircle1Icon/>
+            case 'StopCircleFilledIcon':
+                return <StopCircleFilledIcon/>
+            case 'StopCircleIcon':
+                return <StopCircleIcon/>
+            case 'SwapIcon':
+                return <SwapIcon/>
+            case 'ThumbDownIcon':
+                return <ThumbDownIcon/>
+            case 'ThumbUpIcon':
+                return <ThumbUpIcon/>
+            case 'ToolsIcon':
+                return <ToolsIcon/>
+            case 'UnfoldLessIcon':
+                return <UnfoldLessIcon/>
+            case 'UnfoldMoreIcon':
+                return <UnfoldMoreIcon/>
+            case 'UploadIcon':
+                return <UploadIcon/>
+            case 'UserAddIcon':
+                return <UserAddIcon/>
+            case 'UserCircleIcon':
+                return <UserCircleIcon/>
+            case 'UserClearIcon':
+                return <UserClearIcon/>
+            case 'ViewColumnIcon':
+                return <ViewColumnIcon/>
+            case 'ViewListIcon':
+                return <ViewListIcon/>
+            case 'WifiIcon':
+                return <WifiIcon/>
+            case 'ZoomInIcon':
+                return <ZoomInIcon/>
+            case 'ZoomOutIcon':
+                return <ZoomOutIcon/>
             default:
                 return
         }
@@ -87,14 +360,192 @@ export default class TdButton extends React.Component {
                 return null
             case 'AddIcon':
                 return <AddIcon/>
-            case 'DeleteIcon':
-                return <DeleteIcon/>
+            case 'AddRectangleIcon':
+                return <AddRectangleIcon/>
+            case 'ArrowDownIcon':
+                return <ArrowDownIcon/>
+            case 'ArrowUpIcon':
+                return <ArrowUpIcon/>
+            case 'ArrowLeftIcon':
+                return <ArrowLeftIcon/>
+            case 'ArrowRightIcon':
+                return <ArrowRightIcon/>
+            case 'BrowseOffIcon':
+                return <BrowseOffIcon/>
+            case 'BrowseIcon':
+                return <BrowseIcon/>
+            case 'CartIcon':
+                return <CartIcon/>
+            case 'CheckIcon':
+                return <CheckIcon/>
+            case 'ChevronLeftDoubleIcon':
+                return <ChevronLeftDoubleIcon/>
+            case 'ChevronRightDoubleIcon':
+                return <ChevronRightDoubleIcon/>
+            case 'ChevronLeftIcon':
+                return <ChevronLeftIcon/>
+            case 'ChevronRightIcon':
+                return <ChevronRightIcon/>
+            case 'ChevronUpIcon':
+                return <ChevronUpIcon/>
+            case 'ClearIcon':
+                return <ClearIcon/>
+            case 'CloseIcon':
+                return <CloseIcon/>
+            case 'CloudDownloadIcon':
+                return <CloudDownloadIcon/>
             case 'CloudUploadIcon':
                 return <CloudUploadIcon/>
-            case 'UploadIcon':
-                return <UploadIcon/>
+            case 'CloudIcon':
+                return <CloudIcon/>
+            case 'CodeIcon':
+                return <CodeIcon/>
+            case 'DeleteIcon':
+                return <DeleteIcon/>
+            case 'DesktopIcon':
+                return <DesktopIcon/>
+            case 'DiscountFilledIcon':
+                return <DiscountFilledIcon/>
+            case 'DiscountIcon':
+                return <DiscountIcon/>
+            case 'DownloadIcon':
+                return <DownloadIcon/>
+            case 'EditIcon':
+                return <EditIcon/>
+            case 'EllipsisIcon':
+                return <EllipsisIcon/>
+            case 'EnterIcon':
+                return <EnterIcon/>
+            case 'FileAddIcon':
+                return <FileAddIcon/>
+            case 'FileCopyIcon':
+                return <FileCopyIcon/>
+            case 'FileExcelIcon':
+                return <FileExcelIcon/>
+            case 'FilterIcon':
+                return <FilterIcon/>
+            case 'FolderAddIcon':
+                return <FolderAddIcon/>
+            case 'FolderIcon':
+                return <FolderIcon/>
+            case 'BackwardIcon':
+                return <BackwardIcon/>
+            case 'ForwardIcon':
+                return <ForwardIcon/>
+            case 'FullscreenExitIcon':
+                return <FullscreenExitIcon/>
+            case 'FullscreenIcon':
+                return <FullscreenIcon/>
+            case 'HeartIcon':
+                return <HeartIcon/>
+            case 'HeartFilledIcon':
+                return <HeartFilledIcon/>
+            case 'HelpIcon':
+                return <HelpIcon/>
+            case 'HelpCircleIcon':
+                return <HelpCircleIcon/>
+            case 'HomeIcon':
+                return <HomeIcon/>
+            case 'HourglassIcon':
+                return <HourglassIcon/>
+            case 'InternetIcon':
+                return <InternetIcon/>
+            case 'LinkUnlinkIcon':
+                return <LinkUnlinkIcon/>
+            case 'LinkIcon':
+                return <LinkIcon/>
+            case 'LaptopIcon':
+                return <LaptopIcon/>
+            case 'JumpIcon':
+                return <JumpIcon/>
+            case 'LocationIcon':
+                return <LocationIcon/>
+            case 'LockOffIcon':
+                return <LockOffIcon/>
+            case 'OrderAscendingIcon':
+                return <OrderAscendingIcon/>
+            case 'OrderDescendingIcon':
+                return <OrderDescendingIcon/>
+            case 'PageFirstIcon':
+                return <PageFirstIcon/>
+            case 'PageLastIcon':
+                return <PageLastIcon/>
+            case 'PhotoIcon':
+                return <PhotoIcon/>
+            case 'PinFilledIcon':
+                return <PinFilledIcon/>
+            case 'PinIcon':
+                return <PinIcon/>
+            case 'PlayCircleFilledIcon':
+                return <PlayCircleFilledIcon/>
+            case 'PlayCircleStrokeIcon':
+                return <PlayCircleStrokeIcon/>
+            case 'PlayCircleIcon':
+                return <PlayCircleIcon/>
+            case 'PoweroffIcon':
+                return <PoweroffIcon/>
+            case 'PreviousIcon':
+                return <PreviousIcon/>
+            case 'PrintIcon':
+                return <PrintIcon/>
+            case 'QrcodeIcon':
+                return <QrcodeIcon/>
+            case 'RefreshIcon':
+                return <RefreshIcon/>
+            case 'RollbackIcon':
+                return <RollbackIcon/>
+            case 'RollfrontIcon':
+                return <RollfrontIcon/>
+            case 'SaveIcon':
+                return <SaveIcon/>
+            case 'ScanIcon':
+                return <ScanIcon/>
             case 'SearchIcon':
                 return <SearchIcon/>
+            case 'SettingIcon':
+                return <SettingIcon/>
+            case 'ShareIcon':
+                return <ShareIcon/>
+            case 'StarFilledIcon':
+                return <StarFilledIcon/>
+            case 'StarIcon':
+                return <StarIcon/>
+            case 'StopCircle1Icon':
+                return <StopCircle1Icon/>
+            case 'StopCircleFilledIcon':
+                return <StopCircleFilledIcon/>
+            case 'StopCircleIcon':
+                return <StopCircleIcon/>
+            case 'SwapIcon':
+                return <SwapIcon/>
+            case 'ThumbDownIcon':
+                return <ThumbDownIcon/>
+            case 'ThumbUpIcon':
+                return <ThumbUpIcon/>
+            case 'ToolsIcon':
+                return <ToolsIcon/>
+            case 'UnfoldLessIcon':
+                return <UnfoldLessIcon/>
+            case 'UnfoldMoreIcon':
+                return <UnfoldMoreIcon/>
+            case 'UploadIcon':
+                return <UploadIcon/>
+            case 'UserAddIcon':
+                return <UserAddIcon/>
+            case 'UserCircleIcon':
+                return <UserCircleIcon/>
+            case 'UserClearIcon':
+                return <UserClearIcon/>
+            case 'ViewColumnIcon':
+                return <ViewColumnIcon/>
+            case 'ViewListIcon':
+                return <ViewListIcon/>
+            case 'WifiIcon':
+                return <WifiIcon/>
+            case 'ZoomInIcon':
+                return <ZoomInIcon/>
+            case 'ZoomOutIcon':
+                return <ZoomOutIcon/>
             default:
                 return
         }

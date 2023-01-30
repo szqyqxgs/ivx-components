@@ -63,21 +63,15 @@ export default class TdPagination extends React.Component {
 
     // 定义组件方法
     // 设置数据总数
-    setTotal(total, callback) {
+    setTotal(total) {
         this.props.onSetTotal && this.props.total !== total && this.props.onSetTotal({
-            total: total
-        })
-        callback('', {
             total: total
         })
     }
 
     // 跳转到页码
-    setCurrent(current, callback) {
+    setCurrent(current) {
         this.props.onSetCurrent && this.props.current !== current && this.props.onSetCurrent({
-            current: current
-        })
-        callback('', {
             current: current
         })
     }

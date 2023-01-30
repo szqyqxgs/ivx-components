@@ -6,28 +6,6 @@
     },
     "desc": {
       "zh": "开关状态将设置为开启。"
-    },
-    "callback": {
-      "result": {
-        "single": false,
-        "noResult": false,
-        "noValue": true,
-        "locale": {
-          "zh": "返回结果"
-        }
-      },
-      "emptyValue": true,
-      "params": [
-        {
-          "name": "value",
-          "locale": {
-            "zh": "开关状态值"
-          },
-          "desc": {
-            "zh": "由动作返回的开关状态值，为true。"
-          }
-        }
-      ]
     }
   },
   {
@@ -37,28 +15,6 @@
     },
     "desc": {
       "zh": "开关状态将设置为关闭。"
-    },
-    "callback": {
-      "result": {
-        "single": false,
-        "noResult": false,
-        "noValue": true,
-        "locale": {
-          "zh": "返回结果"
-        }
-      },
-      "emptyValue": true,
-      "params": [
-        {
-          "name": "value",
-          "locale": {
-            "zh": "开关状态值"
-          },
-          "desc": {
-            "zh": "由动作返回的开关状态值，为false。"
-          }
-        }
-      ]
     }
   },
   {
@@ -68,28 +24,6 @@
     },
     "desc": {
       "zh": "开关状态执行“开启——关闭”的交替动作，当前如是开启状态则变为关闭；反之亦然。"
-    },
-    "callback": {
-      "result": {
-        "single": false,
-        "noResult": false,
-        "noValue": true,
-        "locale": {
-          "zh": "返回结果"
-        }
-      },
-      "emptyValue": true,
-      "params": [
-        {
-          "name": "value",
-          "locale": {
-            "zh": "开关状态值"
-          },
-          "desc": {
-            "zh": "由动作返回的开关状态值，为true/false。"
-          }
-        }
-      ]
     }
   },
   {
